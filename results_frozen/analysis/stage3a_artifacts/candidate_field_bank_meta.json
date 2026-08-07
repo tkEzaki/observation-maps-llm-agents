@@ -1,0 +1,18 @@
+{
+  "n_fields": 50400,
+  "n_features_common": 15,
+  "sources": [
+    "A_init",
+    "B_k0_drift",
+    "C_virtual"
+  ],
+  "n_agents": [
+    9,
+    16,
+    17
+  ],
+  "frac_ood_combined": 0.8627579365079365,
+  "frac_ood_peer": 0.38095238095238093,
+  "frac_ood_canonical": 0.5419642857142857,
+  "frac_near_zero_abs_z1": 0.08212301587301588
+}

@@ -1,0 +1,15 @@
+{
+  "label": "collective",
+  "n_rows": 1512,
+  "peer_counts": {
+    "8": 82,
+    "16": 1430
+  },
+  "source_counts": {
+    "stimulus_manifold": 144,
+    "sparse_peer": 1296,
+    "stage3a_pilot": 72
+  },
+  "arrays_sha256": "c37dbc4e3f37058cbf5484127dee3521913aab01d60b0c18b6ead4bab3b4b55b",
+  "intended_use": "Stage C collective surrogate (N in {9,17})"
+}

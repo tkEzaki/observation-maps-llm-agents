@@ -1,0 +1,46 @@
+{
+  "protocol_sha256": "1e976b79b71d5d7b2246bd213f7749fa0c55db80f42044dcc7c26489cd88b7eb",
+  "fields_sha256": "36428ad9de66dafa9f6b9ed583b1c0339711063edb2087a0f74e473206ac0a4a",
+  "freeze_sha256": "a2b042f8aadc243ccb61e8249a274427b56fee757b350172984bf175cdf3a578",
+  "dependency_snapshot_sha256": "7cb7308840697671a2c89d475996f2e48a07461d86bcc9d92b888ceb8dcefa3d",
+  "runner_source_sha256": "513dbd316df9eedc2022a4ab2053c974b1a77292f339972da212fab855d89dd0",
+  "encoder_sources_sha256": "b92e69c8306b43e39fcef6ea91bc6ffeb2acc12429db0c70b0dc7a27e383463a",
+  "selector_source_sha256": "34894468c9dec8cfefaf4ec353b7f3afb17652f779e53d5ed9749d44cdbeb206",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "max_attempts": 3,
+  "max_output_tokens": 20,
+  "temperature": 0.7,
+  "concurrency": 20,
+  "freeze_verify": {
+    "pass": true,
+    "checks": {
+      "fields_file_sha": true,
+      "physical_aggregate": true,
+      "n_fields_48": true,
+      "unique_physical_48": true,
+      "moments_prompt_agg": true,
+      "centers_prompt_agg": true,
+      "intervals_prompt_agg": true,
+      "protocol_sha": true,
+      "n_target_prompts_144": true
+    }
+  },
+  "task_construction": {
+    "pass": true,
+    "checks": {
+      "n_tasks_eq_4608": true,
+      "n_fields_48": true,
+      "n_targets_3": true,
+      "n_blocks_2": true,
+      "unique_task_ids": true,
+      "per_condition_16": true
+    },
+    "n_tasks": 4608
+  },
+  "estimate_base_usd": 2.212992,
+  "cost_ceiling_usd": 12.0,
+  "paid_authorized": true,
+  "no_field_swap_on_failure": true,
+  "primary_before_surrogate": true
+}

@@ -1,0 +1,38 @@
+{
+  "protocol_version": "matched-rep-collective-r2-claude-v0.1",
+  "files": {
+    "protocol": {
+      "path": "experiments/stage_c/protocol_matched_rep_collective_r2_claude_v0_1.json",
+      "sha256": "ff2ef27f0dfe67beac3b326c12c48fd581301c4a1b68d0f6a93478d93aeeee57"
+    },
+    "freeze_script": {
+      "path": "analysis/matched_rep_collective/freeze_r2_artifacts.py",
+      "sha256": "dec77308548ad9d9846776050e4cd9257b8e495f31faf5ef1d9593ce77f407b7"
+    },
+    "runner": {
+      "path": "experiments/stage_c/run_r2_claude_macro.py",
+      "sha256": "6b95e9a31d24f6a9c50484a829b8e7d9789b1ea0b3fd7e6ce47aa9c342dabfed"
+    },
+    "analyzer": {
+      "path": "analysis/matched_rep_collective/analyze_r2_macro.py",
+      "sha256": "c03919c952e1b95645bce4283e82648d0e4062d9321f7eab3912529e1612afa8"
+    },
+    "gpt_match_manifest": {
+      "path": "analysis/matched_rep_collective/match_manifest.json",
+      "sha256": "adcd564b1d5f00677a96617bc46338065912439c73fd19ee63a1151bd0b3dd17"
+    },
+    "hypothesis": {
+      "path": "docs/MATCHED_REP_COLLECTIVE_R2_HYPOTHESIS.md",
+      "sha256": "be4fff4fa9df53c713f754f24424dbda43e38a832c2bf52d2be35da18727310f"
+    },
+    "protocol_doc": {
+      "path": "docs/MATCHED_REP_COLLECTIVE_R2_PROTOCOL.md",
+      "sha256": "22ff0575adf0c697c18bca0666268898df2d531a25632b70b15c8463651d4bbd"
+    },
+    "analysis_plan": {
+      "path": "docs/MATCHED_REP_COLLECTIVE_R2_ANALYSIS_PLAN.md",
+      "sha256": "2a81fb9f2500e776dd2a1691b5a2943e7fa9044ff979b98981b4af95eb478045"
+    },
+    "representations_module_source_sha256": "e0eef4288b2d197f138ea4c0ed4bf3bc323583e0d00f9772c82ac7029175cb03"
+  }
+}

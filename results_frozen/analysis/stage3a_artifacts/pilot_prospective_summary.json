@@ -1,0 +1,194 @@
+{
+  "status": "prospective_eval_complete_pre_refit",
+  "pilot_runs": [
+    "<PROJECT_ROOT>\\runs\\response_law_representation\\stage3a-pilot-v1-block_1_9cd99d18c51d\\20260723T234204Z",
+    "<PROJECT_ROOT>\\runs\\response_law_representation\\stage3a-pilot-v1-block_2_9dac536b42c2\\20260723T234204Z"
+  ],
+  "primary_model": "kernel_nn",
+  "per_representation": {
+    "intervals_24_decimal6": {
+      "n_fields": 36,
+      "primary_model": "kernel_nn",
+      "mean_e_tv": 0.2858775415149848,
+      "median_e_tv": 0.28095431707053176,
+      "spearman_R_pre_e_tv": -0.023166023166023165,
+      "spearman_R_bank_e_tv": -0.044015444015444015,
+      "monotone_ok_4bin": true,
+      "bin_calibration": [
+        {
+          "mean_R": 0.30035045562026247,
+          "mean_e_tv": 0.2870831211192584,
+          "n": 9
+        },
+        {
+          "mean_R": 0.33006966918852654,
+          "mean_e_tv": 0.29446247159152267,
+          "n": 9
+        },
+        {
+          "mean_R": 0.3597616451554916,
+          "mean_e_tv": 0.26722675391398154,
+          "n": 9
+        },
+        {
+          "mean_R": 0.384296684928784,
+          "mean_e_tv": 0.29473781943517696,
+          "n": 9
+        }
+      ],
+      "enrichment": {
+        "n_quartile": 9.0,
+        "mean_e_tv_low_R": 0.2870831211192584,
+        "mean_e_tv_high_R": 0.29473781943517696,
+        "enrichment_ratio": 1.0266637003460009,
+        "enrichment_delta": 0.007654698315918584
+      },
+      "moments_stay_exact_obs": 0.3125,
+      "moments_stay_small_obs": 0.0,
+      "moments_stay_gap_obs": 0.3125,
+      "moments_stay_exact_hat": 0.2829279459544686,
+      "moments_stay_small_hat": 0.2765884898492896,
+      "moments_stay_gap_hat": 0.006339456105178998,
+      "moments_direction_ok": true,
+      "risk_threshold_oof80": 0.36019948370176635,
+      "gates": {
+        "risk_spearman_positive": false,
+        "high_risk_error_enrichment": true,
+        "moments_stay_direction_ok": null
+      }
+    },
+    "moments_m1_m3": {
+      "n_fields": 36,
+      "primary_model": "kernel_nn",
+      "mean_e_tv": 0.39024148700615363,
+      "median_e_tv": 0.3784001001288929,
+      "spearman_R_pre_e_tv": 0.39202059202059203,
+      "spearman_R_bank_e_tv": 0.2555984555984556,
+      "monotone_ok_4bin": true,
+      "bin_calibration": [
+        {
+          "mean_R": 0.18200789431626266,
+          "mean_e_tv": 0.37460152976644867,
+          "n": 9
+        },
+        {
+          "mean_R": 0.2548209360196066,
+          "mean_e_tv": 0.1638032667974581,
+          "n": 9
+        },
+        {
+          "mean_R": 0.3756204737277209,
+          "mean_e_tv": 0.5144551508318386,
+          "n": 9
+        },
+        {
+          "mean_R": 0.5082834094141838,
+          "mean_e_tv": 0.5081060006288695,
+          "n": 9
+        }
+      ],
+      "enrichment": {
+        "n_quartile": 9.0,
+        "mean_e_tv_low_R": 0.37460152976644867,
+        "mean_e_tv_high_R": 0.5081060006288695,
+        "enrichment_ratio": 1.3563906184410306,
+        "enrichment_delta": 0.1335044708624208
+      },
+      "moments_stay_exact_obs": 1.0,
+      "moments_stay_small_obs": 0.0,
+      "moments_stay_gap_obs": 1.0,
+      "moments_stay_exact_hat": 0.8388298963100418,
+      "moments_stay_small_hat": 0.3640943640216824,
+      "moments_stay_gap_hat": 0.4747355322883594,
+      "moments_direction_ok": true,
+      "risk_threshold_oof80": 0.45679665394930175,
+      "gates": {
+        "risk_spearman_positive": true,
+        "high_risk_error_enrichment": true,
+        "moments_stay_direction_ok": true
+      }
+    },
+    "centers_24_standard": {
+      "n_fields": 36,
+      "primary_model": "kernel_nn",
+      "mean_e_tv": 0.3293714562359677,
+      "median_e_tv": 0.3129367409982963,
+      "spearman_R_pre_e_tv": 0.03861003861003861,
+      "spearman_R_bank_e_tv": -0.06924066924066924,
+      "monotone_ok_4bin": true,
+      "bin_calibration": [
+        {
+          "mean_R": 0.2935788167898601,
+          "mean_e_tv": 0.33043164059773655,
+          "n": 9
+        },
+        {
+          "mean_R": 0.34811022726624913,
+          "mean_e_tv": 0.34374882729912737,
+          "n": 9
+        },
+        {
+          "mean_R": 0.39028224099141334,
+          "mean_e_tv": 0.2640482447626005,
+          "n": 9
+        },
+        {
+          "mean_R": 0.421770514157269,
+          "mean_e_tv": 0.37925711228440634,
+          "n": 9
+        }
+      ],
+      "enrichment": {
+        "n_quartile": 9.0,
+        "mean_e_tv_low_R": 0.33043164059773655,
+        "mean_e_tv_high_R": 0.37925711228440634,
+        "enrichment_ratio": 1.147762700927631,
+        "enrichment_delta": 0.048825471686669786
+      },
+      "moments_stay_exact_obs": 0.3125,
+      "moments_stay_small_obs": 0.0625,
+      "moments_stay_gap_obs": 0.25,
+      "moments_stay_exact_hat": 0.34206012013029424,
+      "moments_stay_small_hat": 0.27567393230733384,
+      "moments_stay_gap_hat": 0.06638618782296041,
+      "moments_direction_ok": true,
+      "risk_threshold_oof80": 0.4012954639626269,
+      "gates": {
+        "risk_spearman_positive": true,
+        "high_risk_error_enrichment": true,
+        "moments_stay_direction_ok": null
+      }
+    }
+  },
+  "gates": {
+    "risk_spearman_positive_all_reps": false,
+    "high_risk_error_enrichment_all_reps": true,
+    "moments_stay_direction_ok": true,
+    "N9_N17_Qrisk_reviewed": true,
+    "mean_closed_loop_Q_risk_N9_N17": 0.09308278867102394
+  },
+  "stage_3b_freeze": false,
+  "notes": "Prospective only \u2014 do not refit before reading these metrics. Partial freeze allowed per protocol.",
+  "artifact_paths": {
+    "detail": "analysis/stage3a_artifacts/pilot_prospective_detail.csv",
+    "qrisk": "analysis/stage3a_artifacts/pilot_prospective_qrisk.csv"
+  },
+  "prospective_go": false,
+  "partial_freeze": {
+    "moments_m1_m3": {
+      "recommended": true,
+      "reason": "Spearman R_pre vs e_TV=0.392; enrichment_delta=0.134; stay gap obs=1.0 hat=0.475; Q_risk closed N9/N17 near 0"
+    },
+    "centers_24_standard": {
+      "recommended": false,
+      "reason": "Spearman only 0.039 (weak); enrichment positive but ranking unreliable for freeze"
+    },
+    "intervals_24_decimal6": {
+      "recommended": false,
+      "reason": "Spearman negative (-0.023); risk ranking failed prospectively"
+    }
+  },
+  "stage_3b_decision": "partial_freeze_moments_only_pending_refit_and_hash_lock",
+  "prospective_go_full": false,
+  "prospective_go_partial_moments": true
+}

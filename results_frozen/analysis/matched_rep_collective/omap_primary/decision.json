@@ -1,0 +1,143 @@
+{
+  "status": "OMAP_CONTROL_PRIMARY_V0_1",
+  "run_dir": "runs/matched_rep_collective_omap/matched-rep-omap-control-v0.1_gpt-5.4-mini/20260724T161234Z",
+  "acquisition": {
+    "n_calls": 2304,
+    "n_valid": 2304,
+    "valid_rate": 1.0,
+    "actual_cost_usd_session": 0.6100395
+  },
+  "same_info_global_test": {
+    "test": "field_blocked_variant_label_permutation_mean_pairwise_TV",
+    "observed_mean_pairwise_TV": 0.3107638888888889,
+    "null_mean": 0.08859947916666668,
+    "p_one_sided": 0.0001999600079984003,
+    "n_perm": 5000
+  },
+  "same_info_pairwise_bootstrap": {
+    "original__vs__reformatted": {
+      "mean": 0.14453125,
+      "ci95": [
+        0.07942708333333333,
+        0.21875
+      ],
+      "n_fields": 48,
+      "n_values": 48,
+      "n_clusters": 48,
+      "cluster_unit": "value"
+    },
+    "original__vs__length_matched": {
+      "mean": 0.4140625,
+      "ci95": [
+        0.3098958333333333,
+        0.5143229166666666
+      ],
+      "n_fields": 48,
+      "n_values": 48,
+      "n_clusters": 48,
+      "cluster_unit": "value"
+    },
+    "reformatted__vs__length_matched": {
+      "mean": 0.3736979166666667,
+      "ci95": [
+        0.2747395833333333,
+        0.4752604166666667
+      ],
+      "n_fields": 48,
+      "n_values": 48,
+      "n_clusters": 48,
+      "cluster_unit": "value"
+    }
+  },
+  "same_info_noise_floor": {
+    "mean_between_variant_TV": 0.3107638888888889,
+    "mean_within_variant_block_TV": 0.0685763888888889,
+    "between_boot": {
+      "mean": 0.3107638888888889,
+      "ci95": [
+        0.23958333333333334,
+        0.3819444444444444
+      ],
+      "n_fields": 48,
+      "n_values": 144,
+      "n_clusters": 48,
+      "cluster_unit": "physical_field"
+    },
+    "within_boot": {
+      "mean": 0.0685763888888889,
+      "ci95": [
+        0.04861111111111111,
+        0.09027777777777778
+      ],
+      "n_fields": 48,
+      "n_values": 144,
+      "n_clusters": 48,
+      "cluster_unit": "physical_field"
+    },
+    "ratio": 4.5316455696202524
+  },
+  "cross_rep_reference_gpt_replay": {
+    "pairwise_bootstrap": {
+      "M_C": {
+        "mean": 0.3352864583333333,
+        "ci95": [
+          0.25649414062500003,
+          0.421875
+        ],
+        "n_fields": 48,
+        "n_values": 48,
+        "n_clusters": 48,
+        "cluster_unit": "value"
+      },
+      "M_I": {
+        "mean": 0.4075520833333333,
+        "ci95": [
+          0.32421875,
+          0.4934895833333333
+        ],
+        "n_fields": 48,
+        "n_values": 48,
+        "n_clusters": 48,
+        "cluster_unit": "value"
+      },
+      "C_I": {
+        "mean": 0.2903645833333333,
+        "ci95": [
+          0.2200358072916667,
+          0.3639322916666667
+        ],
+        "n_fields": 48,
+        "n_values": 48,
+        "n_clusters": 48,
+        "cluster_unit": "value"
+      }
+    },
+    "mean_pairwise_TV": 0.3444010416666667
+  },
+  "lead_with_pairwise": {
+    "original_vs_reformatted": 0.145,
+    "original_vs_padded": 0.414,
+    "reformatted_vs_padded": 0.374,
+    "block_noise": 0.069,
+    "same_info_mean": 0.311,
+    "cross_rep_mean": 0.344
+  },
+  "central_proposition_doc": "docs/NATCOMM_RESULTS_OUTLINE.md",
+  "padding_wording": "The neutral-padding manipulation produced the largest separation; do not claim prompt length alone.",
+  "explicit_non_claims": [
+    "collective_phases_replicated_across_three_families",
+    "macro_effect_from_serialization_alone",
+    "prompt_length_alone_caused_effect",
+    "operator_fully_mediates_macro",
+    "source_or_feedback_established"
+  ],
+  "primary_contrast": {
+    "same_info_over_cross_rep": 0.902331442974165,
+    "same_info_over_block_noise": 4.5316455696202524,
+    "much_smaller_than_cross_rep": false,
+    "near_block_noise": false
+  },
+  "verdict": "SERIALIZATION_SENSITIVE \u2014 same-info variants still separate substantially.",
+  "claim": "The operator is sensitive not only to retained information but also to its serialization.",
+  "note": "Cross-rep reference uses GPT 3\u00d73 replay (32 responses); omap control uses 16 responses \u2014 compare magnitudes, not identity."
+}

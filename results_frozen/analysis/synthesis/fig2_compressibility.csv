@@ -1,0 +1,4 @@
+representation,scope,model,baseline,delta_ll_mean,ci_low_field_cluster,ci_high_field_cluster,ci_entirely_positive,source,note
+centers_24_standard,"peer_{8,16}",peer_specific_activity_direction,peer_specific_global,0.28338361909092336,0.24710128449081617,0.4293468853665994,True,cent4_final_offline_decision.json,
+intervals_24_decimal6,"peer_{8,16}",peer_specific_activity_direction,peer_specific_global,0.20714069029194243,0.17743481629326036,0.3259095796573745,True,int2b_offline_decision.json,
+moments_m1_m3,moments_training_manifold,regime_aware_hurdle_v2,moments_bundle_v1 / global-like leakage,,,,,STAGE_3B_MOMENTS_V2 / STAGE_C_RESULTS_V0_2_COMBINED,high C via Stage 3 gates + Stage C activity/stay; no peer-global ΔLL row in this table

@@ -1,0 +1,23 @@
+{
+  "representation": "centers_24_standard",
+  "n_rows": 2736,
+  "n_features": 39,
+  "n_common": 15,
+  "n_native": 24,
+  "sources": {
+    "transmutation": 360,
+    "stimulus_manifold": 432,
+    "antipodal_weight": 576,
+    "sparse_peer": 1296,
+    "stage3a_pilot": 72
+  },
+  "acquisition_blocks": {
+    "block_1": 1368,
+    "block_2": 1368
+  },
+  "mean_activity": 0.8639132553606237,
+  "mean_p_stay": 0.1360867446393762,
+  "mean_abs_g": 0.5478496588693956,
+  "exact_balance_mean_stay": 0.4377155172413793,
+  "note": "moments/intervals responses excluded; no cyclic-shift augmentation; collective_replay not included (moments-only)"
+}

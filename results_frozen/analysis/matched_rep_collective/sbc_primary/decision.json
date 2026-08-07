@@ -1,0 +1,692 @@
+{
+  "status": "SBC_CONTROL_PRIMARY_V0_1",
+  "inference_unit": "physical_fields",
+  "run_dir": "runs/matched_rep_collective_sbc/matched-rep-sbc-v0.1_gpt-5.4-mini/20260730T000855Z",
+  "acquisition": {
+    "n_calls": 3072,
+    "n_valid": 3072,
+    "valid_rate": 1.0,
+    "expected_calls": 3072,
+    "matches_expected_calls": true,
+    "actual_cost_usd_session": 1.1113395,
+    "elapsed_seconds": 122.59936969983391,
+    "n_fields_used": 48,
+    "fields_dropped_incomplete": []
+  },
+  "conditions": {
+    "centers_compact": {
+      "binding": "positional",
+      "form": "row",
+      "prompt_chars": 971,
+      "role": "anchor"
+    },
+    "centers_indexed_row": {
+      "binding": "explicit_index",
+      "form": "row",
+      "prompt_chars": 1055,
+      "role": "new_rung"
+    },
+    "centers_centered_row": {
+      "binding": "explicit_centre",
+      "form": "row",
+      "prompt_chars": 1114,
+      "role": "new_rung"
+    },
+    "centers_standard": {
+      "binding": "explicit_index_and_centre",
+      "form": "lines",
+      "prompt_chars": 1429,
+      "role": "anchor"
+    }
+  },
+  "condition_roles": {
+    "reacquired_anchors": [
+      "centers_compact",
+      "centers_standard"
+    ],
+    "new_rungs": [
+      "centers_indexed_row",
+      "centers_centered_row"
+    ]
+  },
+  "hashes": {
+    "information_audit_sha256": "1233c995681bc69c764e5b668a242b08a54aa844f6ae52a145e864d06873e74f",
+    "protocol_sha256": "f71c42094e77a8e6d5c0e47f349268f4967232622f2ac1cf54e53da1d2849250",
+    "fields_sha256": "76cdeac1144ba92ada650dca7163bd61755285b3484492c006fce780bd02ee7c",
+    "trace_sha256": "65b226eac95b8e251ce965387745e01eccb614bfcbd5e5e8fc3e042d1de7e827"
+  },
+  "inference_settings": {
+    "n_perm": 5000,
+    "rng_seed": 20260729,
+    "test": "field_blocked_permutation_of_condition_labels_on_responses",
+    "alpha_primary": 0.05,
+    "bootstrap_rng": "field-cluster bootstrap from analysis.matched_rep_collective.run_replay_primary_inference (module RNG seed 20260724, 5000 resamples)",
+    "permutation_note": "One set of permutation draws serves the primary Delta_binding test, the centred-row pivot contrast and the global any-difference test; all three share the same null of condition-label exchangeability within a field."
+  },
+  "pairwise_bootstrap": {
+    "centers_compact__vs__centers_indexed_row": {
+      "mean": 0.2903645833333333,
+      "ci95": [
+        0.23177083333333334,
+        0.3502604166666667
+      ],
+      "n_fields": 48
+    },
+    "centers_compact__vs__centers_centered_row": {
+      "mean": 0.4166666666666667,
+      "ci95": [
+        0.3437174479166667,
+        0.4908854166666667
+      ],
+      "n_fields": 48
+    },
+    "centers_compact__vs__centers_standard": {
+      "mean": 0.4596354166666667,
+      "ci95": [
+        0.3958333333333333,
+        0.5247395833333334
+      ],
+      "n_fields": 48
+    },
+    "centers_indexed_row__vs__centers_centered_row": {
+      "mean": 0.4479166666666667,
+      "ci95": [
+        0.3645833333333333,
+        0.5325520833333334
+      ],
+      "n_fields": 48
+    },
+    "centers_indexed_row__vs__centers_standard": {
+      "mean": 0.4401041666666667,
+      "ci95": [
+        0.3580729166666667,
+        0.5234375
+      ],
+      "n_fields": 48
+    },
+    "centers_centered_row__vs__centers_standard": {
+      "mean": 0.3125,
+      "ci95": [
+        0.23177083333333334,
+        0.3984375
+      ],
+      "n_fields": 48
+    }
+  },
+  "pairwise_mean_TV": {
+    "centers_compact__vs__centers_indexed_row": 0.2903645833333333,
+    "centers_compact__vs__centers_centered_row": 0.4166666666666667,
+    "centers_compact__vs__centers_standard": 0.4596354166666667,
+    "centers_indexed_row__vs__centers_centered_row": 0.4479166666666667,
+    "centers_indexed_row__vs__centers_standard": 0.4401041666666667,
+    "centers_centered_row__vs__centers_standard": 0.3125
+  },
+  "noise_floor": {
+    "mean_within_condition_between_block_TV": 0.138671875,
+    "within_boot": {
+      "mean": 0.138671875,
+      "ci95": [
+        0.11848958333333333,
+        0.15950520833333334
+      ],
+      "n_fields": 192
+    },
+    "mean_between_condition_TV": 0.39453125,
+    "ratio_between_over_within": 2.8450704225352115,
+    "n_cells": 192
+  },
+  "primary_contrast": {
+    "name": "delta_binding",
+    "definition": "Delta_binding = mean_field TV(centers_compact, centers_indexed_row) - mean_field TV(centers_indexed_row, centers_standard). The pivot sits 84 characters from the positional condition and 374 from the fully labelled one, so a monotone prompt-length account predicts Delta_binding < 0 while a binding account predicts Delta_binding > 0. The sign alone separates them and no calibration between characters and response distance is required.",
+    "interpretation_rule": "Delta_binding is judged on its bootstrap interval. A permutation p is reported but is not read as support for Delta_binding itself, because its null is the absence of any condition effect rather than Delta_binding = 0.",
+    "decided_on": "delta_bootstrap.ci95",
+    "pivot": "centers_indexed_row",
+    "positional_anchor": "centers_compact",
+    "labelled_anchor": "centers_standard",
+    "pair_pivot_to_positional": "centers_compact__vs__centers_indexed_row",
+    "pair_pivot_to_labelled": "centers_indexed_row__vs__centers_standard",
+    "char_gap_pivot_to_positional": 84,
+    "char_gap_pivot_to_labelled": 374,
+    "length_account_predicts": "negative",
+    "binding_account_predicts": "positive",
+    "mean_TV_pivot_to_positional": 0.2903645833333333,
+    "mean_TV_pivot_to_labelled": 0.4401041666666667,
+    "delta": -0.14973958333333334,
+    "delta_bootstrap": {
+      "mean": -0.14973958333333334,
+      "ci95": [
+        -0.2591145833333333,
+        -0.0390625
+      ],
+      "n_fields": 48
+    },
+    "delta_ci_excludes_zero": true,
+    "favours": "length",
+    "exact_sign_test": {
+      "test": "exact two-sided sign test over the discordant fields",
+      "n_discordant": 47,
+      "n_favouring_binding": 17,
+      "n_favouring_length": 30,
+      "p_two_sided": 0.07894069368148848
+    },
+    "permutation": {
+      "test": "field_blocked_permutation_of_condition_labels_on_responses",
+      "two_sided_on": "sign of Delta_binding",
+      "p_one_sided_upper_tail": 1.0,
+      "p_one_sided_lower_tail": 0.0001999600079984003,
+      "p_two_sided": 0.0003999200159968006,
+      "null_mean": -0.0004963541666666666,
+      "null_p2p5": -0.036458333333333336,
+      "null_p97p5": 0.033854166666666664,
+      "n_perm": 5000,
+      "estimator": "plus_one",
+      "caveat": "NOT the basis of the verdict. The permutation null is condition-label exchangeability, that is 'no condition effect at all'; rejecting it does not establish that the contrast itself differs from zero, and with a large global condition effect this p is small almost regardless of the contrast. The field-cluster bootstrap interval is the honest statement about the contrast, so a contrast whose interval covers zero is reported as directional and unresolved even when this p is small."
+    },
+    "diagnosticity": {
+      "first_term": {
+        "pair": "centers_compact__vs__centers_indexed_row",
+        "char_gap": 84,
+        "feature_that_differs": "index_only"
+      },
+      "second_term": {
+        "pair": "centers_indexed_row__vs__centers_standard",
+        "char_gap": 374
+      },
+      "length_account_predicts": "negative",
+      "centre_printing_account_predicts": "negative",
+      "diagnostic": false
+    }
+  },
+  "secondary": {
+    "factorial_decomposition": {
+      "reframing": "post hoc",
+      "features": {
+        "prints_bin_centre": {
+          "centers_compact": false,
+          "centers_indexed_row": false,
+          "centers_centered_row": true,
+          "centers_standard": true
+        },
+        "prints_bin_index": {
+          "centers_compact": false,
+          "centers_indexed_row": true,
+          "centers_centered_row": false,
+          "centers_standard": true
+        }
+      },
+      "cells": {
+        "index_only": {
+          "pairs": [
+            {
+              "pair": "centers_compact__vs__centers_indexed_row",
+              "abs_prompt_char_diff": 84,
+              "mean_TV": 0.2903645833333333
+            },
+            {
+              "pair": "centers_centered_row__vs__centers_standard",
+              "abs_prompt_char_diff": 315,
+              "mean_TV": 0.3125
+            }
+          ],
+          "cell_bootstrap": {
+            "mean": 0.3014322916666667,
+            "ci95": [
+              0.25063476562500003,
+              0.3567708333333333
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 2.1737089201877935
+        },
+        "centre_only": {
+          "pairs": [
+            {
+              "pair": "centers_compact__vs__centers_centered_row",
+              "abs_prompt_char_diff": 143,
+              "mean_TV": 0.4166666666666667
+            },
+            {
+              "pair": "centers_indexed_row__vs__centers_standard",
+              "abs_prompt_char_diff": 374,
+              "mean_TV": 0.4401041666666667
+            }
+          ],
+          "cell_bootstrap": {
+            "mean": 0.4283854166666667,
+            "ci95": [
+              0.3717447916666667,
+              0.4869791666666667
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 3.0892018779342725
+        },
+        "both": {
+          "pairs": [
+            {
+              "pair": "centers_compact__vs__centers_standard",
+              "abs_prompt_char_diff": 458,
+              "mean_TV": 0.4596354166666667
+            },
+            {
+              "pair": "centers_indexed_row__vs__centers_centered_row",
+              "abs_prompt_char_diff": 59,
+              "mean_TV": 0.4479166666666667
+            }
+          ],
+          "cell_bootstrap": {
+            "mean": 0.4537760416666667,
+            "ci95": [
+              0.396484375,
+              0.509765625
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 3.272300469483568
+        }
+      },
+      "centre_only_minus_index_only": {
+        "difference": 0.126953125,
+        "bootstrap": {
+          "mean": 0.126953125,
+          "ci95": [
+            0.046875,
+            0.21419270833333334
+          ],
+          "n_fields": 48
+        },
+        "exact_sign_test": {
+          "n_discordant": 36,
+          "n_centre_larger": 26,
+          "n_index_larger": 10,
+          "p_two_sided": 0.011330984183587134
+        },
+        "ci_excludes_zero": true
+      },
+      "within_cell_length_insensitivity": {
+        "index_only": {
+          "narrow_gap_pair": {
+            "pair": "centers_compact__vs__centers_indexed_row",
+            "char_gap": 84,
+            "mean_TV": 0.2903645833333333
+          },
+          "wide_gap_pair": {
+            "pair": "centers_centered_row__vs__centers_standard",
+            "char_gap": 315,
+            "mean_TV": 0.3125
+          },
+          "char_gap_ratio": 3.75,
+          "paired_difference_wide_minus_narrow": {
+            "mean": 0.022135416666666668,
+            "ci95": [
+              -0.07421875,
+              0.125
+            ],
+            "n_fields": 48
+          },
+          "difference_ci_covers_zero": true
+        },
+        "centre_only": {
+          "narrow_gap_pair": {
+            "pair": "centers_compact__vs__centers_centered_row",
+            "char_gap": 143,
+            "mean_TV": 0.4166666666666667
+          },
+          "wide_gap_pair": {
+            "pair": "centers_indexed_row__vs__centers_standard",
+            "char_gap": 374,
+            "mean_TV": 0.4401041666666667
+          },
+          "char_gap_ratio": 2.6153846153846154,
+          "paired_difference_wide_minus_narrow": {
+            "mean": 0.0234375,
+            "ci95": [
+              -0.0859375,
+              0.1302408854166662
+            ],
+            "n_fields": 48
+          },
+          "difference_ci_covers_zero": true
+        },
+        "both": {
+          "narrow_gap_pair": {
+            "pair": "centers_indexed_row__vs__centers_centered_row",
+            "char_gap": 59,
+            "mean_TV": 0.4479166666666667
+          },
+          "wide_gap_pair": {
+            "pair": "centers_compact__vs__centers_standard",
+            "char_gap": 458,
+            "mean_TV": 0.4596354166666667
+          },
+          "char_gap_ratio": 7.762711864406779,
+          "paired_difference_wide_minus_narrow": {
+            "mean": 0.01171875,
+            "ci95": [
+              -0.08333333333333333,
+              0.11197916666666667
+            ],
+            "n_fields": 48
+          },
+          "difference_ci_covers_zero": true
+        }
+      },
+      "length_insensitive_in_every_cell": true,
+      "note": "Distance depends on which feature differs, not on how many characters differ. Within each cell the character gap varies by a factor of 2.6 to 7.8 while the response distance does not move resolvably."
+    },
+    "centred_row_pivot_contrast": {
+      "note": "Same contrast with centers_centered_row as pivot, whose character gaps are nearly balanced, so it asks only whether an explicitly bound single row groups with the labelled or with the positional condition.",
+      "pivot": "centers_centered_row",
+      "positional_anchor": "centers_compact",
+      "labelled_anchor": "centers_standard",
+      "pair_pivot_to_positional": "centers_compact__vs__centers_centered_row",
+      "pair_pivot_to_labelled": "centers_centered_row__vs__centers_standard",
+      "char_gap_pivot_to_positional": 143,
+      "char_gap_pivot_to_labelled": 315,
+      "length_account_predicts": "negative",
+      "binding_account_predicts": "positive",
+      "mean_TV_pivot_to_positional": 0.4166666666666667,
+      "mean_TV_pivot_to_labelled": 0.3125,
+      "delta": 0.10416666666666667,
+      "delta_bootstrap": {
+        "mean": 0.10416666666666667,
+        "ci95": [
+          -0.015625,
+          0.22135416666666666
+        ],
+        "n_fields": 48
+      },
+      "delta_ci_excludes_zero": false,
+      "favours": "binding",
+      "exact_sign_test": {
+        "test": "exact two-sided sign test over the discordant fields",
+        "n_discordant": 46,
+        "n_favouring_binding": 27,
+        "n_favouring_length": 19,
+        "p_two_sided": 0.3019956131896606
+      },
+      "permutation": {
+        "test": "field_blocked_permutation_of_condition_labels_on_responses",
+        "two_sided_on": "sign of Delta_binding (centred-row pivot)",
+        "p_one_sided_upper_tail": 0.0001999600079984003,
+        "p_one_sided_lower_tail": 1.0,
+        "p_two_sided": 0.0003999200159968006,
+        "null_mean": 0.00016953125000000006,
+        "null_p2p5": -0.033854166666666664,
+        "null_p97p5": 0.03515625,
+        "n_perm": 5000,
+        "estimator": "plus_one",
+        "caveat": "NOT the basis of the verdict. The permutation null is condition-label exchangeability, that is 'no condition effect at all'; rejecting it does not establish that the contrast itself differs from zero, and with a large global condition effect this p is small almost regardless of the contrast. The field-cluster bootstrap interval is the honest statement about the contrast, so a contrast whose interval covers zero is reported as directional and unresolved even when this p is small."
+      },
+      "diagnosticity": {
+        "first_term": {
+          "pair": "centers_compact__vs__centers_centered_row",
+          "char_gap": 143,
+          "feature_that_differs": "centre_only"
+        },
+        "second_term": {
+          "pair": "centers_centered_row__vs__centers_standard",
+          "char_gap": 315
+        },
+        "length_account_predicts": "negative",
+        "centre_printing_account_predicts": "positive",
+        "diagnostic": true
+      }
+    },
+    "monotonicity_from_labelled_anchor": {
+      "test": "paired within-field comparison of the information-identical conditions against one anchor; any monotone increasing function of prompt length requires the condition further from the anchor in characters to be at least as distant in response",
+      "prespecified_as": "secondary_contrasts[1]",
+      "paired_implementation_post_hoc": true,
+      "anchor": "centers_standard",
+      "anchor_prompt_chars": 1429,
+      "distances_ordered_by_char_gap_descending": [
+        {
+          "condition": "centers_compact",
+          "pair": "centers_compact__vs__centers_standard",
+          "prompt_chars": 971,
+          "char_gap_from_anchor": 458,
+          "mean_TV": 0.4596354166666667,
+          "bootstrap": {
+            "mean": 0.4596354166666667,
+            "ci95": [
+              0.3958333333333333,
+              0.5247395833333334
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 3.314553990610329
+        },
+        {
+          "condition": "centers_indexed_row",
+          "pair": "centers_indexed_row__vs__centers_standard",
+          "prompt_chars": 1055,
+          "char_gap_from_anchor": 374,
+          "mean_TV": 0.4401041666666667,
+          "bootstrap": {
+            "mean": 0.4401041666666667,
+            "ci95": [
+              0.3580729166666667,
+              0.5234375
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 3.1737089201877935
+        },
+        {
+          "condition": "centers_centered_row",
+          "pair": "centers_centered_row__vs__centers_standard",
+          "prompt_chars": 1114,
+          "char_gap_from_anchor": 315,
+          "mean_TV": 0.3125,
+          "bootstrap": {
+            "mean": 0.3125,
+            "ci95": [
+              0.23177083333333334,
+              0.3984375
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 2.2535211267605635
+        }
+      ],
+      "required_order_by_length": [
+        "centers_compact",
+        "centers_indexed_row",
+        "centers_centered_row"
+      ],
+      "required_ordering_statement": "TV(centers_standard, centers_compact) >= TV(centers_standard, centers_indexed_row) >= TV(centers_standard, centers_centered_row)",
+      "observed_order_by_mean_TV": [
+        "centers_compact",
+        "centers_indexed_row",
+        "centers_centered_row"
+      ],
+      "required_ordering_holds": true,
+      "comparisons": {
+        "centers_indexed_row__nearer_than__centers_compact": {
+          "nearer_in_length": "centers_indexed_row",
+          "nearer_char_gap": 374,
+          "nearer_mean_TV": 0.4401041666666667,
+          "further_in_length": "centers_compact",
+          "further_char_gap": 458,
+          "further_mean_TV": 0.4596354166666667,
+          "required_inequality": "TV(centers_standard, centers_compact) >= TV(centers_standard, centers_indexed_row)",
+          "paired_excess_near_minus_far": {
+            "mean": -0.01953125,
+            "ci95": [
+              -0.10286458333333333,
+              0.06510416666666667
+            ],
+            "n_fields": 48
+          },
+          "exact_sign_test": {
+            "n_discordant": 42,
+            "n_near_larger": 22,
+            "n_far_larger": 20,
+            "p_two_sided": 0.8776143287523155
+          },
+          "monotone_length_violated": false
+        },
+        "centers_centered_row__nearer_than__centers_compact": {
+          "nearer_in_length": "centers_centered_row",
+          "nearer_char_gap": 315,
+          "nearer_mean_TV": 0.3125,
+          "further_in_length": "centers_compact",
+          "further_char_gap": 458,
+          "further_mean_TV": 0.4596354166666667,
+          "required_inequality": "TV(centers_standard, centers_compact) >= TV(centers_standard, centers_centered_row)",
+          "paired_excess_near_minus_far": {
+            "mean": -0.14713541666666666,
+            "ci95": [
+              -0.2539388020833333,
+              -0.0390625
+            ],
+            "n_fields": 48
+          },
+          "exact_sign_test": {
+            "n_discordant": 44,
+            "n_near_larger": 14,
+            "n_far_larger": 30,
+            "p_two_sided": 0.022628841205914796
+          },
+          "monotone_length_violated": false
+        },
+        "centers_centered_row__nearer_than__centers_indexed_row": {
+          "nearer_in_length": "centers_centered_row",
+          "nearer_char_gap": 315,
+          "nearer_mean_TV": 0.3125,
+          "further_in_length": "centers_indexed_row",
+          "further_char_gap": 374,
+          "further_mean_TV": 0.4401041666666667,
+          "required_inequality": "TV(centers_standard, centers_indexed_row) >= TV(centers_standard, centers_centered_row)",
+          "paired_excess_near_minus_far": {
+            "mean": -0.12760416666666666,
+            "ci95": [
+              -0.25,
+              -0.005208333333333333
+            ],
+            "n_fields": 48
+          },
+          "exact_sign_test": {
+            "n_discordant": 40,
+            "n_near_larger": 13,
+            "n_far_larger": 27,
+            "p_two_sided": 0.03847730828420026
+          },
+          "monotone_length_violated": false
+        }
+      },
+      "monotone_length_account_refuted": false
+    },
+    "anchor_reproducibility_vs_slc": {
+      "status": "COMPARED",
+      "slc_run_dir": "runs/matched_rep_collective_slc/matched-rep-slc-v0.1_gpt-5.4-mini/20260729T215934Z",
+      "slc_trace_sha256": "58b2aa222603b892757fdf47babf79aa7a6c4979d8d7d5d975dfc98fee5d7c42",
+      "block_noise_floor": {
+        "mean": 0.138671875,
+        "ci95": [
+          0.11848958333333333,
+          0.15950520833333334
+        ],
+        "n_fields": 192
+      },
+      "anchors": {
+        "centers_compact": {
+          "status": "COMPARED",
+          "n_fields": 48,
+          "mean_between_run_TV": 0.16536458333333334,
+          "bootstrap": {
+            "mean": 0.16536458333333334,
+            "ci95": [
+              0.13020833333333334,
+              0.20572916666666666
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 1.1924882629107982,
+          "agrees_within_block_noise": true
+        },
+        "centers_standard": {
+          "status": "COMPARED",
+          "n_fields": 48,
+          "mean_between_run_TV": 0.1875,
+          "bootstrap": {
+            "mean": 0.1875,
+            "ci95": [
+              0.14322916666666666,
+              0.234375
+            ],
+            "n_fields": 48
+          },
+          "ratio_to_block_noise": 1.352112676056338,
+          "agrees_within_block_noise": true
+        }
+      },
+      "all_anchors_agree_within_block_noise": true,
+      "note": "Per-field total-variation distance between the two acquisitions' action distributions for each re-acquired anchor, judged against the within-run between-block noise floor: agreement means the between-run distance is not resolvably larger than the noise floor (its bootstrap interval reaches the floor's interval)."
+    },
+    "predictor_rank_correlation": {
+      "rows": [
+        {
+          "pair": "centers_compact__vs__centers_indexed_row",
+          "mean_TV": 0.2903645833333333,
+          "abs_prompt_char_diff": 84,
+          "binding_mismatch": 1,
+          "explicit_binding_mismatch": 1
+        },
+        {
+          "pair": "centers_compact__vs__centers_centered_row",
+          "mean_TV": 0.4166666666666667,
+          "abs_prompt_char_diff": 143,
+          "binding_mismatch": 1,
+          "explicit_binding_mismatch": 1
+        },
+        {
+          "pair": "centers_compact__vs__centers_standard",
+          "mean_TV": 0.4596354166666667,
+          "abs_prompt_char_diff": 458,
+          "binding_mismatch": 1,
+          "explicit_binding_mismatch": 1
+        },
+        {
+          "pair": "centers_indexed_row__vs__centers_centered_row",
+          "mean_TV": 0.4479166666666667,
+          "abs_prompt_char_diff": 59,
+          "binding_mismatch": 1,
+          "explicit_binding_mismatch": 0
+        },
+        {
+          "pair": "centers_indexed_row__vs__centers_standard",
+          "mean_TV": 0.4401041666666667,
+          "abs_prompt_char_diff": 374,
+          "binding_mismatch": 1,
+          "explicit_binding_mismatch": 0
+        },
+        {
+          "pair": "centers_centered_row__vs__centers_standard",
+          "mean_TV": 0.3125,
+          "abs_prompt_char_diff": 315,
+          "binding_mismatch": 1,
+          "explicit_binding_mismatch": 0
+        }
+      ],
+      "spearman_rho_abs_prompt_char_diff": 0.37142857142857144,
+      "spearman_rho_binding_mismatch": null,
+      "spearman_rho_explicit_binding_mismatch": -0.09759000729485331,
+      "better_predictor": "abs_prompt_char_diff",
+      "n_pairs": 6,
+      "note": "Spearman on six condition pairs; implemented in numpy (average ranks for ties), no scipy dependency. All four conditions carry a different value of SBC_BINDING, so binding_mismatch is 1 for every pair: it is constant, has no rank variance, and its correlation is undefined (null). That is why explicit_binding_mismatch, 1 when exactly one member of the pair is positionally bound, is reported as well: it is the axis the ladder was built to test."
+    },
+    "global_any_condition_difference": {
+      "test": "field_blocked_condition_label_permutation_mean_pairwise_TV",
+      "observed_mean_pairwise_TV": 0.39453125,
+      "null_mean": 0.1400305121527778,
+      "null_p95": 0.15342881944444445,
+      "p_one_sided": 0.0001999600079984003,
+      "n_perm": 5000
+    }
+  },
+  "verdict": "CENTRE_PRINTING_OVER_LENGTH",
+  "claim": "The prespecified contrast is not diagnostic here. Its first term is an index_only change and its second a centre_only change, and the character gaps run the same way, so a prompt-length account and a centre-printing account predict the same sign for it (observed Delta_binding = -0.1497, 95% CI [-0.2591, -0.0391]). The design is a crossed 2x2, so the verdict comes from decomposing the six distances by which feature differs. Changing only whether the bin index is printed moved the operator by 0.301 (2.2 times block noise); changing only whether the numeric bin centre is printed moved it by 0.428 (3.1 times); changing both, 0.454. The centre feature exceeds the index feature by +0.127 (95% CI [+0.047, +0.214], exact sign test p = 0.0113). Within every cell the character gap varies by a factor of 2.6 to 7.8 while the response distance does not move resolvably, so which feature differs predicts the distance and how many characters differ does not. The three distances from the fully labelled condition are monotone in prompt length: taking the other conditions in order of decreasing character gap (458, 374, 315 characters), where a monotone length account requires non-increasing distances, the mean TVs are 0.460, 0.440, 0.312.",
+  "primary_interpretation_rule": "Delta_binding is judged on its bootstrap interval. A permutation p is reported but is not read as support for Delta_binding itself, because its null is the absence of any condition effect rather than Delta_binding = 0.",
+  "scope_note": "This is a serialization control on the frozen 48-field replay panel. It does not re-run the collective experiments and makes no claim about closed-loop outcomes."
+}

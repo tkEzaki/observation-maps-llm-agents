@@ -1,0 +1,115 @@
+{
+  "protocol": {
+    "protocol_name": "stage_b_stimulus_manifold",
+    "protocol_version": "stimulus-manifold-v0.1-block1",
+    "prompt_version": "response-law-v0.1",
+    "seed_block_id": "block_1",
+    "base_seed": 2026122301,
+    "seed_strategy": "hash_v1",
+    "schedule_seed": 2026122391,
+    "offset_design": {
+      "kind": "paired_stratified_jitter",
+      "generation_seed": 2026102300,
+      "positive_strata": 18,
+      "jitter_interval": [
+        0.15,
+        0.85
+      ]
+    },
+    "offset_radians": [
+      -3.060726315293831,
+      -2.92640177655781,
+      -2.746279632217894,
+      -2.518873672395674,
+      -2.360717942934366,
+      -2.125472971056087,
+      -1.955683617054956,
+      -1.81130581486731,
+      -1.70513797996314,
+      -1.459132129739855,
+      -1.326501968991361,
+      -1.193267876314604,
+      -1.01205578829373,
+      -0.815390451126862,
+      -0.582253411155328,
+      -0.424110634258503,
+      -0.252363301580937,
+      -0.126277469898986,
+      0.126277469898986,
+      0.252363301580937,
+      0.424110634258503,
+      0.582253411155328,
+      0.815390451126862,
+      1.01205578829373,
+      1.193267876314604,
+      1.326501968991361,
+      1.459132129739855,
+      1.70513797996314,
+      1.81130581486731,
+      1.955683617054956,
+      2.125472971056087,
+      2.360717942934366,
+      2.518873672395674,
+      2.746279632217894,
+      2.92640177655781,
+      3.060726315293831
+    ],
+    "stimulus_profiles": [
+      "unimodal_k9",
+      "bimodal_equal_sep2_k6",
+      "antipodal_equal_k6",
+      "asymmetric_w075_sep2_k6",
+      "sparse_N8_unimodal_k6",
+      "sparse_N16_antipodal_k6"
+    ],
+    "representations": [
+      "intervals_24_decimal6",
+      "moments_m1_m3",
+      "centers_24_standard"
+    ],
+    "repetitions_per_condition": 12,
+    "bootstrap_samples": 2000,
+    "bootstrap_pseudocount": 0.5,
+    "primary_fourier_order": 6,
+    "sensitivity_fourier_orders": [
+      2,
+      4,
+      8,
+      12
+    ],
+    "manifold_rules": {
+      "minimum_c1_chordal_separation": 0.25,
+      "minimum_trajectory_correlation": 0.8,
+      "anchor_profile": "unimodal_k9"
+    },
+    "criteria": {
+      "minimum_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 12
+    },
+    "replication_rules": {
+      "minimum_classes_with_persistent_separation": 3,
+      "minimum_trajectory_correlation": 0.8
+    }
+  },
+  "protocol_sha256": "799847a0e9dc676e7c819553fed9ab216de881ef65b4a216be21515b2cf20928",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "base_url": null,
+  "env_file": "<HOME>\\Dropbox\\research_current\\gen_ai_logi\\rq1\\.env",
+  "concurrency": 20,
+  "cost_estimate": {
+    "planned_calls": 7776,
+    "max_attempts_per_call": 3,
+    "input_token_estimation_method": "ceil(characters / 2.5) + 16",
+    "estimated_input_tokens": 4028832,
+    "maximum_output_tokens": 155520,
+    "input_price_per_million": 0.75,
+    "output_price_per_million": 4.5,
+    "estimated_base_cost_usd": 3.721464,
+    "maximum_retry_cost_usd": 11.164392
+  },
+  "created_utc": "2026-07-23T12:58:48.914561+00:00"
+}

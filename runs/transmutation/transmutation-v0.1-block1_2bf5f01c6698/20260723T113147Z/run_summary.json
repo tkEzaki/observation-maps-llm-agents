@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\transmutation\\transmutation-v0.1-block1_2bf5f01c6698\\20260723T113147Z",
+  "n_records": 12960,
+  "n_valid": 12960,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 5685120,
+  "actual_output_tokens": 210887,
+  "actual_cost_usd": 5.2128315,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 439.3581544999979,
+  "summed_task_elapsed_seconds": 8700.411886000267,
+  "effective_parallelism": 19.802550144771033,
+  "calls_per_second": 29.497574740017853,
+  "seed_block_id": "block_1"
+}

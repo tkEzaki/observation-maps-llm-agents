@@ -1,0 +1,8 @@
+# Analysis and figures (everything below is needed to reproduce the results).
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+
+# Acquisition only. Not needed to re-run the analyses or rebuild the figures
+# from the frozen results; install the provider you intend to query.
+#   pip install -r requirements-acquisition.txt

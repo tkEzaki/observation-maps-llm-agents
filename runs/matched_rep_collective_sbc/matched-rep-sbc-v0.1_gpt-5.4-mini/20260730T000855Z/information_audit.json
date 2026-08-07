@@ -1,0 +1,92 @@
+{
+  "n_fields": 48,
+  "fields_file": "analysis/matched_rep_collective/replay_fields_v0_1.json",
+  "variants": {
+    "centers_compact": {
+      "content": "histogram24",
+      "binding": "positional",
+      "form": "row"
+    },
+    "centers_indexed_row": {
+      "content": "histogram24",
+      "binding": "explicit_index",
+      "form": "row"
+    },
+    "centers_centered_row": {
+      "content": "histogram24",
+      "binding": "explicit_centre",
+      "form": "row"
+    },
+    "centers_standard": {
+      "content": "histogram24",
+      "binding": "explicit_index_and_centre",
+      "form": "lines"
+    }
+  },
+  "prompt_chars": {
+    "centers_compact": {
+      "min": 971,
+      "median": 971.0,
+      "max": 971
+    },
+    "centers_indexed_row": {
+      "min": 1055,
+      "median": 1055.0,
+      "max": 1055
+    },
+    "centers_centered_row": {
+      "min": 1114,
+      "median": 1114.0,
+      "max": 1114
+    },
+    "centers_standard": {
+      "min": 1429,
+      "median": 1429.0,
+      "max": 1429
+    }
+  },
+  "prompt_tokens": {
+    "centers_compact": {
+      "min": 405,
+      "median": 405.0,
+      "max": 405
+    },
+    "centers_indexed_row": {
+      "min": 438,
+      "median": 438.0,
+      "max": 438
+    },
+    "centers_centered_row": {
+      "min": 462,
+      "median": 462.0,
+      "max": 462
+    },
+    "centers_standard": {
+      "min": 588,
+      "median": 588.0,
+      "max": 588
+    }
+  },
+  "anchors_byte_identical": {
+    "centers_compact_matches_slc": true,
+    "centers_standard_matches_slc": true,
+    "centers_standard_matches_primary": true
+  },
+  "information_equivalence": {
+    "max_abs_bin_mass_gap": 0.0,
+    "max_abs_bin_centre_gap_print_precision": 4.6949787368966156e-07,
+    "note": "All four conditions carry the same 24 bin masses at the same precision. The centre gap is the six-decimal print precision of the conditions that list the centres, against the analytic grid the conditions that state it by rule imply."
+  },
+  "length_axis_crosses_binding_axis": {
+    "pivot": "centers_indexed_row",
+    "chars_pivot_to_positional_anchor": 84.0,
+    "chars_pivot_to_labelled_anchor": 374.0,
+    "length_favours": "centers_compact",
+    "ratio_labelled_over_positional": 4.4523809523809526,
+    "binding_favours": "centers_standard",
+    "crossed": true,
+    "note": "The pivot is the shortest condition that binds every mass to an explicit label. It sits much closer in characters to the positional condition, so a prompt-length account predicts it responds like that one, while a binding account predicts it responds like the fully labelled one. The sign of the prespecified contrast separates them, and the length gaps favour the length account a priori."
+  },
+  "moment_order_not_involved": "Every condition carries the full 24-bin histogram. This is a control on serialization at fixed information and says nothing about how much of the field is retained.",
+  "pass": true
+}

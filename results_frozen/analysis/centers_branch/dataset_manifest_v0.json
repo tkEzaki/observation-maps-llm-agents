@@ -1,0 +1,28 @@
+{
+  "branch": "centers",
+  "version": "centers-dataset-v0",
+  "representation": "centers_24_standard",
+  "status": "hash_locked",
+  "n_rows": 2736,
+  "sources": {
+    "transmutation": 360,
+    "stimulus_manifold": 432,
+    "antipodal_weight": 576,
+    "sparse_peer": 1296,
+    "stage3a_pilot": 72
+  },
+  "file_sha256": {
+    "phenotype_rollup_v0.json": "b61660d73bd80213f405e3b4286066342c764c91e3f08b582bd566873ae65b3f",
+    "source_profile_summary.csv": "c7dd99628abee7b04f506b5832d7a56bbe0945868737f94519deac401c12b408",
+    "training_arrays_centers_v0.npz": "4836d68667d081e03d6665cc8d805f3f0477c739d176fcd6452cc3d41b1e8051",
+    "training_rows_centers_v0.csv": "1d64517300a533d329b008f655ee129406e3d7198b33afc3883af37d137ae256"
+  },
+  "aggregate_sha256": "2a60c21be2f6145f3761337b8239884d4d87be58b925919f78fe8e328eb08454",
+  "exclusions": {
+    "moments_responses": true,
+    "intervals_responses": true,
+    "collective_replay": true,
+    "cyclic_shift_augmentation": true
+  },
+  "scientific_question": "Can a center-bin encoding of the same physical field yield a predictable microscopic response operator, and does it select different macroscopic dynamics from moments?"
+}

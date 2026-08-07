@@ -1,0 +1,262 @@
+{
+  "protocol": {
+    "protocol_name": "stage_b_representation_feature_sweep",
+    "protocol_version": "feature-sweep-v0.1-block1",
+    "prompt_version": "response-law-v0.1",
+    "seed_block_id": "feature_block_1",
+    "base_seed": 2026132301,
+    "seed_strategy": "hash_v1",
+    "schedule_seed": 2026132391,
+    "offset_design": {
+      "kind": "paired_stratified_jitter",
+      "generation_seed": 2026102300,
+      "positive_strata": 18,
+      "jitter_interval": [
+        0.15,
+        0.85
+      ]
+    },
+    "offset_radians": [
+      -3.060726315293831,
+      -2.92640177655781,
+      -2.746279632217894,
+      -2.518873672395674,
+      -2.360717942934366,
+      -2.125472971056087,
+      -1.955683617054956,
+      -1.81130581486731,
+      -1.70513797996314,
+      -1.459132129739855,
+      -1.326501968991361,
+      -1.193267876314604,
+      -1.01205578829373,
+      -0.815390451126862,
+      -0.582253411155328,
+      -0.424110634258503,
+      -0.252363301580937,
+      -0.126277469898986,
+      0.126277469898986,
+      0.252363301580937,
+      0.424110634258503,
+      0.582253411155328,
+      0.815390451126862,
+      1.01205578829373,
+      1.193267876314604,
+      1.326501968991361,
+      1.459132129739855,
+      1.70513797996314,
+      1.81130581486731,
+      1.955683617054956,
+      2.125472971056087,
+      2.360717942934366,
+      2.518873672395674,
+      2.746279632217894,
+      2.92640177655781,
+      3.060726315293831
+    ],
+    "concentration_profiles": {
+      "kappa_2": 2.0,
+      "kappa_6": 6.0,
+      "kappa_9": 9.0,
+      "kappa_12": 12.0
+    },
+    "representations": [
+      {
+        "kind": "intervals",
+        "n_bins": 24,
+        "decimals": 2
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 24,
+        "decimals": 3
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 24,
+        "decimals": 4
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 24,
+        "decimals": 5
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 24,
+        "decimals": 6
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 12,
+        "decimals": 6
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 18,
+        "decimals": 6
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 30,
+        "decimals": 6
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 36,
+        "decimals": 6
+      },
+      {
+        "kind": "intervals",
+        "n_bins": 48,
+        "decimals": 6
+      },
+      {
+        "kind": "centers",
+        "n_bins": 24,
+        "decimals": 6,
+        "origin_shift_bins": 0.0
+      },
+      {
+        "kind": "centers",
+        "n_bins": 24,
+        "decimals": 6,
+        "origin_shift_bins": 0.125
+      },
+      {
+        "kind": "centers",
+        "n_bins": 24,
+        "decimals": 6,
+        "origin_shift_bins": 0.25
+      },
+      {
+        "kind": "centers",
+        "n_bins": 24,
+        "decimals": 6,
+        "origin_shift_bins": 0.375
+      },
+      {
+        "kind": "centers",
+        "n_bins": 24,
+        "decimals": 6,
+        "origin_shift_bins": 0.5
+      }
+    ],
+    "feature_axes": {
+      "precision": [
+        {
+          "representation": "intervals_n24_d2_o0",
+          "value": 2
+        },
+        {
+          "representation": "intervals_n24_d3_o0",
+          "value": 3
+        },
+        {
+          "representation": "intervals_n24_d4_o0",
+          "value": 4
+        },
+        {
+          "representation": "intervals_n24_d5_o0",
+          "value": 5
+        },
+        {
+          "representation": "intervals_n24_d6_o0",
+          "value": 6
+        }
+      ],
+      "bin_count": [
+        {
+          "representation": "intervals_n12_d6_o0",
+          "value": 12
+        },
+        {
+          "representation": "intervals_n18_d6_o0",
+          "value": 18
+        },
+        {
+          "representation": "intervals_n24_d6_o0",
+          "value": 24
+        },
+        {
+          "representation": "intervals_n30_d6_o0",
+          "value": 30
+        },
+        {
+          "representation": "intervals_n36_d6_o0",
+          "value": 36
+        },
+        {
+          "representation": "intervals_n48_d6_o0",
+          "value": 48
+        }
+      ],
+      "origin_shift": [
+        {
+          "representation": "centers_n24_d6_o0",
+          "value": 0.0
+        },
+        {
+          "representation": "centers_n24_d6_o0.125",
+          "value": 0.125
+        },
+        {
+          "representation": "centers_n24_d6_o0.25",
+          "value": 0.25
+        },
+        {
+          "representation": "centers_n24_d6_o0.375",
+          "value": 0.375
+        },
+        {
+          "representation": "centers_n24_d6_o0.5",
+          "value": 0.5
+        }
+      ]
+    },
+    "repetitions_per_condition": 6,
+    "bootstrap_samples": 5000,
+    "bootstrap_pseudocount": 0.5,
+    "primary_fourier_order": 6,
+    "sensitivity_fourier_orders": [
+      2,
+      4,
+      8,
+      12
+    ],
+    "classification_rules": {
+      "minimum_polar_a1": 0.2,
+      "maximum_suppressed_abs_a1": 0.2,
+      "maximum_sign_reversing_a1": -0.2,
+      "minimum_class_probability": 0.95,
+      "minimum_jump_magnitude": 0.25,
+      "minimum_jump_probability": 0.95
+    },
+    "criteria": {
+      "minimum_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 6,
+      "minimum_replication_trajectory_correlation": 0.8
+    }
+  },
+  "protocol_sha256": "89f0bcad5ae22f28f1cf2797c901f344cec8363f75c36b0722bc477b264db9bf",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "base_url": null,
+  "env_file": "<HOME>\\Dropbox\\research_current\\gen_ai_logi\\rq1\\.env",
+  "concurrency": 20,
+  "cost_estimate": {
+    "planned_calls": 12960,
+    "max_attempts_per_call": 3,
+    "input_token_estimation_method": "ceil(characters / 2.5) + 16",
+    "estimated_input_tokens": 8155296,
+    "maximum_output_tokens": 259200,
+    "input_price_per_million": 0.75,
+    "output_price_per_million": 4.5,
+    "estimated_base_cost_usd": 7.282872,
+    "maximum_retry_cost_usd": 21.848616
+  },
+  "created_utc": "2026-07-23T12:00:58.633452+00:00"
+}

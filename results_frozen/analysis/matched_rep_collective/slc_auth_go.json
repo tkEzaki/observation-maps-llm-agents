@@ -1,0 +1,18 @@
+{
+  "experiment": "matched_rep_collective_serialization_length_control",
+  "paid_authorized": true,
+  "scientific_go": true,
+  "authorized_by": "user",
+  "authorized_at": "2026-07-30T06:41:59+09:00",
+  "authorization_text": "trueにして実行batを作って",
+  "protocol": "experiments/stage_c/protocol_matched_rep_collective_slc_v0_1.json",
+  "offline_audit": "analysis/matched_rep_collective/slc_information_audit.json",
+  "notes": [
+    "Serialization-length control on the frozen 48-field replay panel.",
+    "Design and offline information-equivalence audit complete and passing.",
+    "Pre-run estimate $1.2223 base, $3.6668 retry ceiling, under the $8 protocol ceiling.",
+    "Explicit user authorization 2026-07-30.",
+    "Run via analysis/matched_rep_collective/run_slc_all.bat, which runs the audit, the estimate, the acquisition, the analysis and the figure in order."
+  ],
+  "updated": "2026-07-30"
+}

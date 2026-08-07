@@ -1,0 +1,44 @@
+{
+  "version": "stage3b-moments-ood-v1",
+  "representation": "moments_m1_m3",
+  "peer_hard_gate": {
+    "allowed_peers": [
+      8,
+      16,
+      240
+    ],
+    "action": "reject"
+  },
+  "collective_n_allowed": [
+    9,
+    17
+  ],
+  "risk": {
+    "calibrator": "risk_calibrator.json",
+    "feature_schema": [
+      "d_shape",
+      "d_native",
+      "local_density",
+      "u_ensemble",
+      "d_orientation",
+      "policy_a"
+    ],
+    "threshold_quantile": 0.8,
+    "risk_threshold": 0.45805915373390027,
+    "interpretation": "ranking_applicability_not_precise_error"
+  },
+  "policy_a_near_zero": {
+    "action": "flag",
+    "description": "unresolved_near_zero band from field descriptors"
+  },
+  "unsupported_encodings": [
+    "intervals_24_decimal6",
+    "centers_24_standard"
+  ],
+  "stage_c": {
+    "authorized": true,
+    "authorized_at": "2026-07-24T08:53:00+09:00",
+    "protocol": "experiments/stage_c/protocol_stage_c_v0_1.json",
+    "scope": "selection_pilot_v0.1_moments_N9_N17"
+  }
+}

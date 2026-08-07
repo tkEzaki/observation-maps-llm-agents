@@ -1,0 +1,42 @@
+{
+  "status": "stopped",
+  "paid_authorized": false,
+  "freeze_ready": false,
+  "stage_c_authorized": false,
+  "further_surrogate_engineering": false,
+  "closed_at_utc": "2026-07-24T05:58:41.560046+00:00",
+  "representation": "centers_24_standard",
+  "layers": {
+    "microscopic_transmutation": "supported",
+    "peer_stratified_in_distribution_compressibility": "supported",
+    "prospective_collective_transfer": "not_supported"
+  },
+  "cent3_role": "initial prospective evaluation; subsequently used as a development-transfer benchmark",
+  "locked_wording": "Center-bin serialization induces reproducible microscopic transmutation and peer-regime dependence, but its finite-peer response surface was not sufficiently stable or compressible for prospective collective prediction under the tested descriptors and coverage.",
+  "stop_rule_fired": true,
+  "confirmatory_pilot_go": false,
+  "doc_sha256": {
+    "CENTERS_FINAL_DECISION.md": "e69740e809cc865b82795c31d226961f48eafdd77fa7c8403d5d6fcb09a1c36d",
+    "CENTERS_FINAL_OFFLINE.md": "5fc3190f6e9761bf2b1295ab48fa32132d8c6566be106e07c5607497d2aad80c",
+    "CENTERS_CENT4_REVISION.md": "0bee88920f29a95d0d1c83103aa38f2362da444406f73e3b7b65094cf37bbebd",
+    "CENTERS_CENT4_OFFLINE.md": "b964c316dbd86c5e6f9b36325e5db904809bc5357c0744784d9f46b11c3faa8d",
+    "CENTERS_BRANCH.md": "a0e93bceb1a80bfab3adb864d9fc121a66db0651e33af6fa5ea95542a28454eb"
+  },
+  "artifact_sha256": {
+    "cent4_final_offline_decision.json": "ea842b07c52fbdbaf800fdcec0e7d9e4a50b985054c8ef5c0736b7c47bda4b10",
+    "collective_scope_split_v0.json": "ac87135b0705633faa5725ed7277df9f2c6d91bc98fcffc9ebd87d68f4ead95a",
+    "cent4_revision_decision.json": "e26d999a7c28e9d3733e6672c47eb92e5d1931febbeb46af5ab338ef606fff03",
+    "cent3_prospective_summary.json": "d2601d8bf3bb81dde849a50ad3a1e834619b31f2eee24877b5a3b68bc0c08dbf",
+    "training_arrays_centers_v0.npz": "4836d68667d081e03d6665cc8d805f3f0477c739d176fcd6452cc3d41b1e8051"
+  },
+  "forbidden_actions": [
+    "confirmatory_768_call_pilot",
+    "centers_collective_bundle_v1_freeze",
+    "centers_collective_bundle_v1_N17_freeze",
+    "centers_matched_stage_c",
+    "cent3_informed_feature_chasing",
+    "paid_stay_collapse_coverage_acquisition"
+  ],
+  "next_priority": "intervals_branch",
+  "manifest_sha256": "91a108e7019f4d77a8a3a556f54b88ac54908070dc8473016f55beb06a2d28b7"
+}

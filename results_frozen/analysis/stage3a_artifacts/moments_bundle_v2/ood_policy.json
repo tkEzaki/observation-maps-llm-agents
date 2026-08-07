@@ -1,0 +1,28 @@
+{
+  "version": "stage3b-moments-ood-v2",
+  "representation": "moments_m1_m3",
+  "peer_hard_gate": {
+    "allowed_peers": [
+      8,
+      16,
+      240
+    ],
+    "action": "reject"
+  },
+  "collective_n_allowed": [
+    9,
+    17
+  ],
+  "risk": {
+    "calibrator": "risk_calibrator.json",
+    "threshold_quantile": 0.8,
+    "risk_threshold": 0.3902922135883959,
+    "interpretation": "ranking_applicability_not_precise_error"
+  },
+  "stage_c": {
+    "authorized": false,
+    "requires": "v2_envelope_compare_then_explicit_go"
+  },
+  "parent_bundle": "moments_bundle_v1",
+  "changes": "regime_aware_stay_gate_plus_replay_training"
+}

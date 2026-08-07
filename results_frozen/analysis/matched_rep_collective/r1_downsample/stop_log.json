@@ -1,0 +1,15 @@
+{
+  "status": "stopped_intentionally_after_sufficient_rows",
+  "stopped_at_utc": "2026-07-24T12:15:04Z",
+  "exit_code_windows": 4294967295,
+  "reason": "n=8 and n=12 already met detection_rate=1.0 and noise_ratio>2; froze n=16 for CI stability and launched R1. Full monte for n=24/32 not required.",
+  "rows_observed_before_stop": [
+    {"n_response": 8, "detection_rate_p05": 1.0, "mean_noise_ratio": 2.228547317415369},
+    {"n_response": 12, "detection_rate_p05": 1.0, "mean_noise_ratio": 2.594248413618699},
+    {"n_response": 16, "detection_rate_p05": 1.0, "mean_noise_ratio": 2.881797215174254}
+  ],
+  "frozen_choice": 16,
+  "frozen_calls_per_model": 2304,
+  "artifact": "analysis/matched_rep_collective/r1_downsample/downsample_report.json",
+  "note": "No re-run needed. Stop log retained for audit."
+}

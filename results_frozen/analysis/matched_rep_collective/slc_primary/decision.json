@@ -1,0 +1,279 @@
+{
+  "status": "SLC_CONTROL_PRIMARY_V0_1",
+  "inference_unit": "physical_fields",
+  "run_dir": "runs/matched_rep_collective_slc/matched-rep-slc-v0.1_gpt-5.4-mini/20260729T215934Z",
+  "acquisition": {
+    "n_calls": 3072,
+    "n_valid": 3072,
+    "valid_rate": 1.0,
+    "expected_calls": 3072,
+    "matches_expected_calls": true,
+    "actual_cost_usd_session": 0.930789,
+    "elapsed_seconds": 115.96985579992179,
+    "n_fields_used": 48,
+    "fields_dropped_incomplete": []
+  },
+  "arms": {
+    "moments_standard": {
+      "content_class": "moments3",
+      "form": "standard",
+      "prompt_chars": 789
+    },
+    "moments_compact": {
+      "content_class": "moments3",
+      "form": "compact",
+      "prompt_chars": 752
+    },
+    "centers_standard": {
+      "content_class": "histogram24",
+      "form": "standard",
+      "prompt_chars": 1429
+    },
+    "centers_compact": {
+      "content_class": "histogram24",
+      "form": "compact",
+      "prompt_chars": 971
+    }
+  },
+  "hashes": {
+    "information_audit_sha256": "e07141a28b9f32f1d443af6c08ac30ef3e56408e0528930e616784155482a814",
+    "protocol_sha256": "8dcede5fd31508a18dc52796c24507326c52826f6143b5a6195f33fb63d1c6fc",
+    "fields_sha256": "76cdeac1144ba92ada650dca7163bd61755285b3484492c006fce780bd02ee7c",
+    "trace_sha256": "58b2aa222603b892757fdf47babf79aa7a6c4979d8d7d5d975dfc98fee5d7c42"
+  },
+  "inference_settings": {
+    "n_perm": 5000,
+    "rng_seed": 20260729,
+    "test": "field_blocked_permutation_of_arm_labels_on_responses",
+    "alpha_primary": 0.05,
+    "permutation_note": "One set of permutation draws serves both the primary Delta test and the global any-difference test; both share the same null of arm-label exchangeability within a field."
+  },
+  "pairwise_bootstrap": {
+    "moments_standard__vs__moments_compact": {
+      "mean": 0.07421875,
+      "ci95": [
+        0.040364583333333336,
+        0.11331380208333286
+      ],
+      "n_fields": 48
+    },
+    "moments_standard__vs__centers_standard": {
+      "mean": 0.3528645833333333,
+      "ci95": [
+        0.2708333333333333,
+        0.4401041666666667
+      ],
+      "n_fields": 48
+    },
+    "moments_standard__vs__centers_compact": {
+      "mean": 0.4973958333333333,
+      "ci95": [
+        0.4244791666666667,
+        0.5677083333333334
+      ],
+      "n_fields": 48
+    },
+    "moments_compact__vs__centers_standard": {
+      "mean": 0.3385416666666667,
+      "ci95": [
+        0.2616861979166667,
+        0.421875
+      ],
+      "n_fields": 48
+    },
+    "moments_compact__vs__centers_compact": {
+      "mean": 0.50390625,
+      "ci95": [
+        0.43359375,
+        0.5729166666666666
+      ],
+      "n_fields": 48
+    },
+    "centers_standard__vs__centers_compact": {
+      "mean": 0.4479166666666667,
+      "ci95": [
+        0.3723958333333333,
+        0.5247395833333334
+      ],
+      "n_fields": 48
+    }
+  },
+  "pairwise_mean_TV": {
+    "moments_standard__vs__moments_compact": 0.07421875,
+    "moments_standard__vs__centers_standard": 0.3528645833333333,
+    "moments_standard__vs__centers_compact": 0.4973958333333333,
+    "moments_compact__vs__centers_standard": 0.3385416666666667,
+    "moments_compact__vs__centers_compact": 0.50390625,
+    "centers_standard__vs__centers_compact": 0.4479166666666667
+  },
+  "noise_floor": {
+    "mean_within_arm_between_block_TV": 0.10546875,
+    "within_boot": {
+      "mean": 0.10546875,
+      "ci95": [
+        0.08658854166666667,
+        0.12565104166666666
+      ],
+      "n_fields": 192
+    },
+    "mean_between_arm_TV": 0.369140625,
+    "ratio_between_over_within": 3.5,
+    "n_cells": 192
+  },
+  "primary_contrast": {
+    "definition": "Delta = mean_field TV(centers_compact, moments_standard) - mean_field TV(centers_compact, centers_standard). The first pair differs in content and by 182 prompt characters; the second pair is information-identical and differs by 458 prompt characters. Delta > 0 favours content over length.",
+    "pair_different_content_182_chars": "moments_standard__vs__centers_compact",
+    "pair_same_content_458_chars": "centers_standard__vs__centers_compact",
+    "mean_TV_different_content": 0.4973958333333333,
+    "mean_TV_same_content": 0.4479166666666667,
+    "delta": 0.049479166666666664,
+    "delta_bootstrap": {
+      "mean": 0.049479166666666664,
+      "ci95": [
+        -0.04296875,
+        0.13411458333333334
+      ],
+      "n_fields": 48
+    },
+    "null_mean": 2.8906250000000018e-05,
+    "null_p95": 0.02734375,
+    "p_one_sided": 0.002599480103979204,
+    "p_one_sided_lower_tail": 0.9986002799440112,
+    "n_perm": 5000,
+    "favours": "content"
+  },
+  "secondary": {
+    "layout_only_reference_moments_class": {
+      "mean": 0.07421875,
+      "ci95": [
+        0.040364583333333336,
+        0.11331380208333286
+      ],
+      "n_fields": 48,
+      "ratio_to_block_noise": 0.7037037037037037,
+      "prompt_char_gap": 37,
+      "content_mismatch": 0
+    },
+    "information_only_reference_histogram_class": {
+      "mean": 0.4479166666666667,
+      "ci95": [
+        0.3723958333333333,
+        0.5247395833333334
+      ],
+      "n_fields": 48,
+      "ratio_to_block_noise": 4.246913580246914,
+      "prompt_char_gap": 458,
+      "content_mismatch": 0
+    },
+    "reference_contrast_caveat": "The two reference contrasts above cannot separate serialization form from prompt length: the moments pair differs by 37 characters and the histogram pair by 458, so their ratio is also what a prompt-length account predicts. Use anchored_monotonicity_test for a length-immune contrast.",
+    "anchored_monotonicity_test": {
+      "test": "paired within-field comparison of one moments prompt against the two information-identical histogram prompts; any monotone increasing function of prompt length requires the further prompt to be at least as distant in response",
+      "prespecified": false,
+      "anchors": {
+        "moments_standard": {
+          "nearer_in_length": "centers_compact",
+          "nearer_char_gap": 182,
+          "nearer_mean_TV": 0.4973958333333333,
+          "further_in_length": "centers_standard",
+          "further_char_gap": 640,
+          "further_mean_TV": 0.3528645833333333,
+          "paired_excess_near_minus_far": {
+            "mean": 0.14453125,
+            "ci95": [
+              0.02734375,
+              0.2591145833333333
+            ],
+            "n_fields": 48
+          },
+          "exact_sign_test": {
+            "n_discordant": 46,
+            "n_near_larger": 31,
+            "n_far_larger": 15,
+            "p_two_sided": 0.02589608179323477
+          },
+          "monotone_length_violated": true
+        },
+        "moments_compact": {
+          "nearer_in_length": "centers_compact",
+          "nearer_char_gap": 219,
+          "nearer_mean_TV": 0.50390625,
+          "further_in_length": "centers_standard",
+          "further_char_gap": 677,
+          "further_mean_TV": 0.3385416666666667,
+          "paired_excess_near_minus_far": {
+            "mean": 0.16536458333333334,
+            "ci95": [
+              0.049479166666666664,
+              0.2825520833333333
+            ],
+            "n_fields": 48
+          },
+          "exact_sign_test": {
+            "n_discordant": 47,
+            "n_near_larger": 31,
+            "n_far_larger": 16,
+            "p_two_sided": 0.03998605682605216
+          },
+          "monotone_length_violated": true
+        }
+      },
+      "monotone_length_account_refuted": true
+    },
+    "predictor_rank_correlation": {
+      "rows": [
+        {
+          "pair": "moments_standard__vs__moments_compact",
+          "mean_TV": 0.07421875,
+          "content_mismatch": 0,
+          "abs_prompt_char_diff": 37
+        },
+        {
+          "pair": "moments_standard__vs__centers_standard",
+          "mean_TV": 0.3528645833333333,
+          "content_mismatch": 1,
+          "abs_prompt_char_diff": 640
+        },
+        {
+          "pair": "moments_standard__vs__centers_compact",
+          "mean_TV": 0.4973958333333333,
+          "content_mismatch": 1,
+          "abs_prompt_char_diff": 182
+        },
+        {
+          "pair": "moments_compact__vs__centers_standard",
+          "mean_TV": 0.3385416666666667,
+          "content_mismatch": 1,
+          "abs_prompt_char_diff": 677
+        },
+        {
+          "pair": "moments_compact__vs__centers_compact",
+          "mean_TV": 0.50390625,
+          "content_mismatch": 1,
+          "abs_prompt_char_diff": 219
+        },
+        {
+          "pair": "centers_standard__vs__centers_compact",
+          "mean_TV": 0.4479166666666667,
+          "content_mismatch": 0,
+          "abs_prompt_char_diff": 458
+        }
+      ],
+      "spearman_rho_content_mismatch": 0.41403933560541256,
+      "spearman_rho_abs_prompt_char_diff": -0.08571428571428572,
+      "better_predictor": "content_mismatch",
+      "n_pairs": 6,
+      "note": "Spearman on six arm pairs; implemented in numpy (average ranks for ties), no scipy dependency."
+    },
+    "global_any_arm_difference": {
+      "test": "field_blocked_arm_label_permutation_mean_pairwise_TV",
+      "observed_mean_pairwise_TV": 0.369140625,
+      "null_mean": 0.12530299479166665,
+      "null_p95": 0.1371527777777778,
+      "p_one_sided": 0.0001999600079984003,
+      "n_perm": 5000
+    }
+  },
+  "verdict": "LENGTH_REFUTED_DELTA_UNRESOLVED",
+  "claim": "No monotone function of prompt length can order the response distances. Holding one moments prompt fixed and comparing it with the two information-identical histogram prompts, the histogram prompt nearer in length is significantly the more distant in response, in both anchors: +0.145 [+0.027, +0.259] and +0.165 [+0.049, +0.283], where a monotone length account requires both to be at most zero. The prespecified contrast points the same way (Delta = +0.0495) but its interval covers zero ([-0.0430, 0.1341]), so it is directional and not established on its own. What distinguishes the compact histogram condition is not resolved by this design, which varies its length and its serialization form together.",
+  "scope_note": "This is a serialization control on the frozen 48-field replay panel. It does not re-run the collective experiments and makes no claim about closed-loop outcomes."
+}

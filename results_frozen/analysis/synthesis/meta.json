@@ -1,0 +1,18 @@
+{
+  "status": "synthesis_figures_v0",
+  "central_claim": "Microscopic representation effects and in-distribution predictability do not guarantee transportability of a response operator to an endogenous collective-field manifold.",
+  "docs": "docs/REPRESENTATION_TRANSPORT_SYNTHESIS.md",
+  "outputs": [
+    "build_synthesis_figures.py",
+    "compressibility_transportability.csv",
+    "fig1_transmutation.csv",
+    "fig1_transmutation.png",
+    "fig2_compressibility.csv",
+    "fig2_compressibility.png",
+    "fig3_funnel.csv",
+    "fig3_funnel.png",
+    "fig4_support_scatter.csv",
+    "fig4_support_scatter.png",
+    "transport_funnel.csv"
+  ]
+}

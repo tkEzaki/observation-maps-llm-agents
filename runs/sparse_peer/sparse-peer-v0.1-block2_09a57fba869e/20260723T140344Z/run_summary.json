@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\sparse_peer\\sparse-peer-v0.1-block2_09a57fba869e\\20260723T140344Z",
+  "n_records": 7776,
+  "n_valid": 7776,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 3424032,
+  "actual_output_tokens": 131940,
+  "actual_cost_usd": 3.161754,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 308.70684239999537,
+  "summed_task_elapsed_seconds": 6108.583072100824,
+  "effective_parallelism": 19.787650395470845,
+  "calls_per_second": 25.188946054925918,
+  "seed_block_id": "block_2"
+}

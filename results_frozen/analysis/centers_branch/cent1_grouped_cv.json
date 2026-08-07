@@ -1,0 +1,293 @@
+{
+  "by_scheme_model": {
+    "leave_one_profile_out::global_empirical": {
+      "g_rmse": 0.6262255934095321,
+      "activity_rmse": 0.19005085737125554,
+      "mean_tv": 0.40500483207380733,
+      "mean_js": 0.1557550434286154,
+      "log_loss": 0.9928906580849775,
+      "brier": 0.3323502092563572
+    },
+    "leave_one_profile_out::kernel_nn_euclidean": {
+      "g_rmse": 0.49086830101198864,
+      "activity_rmse": 0.20631592943380392,
+      "mean_tv": 0.34087591773095177,
+      "mean_js": 0.1246928092431884,
+      "log_loss": 0.8512141945573947,
+      "brier": 0.23259235632160746
+    },
+    "leave_one_profile_out::hybrid_hellinger": {
+      "g_rmse": 0.4888893901439579,
+      "activity_rmse": 0.20695686540343777,
+      "mean_tv": 0.3399450814775869,
+      "mean_js": 0.12352863977365416,
+      "log_loss": 0.8450605287919536,
+      "brier": 0.23225019435419483
+    },
+    "leave_one_profile_out::activity_direction_hurdle": {
+      "g_rmse": 0.49724566075891274,
+      "activity_rmse": 0.20504902568923694,
+      "mean_tv": 0.341039890213991,
+      "mean_js": 0.12561080549162143,
+      "log_loss": 0.8570839743834879,
+      "brier": 0.23609927822335502
+    },
+    "leave_one_profile_out::soft_regime_mixture": {
+      "g_rmse": 0.4827292239638362,
+      "activity_rmse": 0.4046547645379005,
+      "mean_tv": 0.37002802822778336,
+      "mean_js": 0.11930670710080803,
+      "log_loss": 4.054051908419466,
+      "brier": 0.34666436664971817
+    },
+    "leave_one_profile_out::softmax_stump_boost": {
+      "g_rmse": 0.5992704346856009,
+      "activity_rmse": 0.15230161512697699,
+      "mean_tv": 0.3696314309628625,
+      "mean_js": 0.13474710379360258,
+      "log_loss": 0.9113798298790099,
+      "brier": 0.2917824775701868
+    },
+    "leave_one_eps_level_out::global_empirical": {
+      "g_rmse": 0.6402626791985786,
+      "activity_rmse": 0.19962000055437856,
+      "mean_tv": 0.4032403604866335,
+      "mean_js": 0.15865091948445417,
+      "log_loss": 1.0961194031675787,
+      "brier": 0.33220462947404994
+    },
+    "leave_one_eps_level_out::kernel_nn_euclidean": {
+      "g_rmse": 0.4465483217388196,
+      "activity_rmse": 0.21327190537423868,
+      "mean_tv": 0.312052631041731,
+      "mean_js": 0.11902668295471198,
+      "log_loss": 0.8903430210455018,
+      "brier": 0.22560011683158945
+    },
+    "leave_one_eps_level_out::hybrid_hellinger": {
+      "g_rmse": 0.4412704044113973,
+      "activity_rmse": 0.2104191447342826,
+      "mean_tv": 0.3095554405343317,
+      "mean_js": 0.11733850179505759,
+      "log_loss": 0.8845688948256357,
+      "brier": 0.22832700115889273
+    },
+    "leave_one_eps_level_out::activity_direction_hurdle": {
+      "g_rmse": 0.45732273259531514,
+      "activity_rmse": 0.21863154902016813,
+      "mean_tv": 0.315480630095994,
+      "mean_js": 0.12043961836013481,
+      "log_loss": 0.9111203672422017,
+      "brier": 0.23362481231856347
+    },
+    "leave_one_eps_level_out::soft_regime_mixture": {
+      "g_rmse": 0.4753311706183431,
+      "activity_rmse": 0.3303776892340201,
+      "mean_tv": 0.31394769348256824,
+      "mean_js": 0.11463455596084247,
+      "log_loss": 4.274016952726649,
+      "brier": 0.28833010575272844
+    },
+    "leave_one_eps_level_out::softmax_stump_boost": {
+      "g_rmse": 0.4811052302805118,
+      "activity_rmse": 0.1726661430154674,
+      "mean_tv": 0.3098599800856988,
+      "mean_js": 0.11757354513568843,
+      "log_loss": 0.9537413474270331,
+      "brier": 0.22889353594513284
+    },
+    "sparse_realization_holdout::global_empirical": {
+      "g_rmse": 0.6630630886746401,
+      "activity_rmse": 0.294368097698666,
+      "mean_tv": 0.4335167892592735,
+      "mean_js": 0.17937921469490226,
+      "log_loss": 1.0200929547130457,
+      "brier": 0.350408575806145
+    },
+    "sparse_realization_holdout::kernel_nn_euclidean": {
+      "g_rmse": 0.5662726437342157,
+      "activity_rmse": 0.2601890865626974,
+      "mean_tv": 0.36784536576096255,
+      "mean_js": 0.14544602278295204,
+      "log_loss": 0.8880894881819162,
+      "brier": 0.2622617663568621
+    },
+    "sparse_realization_holdout::hybrid_hellinger": {
+      "g_rmse": 0.5683026977246751,
+      "activity_rmse": 0.2556321898961526,
+      "mean_tv": 0.36721769891096906,
+      "mean_js": 0.14515308556482204,
+      "log_loss": 0.8853714755677763,
+      "brier": 0.25988095040173914
+    },
+    "sparse_realization_holdout::activity_direction_hurdle": {
+      "g_rmse": 0.5692854835297786,
+      "activity_rmse": 0.26860805250957837,
+      "mean_tv": 0.3721276208267155,
+      "mean_js": 0.14844565252397243,
+      "log_loss": 0.9008768293809236,
+      "brier": 0.2706346185800174
+    },
+    "sparse_realization_holdout::soft_regime_mixture": {
+      "g_rmse": 0.5709663963340444,
+      "activity_rmse": 0.26107262310540474,
+      "mean_tv": 0.36455427707417726,
+      "mean_js": 0.14443748539262863,
+      "log_loss": 0.8924669453467747,
+      "brier": 0.26580526902158574
+    },
+    "sparse_realization_holdout::softmax_stump_boost": {
+      "g_rmse": 0.5920923041704372,
+      "activity_rmse": 0.26411106560521225,
+      "mean_tv": 0.3787061133683078,
+      "mean_js": 0.15033840014541847,
+      "log_loss": 0.9095737504635824,
+      "brier": 0.2803606532529673
+    },
+    "offset_group_holdout::global_empirical": {
+      "g_rmse": 0.6481905090576972,
+      "activity_rmse": 0.2805891354577116,
+      "mean_tv": 0.40387383314378494,
+      "mean_js": 0.15865623775243762,
+      "log_loss": 0.9486511620698056,
+      "brier": 0.3317964541175981
+    },
+    "offset_group_holdout::kernel_nn_euclidean": {
+      "g_rmse": 0.560841077048302,
+      "activity_rmse": 0.26424555180661774,
+      "mean_tv": 0.35949043327363794,
+      "mean_js": 0.13710447117324417,
+      "log_loss": 0.8260353267311337,
+      "brier": 0.26315105664926086
+    },
+    "offset_group_holdout::hybrid_hellinger": {
+      "g_rmse": 0.5522278670411745,
+      "activity_rmse": 0.25771834597857296,
+      "mean_tv": 0.35618571295028717,
+      "mean_js": 0.13390975240645328,
+      "log_loss": 0.8112532865460276,
+      "brier": 0.25306381329177885
+    },
+    "offset_group_holdout::activity_direction_hurdle": {
+      "g_rmse": 0.565698130475094,
+      "activity_rmse": 0.27389046232474995,
+      "mean_tv": 0.36491079137653265,
+      "mean_js": 0.14037825819859354,
+      "log_loss": 0.8337607454377838,
+      "brier": 0.27369441096959
+    },
+    "offset_group_holdout::soft_regime_mixture": {
+      "g_rmse": 0.5548924989306782,
+      "activity_rmse": 0.44473873404814795,
+      "mean_tv": 0.35538621490778133,
+      "mean_js": 0.11735673138985715,
+      "log_loss": 4.420186644416663,
+      "brier": 0.3063579184029564
+    },
+    "offset_group_holdout::softmax_stump_boost": {
+      "g_rmse": 0.6184862778011487,
+      "activity_rmse": 0.22961064172308998,
+      "mean_tv": 0.36036293670093716,
+      "mean_js": 0.13175329648188291,
+      "log_loss": 0.8282453303223908,
+      "brier": 0.2710197618525609
+    },
+    "acquisition_block_holdout::global_empirical": {
+      "g_rmse": 0.6431850495884943,
+      "activity_rmse": 0.2823930655227376,
+      "mean_tv": 0.40094728727763973,
+      "mean_js": 0.15709240829110346,
+      "log_loss": 0.9438111412592534,
+      "brier": 0.326465424036315
+    },
+    "acquisition_block_holdout::kernel_nn_euclidean": {
+      "g_rmse": 0.45830021829606205,
+      "activity_rmse": 0.22139202739824715,
+      "mean_tv": 0.29484100118596585,
+      "mean_js": 0.10528726562073099,
+      "log_loss": 0.7210814563746131,
+      "brier": 0.17854380805524073
+    },
+    "acquisition_block_holdout::hybrid_hellinger": {
+      "g_rmse": 0.5047416762443303,
+      "activity_rmse": 0.24018778229166346,
+      "mean_tv": 0.3255039075831752,
+      "mean_js": 0.11894104278966411,
+      "log_loss": 0.7535023580519192,
+      "brier": 0.21392053826352458
+    },
+    "acquisition_block_holdout::activity_direction_hurdle": {
+      "g_rmse": 0.4647233098947805,
+      "activity_rmse": 0.20439252662219848,
+      "mean_tv": 0.28629132567833265,
+      "mean_js": 0.10053990643823618,
+      "log_loss": 0.7136411520324943,
+      "brier": 0.17065038816230926
+    },
+    "acquisition_block_holdout::soft_regime_mixture": {
+      "g_rmse": 0.488597917914388,
+      "activity_rmse": 0.42177333247745086,
+      "mean_tv": 0.31429533588556585,
+      "mean_js": 0.09802691624431775,
+      "log_loss": 3.6809937431186484,
+      "brier": 0.25113959315212725
+    },
+    "acquisition_block_holdout::softmax_stump_boost": {
+      "g_rmse": 0.6023330820080552,
+      "activity_rmse": 0.2260584577752626,
+      "mean_tv": 0.35105187639675317,
+      "mean_js": 0.12727520511602064,
+      "log_loss": 0.8127707235870845,
+      "brier": 0.2580599456913569
+    },
+    "origin_shift_family_holdout::global_empirical": {
+      "g_rmse": 0.6396075013206209,
+      "activity_rmse": 0.27510839323445224,
+      "mean_tv": 0.4012750555908852,
+      "mean_js": 0.1573090145496602,
+      "log_loss": 0.9424192947602088,
+      "brier": 0.32704248319178303
+    },
+    "origin_shift_family_holdout::kernel_nn_euclidean": {
+      "g_rmse": 0.5392479518709083,
+      "activity_rmse": 0.2516182739987178,
+      "mean_tv": 0.3449762535800669,
+      "mean_js": 0.1291702480697648,
+      "log_loss": 0.7962749060855201,
+      "brier": 0.24418928853896146
+    },
+    "origin_shift_family_holdout::hybrid_hellinger": {
+      "g_rmse": 0.526401546226284,
+      "activity_rmse": 0.2337732784081338,
+      "mean_tv": 0.3298676542348508,
+      "mean_js": 0.12039982773125114,
+      "log_loss": 0.7695896941653371,
+      "brier": 0.22405634329184457
+    },
+    "origin_shift_family_holdout::activity_direction_hurdle": {
+      "g_rmse": 0.5447847723743844,
+      "activity_rmse": 0.25553969306995045,
+      "mean_tv": 0.3486980811106664,
+      "mean_js": 0.1312433510488673,
+      "log_loss": 0.8011813491464057,
+      "brier": 0.2501202912872395
+    },
+    "origin_shift_family_holdout::soft_regime_mixture": {
+      "g_rmse": 0.5423801386656832,
+      "activity_rmse": 0.4315307273990051,
+      "mean_tv": 0.3464443361050979,
+      "mean_js": 0.11424040467909144,
+      "log_loss": 3.7377355735363857,
+      "brier": 0.2919168659108077
+    },
+    "origin_shift_family_holdout::softmax_stump_boost": {
+      "g_rmse": 0.6079004164048409,
+      "activity_rmse": 0.22087120728936321,
+      "mean_tv": 0.3542104980014603,
+      "mean_js": 0.12857475229602688,
+      "log_loss": 0.8175220770117201,
+      "brier": 0.26278863201532665
+    }
+  },
+  "folds": []
+}

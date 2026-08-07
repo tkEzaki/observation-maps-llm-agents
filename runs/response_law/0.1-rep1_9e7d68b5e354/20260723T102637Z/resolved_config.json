@@ -1,0 +1,46 @@
+{
+  "protocol": {
+    "protocol_name": "stage_b_response_law_replication_1",
+    "protocol_version": "0.1-rep1",
+    "prompt_version": "response-law-v0.1",
+    "n_bins": 24,
+    "n_offsets": 48,
+    "concentration_profiles": {
+      "broad_kappa_2": 2.0,
+      "narrow_kappa_12": 12.0
+    },
+    "synthetic_peer_count": 240,
+    "repetitions_per_condition": 50,
+    "base_seed": 2026077301,
+    "max_harmonic": 6,
+    "phase_dependence_permutations": 5000,
+    "criteria": {
+      "minimum_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 40,
+      "phase_dependence_family_alpha": 0.01,
+      "minimum_response_range": 0.2,
+      "minimum_mirrored_valid_fraction": 0.9
+    }
+  },
+  "protocol_sha256": "9e7d68b5e35407a9f57c2875953fde74d365cf0c36ec691bb82a6e33036d6701",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency": 20,
+  "base_url": null,
+  "env_file": "<HOME>\\Dropbox\\research_current\\gen_ai_logi\\rq1\\.env",
+  "cost_estimate": {
+    "planned_calls": 4800,
+    "max_attempts_per_call": 3,
+    "input_token_estimation_method": "ceil(characters / 2.5) + 16",
+    "estimated_input_tokens": 3028800,
+    "maximum_output_tokens": 96000,
+    "input_price_per_million": 0.75,
+    "output_price_per_million": 4.5,
+    "estimated_base_cost_usd": 2.7036,
+    "maximum_retry_cost_usd": 8.1108
+  },
+  "created_utc": "2026-07-23T10:26:37.760575+00:00"
+}

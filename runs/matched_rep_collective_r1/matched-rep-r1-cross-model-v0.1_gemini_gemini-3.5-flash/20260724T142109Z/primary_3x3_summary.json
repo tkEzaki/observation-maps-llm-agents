@@ -1,0 +1,62 @@
+{
+  "status": "primary_3x3_v0_1",
+  "inference_unit": "48_physical_fields",
+  "n_fields": 48,
+  "n_trace_rows": 2304,
+  "layers": {
+    "1_target_representation_effect": {
+      "moments_m1_m3__vs__centers_24_standard": {
+        "mean_d_TV": 0.15520833333333334,
+        "mean_delta_A": -0.020833333333333332,
+        "mean_delta_a0": -0.2677083333333333
+      },
+      "moments_m1_m3__vs__intervals_24_decimal6": {
+        "mean_d_TV": 0.21336805555555557,
+        "mean_delta_A": -0.020833333333333332,
+        "mean_delta_a0": -0.2184027777777778
+      },
+      "centers_24_standard__vs__intervals_24_decimal6": {
+        "mean_d_TV": 0.11371527777777779,
+        "mean_delta_A": 0.0,
+        "mean_delta_a0": 0.049305555555555554
+      }
+    },
+    "2_source_field_effect": {
+      "moments_m1_m3": {
+        "n_fields": 16,
+        "mean_a0": -0.0234375,
+        "mean_A": 0.9791666666666666
+      },
+      "centers_24_standard": {
+        "n_fields": 16,
+        "mean_a0": -0.04722222222222222,
+        "mean_A": 1.0
+      },
+      "intervals_24_decimal6": {
+        "n_fields": 16,
+        "mean_a0": 0.24427083333333333,
+        "mean_A": 1.0
+      }
+    },
+    "3_source_x_target_interaction_mean_A": {
+      "moments_m1_m3": {
+        "moments_m1_m3": 0.9375,
+        "centers_24_standard": 1.0,
+        "intervals_24_decimal6": 1.0
+      },
+      "centers_24_standard": {
+        "moments_m1_m3": 1.0,
+        "centers_24_standard": 1.0,
+        "intervals_24_decimal6": 1.0
+      },
+      "intervals_24_decimal6": {
+        "moments_m1_m3": 1.0,
+        "centers_24_standard": 1.0,
+        "intervals_24_decimal6": 1.0
+      }
+    }
+  },
+  "block_drift_mean_abs_delta_A": 0.0,
+  "surrogate_refit": "deferred_until_after_primary",
+  "field_meta_note": "stratum/source retained per field for blocked inference"
+}

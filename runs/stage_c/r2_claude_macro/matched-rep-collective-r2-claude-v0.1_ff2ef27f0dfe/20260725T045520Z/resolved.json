@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "ff2ef27f0dfe67beac3b326c12c48fd581301c4a1b68d0f6a93478d93aeeee57",
+  "backend": "mock",
+  "model": "mock",
+  "task_manifest_sha256": "865fa05e7809fda613bea83c3416d22b41d050c1e9da49fe0393545362646ced",
+  "physical_seed_manifest_sha256": "c046845760bfad645204aadba93ba874c6f37727f2740e4b3520df5a5161b521",
+  "n_tasks": 1
+}

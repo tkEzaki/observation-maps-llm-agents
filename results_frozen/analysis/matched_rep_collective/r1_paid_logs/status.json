@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "pids": {"claude": null, "gemini": null},
+  "claude": {
+    "pass": true,
+    "valid_rate": 1.0,
+    "cost_usd": 1.279318,
+    "p_target": 0.0002
+  },
+  "gemini": {
+    "pass": true,
+    "valid_rate": 0.990,
+    "cost_usd": 0.5207973,
+    "p_target": 0.0002
+  },
+  "both_second_families_pass": true,
+  "results_doc": "docs/MATCHED_REP_COLLECTIVE_R1_RESULTS.md",
+  "decision": "analysis/matched_rep_collective/r1_primary/decision.json",
+  "updated": "2026-07-24"
+}

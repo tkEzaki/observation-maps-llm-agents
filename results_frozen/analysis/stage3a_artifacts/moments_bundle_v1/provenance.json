@@ -1,0 +1,23 @@
+{
+  "bundle_version": "stage3b-moments-v1",
+  "representation": "moments_m1_m3",
+  "production_model": "kernel_hurdle",
+  "n_training_rows_moments": 2736,
+  "n_rows_by_source": {
+    "transmutation": 360,
+    "stimulus_manifold": 432,
+    "antipodal_weight": 576,
+    "sparse_peer": 1296,
+    "stage3a_pilot": 72
+  },
+  "gates_from_stage3b_decision": {
+    "risk_spearman_gt_0.2": true,
+    "risk_monotone_ok": true,
+    "moments_direction_ok": true,
+    "beats_global": true,
+    "Q_risk_closed_lt_0.35": true
+  },
+  "moments_risk_spearman": 0.48428337291883694,
+  "moments_closed_loop_mean_Q_risk_N9_N17": 0.05555555555555556,
+  "reload_smoke_max_abs_delta": 0.0
+}

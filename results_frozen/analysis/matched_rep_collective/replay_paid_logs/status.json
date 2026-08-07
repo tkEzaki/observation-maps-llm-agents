@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "pid": null,
+  "run_dir": "runs\\matched_rep_collective_replay\\matched-rep-collective-3x3-replay-v0.1_1e976b79b71d\\20260724T114515Z",
+  "n_trace_rows": 4608,
+  "n_valid": 4608,
+  "valid_rate": 1.0,
+  "n_rescued": 0,
+  "n_unrecoverable": 0,
+  "actual_cost_usd_session": 1.873224,
+  "elapsed_seconds": 185.61698469996918,
+  "primary_report": "primary_3x3_report.json",
+  "paid_authorized": true
+}

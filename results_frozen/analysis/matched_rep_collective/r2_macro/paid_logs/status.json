@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "pid": 63996,
+  "session": "<PROJECT_ROOT>\\runs\\stage_c\\r2_claude_macro\\matched-rep-collective-r2-claude-v0.1_ff2ef27f0dfe\\20260725T050234Z",
+  "log": "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\r2_macro\\paid_logs\\r2_claude_resume_20260725T084825Z.log",
+  "err_log": "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\r2_macro\\paid_logs\\r2_claude_resume_20260725T084825Z.err.log",
+  "started_utc": "2026-07-25T08:48:25.330501+00:00",
+  "resumed": true,
+  "concurrency": 20,
+  "expected_calls": 132600,
+  "backend": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "note": "bat/python resume after API limit raise; cross-PC launch"
+}

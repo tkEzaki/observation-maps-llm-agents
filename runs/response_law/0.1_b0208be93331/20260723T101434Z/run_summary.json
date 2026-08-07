@@ -1,0 +1,16 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\response_law\\0.1_b0208be93331\\20260723T101434Z",
+  "n_records": 4800,
+  "n_valid": 4800,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 2899200,
+  "actual_output_tokens": 65740,
+  "actual_cost_usd": 2.47023,
+  "criteria": {
+    "valid_rate_sufficient": true,
+    "sampling_per_condition_sufficient": true,
+    "phase_dependence_detected": true,
+    "mirrored_offsets_sufficient": true,
+    "all_stage_b_data_criteria_pass": true
+  }
+}

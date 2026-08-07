@@ -1,0 +1,15 @@
+{
+  "inference_unit": "48_physical_fields",
+  "layers": [
+    "target_representation_effect",
+    "source_field_effect",
+    "source_x_target_interaction"
+  ],
+  "primary_metrics": [
+    "d_TV",
+    "delta_a0",
+    "delta_A"
+  ],
+  "blocks": "optional_16x2_acquisition_blocks_same_total_calls",
+  "mechanistic_readout_table": "docs/MATCHED_REP_COLLECTIVE_REPLAY_ANALYSIS_PLAN.md"
+}

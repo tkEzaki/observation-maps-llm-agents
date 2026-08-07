@@ -1,0 +1,79 @@
+{
+  "source": "<PROJECT_ROOT>\\analysis\\complex_kernel_stimulus_manifold",
+  "polar_gate_historical": {
+    "metric": "minimum_pairwise_C1_chordal",
+    "threshold": 0.25,
+    "status": "frozen_preregistered_do_not_rewrite_v0_1"
+  },
+  "full_operator_gate_proposed": {
+    "primary_rule": "between_min_TV / within_mean_TV > 2",
+    "companion": "bootstrap \u0394 distribution excludes 0 (when available)",
+    "absolute_tv_0_20": {
+      "status": "descriptive_only_not_frozen",
+      "note": "Absolute 0.20 is scale-dependent; prefer between/within ratio calibrated on this manifold."
+    },
+    "calibration_rows": [
+      {
+        "profile": "unimodal_k9",
+        "within_tv_mean": 0.11111111111111112,
+        "between_tv_min": 0.42013888888888884,
+        "between_tv_mean": 0.447145061728395,
+        "between_min_over_within_mean": 3.781249999999999,
+        "passes_ratio_gt_2": 1,
+        "classification": "weak_polar_full_operator_separated",
+        "minimum_pair_c1_chordal": 0.12403640067171179
+      },
+      {
+        "profile": "bimodal_equal_sep2_k6",
+        "within_tv_mean": 0.10493827160493828,
+        "between_tv_min": 0.2569444444444444,
+        "between_tv_mean": 0.31057098765432095,
+        "between_min_over_within_mean": 2.4485294117647056,
+        "passes_ratio_gt_2": 1,
+        "classification": "polar_and_full_operator_separated",
+        "minimum_pair_c1_chordal": 0.45069308137597497
+      },
+      {
+        "profile": "antipodal_equal_k6",
+        "within_tv_mean": 0.11342592592592593,
+        "between_tv_min": 0.3194444444444444,
+        "between_tv_mean": 0.40239197530864196,
+        "between_min_over_within_mean": 2.8163265306122445,
+        "passes_ratio_gt_2": 1,
+        "classification": "symmetry_selective_polar_channel_collapse",
+        "minimum_pair_c1_chordal": 0.07004520180575197
+      },
+      {
+        "profile": "asymmetric_w075_sep2_k6",
+        "within_tv_mean": 0.10185185185185185,
+        "between_tv_min": 0.31481481481481477,
+        "between_tv_mean": 0.3194444444444444,
+        "between_min_over_within_mean": 3.090909090909091,
+        "passes_ratio_gt_2": 1,
+        "classification": "polar_and_full_operator_separated",
+        "minimum_pair_c1_chordal": 0.316783290678907
+      },
+      {
+        "profile": "sparse_N8_unimodal_k6",
+        "within_tv_mean": 0.10725308641975308,
+        "between_tv_min": 0.3692129629629629,
+        "between_tv_mean": 0.4895833333333333,
+        "between_min_over_within_mean": 3.4424460431654675,
+        "passes_ratio_gt_2": 1,
+        "classification": "polar_and_full_operator_separated",
+        "minimum_pair_c1_chordal": 0.837615073524024
+      },
+      {
+        "profile": "sparse_N16_antipodal_k6",
+        "within_tv_mean": 0.12268518518518517,
+        "between_tv_min": 0.34143518518518523,
+        "between_tv_mean": 0.48996913580246915,
+        "between_min_over_within_mean": 2.783018867924529,
+        "passes_ratio_gt_2": 1,
+        "classification": "symmetry_selective_polar_channel_collapse",
+        "minimum_pair_c1_chordal": 0.04813674754706373
+      }
+    ]
+  },
+  "atlas_note": "a0 and activity are field-dependent: a0=a0(R, rho). Unimodal interval+/center- signs do not globalize."
+}

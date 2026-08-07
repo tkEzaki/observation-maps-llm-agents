@@ -1,0 +1,13 @@
+{
+  "experiment_family": "matched_representation_collective_r2",
+  "protocol_version": "matched-rep-collective-r2-claude-v0.1",
+  "paid_authorized": true,
+  "mock_smoke_authorized": true,
+  "estimate_only_reviewed": true,
+  "human_review_complete": true,
+  "cost_ceiling_usd": 175.0,
+  "explicit_user_go": true,
+  "explicit_user_go_note": "User instructed execution (実行して) on 2026-07-25 after estimate-only base $82.26 / ceiling $175.",
+  "authorized_utc": "20260725T050200Z",
+  "notes": "Paid authorized by explicit user GO after protocol freeze + estimate-only."
+}

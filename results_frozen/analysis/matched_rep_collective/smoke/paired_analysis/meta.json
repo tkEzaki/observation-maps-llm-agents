@@ -1,0 +1,27 @@
+{
+  "n_sessions": 3,
+  "n_long_rows": 3,
+  "n_contrasts": 2,
+  "sessions": [
+    {
+      "session": "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-moments-smoke_3888acbe7b13\\20260724T062245Z",
+      "representation": "moments_m1_m3",
+      "protocol_version": "matched-rep-collective-v0.1-moments-smoke",
+      "n_runs": 1
+    },
+    {
+      "session": "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-centers-smoke_7b1f2ca7e509\\20260724T062246Z",
+      "representation": "centers_24_standard",
+      "protocol_version": "matched-rep-collective-v0.1-centers-smoke",
+      "n_runs": 1
+    },
+    {
+      "session": "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-intervals-smoke_0c44f5cce61a\\20260724T062246Z",
+      "representation": "intervals_24_decimal6",
+      "protocol_version": "matched-rep-collective-v0.1-intervals-smoke",
+      "n_runs": 1
+    }
+  ],
+  "reference_representation": "moments_m1_m3",
+  "surrogate_free": true
+}

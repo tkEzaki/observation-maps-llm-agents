@@ -1,0 +1,28 @@
+{
+  "experiment_family": "matched_representation_collective",
+  "match_group": "matched_rep_collective_v0_1",
+  "paid_authorized": true,
+  "mock_smoke_authorized": true,
+  "freeze_ready": false,
+  "stage_c_surrogate_authorized": false,
+  "further_surrogate_engineering": false,
+  "human_review": "docs/MATCHED_REP_COLLECTIVE_HUMAN_REVIEW.md",
+  "hypothesis": "docs/MATCHED_REP_COLLECTIVE_HYPOTHESIS.md",
+  "cost_card": "docs/MATCHED_REP_COLLECTIVE_COST_CARD.md",
+  "replay_lock": "docs/MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md",
+  "authorization": {
+    "authorized_by": "user",
+    "authorized_utc": "2026-07-24T06:26:00Z",
+    "instruction": "次の実験を行ってください。コスト見積もりを表示した後に実行で。",
+    "model": "gpt-5.4-mini",
+    "estimated_base_usd": 58.7826,
+    "estimated_retry_ceiling_usd": 176.3478,
+    "cost_ceiling_usd": 180.0,
+    "total_expected_calls": 122400
+  },
+  "notes": [
+    "Paid GO recorded 2026-07-24 after cost estimate display.",
+    "Histogram surrogate paths remain closed."
+  ],
+  "updated": "2026-07-24"
+}

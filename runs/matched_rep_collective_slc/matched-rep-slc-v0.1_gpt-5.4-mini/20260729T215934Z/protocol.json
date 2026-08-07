@@ -1,0 +1,62 @@
+{
+  "protocol_name": "matched_rep_collective_slc_v0_1",
+  "protocol_version": "matched-rep-slc-v0.1",
+  "experiment_family": "matched_representation_serialization_length_control",
+  "purpose": "Separate prompt length from retained information by re-serializing each content class in a standard and a compact form, with no filler text and no change of numeric precision.",
+  "status": "prespecified_paid_hold",
+  "fields_file": "analysis/matched_rep_collective/replay_fields_v0_1.json",
+  "parent_freeze": "analysis/matched_rep_collective/replay_hash_freeze_v0_1.json",
+  "control_variants": [
+    "moments_standard",
+    "moments_compact",
+    "centers_standard",
+    "centers_compact"
+  ],
+  "content_class": {
+    "moments_standard": "moments3",
+    "moments_compact": "moments3",
+    "centers_standard": "histogram24",
+    "centers_compact": "histogram24"
+  },
+  "serialization_form": {
+    "moments_standard": "standard",
+    "moments_compact": "compact",
+    "centers_standard": "standard",
+    "centers_compact": "compact"
+  },
+  "prompt_chars_on_frozen_panel": {
+    "moments_compact": 752,
+    "moments_standard": 789,
+    "centers_compact": 971,
+    "centers_standard": 1429
+  },
+  "moment_order_fixed_at": 3,
+  "moment_order_rationale": "Binned moments are a discrete Fourier transform of the 24 bin masses, so harmonics 1 to 12 invert the histogram exactly (max reconstruction error 1.4e-15 on this panel). Raising the order would change the retained information, which this control holds fixed; the order-12 limit is the centers arm in another notation and is already an arm of the primary design.",
+  "n_fields": 48,
+  "responses_per_condition": 16,
+  "n_blocks": 2,
+  "responses_per_block": 8,
+  "expected_calls": 3072,
+  "seed_prefix": "mrc-slc-v0.1",
+  "model": "gpt-5.4-mini",
+  "backend": "openai",
+  "prompt_version": "response-law-v0.1",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "cost_ceiling_usd": 8.0,
+  "input_price_per_million": 0.75,
+  "output_price_per_million": 4.5,
+  "primary_contrast": "delta_content_minus_length",
+  "primary_contrast_definition": "Delta = mean_field TV(centers_compact, moments_standard) - mean_field TV(centers_compact, centers_standard). The first pair differs in content and by 182 prompt characters; the second pair is information-identical and differs by 458 prompt characters. Delta > 0 favours content over length.",
+  "primary_test": "field_blocked_permutation_of_variant_labels_within_field, 5000 resamples, one sided, alpha 0.05",
+  "secondary_contrasts": [
+    "TV(moments_standard, moments_compact) as a layout-only reference within the moments content class",
+    "rank correlation of the six pairwise TVs with content mismatch versus with absolute prompt-length difference",
+    "within-variant between-block TV as the noise floor"
+  ],
+  "offline_audit": "analysis/matched_rep_collective/verify_slc_information_equivalence.py",
+  "offline_audit_artifact": "analysis/matched_rep_collective/slc_information_audit.json",
+  "auth_go_sidecar": "analysis/matched_rep_collective/slc_auth_go.json",
+  "scope_note": "This is a serialization control on the frozen 48-field replay panel. It does not re-run the collective experiments and makes no claim about closed-loop outcomes."
+}

@@ -1,0 +1,84 @@
+{
+  "protocol": {
+    "protocol_name": "stage_b_representation_invariance_topup",
+    "protocol_version": "representation-topup-v0.1",
+    "prompt_version": "response-law-v0.1",
+    "offset_grid_size": 36,
+    "offset_indices": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      31,
+      32,
+      34,
+      35
+    ],
+    "concentration_profiles": {
+      "broad_kappa_2": 2.0,
+      "narrow_kappa_12": 12.0
+    },
+    "representations": [
+      "centers_24_standard",
+      "centers_24_half_shift",
+      "intervals_12",
+      "intervals_48",
+      "intervals_24_decimal4",
+      "counts_100",
+      "moments_m1_m3"
+    ],
+    "repetitions_per_condition": 40,
+    "base_seed": 2026092301,
+    "bootstrap_samples": 5000,
+    "primary_endpoints": [
+      "a_sin_1_broad_kappa_2",
+      "a_sin_1_narrow_kappa_12",
+      "a_sin_2_broad_kappa_2",
+      "a_sin_2_narrow_kappa_12"
+    ],
+    "qualitative_switching_rule": {
+      "minimum_broad_a1": 0.2,
+      "maximum_abs_narrow_a1": 0.2,
+      "minimum_broad_a2": 0.0,
+      "minimum_narrow_minus_broad_a2": 0.1,
+      "minimum_bootstrap_probability": 0.95
+    }
+  },
+  "protocol_sha256": "827c00e5594fe98c98dcad96692ed331d9486389679aeb6b8d16572ff31ad892",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "base_url": null,
+  "env_file": "<HOME>\\Dropbox\\research_current\\gen_ai_logi\\rq1\\.env",
+  "concurrency": 20,
+  "cost_estimate": {
+    "planned_calls": 13440,
+    "max_attempts_per_call": 3,
+    "input_token_estimation_method": "ceil(characters / 2.5) + 16",
+    "estimated_input_tokens": 7979520,
+    "maximum_output_tokens": 268800,
+    "input_price_per_million": 0.75,
+    "output_price_per_million": 4.5,
+    "estimated_base_cost_usd": 7.19424,
+    "maximum_retry_cost_usd": 21.58272
+  },
+  "created_utc": "2026-07-23T11:01:18.252949+00:00"
+}

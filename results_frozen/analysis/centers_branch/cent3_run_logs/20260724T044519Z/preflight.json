@@ -1,0 +1,9 @@
+{
+  "total_retry_ceiling_usd": 1.773,
+  "limit_usd": 1.773,
+  "max_output_tokens": 16,
+  "blocks": [
+    "<PROJECT_ROOT>\\experiments\\stage_b_response_law\\protocol_centers_cent3_v0_block_1.json",
+    "<PROJECT_ROOT>\\experiments\\stage_b_response_law\\protocol_centers_cent3_v0_block_2.json"
+  ]
+}

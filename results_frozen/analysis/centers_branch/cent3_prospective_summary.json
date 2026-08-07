@@ -1,0 +1,69 @@
+{
+  "status": "prospective_eval_before_refit",
+  "representation": "centers_24_standard",
+  "n_fields": 36,
+  "run_dirs": [
+    "<PROJECT_ROOT>\\runs\\centers_cent3\\centers-cent3-v0-block_1_f2f1e876cdaa\\20260724T044520Z",
+    "<PROJECT_ROOT>\\runs\\centers_cent3\\centers-cent3-v0-block_2_e010ad983960\\20260724T044604Z"
+  ],
+  "actual_cost_usd_total": 0.6217079999999999,
+  "valid_rates": [
+    0.9444444444444444,
+    0.9288194444444444
+  ],
+  "risk": {
+    "spearman_R_pre_vs_e_tv": 0.28751608751608754,
+    "enrichment": {
+      "n_top_bottom": 7.0,
+      "mean_e_tv_low_R": 0.36631502835822743,
+      "mean_e_tv_high_R": 0.5013656783296473,
+      "enrichment_ratio": 1.3686735173730051
+    },
+    "bin_calibration": [
+      {
+        "mean_R": 0.274601873002323,
+        "mean_error": 0.296993274702009,
+        "n": 9
+      },
+      {
+        "mean_R": 0.3068535515134564,
+        "mean_error": 0.4960452601424488,
+        "n": 9
+      },
+      {
+        "mean_R": 0.3271550867397653,
+        "mean_error": 0.656191273979203,
+        "n": 9
+      },
+      {
+        "mean_R": 0.36164579560998494,
+        "mean_error": 0.4735835582622805,
+        "n": 9
+      }
+    ],
+    "monotone_ok": true
+  },
+  "errors": {
+    "mean_e_tv": 0.48070334177148527,
+    "mean_activity_abs_err": 0.16109863924408216,
+    "mean_a0_abs_err": 0.7188030290492775,
+    "mean_stay_abs_err": 0.16109863924408216,
+    "mean_block_tv": 0.1105889757130068
+  },
+  "phenotype_controls": {
+    "exact_antipodal_stay_obs": 0.23809523809523808,
+    "small_imbalance_stay_obs": 0.14814814814814814,
+    "unimodal_a0_obs": 0.0,
+    "sign_reversed_a0_obs": 0.0,
+    "note": "centers exact-balance stay not expected near 1.0"
+  },
+  "gates": {
+    "risk_spearman_positive": true,
+    "high_risk_enrichment_gt_1_0": true,
+    "risk_bin_monotone_or_spearman_gt_0_15": true,
+    "min_valid_per_field_ge_12": false,
+    "polarity_sign_flip_on_controls": false
+  },
+  "recommend_proceed_toward_freeze": false,
+  "note": "Prospective only \u2014 no refit. Full centers_bundle_v1 freeze still requires CENT-4 eight-gate checklist."
+}

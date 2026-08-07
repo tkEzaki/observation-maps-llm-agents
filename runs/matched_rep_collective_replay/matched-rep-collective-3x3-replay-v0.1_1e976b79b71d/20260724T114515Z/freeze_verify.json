@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "checks": {
+    "fields_file_sha": true,
+    "physical_aggregate": true,
+    "n_fields_48": true,
+    "unique_physical_48": true,
+    "moments_prompt_agg": true,
+    "centers_prompt_agg": true,
+    "intervals_prompt_agg": true,
+    "protocol_sha": true,
+    "n_target_prompts_144": true
+  }
+}

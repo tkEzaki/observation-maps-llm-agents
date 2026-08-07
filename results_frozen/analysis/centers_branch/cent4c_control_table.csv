@@ -1,0 +1,7 @@
+field_id,role,peer_count,kappa_nominal,derived_from_catalog,bin_origin,focal_offset,n_bins,field_normalization,n_nonzero_bins,bin_sparsity,n_valid,p_stay_obs,a0_obs,A_obs,serialized_24bin_sha16,prompt_sha16
+cent_ctrl_unimodal_positive_polar,centers_unimodal_positive_polar,16,0.0,cent_tmp_peer16_unimodal_k9,-3.141592653589793,0.0,24,fractions_sum_to_1_integerized_to_peer,6,0.25,32,1.0,0.0,0.0,53d82e6dbc9a3c5c,d63e457da3e7f3ce
+cent_ctrl_unimodal_sign_reversed,centers_sign_reversed_anchor,16,0.0,cent_tmp_peer16_unimodal_k9,-3.141592653589793,0.0,24,fractions_sum_to_1_integerized_to_peer,6,0.25,32,1.0,0.0,0.0,742dc26ff513a7cd,579e523b50c6b404
+cent_ctrl_exact_antipodal,exact_antipodal,16,0.0,sparse_peer16_antipodal_8_8_r00_k6,-3.141592653589793,0.0,24,fractions_sum_to_1_integerized_to_peer,10,0.4166666666666667,21,0.23809523809523808,-0.09523809523809523,0.7619047619047619,cc015d1df94c72c8,55edc839d1595680
+cent_ctrl_small_imbalance,small_imbalance,16,0.0,sparse_peer16_antipodal_9_7_r00_k6,-3.141592653589793,0.0,24,fractions_sum_to_1_integerized_to_peer,6,0.25,27,0.14814814814814814,0.7037037037037037,0.8518518518518519,5cb7837438516c35,f81d87c22c56d6f5
+cent_ctrl_sparse_unimodal,sparse_unimodal,8,0.0,sparse_N8_unimodal_k6,-3.141592653589793,0.0,24,fractions_sum_to_1_integerized_to_peer,6,0.25,32,1.0,0.0,0.0,d624c36d9a110928,e5edb40abd4e99ed
+cent_ctrl_sparse_antipodal,sparse_antipodal,16,0.0,sparse_N16_antipodal_k6,-3.141592653589793,0.0,24,fractions_sum_to_1_integerized_to_peer,12,0.5,8,1.0,0.0,0.0,ccb3dfb299f281a4,9bf59f83b05b875f

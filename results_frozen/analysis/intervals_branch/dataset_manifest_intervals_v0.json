@@ -1,0 +1,58 @@
+{
+  "version": "intervals-int0-v0",
+  "representation": "intervals_24_decimal6",
+  "n_rows_total": 2736,
+  "peer_counts_total": {
+    "240": 1224,
+    "8": 82,
+    "16": 1430
+  },
+  "mean_p_stay": 0.12388827972709551,
+  "mean_activity": 0.8761117202729044,
+  "mean_abs_a0": 0.45186098927875246,
+  "collective": {
+    "label": "collective",
+    "n_rows": 1512,
+    "peer_counts": {
+      "8": 82,
+      "16": 1430
+    },
+    "source_counts": {
+      "stimulus_manifold": 144,
+      "sparse_peer": 1296,
+      "stage3a_pilot": 72
+    },
+    "arrays_sha256": "c37dbc4e3f37058cbf5484127dee3521913aab01d60b0c18b6ead4bab3b4b55b",
+    "intended_use": "Stage C collective surrogate (N in {9,17})"
+  },
+  "dense_exploratory": {
+    "label": "dense",
+    "n_rows": 1224,
+    "peer_counts": {
+      "240": 1224
+    },
+    "source_counts": {
+      "transmutation": 360,
+      "stimulus_manifold": 288,
+      "antipodal_weight": 576
+    },
+    "arrays_sha256": "77310b19c552cb83f032a96c04c3f5e6b1624073f47e332bc5545a5bb6e2c525",
+    "intended_use": "Dense peer=240 exploratory only; not collective freeze"
+  },
+  "n_unique_physical_hash": 1272,
+  "n_unique_prompt_hash": 1272,
+  "arrays_sha256": "648e3fff11a3885bb4737ba6c764c1df2ea9ce779ffb22c6d8cf3ff0b4311a7c",
+  "scope_policy": {
+    "collective_peers": [
+      8,
+      16
+    ],
+    "dense_peer": 240,
+    "optional_narrow": "intervals_collective_bundle_v1_N17 peer=16",
+    "no_cyclic_shift_augmentation": true,
+    "baseline": "peer_specific_global"
+  },
+  "paid_authorized": false,
+  "freeze_ready": false,
+  "manifest_sha256": "0f011fbdd945d40c1fb86baf90ea28dc0a817753f367d46a5704832d236c75d1"
+}

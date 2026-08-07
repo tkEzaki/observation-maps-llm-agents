@@ -1,0 +1,328 @@
+{
+  "first_run": "runs\\response_law\\0.1_b0208be93331\\20260723T101434Z",
+  "replication_run": "runs\\response_law\\0.1-rep1_9e7d68b5e354\\20260723T102637Z",
+  "profiles": {
+    "broad_kappa_2": {
+      "curve_correlation": 0.9489237586927376,
+      "rmse": 0.183166590840142,
+      "mean_absolute_difference": 0.13583333333333333,
+      "directional_agreement_for_abs_g_at_least_0_2": 1.0,
+      "informative_offset_count": 30,
+      "fourier_first": {
+        "a0": 0.0275,
+        "a_sin_1": 0.5425486191295164,
+        "b_cos_1": 0.03279053990030615,
+        "a_sin_2": 0.09118868210974103,
+        "b_cos_2": -0.00823136795280067,
+        "a_sin_3": -0.07341843747848352,
+        "b_cos_3": -0.07651845921748862,
+        "a_sin_4": 0.12411055616447171,
+        "b_cos_4": -0.1203685719504995,
+        "a_sin_5": 0.18808391596377463,
+        "b_cos_5": 0.08100197874723586,
+        "a_sin_6": 0.0041840127334762485,
+        "b_cos_6": 0.012472492842507094
+      },
+      "fourier_replication": {
+        "a0": 0.008333333333333325,
+        "a_sin_1": 0.600334057848023,
+        "b_cos_1": 0.0755426962300306,
+        "a_sin_2": 0.13675224541403044,
+        "b_cos_2": 0.009932978893497387,
+        "a_sin_3": -0.07130376026435206,
+        "b_cos_3": -0.09657149562954172,
+        "a_sin_4": 0.15773287909556974,
+        "b_cos_4": -0.07115223825181645,
+        "a_sin_5": 0.1456458360919222,
+        "b_cos_5": -0.01763238579490765,
+        "a_sin_6": 0.0031658248943529552,
+        "b_cos_6": -0.007475468957064589
+      },
+      "pooled_n_per_condition": 100,
+      "pooled_fourier": {
+        "a0": 0.017916666666666668,
+        "a_sin_1": 0.5714413384887697,
+        "b_cos_1": 0.05416661806516838,
+        "a_sin_2": 0.11397046376188573,
+        "b_cos_2": 0.0008508054703483351,
+        "a_sin_3": -0.0723610988714178,
+        "b_cos_3": -0.08654497742351519,
+        "a_sin_4": 0.1409217176300207,
+        "b_cos_4": -0.09576040510115798,
+        "a_sin_5": 0.1668648760278484,
+        "b_cos_5": 0.03168479647616409,
+        "a_sin_6": 0.003674918813914597,
+        "b_cos_6": 0.0024985119427212363
+      },
+      "pooled_structure": {
+        "correlation_with_sin_delta": 0.7525158243030603,
+        "mean_absolute_adjacent_change": 0.3466666666666667,
+        "maximum_adjacent_change": 1.27,
+        "odd_rms": 0.4763249066201206,
+        "even_rms": 0.2485164313816426
+      },
+      "fourier_bootstrap_difference": {
+        "n_bootstrap": 2000,
+        "intervals": [
+          {
+            "coefficient": "a0",
+            "difference_replication_minus_first": -0.01916666666666668,
+            "ci95_low": -0.06458333333333333,
+            "ci95_high": 0.024166666666666652,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_1",
+            "difference_replication_minus_first": 0.05737755725244825,
+            "ci95_low": -0.003440584539027777,
+            "ci95_high": 0.11846522633901574,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_1",
+            "difference_replication_minus_first": 0.04354464755108673,
+            "ci95_low": -0.01814752418136393,
+            "ci95_high": 0.10423241358430559,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_2",
+            "difference_replication_minus_first": 0.04441027795377717,
+            "ci95_low": -0.024084402606299654,
+            "ci95_high": 0.11243895695609776,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_2",
+            "difference_replication_minus_first": 0.0179391925627223,
+            "ci95_low": -0.038037950953522304,
+            "ci95_high": 0.07373417689030395,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_3",
+            "difference_replication_minus_first": 0.0033337024074946917,
+            "ci95_low": -0.05797021324468147,
+            "ci95_high": 0.0631616898008894,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_3",
+            "difference_replication_minus_first": -0.01998080140195465,
+            "ci95_low": -0.08397645507972845,
+            "ci95_high": 0.04198400647232707,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_4",
+            "difference_replication_minus_first": 0.03272114317029975,
+            "ci95_low": -0.028433642661221524,
+            "ci95_high": 0.10025842221968913,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_4",
+            "difference_replication_minus_first": 0.04870004521421189,
+            "ci95_low": -0.013507998576159282,
+            "ci95_high": 0.10628404395960121,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_5",
+            "difference_replication_minus_first": -0.04150037751609582,
+            "ci95_low": -0.10805155050441564,
+            "ci95_high": 0.02033811744916411,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_5",
+            "difference_replication_minus_first": -0.0991539015119437,
+            "ci95_low": -0.16005701532989863,
+            "ci95_high": -0.03784712700816256,
+            "compatible_with_zero_difference": false
+          },
+          {
+            "coefficient": "a_sin_6",
+            "difference_replication_minus_first": 0.00020220057259943101,
+            "ci95_low": -0.06421379337085913,
+            "ci95_high": 0.05903590811046826,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_6",
+            "difference_replication_minus_first": -0.020696052856136307,
+            "ci95_low": -0.0835894352753919,
+            "ci95_high": 0.04218671147995506,
+            "compatible_with_zero_difference": true
+          }
+        ],
+        "compatible_count": 12,
+        "coefficient_count": 13
+      },
+      "curve_correlation_gate_at_least_0_8": true
+    },
+    "narrow_kappa_12": {
+      "curve_correlation": 0.8991805304481658,
+      "rmse": 0.2027313493271329,
+      "mean_absolute_difference": 0.15916666666666668,
+      "directional_agreement_for_abs_g_at_least_0_2": 1.0,
+      "informative_offset_count": 27,
+      "fourier_first": {
+        "a0": 0.016666666666666666,
+        "a_sin_1": -0.06835800936069521,
+        "b_cos_1": -0.10272249861433828,
+        "a_sin_2": 0.31401329656310445,
+        "b_cos_2": 0.08195556933332519,
+        "a_sin_3": -0.09212936890981267,
+        "b_cos_3": -0.17663706087993503,
+        "a_sin_4": -0.0034091955468261623,
+        "b_cos_4": -0.02961324865405209,
+        "a_sin_5": 0.1086131402697998,
+        "b_cos_5": 0.06016826630470284,
+        "a_sin_6": -0.030425956073577624,
+        "b_cos_6": 0.06382446481257915
+      },
+      "fourier_replication": {
+        "a0": 0.007499999999999993,
+        "a_sin_1": -0.008684562203923704,
+        "b_cos_1": -0.039080031822168175,
+        "a_sin_2": 0.34951202954916466,
+        "b_cos_2": 0.12764357752612285,
+        "a_sin_3": -0.08746949259185488,
+        "b_cos_3": -0.201642269179616,
+        "a_sin_4": 0.027108953007266068,
+        "b_cos_4": -0.05587713240271488,
+        "a_sin_5": 0.11591615912227225,
+        "b_cos_5": 0.048033628348809566,
+        "a_sin_6": -0.11313113276073383,
+        "b_cos_6": 0.056198833483343695
+      },
+      "pooled_n_per_condition": 100,
+      "pooled_fourier": {
+        "a0": 0.012083333333333343,
+        "a_sin_1": -0.038521285782309435,
+        "b_cos_1": -0.07090126521825323,
+        "a_sin_2": 0.33176266305613455,
+        "b_cos_2": 0.10479957342972403,
+        "a_sin_3": -0.08979943075083378,
+        "b_cos_3": -0.1891396650297755,
+        "a_sin_4": 0.011849878730219967,
+        "b_cos_4": -0.04274519052838349,
+        "a_sin_5": 0.112264649696036,
+        "b_cos_5": 0.05410094732675619,
+        "a_sin_6": -0.07177854441715575,
+        "b_cos_6": 0.06001164914796144
+      },
+      "pooled_structure": {
+        "correlation_with_sin_delta": -0.06266388504995188,
+        "mean_absolute_adjacent_change": 0.4266666666666666,
+        "maximum_adjacent_change": 1.46,
+        "odd_rms": 0.3606807799148716,
+        "even_rms": 0.24290130025725815
+      },
+      "fourier_bootstrap_difference": {
+        "n_bootstrap": 2000,
+        "intervals": [
+          {
+            "coefficient": "a0",
+            "difference_replication_minus_first": -0.008750000000000006,
+            "ci95_low": -0.054604166666666676,
+            "ci95_high": 0.03835416666666657,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_1",
+            "difference_replication_minus_first": 0.06079984555340541,
+            "ci95_low": -0.009918435817222664,
+            "ci95_high": 0.12615595973489035,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_1",
+            "difference_replication_minus_first": 0.06399517120473913,
+            "ci95_low": 0.005018494991329413,
+            "ci95_high": 0.12199596900229508,
+            "compatible_with_zero_difference": false
+          },
+          {
+            "coefficient": "a_sin_2",
+            "difference_replication_minus_first": 0.03388071828462938,
+            "ci95_low": -0.03172130534113427,
+            "ci95_high": 0.10057136483742923,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_2",
+            "difference_replication_minus_first": 0.0460998632101131,
+            "ci95_low": -0.01864112578455901,
+            "ci95_high": 0.10488100878142417,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_3",
+            "difference_replication_minus_first": 0.004602997525305734,
+            "ci95_low": -0.06096271620023564,
+            "ci95_high": 0.07521449504847681,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_3",
+            "difference_replication_minus_first": -0.026211570132215492,
+            "ci95_low": -0.08679662950082624,
+            "ci95_high": 0.03398898495926964,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_4",
+            "difference_replication_minus_first": 0.02963300036534965,
+            "ci95_low": -0.03763120170165259,
+            "ci95_high": 0.09519296614034398,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_4",
+            "difference_replication_minus_first": -0.026881941874331378,
+            "ci95_low": -0.08869544666976487,
+            "ci95_high": 0.03446815934856704,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_5",
+            "difference_replication_minus_first": 0.0065557216643740285,
+            "ci95_low": -0.05872291262838798,
+            "ci95_high": 0.06996053260048378,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "b_cos_5",
+            "difference_replication_minus_first": -0.012086594894238358,
+            "ci95_low": -0.07551826037899473,
+            "ci95_high": 0.050935042011027304,
+            "compatible_with_zero_difference": true
+          },
+          {
+            "coefficient": "a_sin_6",
+            "difference_replication_minus_first": -0.0824733645262795,
+            "ci95_low": -0.14657718689986898,
+            "ci95_high": -0.018814124097492873,
+            "compatible_with_zero_difference": false
+          },
+          {
+            "coefficient": "b_cos_6",
+            "difference_replication_minus_first": -0.00730647246080534,
+            "ci95_low": -0.0720296243537906,
+            "ci95_high": 0.05918040219225076,
+            "compatible_with_zero_difference": true
+          }
+        ],
+        "compatible_count": 11,
+        "coefficient_count": 13
+      },
+      "curve_correlation_gate_at_least_0_8": true
+    }
+  },
+  "primary_replication_gate": {
+    "rule": "curve correlation >= 0.8 for every profile",
+    "passed": true
+  }
+}

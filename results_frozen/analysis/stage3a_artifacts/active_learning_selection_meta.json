@@ -1,0 +1,15 @@
+{
+  "n_select": 36,
+  "frac_ood_combined": 1.0,
+  "frac_ood_peer": 0.0,
+  "frac_ood_canonical": 1.0,
+  "frac_near_zero_band": 0.0,
+  "bank_frac_near_zero_peer_matched": 0.0,
+  "peer_count_histogram": {
+    "8": 11,
+    "16": 25
+  },
+  "recommended_pilot_calls_low": 1152,
+  "recommended_pilot_calls_high": 2304,
+  "near_zero_topup_priority": "not_first_priority"
+}

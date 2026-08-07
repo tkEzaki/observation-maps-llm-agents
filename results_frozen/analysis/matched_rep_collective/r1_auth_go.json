@@ -1,0 +1,19 @@
+{
+  "experiment": "matched_rep_collective_r1_cross_model",
+  "paid_authorized": true,
+  "scientific_go": true,
+  "authorized_by": "user",
+  "authorized_at": "2026-07-24T21:04:00+09:00",
+  "authorization_text": "モデルファミリーの実験を実行して",
+  "authorized_families": ["claude", "gemini"],
+  "protocol": "experiments/stage_c/protocol_matched_rep_collective_r1_v0_1.json",
+  "parent_replay_results": "docs/MATCHED_REP_COLLECTIVE_REPLAY_RESULTS.md",
+  "n_response": 16,
+  "calls_per_model": 2304,
+  "notes": [
+    "Reuse frozen 48-field panel; change LLM family only.",
+    "Primary gate: target operator effect replication (not source/interaction).",
+    "n=16 frozen after offline downsample (n=8/12 already detect; 16 for CI stability)."
+  ],
+  "updated": "2026-07-24"
+}

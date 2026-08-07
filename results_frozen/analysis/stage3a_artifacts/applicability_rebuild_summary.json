@@ -1,0 +1,434 @@
+{
+  "intervals_24_decimal6": {
+    "n_oof": 9864,
+    "spearman": 0.35895701924364254,
+    "monotone_ok": true,
+    "bin_calibration": [
+      {
+        "mean_R": 0.20842606386145585,
+        "mean_error": 0.1965816501265313,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.2533000224243849,
+        "mean_error": 0.24578896651052345,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.27145057256414706,
+        "mean_error": 0.27058178937383276,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.2896667978377856,
+        "mean_error": 0.3034857699362832,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3180347691217259,
+        "mean_error": 0.33299404294381846,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3383801699305803,
+        "mean_error": 0.3339906185700076,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.36325174190241205,
+        "mean_error": 0.3749687574715802,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.4008610100298637,
+        "mean_error": 0.3849795527397778,
+        "n": 1233
+      }
+    ],
+    "risk_threshold": 0.36019948370176635,
+    "rediagnosis": [
+      {
+        "representation": "intervals_24_decimal6",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "t0_only",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.32916922769633233,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 10.259855469479987
+      },
+      {
+        "representation": "intervals_24_decimal6",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "k0_drift",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.22962962962962966,
+        "mean_Q_risk": 0.22962962962962966,
+        "mean_R": 0.342274578783485,
+        "final_q_high_risk": 0.4444444444444444,
+        "final_mean_d_shape": 9.446793625424153
+      },
+      {
+        "representation": "intervals_24_decimal6",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "closed_loop",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.38518518518518524,
+        "mean_Q_risk": 0.38518518518518524,
+        "mean_R": 0.3544033333542934,
+        "final_q_high_risk": 0.4444444444444444,
+        "final_mean_d_shape": 9.364422874664653
+      },
+      {
+        "representation": "intervals_24_decimal6",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "t0_only",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.058823529411764705,
+        "mean_Q_risk": 0.058823529411764705,
+        "mean_R": 0.3378690813637144,
+        "final_q_high_risk": 0.058823529411764705,
+        "final_mean_d_shape": 4.421914600273416
+      },
+      {
+        "representation": "intervals_24_decimal6",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "k0_drift",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.37647058823529417,
+        "mean_Q_risk": 0.37647058823529417,
+        "mean_R": 0.35539133194103767,
+        "final_q_high_risk": 0.058823529411764705,
+        "final_mean_d_shape": 4.220375858370004
+      },
+      {
+        "representation": "intervals_24_decimal6",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "closed_loop",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.14901960784313725,
+        "mean_Q_risk": 0.14901960784313725,
+        "mean_R": 0.3396446171890169,
+        "final_q_high_risk": 0.11764705882352941,
+        "final_mean_d_shape": 6.995526537245308
+      }
+    ],
+    "calibrator_path": "<PROJECT_ROOT>\\analysis\\stage3a_artifacts\\risk_calibrator_intervals_24_decimal6.json",
+    "train_peers": [
+      8,
+      16,
+      240
+    ]
+  },
+  "moments_m1_m3": {
+    "n_oof": 9864,
+    "spearman": 0.48444621130939847,
+    "monotone_ok": true,
+    "bin_calibration": [
+      {
+        "mean_R": 0.1793234262471517,
+        "mean_error": 0.2183144720607604,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.2458655676654745,
+        "mean_error": 0.24588792452566596,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.30044180560904665,
+        "mean_error": 0.29927739784065654,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3371648076852595,
+        "mean_error": 0.30351200890755237,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.37073354580883355,
+        "mean_error": 0.3537751593305047,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.4178108146941595,
+        "mean_error": 0.3967954180163755,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.46182268961218287,
+        "mean_error": 0.42258158396480255,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.5358581134003721,
+        "mean_error": 0.6088768060761662,
+        "n": 1233
+      }
+    ],
+    "risk_threshold": 0.45679665394930175,
+    "rediagnosis": [
+      {
+        "representation": "moments_m1_m3",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "t0_only",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.24513858838444136,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 10.259855469479987
+      },
+      {
+        "representation": "moments_m1_m3",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "k0_drift",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.24742827323119715,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 9.446793625424153
+      },
+      {
+        "representation": "moments_m1_m3",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "closed_loop",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.029629629629629627,
+        "mean_Q_risk": 0.029629629629629627,
+        "mean_R": 0.26890304323270436,
+        "final_q_high_risk": 0.1111111111111111,
+        "final_mean_d_shape": 9.364422874664653
+      },
+      {
+        "representation": "moments_m1_m3",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "t0_only",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.33722810058979247,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 4.421914600273416
+      },
+      {
+        "representation": "moments_m1_m3",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "k0_drift",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.00392156862745098,
+        "mean_Q_risk": 0.00392156862745098,
+        "mean_R": 0.3360337523124276,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 4.220375858370004
+      },
+      {
+        "representation": "moments_m1_m3",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "closed_loop",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.2632072118416955,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 6.995526537245308
+      }
+    ],
+    "calibrator_path": "<PROJECT_ROOT>\\analysis\\stage3a_artifacts\\risk_calibrator_moments_m1_m3.json",
+    "train_peers": [
+      8,
+      16,
+      240
+    ]
+  },
+  "centers_24_standard": {
+    "n_oof": 9864,
+    "spearman": 0.40356302574442776,
+    "monotone_ok": true,
+    "bin_calibration": [
+      {
+        "mean_R": 0.2137910716994899,
+        "mean_error": 0.2065858740750437,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.27070794382194696,
+        "mean_error": 0.2434392669307357,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3061865746186552,
+        "mean_error": 0.3092347671826481,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3361747440968648,
+        "mean_error": 0.35921560075348213,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3647022277790735,
+        "mean_error": 0.3630870922970995,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.3848190209876467,
+        "mean_error": 0.4172526503429984,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.4050833490599274,
+        "mean_error": 0.42149230223868706,
+        "n": 1233
+      },
+      {
+        "mean_R": 0.44932946141682617,
+        "mean_error": 0.41048683965974103,
+        "n": 1233
+      }
+    ],
+    "risk_threshold": 0.4012954639626269,
+    "rediagnosis": [
+      {
+        "representation": "centers_24_standard",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "t0_only",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.3339097259870549,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 10.259855469479987
+      },
+      {
+        "representation": "centers_24_standard",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "k0_drift",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.014814814814814814,
+        "mean_Q_risk": 0.014814814814814814,
+        "mean_R": 0.3486018106750501,
+        "final_q_high_risk": 0.2222222222222222,
+        "final_mean_d_shape": 9.446793625424153
+      },
+      {
+        "representation": "centers_24_standard",
+        "n_agents": 9,
+        "peer_count": 8,
+        "regime": "closed_loop",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.07407407407407406,
+        "mean_Q_risk": 0.07407407407407406,
+        "mean_R": 0.36276283451861324,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 9.364422874664653
+      },
+      {
+        "representation": "centers_24_standard",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "t0_only",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.0,
+        "mean_Q_risk": 0.0,
+        "mean_R": 0.3576321966988703,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 4.421914600273416
+      },
+      {
+        "representation": "centers_24_standard",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "k0_drift",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.18431372549019603,
+        "mean_Q_risk": 0.18431372549019603,
+        "mean_R": 0.38161291992978535,
+        "final_q_high_risk": 0.0,
+        "final_mean_d_shape": 4.220375858370004
+      },
+      {
+        "representation": "centers_24_standard",
+        "n_agents": 17,
+        "peer_count": 16,
+        "regime": "closed_loop",
+        "mean_q_unsupported_peer": 0.0,
+        "mean_q_high_risk": 0.043137254901960784,
+        "mean_Q_risk": 0.043137254901960784,
+        "mean_R": 0.355691507011812,
+        "final_q_high_risk": 0.058823529411764705,
+        "final_mean_d_shape": 6.995526537245308
+      }
+    ],
+    "calibrator_path": "<PROJECT_ROOT>\\analysis\\stage3a_artifacts\\risk_calibrator_centers_24_standard.json",
+    "train_peers": [
+      8,
+      16,
+      240
+    ]
+  },
+  "selection_v2": {
+    "n_select": 36,
+    "jaccard_vs_v1": 0.0,
+    "n_overlap_vs_v1": 0,
+    "pilot_calls": 1728,
+    "bank_source_histogram": {
+      "A_init": 2016,
+      "B_k0_drift": 6048,
+      "C_virtual": 42336
+    },
+    "selected_source_histogram": {
+      "C_virtual": 22,
+      "B_k0_drift": 11,
+      "A_init": 3
+    },
+    "bank_dynamics_histogram": {
+      "none": 2016,
+      "k0": 6048,
+      "polar_kernel": 6048,
+      "second_harmonic_kernel": 6048,
+      "negative_odd_kernel": 6048,
+      "soft_polar": 6048,
+      "kernel_nn": 6048,
+      "hurdle_multinomial": 6048,
+      "softmax_stump_boost": 6048
+    },
+    "selected_dynamics_histogram": {
+      "softmax_stump_boost": 8,
+      "negative_odd_kernel": 4,
+      "second_harmonic_kernel": 7,
+      "hurdle_multinomial": 1,
+      "kernel_nn": 1,
+      "k0": 11,
+      "none": 3,
+      "polar_kernel": 1
+    },
+    "peer_count_histogram": {
+      "16": 32,
+      "8": 4
+    },
+    "allocation": {
+      "high_occupancy_high_risk": 18,
+      "high_disagreement": 8,
+      "k0_drift": 6,
+      "maximin_boundary": 4
+    },
+    "note": "Physical fields to acquire once; all 3 encodings share the same fields."
+  }
+}

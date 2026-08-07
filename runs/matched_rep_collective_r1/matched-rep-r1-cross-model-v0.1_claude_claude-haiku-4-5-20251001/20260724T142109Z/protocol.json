@@ -1,0 +1,72 @@
+{
+  "protocol_name": "matched_rep_collective_r1_cross_model_v0_1",
+  "protocol_version": "matched-rep-r1-cross-model-v0.1",
+  "experiment_family": "matched_representation_collective_r1",
+  "purpose": "Second-model-family micro replication of target operator effect on the frozen 48-field replay panel.",
+  "status": "preregistered",
+  "fields_file": "analysis/matched_rep_collective/replay_fields_v0_1.json",
+  "parent_replay_freeze": "analysis/matched_rep_collective/replay_hash_freeze_v0_1.json",
+  "parent_replay_results": "docs/MATCHED_REP_COLLECTIVE_REPLAY_RESULTS.md",
+  "n_fields": 48,
+  "target_representations": [
+    "moments_m1_m3",
+    "centers_24_standard",
+    "intervals_24_decimal6"
+  ],
+  "seed_prefix": "mrc-r1-v0.1",
+  "responses_per_condition": 16,
+  "n_blocks": 2,
+  "responses_per_block": 8,
+  "expected_calls": 2304,
+  "expected_field_target_conditions": 144,
+  "peer_count": 16,
+  "n_bins": 24,
+  "offset_radians": 0.0,
+  "prompt_version": "response-law-v0.1",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency": 12,
+  "retain_raw_on_invalid": true,
+  "invalid_rescue_rule": "deterministic_identical_across_all_144_conditions",
+  "downsample_basis": "analysis/matched_rep_collective/r1_downsample/downsample_report.json",
+  "n_response_choice": {
+    "selected": 16,
+    "rationale": "Offline GPT subsample: n=8 already yields detection_rate=1.0 and noise ratio>2; freeze n=16 (8x2 blocks) for CI stability per preregistered R1 design."
+  },
+  "models": {
+    "claude": {
+      "backend": "anthropic",
+      "model": "claude-haiku-4-5-20251001",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 5.0,
+      "cost_ceiling_usd": 8.0
+    },
+    "gemini": {
+      "backend": "google",
+      "model": "gemini-3.5-flash",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 2.5,
+      "cost_ceiling_usd": 4.0
+    }
+  },
+  "primary_hypothesis": "H0: p(f|rho,R) identical across moments/centers/intervals; field-blocked target-label permutation on mean pairwise TV.",
+  "replication_pass_gates": [
+    "global_target_effect_p_lt_0.05",
+    "between_target_TV_exceeds_within_block_TV",
+    "bootstrap_CI_of_between_minus_within_entirely_positive",
+    "at_least_2_of_3_pairs_exceed_noise_floor",
+    "invalid_rate_acceptable_not_rep_skewed"
+  ],
+  "non_requirements": [
+    "exact_TV_ranking_M-I_gt_M-C_gt_C-I",
+    "source_main_effect_replication",
+    "source_x_target_interaction_replication"
+  ],
+  "auth_go_sidecar": "analysis/matched_rep_collective/r1_auth_go.json",
+  "docs": {
+    "protocol": "docs/MATCHED_REP_COLLECTIVE_R1_PROTOCOL.md",
+    "cost_card": "docs/MATCHED_REP_COLLECTIVE_R1_COST_CARD.md",
+    "human_review": "docs/MATCHED_REP_COLLECTIVE_R1_HUMAN_REVIEW.md"
+  }
+}

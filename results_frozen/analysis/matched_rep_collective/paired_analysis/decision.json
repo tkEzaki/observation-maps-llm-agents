@@ -1,0 +1,25 @@
+{
+  "status": "matched_rep_collective_v0_1_analyzed_v0_2",
+  "outcome": "A",
+  "analysis_revision": "v0.2_outcome_A_review",
+  "primary_evidence": {
+    "locking_exact_sign_p_per_positive_K": 0.03125,
+    "moments_lock_frac_K_pos": 1.0,
+    "centers_lock_frac_K_pos": 0.0,
+    "intervals_lock_frac_K_pos": 0.0,
+    "K0_order_parameter_identity": true,
+    "Q2_hierarchy_K_0_15": {
+      "moments": -0.013,
+      "centers": -0.110,
+      "intervals": 0.213
+    }
+  },
+  "phenotype_labels": [
+    "polar_locked",
+    "partial_polar_order",
+    "high_r2_nonpolar",
+    "low_polar_active"
+  ],
+  "docs": "docs/MATCHED_REP_COLLECTIVE_RESULTS.md",
+  "next": "3x3_replay_scientific_GO_paid_pending_review"
+}

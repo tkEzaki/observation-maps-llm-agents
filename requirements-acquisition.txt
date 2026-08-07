@@ -1,0 +1,6 @@
+# Only needed to place new paid model calls.  Reproducing every number and
+# figure in the paper from the frozen artefacts requires none of these.
+openai>=1.40
+anthropic>=0.34
+google-genai>=0.3
+python-dotenv>=1.0

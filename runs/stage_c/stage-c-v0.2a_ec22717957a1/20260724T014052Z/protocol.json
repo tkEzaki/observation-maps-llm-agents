@@ -1,0 +1,84 @@
+{
+  "protocol_name": "stage_c_v0_2a_transition_validation",
+  "protocol_version": "stage-c-v0.2a",
+  "purpose": "prospective test that replay-informed moments_bundle_v2 improves activity / sync speed / response magnitude vs frozen v1; not a re-run of binary locking only",
+  "status": "paid_go_authorized",
+  "representation": "moments_m1_m3",
+  "bundle_root": "analysis/stage3a_artifacts/moments_bundle_v2",
+  "bundle_root_prediction": "analysis/stage3a_artifacts/moments_bundle_v2",
+  "bundle_root_comparator": "analysis/stage3a_artifacts/moments_bundle_v1",
+  "comparison": {
+    "models": [
+      "v1_frozen",
+      "v2_frozen",
+      "llm_collective"
+    ],
+    "prediction_model": "v2",
+    "v1_role": "archived_prospective_baseline_comparator"
+  },
+  "n_agents": [
+    17
+  ],
+  "peer_counts": [
+    16
+  ],
+  "n_steps": 100,
+  "n_bins": 24,
+  "couplings": [
+    0.08,
+    0.1,
+    0.12,
+    0.15
+  ],
+  "omega_halfwidth": 0.05,
+  "omega_spacing": "equally_spaced_symmetric",
+  "n_seeds": 4,
+  "base_seed": 2026072418,
+  "seed_strategy": "hash_v1_new_seeds_not_reused_from_v0_1",
+  "init_kind": "uniform",
+  "prompt_version": "response-law-v0.1",
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency_within_timestep": 20,
+  "primary_endpoints": [
+    "r1_T",
+    "time_averaged_r1",
+    "t_r1_gt_0.5",
+    "t_r1_gt_0.9",
+    "mean_activity",
+    "mean_tau_social",
+    "predictive_interval_coverage"
+  ],
+  "secondary_endpoints": [
+    "r2",
+    "r3",
+    "omega_coll",
+    "locking_fraction",
+    "teacher_forced_one_step_stay_direction",
+    "trajectory_risk"
+  ],
+  "design_rationale": {
+    "K_grid": "pre/at/post shared K_cross\u22480.10 plus post-transition 0.15; unmeasured in v0.1",
+    "N_primary": 17,
+    "deferred_to_v0_2b": [
+      "N=9",
+      "K=-0.15",
+      "extra_seeds"
+    ],
+    "avoid_overfit": "new K in {0.08,0.10,0.12}, T>40 fields, new init seeds"
+  },
+  "criteria": {
+    "minimum_valid_rate": 0.95,
+    "record_risk_and_peer_gates": true,
+    "compare_to_v1_and_v2_surrogate": true,
+    "activity_is_primary": true
+  },
+  "expected_calls": 27200,
+  "cost_ceiling_usd_estimate": 12.0,
+  "paid_gates": {
+    "v2_checklist_all_pass": true,
+    "rich_dense_compare_reviewed": true,
+    "estimate_only_reviewed": true,
+    "explicit_yes": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\response_law_representation\\stage3a-pilot-v1-block_2_9dac536b42c2\\20260723T234204Z",
+  "n_records": 864,
+  "n_valid": 864,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 380448,
+  "actual_output_tokens": 14438,
+  "actual_cost_usd": 0.350307,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 34.42143030000443,
+  "summed_task_elapsed_seconds": 581.6117832002928,
+  "effective_parallelism": 16.896793019092467,
+  "calls_per_second": 25.100642026484554,
+  "seed_block_id": "block_2"
+}

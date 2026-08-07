@@ -1,0 +1,9 @@
+representation,phenotype,count
+centers_24_standard,high_r2_nonpolar,1
+centers_24_standard,low_polar_active,12
+centers_24_standard,partial_polar_order,11
+intervals_24_decimal6,high_r2_nonpolar,7
+intervals_24_decimal6,low_polar_active,13
+intervals_24_decimal6,partial_polar_order,4
+moments_m1_m3,low_polar_active,12
+moments_m1_m3,polar_locked,12

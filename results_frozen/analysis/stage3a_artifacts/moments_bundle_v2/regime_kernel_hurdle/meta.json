@@ -1,0 +1,13 @@
+{
+  "name": "regime_kernel_hurdle",
+  "stay_feature_indices": [
+    2,
+    10,
+    13,
+    14
+  ],
+  "abs_z1_index": 2,
+  "antipodal_balance_index": 10,
+  "balance_min": 0.95,
+  "abs_z1_max": 0.12
+}

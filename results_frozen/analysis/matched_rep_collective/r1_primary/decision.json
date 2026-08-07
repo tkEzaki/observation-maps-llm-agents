@@ -1,0 +1,452 @@
+{
+  "status": "R1_CROSS_MODEL_PRIMARY_V0_1",
+  "n_response_r1": 16,
+  "families": {
+    "gpt": {
+      "family": "gpt",
+      "run_dir": "runs/matched_rep_collective_replay/matched-rep-collective-3x3-replay-v0.1_1e976b79b71d/20260724T114515Z",
+      "model": null,
+      "acquisition": {
+        "n_trace": 4608,
+        "n_valid": 4608,
+        "valid_rate": 1.0,
+        "actual_cost_usd_session": 1.873224,
+        "invalid_audit": {
+          "n": 4608,
+          "n_valid": 4608,
+          "valid_rate": 1.0,
+          "invalid_rate_by_target": {
+            "moments_m1_m3": 0.0,
+            "centers_24_standard": 0.0,
+            "intervals_24_decimal6": 0.0
+          },
+          "max_target_invalid_rate": 0.0,
+          "skew_ok": true,
+          "overall_ok": true
+        }
+      },
+      "primary_target": {
+        "p": 0.0001999600079984003,
+        "mean_pairwise_TV": 0.3444010416666667,
+        "pairwise_bootstrap": {
+          "moments_m1_m3__vs__centers_24_standard": {
+            "mean": 0.3352864583333333,
+            "ci95": [
+              0.2513020833333333,
+              0.4231770833333333
+            ],
+            "n_fields": 48
+          },
+          "moments_m1_m3__vs__intervals_24_decimal6": {
+            "mean": 0.4075520833333333,
+            "ci95": [
+              0.3229166666666667,
+              0.490234375
+            ],
+            "n_fields": 48
+          },
+          "centers_24_standard__vs__intervals_24_decimal6": {
+            "mean": 0.2903645833333333,
+            "ci95": [
+              0.220703125,
+              0.36328125
+            ],
+            "n_fields": 48
+          }
+        },
+        "noise_floor": {
+          "mean_between_target_TV": 0.3444010416666667,
+          "mean_within_target_block_TV": 0.0915798611111111,
+          "ratio": 3.760663507109005,
+          "between_boot": {
+            "mean": 0.3444010416666667,
+            "ci95": [
+              0.2975260416666667,
+              0.39214952256944435
+            ],
+            "n_fields": 144
+          },
+          "within_boot": {
+            "mean": 0.0915798611111111,
+            "ci95": [
+              0.0763888888888889,
+              0.10850694444444445
+            ],
+            "n_fields": 144
+          }
+        },
+        "noise_floor_paired_test": {
+          "observed_mean_between_minus_within": 0.2528211805555556,
+          "p_one_sided": 0.0001999600079984003,
+          "n_fields": 48
+        },
+        "deviance_p": 0.0001999600079984003
+      },
+      "secondary_source_p": 0.07678464307138572,
+      "secondary_interaction_p": 0.06638672265546891,
+      "matrix_3x3_A": {
+        "moments_m1_m3": {
+          "moments_m1_m3": 0.970703125,
+          "centers_24_standard": 0.951171875,
+          "intervals_24_decimal6": 0.779296875
+        },
+        "centers_24_standard": {
+          "moments_m1_m3": 1.0,
+          "centers_24_standard": 0.9921875,
+          "intervals_24_decimal6": 0.947265625
+        },
+        "intervals_24_decimal6": {
+          "moments_m1_m3": 0.9375,
+          "centers_24_standard": 0.921875,
+          "intervals_24_decimal6": 0.888671875
+        }
+      },
+      "pair_noise_flags": {
+        "pairs": {
+          "moments_m1_m3__vs__centers_24_standard": {
+            "mean_TV": 0.3352864583333333,
+            "exceeds_within": true,
+            "ci95": [
+              0.2513020833333333,
+              0.4231770833333333
+            ]
+          },
+          "moments_m1_m3__vs__intervals_24_decimal6": {
+            "mean_TV": 0.4075520833333333,
+            "exceeds_within": true,
+            "ci95": [
+              0.3229166666666667,
+              0.490234375
+            ]
+          },
+          "centers_24_standard__vs__intervals_24_decimal6": {
+            "mean_TV": 0.2903645833333333,
+            "exceeds_within": true,
+            "ci95": [
+              0.220703125,
+              0.36328125
+            ]
+          }
+        },
+        "n_pairs_exceed_noise": 3
+      },
+      "replication_gates": {
+        "global_target_effect_p_lt_0.05": true,
+        "between_exceeds_within": true,
+        "between_minus_within_positive": true,
+        "at_least_2_of_3_pairs_exceed_noise": true,
+        "invalid_rate_ok": true
+      },
+      "replication_pass": true
+    },
+    "claude": {
+      "family": "claude",
+      "run_dir": "runs/matched_rep_collective_r1/matched-rep-r1-cross-model-v0.1_claude_claude-haiku-4-5-20251001/20260724T142109Z",
+      "model": "claude-haiku-4-5-20251001",
+      "acquisition": {
+        "n_trace": 2304,
+        "n_valid": 2304,
+        "valid_rate": 1.0,
+        "actual_cost_usd_session": 1.279318,
+        "invalid_audit": {
+          "n": 2304,
+          "n_valid": 2304,
+          "valid_rate": 1.0,
+          "invalid_rate_by_target": {
+            "moments_m1_m3": 0.0,
+            "centers_24_standard": 0.0,
+            "intervals_24_decimal6": 0.0
+          },
+          "max_target_invalid_rate": 0.0,
+          "skew_ok": true,
+          "overall_ok": true
+        }
+      },
+      "primary_target": {
+        "p": 0.0001999600079984003,
+        "mean_pairwise_TV": 0.3715277777777778,
+        "pairwise_bootstrap": {
+          "moments_m1_m3__vs__centers_24_standard": {
+            "mean": 0.3932291666666667,
+            "ci95": [
+              0.2669270833333333,
+              0.53515625
+            ],
+            "n_fields": 48
+          },
+          "moments_m1_m3__vs__intervals_24_decimal6": {
+            "mean": 0.4114583333333333,
+            "ci95": [
+              0.2799479166666667,
+              0.5442708333333334
+            ],
+            "n_fields": 48
+          },
+          "centers_24_standard__vs__intervals_24_decimal6": {
+            "mean": 0.3098958333333333,
+            "ci95": [
+              0.19010416666666666,
+              0.4388020833333333
+            ],
+            "n_fields": 48
+          }
+        },
+        "noise_floor": {
+          "mean_between_target_TV": 0.3715277777777778,
+          "mean_within_target_block_TV": 0.018229166666666668,
+          "ratio": 20.38095238095238,
+          "between_boot": {
+            "mean": 0.3715277777777778,
+            "ci95": [
+              0.2934027777777778,
+              0.44921875
+            ],
+            "n_fields": 144
+          },
+          "within_boot": {
+            "mean": 0.018229166666666668,
+            "ci95": [
+              0.008680555555555556,
+              0.028645833333333332
+            ],
+            "n_fields": 144
+          }
+        },
+        "noise_floor_paired_test": {
+          "observed_mean_between_minus_within": 0.3532986111111111,
+          "p_one_sided": 0.0001999600079984003,
+          "n_fields": 48
+        },
+        "deviance_p": 0.0001999600079984003
+      },
+      "secondary_source_p": 0.08998200359928014,
+      "secondary_interaction_p": 0.9870025994801039,
+      "matrix_3x3_A": {
+        "moments_m1_m3": {
+          "moments_m1_m3": 0.93359375,
+          "centers_24_standard": 0.87109375,
+          "intervals_24_decimal6": 0.71875
+        },
+        "centers_24_standard": {
+          "moments_m1_m3": 1.0,
+          "centers_24_standard": 0.9375,
+          "intervals_24_decimal6": 0.7578125
+        },
+        "intervals_24_decimal6": {
+          "moments_m1_m3": 0.99609375,
+          "centers_24_standard": 0.88671875,
+          "intervals_24_decimal6": 0.78125
+        }
+      },
+      "pair_noise_flags": {
+        "pairs": {
+          "moments_m1_m3__vs__centers_24_standard": {
+            "mean_TV": 0.3932291666666667,
+            "exceeds_within": true,
+            "ci95": [
+              0.2669270833333333,
+              0.53515625
+            ]
+          },
+          "moments_m1_m3__vs__intervals_24_decimal6": {
+            "mean_TV": 0.4114583333333333,
+            "exceeds_within": true,
+            "ci95": [
+              0.2799479166666667,
+              0.5442708333333334
+            ]
+          },
+          "centers_24_standard__vs__intervals_24_decimal6": {
+            "mean_TV": 0.3098958333333333,
+            "exceeds_within": true,
+            "ci95": [
+              0.19010416666666666,
+              0.4388020833333333
+            ]
+          }
+        },
+        "n_pairs_exceed_noise": 3
+      },
+      "replication_gates": {
+        "global_target_effect_p_lt_0.05": true,
+        "between_exceeds_within": true,
+        "between_minus_within_positive": true,
+        "at_least_2_of_3_pairs_exceed_noise": true,
+        "invalid_rate_ok": true
+      },
+      "replication_pass": true
+    },
+    "gemini": {
+      "family": "gemini",
+      "run_dir": "runs/matched_rep_collective_r1/matched-rep-r1-cross-model-v0.1_gemini_gemini-3.5-flash/20260724T142109Z",
+      "model": "gemini-3.5-flash",
+      "acquisition": {
+        "n_trace": 2304,
+        "n_valid": 2281,
+        "valid_rate": 0.9900173611111112,
+        "actual_cost_usd_session": 0.5207973,
+        "invalid_audit": {
+          "n": 2304,
+          "n_valid": 2281,
+          "valid_rate": 0.9900173611111112,
+          "invalid_rate_by_target": {
+            "moments_m1_m3": 0.016927083333333332,
+            "centers_24_standard": 0.006510416666666667,
+            "intervals_24_decimal6": 0.006510416666666667
+          },
+          "max_target_invalid_rate": 0.016927083333333332,
+          "skew_ok": true,
+          "overall_ok": true
+        }
+      },
+      "primary_target": {
+        "p": 0.0001999600079984003,
+        "mean_pairwise_TV": 0.16076388888888887,
+        "pairwise_bootstrap": {
+          "moments_m1_m3__vs__centers_24_standard": {
+            "mean": 0.15520833333333334,
+            "ci95": [
+              0.06510416666666667,
+              0.2622395833333333
+            ],
+            "n_fields": 48
+          },
+          "moments_m1_m3__vs__intervals_24_decimal6": {
+            "mean": 0.21336805555555557,
+            "ci95": [
+              0.1092013888888889,
+              0.3266536458333333
+            ],
+            "n_fields": 48
+          },
+          "centers_24_standard__vs__intervals_24_decimal6": {
+            "mean": 0.11371527777777779,
+            "ci95": [
+              0.04088541666666667,
+              0.20095703125
+            ],
+            "n_fields": 48
+          }
+        },
+        "noise_floor": {
+          "mean_between_target_TV": 0.16076388888888887,
+          "mean_within_target_block_TV": 0.0078125,
+          "ratio": 20.577777777777776,
+          "between_boot": {
+            "mean": 0.16076388888888887,
+            "ci95": [
+              0.10454210069444443,
+              0.22014250578703698
+            ],
+            "n_fields": 144
+          },
+          "within_boot": {
+            "mean": 0.0078125,
+            "ci95": [
+              0.0027281746031746035,
+              0.013764880952380952
+            ],
+            "n_fields": 144
+          }
+        },
+        "noise_floor_paired_test": {
+          "observed_mean_between_minus_within": 0.15295138888888887,
+          "p_one_sided": 0.0001999600079984003,
+          "n_fields": 48
+        },
+        "deviance_p": 0.0001999600079984003
+      },
+      "secondary_source_p": 0.4913017396520696,
+      "secondary_interaction_p": 1.0,
+      "matrix_3x3_A": {
+        "moments_m1_m3": {
+          "moments_m1_m3": 0.9375,
+          "centers_24_standard": 1.0,
+          "intervals_24_decimal6": 1.0
+        },
+        "centers_24_standard": {
+          "moments_m1_m3": 1.0,
+          "centers_24_standard": 1.0,
+          "intervals_24_decimal6": 1.0
+        },
+        "intervals_24_decimal6": {
+          "moments_m1_m3": 1.0,
+          "centers_24_standard": 1.0,
+          "intervals_24_decimal6": 1.0
+        }
+      },
+      "pair_noise_flags": {
+        "pairs": {
+          "moments_m1_m3__vs__centers_24_standard": {
+            "mean_TV": 0.15520833333333334,
+            "exceeds_within": true,
+            "ci95": [
+              0.06510416666666667,
+              0.2622395833333333
+            ]
+          },
+          "moments_m1_m3__vs__intervals_24_decimal6": {
+            "mean_TV": 0.21336805555555557,
+            "exceeds_within": true,
+            "ci95": [
+              0.1092013888888889,
+              0.3266536458333333
+            ]
+          },
+          "centers_24_standard__vs__intervals_24_decimal6": {
+            "mean_TV": 0.11371527777777779,
+            "exceeds_within": true,
+            "ci95": [
+              0.04088541666666667,
+              0.20095703125
+            ]
+          }
+        },
+        "n_pairs_exceed_noise": 3
+      },
+      "replication_gates": {
+        "global_target_effect_p_lt_0.05": true,
+        "between_exceeds_within": true,
+        "between_minus_within_positive": true,
+        "at_least_2_of_3_pairs_exceed_noise": true,
+        "invalid_rate_ok": true
+      },
+      "replication_pass": true
+    }
+  },
+  "cross_model_secondary": {
+    "gpt__vs__claude": {
+      "pearson_fieldwise_mean_TV": 0.2844282704362403
+    },
+    "gpt__vs__gemini": {
+      "pearson_fieldwise_mean_TV": 0.23990875894919353
+    },
+    "claude__vs__gemini": {
+      "pearson_fieldwise_mean_TV": 0.33003527048555714
+    }
+  },
+  "overall": {
+    "claude_pass": true,
+    "gemini_pass": true,
+    "both_second_families_pass": true,
+    "gpt_reference_operator_supported": true
+  },
+  "claim": "Observation representations causally select distinct collective phases in the matched GPT system. On identical physical fields, representation-dependent response operators generalize across three model families, and even information-preserving changes in presentation alter the operator.",
+  "claim_scope": {
+    "macro_phase_selection": "gpt_only",
+    "micro_operator_generality_cross_rep": "gpt_claude_gemini",
+    "serialization_sensitivity_same_info": "gpt_omap_control",
+    "macro_generality_across_families": "not_tested",
+    "length_alone_causality": "not_claimed",
+    "mediation": "not_claimed",
+    "source_feedback": "suggested_or_not_established"
+  },
+  "results_outline": "docs/NATCOMM_RESULTS_OUTLINE.md",
+  "explicit_non_claims": [
+    "collective_phases_replicated_across_three_families",
+    "macro_effect_from_serialization_alone",
+    "prompt_length_alone_caused_effect",
+    "operator_fully_mediates_macro",
+    "source_or_feedback_established"
+  ]
+}

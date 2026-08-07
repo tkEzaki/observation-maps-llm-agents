@@ -1,0 +1,12 @@
+{
+  "family": "sparse_peer_panel",
+  "protocol_name": "stage_b_sparse_peer_panel",
+  "n_profiles": 18,
+  "imbalances": [
+    "10_6",
+    "8_8",
+    "9_7"
+  ],
+  "n_realizations": 6,
+  "gate_note": "Stage-3 sparse training is supported when between/within ratios exceed ~2 for C1 or activity on the relevant imbalance."
+}

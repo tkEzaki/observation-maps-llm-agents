@@ -1,0 +1,24 @@
+{
+  "session_dir": "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-centers-smoke_7b1f2ca7e509\\20260724T062246Z",
+  "n_runs": 1,
+  "total_calls": 51,
+  "total_valid": 51,
+  "elapsed_seconds": 0.06528569996589795,
+  "runs": [
+    {
+      "run_id": "N17_K+0.08_s0",
+      "n_agents": 17,
+      "coupling": 0.08,
+      "seed_index": 0,
+      "init_seed": 2026089500,
+      "n_steps": 3,
+      "n_calls": 51,
+      "n_valid": 51,
+      "valid_rate": 1.0,
+      "actual_input_tokens": 18258,
+      "actual_output_tokens": 354,
+      "final_r": 0.28011244464333523,
+      "mean_r": 0.25618966123842585
+    }
+  ]
+}

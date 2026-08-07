@@ -1,0 +1,139 @@
+{
+  "status": "cent4a_missingness_audit",
+  "n_calls": 1152,
+  "n_invalid_strict": 73,
+  "invalid_class_counts": {
+    "raw_unavailable": 73
+  },
+  "semantic_format_fail_recoverable_now": 0,
+  "raw_text_recoverability": {
+    "cent3_traces": "none \u2014 all invalids have raw_response=null",
+    "evidence_of_nonzero_output": "all 73 invalids have output_tokens=48 (=3\u00d7max_output_tokens=16) and input_tokens=1536 (=3\u00d7512), so attempts reached the backend",
+    "pipeline_fix": "run_task now retains last_raw_response on failure for future runs",
+    "reparse_policy": "If raw text becomes available, apply classify_raw uniformly to all fields; keep strict counts alongside any relaxed counts; never hand-rescue a single control."
+  },
+  "correlations_field_level": {
+    "spearman_invalid_rate_vs_R_pre": 0.3464607464607465,
+    "spearman_invalid_rate_vs_bin_sparsity": 0.7562419562419562,
+    "spearman_invalid_rate_vs_p_stay_pre": 0.03346203346203346,
+    "spearman_invalid_rate_vs_peer_count": 0.28365508365508363,
+    "mean_invalid_rate_peer8": 0.042119565217391304,
+    "mean_invalid_rate_peer16": 0.10096153846153846
+  },
+  "sparse_antipodal_control": {
+    "n_valid_strict": 8,
+    "n_calls": 32,
+    "phenotype_gate_decidable": false,
+    "policy": "keep field; mark phenotype freeze gate undecidable if n_valid < 12"
+  },
+  "top_invalid_fields": [
+    {
+      "field_id": "cent_ctrl_sparse_antipodal",
+      "invalid_rate": 0.75,
+      "n_invalid": 24,
+      "n_calls": 32,
+      "R_pre": 0.36038532079436536,
+      "bin_sparsity": 0.5,
+      "peer_count": 16
+    },
+    {
+      "field_id": "cent_ctrl_exact_antipodal",
+      "invalid_rate": 0.34375,
+      "n_invalid": 11,
+      "n_calls": 32,
+      "R_pre": 0.3443438859433958,
+      "bin_sparsity": 0.4166666666666667,
+      "peer_count": 16
+    },
+    {
+      "field_id": "cent_al_f18_n9_p8",
+      "invalid_rate": 0.3125,
+      "n_invalid": 10,
+      "n_calls": 32,
+      "R_pre": 0.32899877846998926,
+      "bin_sparsity": 0.20833333333333334,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_al_f16_n9_p8",
+      "invalid_rate": 0.21875,
+      "n_invalid": 7,
+      "n_calls": 32,
+      "R_pre": 0.36543923276628754,
+      "bin_sparsity": 0.125,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_al_f28_n9_p8",
+      "invalid_rate": 0.15625,
+      "n_invalid": 5,
+      "n_calls": 32,
+      "R_pre": 0.38058434865125595,
+      "bin_sparsity": 0.3333333333333333,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_ctrl_small_imbalance",
+      "invalid_rate": 0.15625,
+      "n_invalid": 5,
+      "n_calls": 32,
+      "R_pre": 0.29635325832564613,
+      "bin_sparsity": 0.25,
+      "peer_count": 16
+    },
+    {
+      "field_id": "cent_al_f17_n9_p8",
+      "invalid_rate": 0.125,
+      "n_invalid": 4,
+      "n_calls": 32,
+      "R_pre": 0.338080081668029,
+      "bin_sparsity": 0.125,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_al_f19_n9_p8",
+      "invalid_rate": 0.0625,
+      "n_invalid": 2,
+      "n_calls": 32,
+      "R_pre": 0.3535448863838194,
+      "bin_sparsity": 0.20833333333333334,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_al_f10_n9_p8",
+      "invalid_rate": 0.03125,
+      "n_invalid": 1,
+      "n_calls": 32,
+      "R_pre": 0.25931426630721366,
+      "bin_sparsity": 0.125,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_al_f11_n17_p16",
+      "invalid_rate": 0.03125,
+      "n_invalid": 1,
+      "n_calls": 32,
+      "R_pre": 0.30515987998696625,
+      "bin_sparsity": 0.125,
+      "peer_count": 16
+    },
+    {
+      "field_id": "cent_al_f15_n9_p8",
+      "invalid_rate": 0.03125,
+      "n_invalid": 1,
+      "n_calls": 32,
+      "R_pre": 0.30009602903574656,
+      "bin_sparsity": 0.125,
+      "peer_count": 8
+    },
+    {
+      "field_id": "cent_al_f21_n9_p8",
+      "invalid_rate": 0.03125,
+      "n_invalid": 1,
+      "n_calls": 32,
+      "R_pre": 0.3355605415660828,
+      "bin_sparsity": 0.16666666666666666,
+      "peer_count": 8
+    }
+  ]
+}

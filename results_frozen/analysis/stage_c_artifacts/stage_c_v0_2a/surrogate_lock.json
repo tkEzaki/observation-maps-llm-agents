@@ -1,0 +1,9 @@
+{
+  "protocol_version": "stage-c-v0.2a",
+  "protocol_sha256": "ec22717957a1399d10b31d39ae0505c8dd826b0f4882e7aab33d76542ea25014",
+  "n_replicates": 8,
+  "locked_before_paid_llm": true,
+  "artifact": "analysis/stage_c_artifacts/stage_c_v0_2a/surrogate_predictions_locked.csv",
+  "v1_aggregate_sha256": "fd61cca5980440324c3d00bbb4ea925636439ce1df5a26b6a7d3198f8af4c240",
+  "v2_aggregate_sha256": "e798662e6e65c47a7de5a9ffa580493140af7f52e5bc612885a520bd2b9b4d84"
+}

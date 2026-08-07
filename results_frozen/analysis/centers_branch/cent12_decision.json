@@ -1,0 +1,130 @@
+{
+  "representation": "centers_24_standard",
+  "production_model": "activity_direction_hurdle",
+  "holdout_block": "block_2",
+  "holdout_metrics": {
+    "g_rmse": 0.46322602766726084,
+    "activity_rmse": 0.20518096262068528,
+    "mean_tv": 0.28546771387861275,
+    "mean_js": 0.1000726674767663,
+    "log_loss": 0.7139771874884571,
+    "brier": 0.17043801748712156
+  },
+  "acquisition_block_ranking": [
+    {
+      "model": "activity_direction_hurdle",
+      "g_rmse": 0.4647233098947805,
+      "activity_rmse": 0.20439252662219848,
+      "mean_tv": 0.28629132567833265,
+      "mean_js": 0.10053990643823618,
+      "log_loss": 0.7136411520324943,
+      "brier": 0.17065038816230926
+    },
+    {
+      "model": "kernel_nn_euclidean",
+      "g_rmse": 0.45830021829606205,
+      "activity_rmse": 0.22139202739824715,
+      "mean_tv": 0.29484100118596585,
+      "mean_js": 0.10528726562073099,
+      "log_loss": 0.7210814563746131,
+      "brier": 0.17854380805524073
+    },
+    {
+      "model": "hybrid_hellinger",
+      "g_rmse": 0.5047416762443303,
+      "activity_rmse": 0.24018778229166346,
+      "mean_tv": 0.3255039075831752,
+      "mean_js": 0.11894104278966411,
+      "log_loss": 0.7535023580519192,
+      "brier": 0.21392053826352458
+    },
+    {
+      "model": "softmax_stump_boost",
+      "g_rmse": 0.6023330820080552,
+      "activity_rmse": 0.2260584577752626,
+      "mean_tv": 0.35105187639675317,
+      "mean_js": 0.12727520511602064,
+      "log_loss": 0.8127707235870845,
+      "brier": 0.2580599456913569
+    },
+    {
+      "model": "global_empirical",
+      "g_rmse": 0.6431850495884943,
+      "activity_rmse": 0.2823930655227376,
+      "mean_tv": 0.40094728727763973,
+      "mean_js": 0.15709240829110346,
+      "log_loss": 0.9438111412592534,
+      "brier": 0.326465424036315
+    },
+    {
+      "model": "soft_regime_mixture",
+      "g_rmse": 0.488597917914388,
+      "activity_rmse": 0.42177333247745086,
+      "mean_tv": 0.31429533588556585,
+      "mean_js": 0.09802691624431775,
+      "log_loss": 3.6809937431186484,
+      "brier": 0.25113959315212725
+    }
+  ],
+  "phenotype_holdout": {
+    "exact_balance_mean_stay": 0.34261258657803834,
+    "small_imbalance_mean_stay": 0.23175873260663107,
+    "note": "centers are not expected to show moments-like near-total abstention"
+  },
+  "risk": {
+    "spearman": 0.3828766039794971,
+    "monotone_ok": true,
+    "enrichment_top20_vs_bottom20": 1.8387440961012624,
+    "n_oof_rows": 12744,
+    "bin_calibration": [
+      {
+        "mean_R": 0.22414544230770223,
+        "mean_error": 0.2090428099803274,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.27009435622380057,
+        "mean_error": 0.24945009466384618,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.305755662177488,
+        "mean_error": 0.30153331685723994,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.3361446946255567,
+        "mean_error": 0.3741953627186449,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.3669587531138602,
+        "mean_error": 0.3979673617389287,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.39148662371791443,
+        "mean_error": 0.40896469491354753,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.4104832793816831,
+        "mean_error": 0.4021768938868903,
+        "n": 1593
+      },
+      {
+        "mean_R": 0.4471400265528093,
+        "mean_error": 0.40887830334139924,
+        "n": 1593
+      }
+    ]
+  },
+  "offline_gates": {
+    "oof_risk_spearman_positive": true,
+    "risk_bin_monotone": true,
+    "high_risk_error_enrichment_gt_1_2": true,
+    "beats_global_on_holdout": true
+  },
+  "offline_gate_pass": true,
+  "next": "CENT-3 coverage-directed 36-field pilot selection + cost card"
+}

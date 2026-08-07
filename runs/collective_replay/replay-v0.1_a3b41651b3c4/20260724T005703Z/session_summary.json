@@ -1,0 +1,13 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\collective_replay\\replay-v0.1_a3b41651b3c4\\20260724T005703Z",
+  "n_planned": 1152,
+  "n_executed": 1152,
+  "n_valid": 1152,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 230400,
+  "actual_output_tokens": 21319,
+  "actual_cost_usd": 0.2687355,
+  "elapsed_seconds": 44.419531599996844,
+  "smoke_pass": true,
+  "v1_predictions_locked": "analysis/stage_c_artifacts/replay_panel_v1/v1_predictions_locked.json"
+}

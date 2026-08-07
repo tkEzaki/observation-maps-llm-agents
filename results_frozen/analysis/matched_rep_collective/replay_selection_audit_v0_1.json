@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "n_fields_eq_48": true,
+    "physical_hash_unique_48": true,
+    "source_balance_16_16_16": true,
+    "stratum_counts_principle_8": true,
+    "source_x_stratum_min1_where_possible": true,
+    "hand_edits": 0,
+    "surrogate_use": 0,
+    "outcome_A_dependent_reselection": 0
+  },
+  "pass": true,
+  "source_counts": {
+    "moments_m1_m3": 16,
+    "centers_24_standard": 16,
+    "intervals_24_decimal6": 16
+  },
+  "stratum_counts": {
+    "early_transient": 8,
+    "pre_onset": 8,
+    "post_onset": 8,
+    "ordered_state": 8,
+    "negative_K": 8,
+    "high_r2": 8
+  },
+  "source_x_stratum": {
+    "moments_m1_m3|early_transient": 3,
+    "moments_m1_m3|pre_onset": 3,
+    "moments_m1_m3|post_onset": 2,
+    "moments_m1_m3|ordered_state": 3,
+    "moments_m1_m3|negative_K": 3,
+    "moments_m1_m3|high_r2": 2,
+    "centers_24_standard|early_transient": 3,
+    "centers_24_standard|pre_onset": 2,
+    "centers_24_standard|post_onset": 3,
+    "centers_24_standard|ordered_state": 3,
+    "centers_24_standard|negative_K": 2,
+    "centers_24_standard|high_r2": 3,
+    "intervals_24_decimal6|early_transient": 2,
+    "intervals_24_decimal6|pre_onset": 3,
+    "intervals_24_decimal6|post_onset": 3,
+    "intervals_24_decimal6|ordered_state": 2,
+    "intervals_24_decimal6|negative_K": 3,
+    "intervals_24_decimal6|high_r2": 3
+  },
+  "n_fallbacks": 0,
+  "fallbacks": []
+}

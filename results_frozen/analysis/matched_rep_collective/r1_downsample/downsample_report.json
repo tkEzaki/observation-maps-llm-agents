@@ -1,0 +1,59 @@
+{
+  "status": "r1_downsample_v0_1",
+  "recommendation_n_response": 8,
+  "recommendation_blocks": "4x2",
+  "recommendation_calls_per_model": 1152,
+  "rows": [
+    {
+      "n_response": 8,
+      "n_calls": 1152,
+      "detection_rate_p05": 1.0,
+      "mean_noise_ratio": 2.228547317415369,
+      "mean_between_TV": 0.35881076388888894,
+      "mean_ci_width_pairwise_TV": 0.12469536675347219,
+      "n_monte": 80,
+      "n_perm": 400
+    },
+    {
+      "n_response": 12,
+      "n_calls": 1728,
+      "detection_rate_p05": 1.0,
+      "mean_noise_ratio": 2.594248413618699,
+      "mean_between_TV": 0.3549117476851852,
+      "mean_ci_width_pairwise_TV": 0.12206416377314813,
+      "n_monte": 80,
+      "n_perm": 400
+    },
+    {
+      "n_response": 16,
+      "n_calls": 2304,
+      "detection_rate_p05": 1.0,
+      "mean_noise_ratio": 2.881797215174254,
+      "mean_between_TV": 0.35214301215277777,
+      "mean_ci_width_pairwise_TV": 0.12014702690972219,
+      "n_monte": 80,
+      "n_perm": 400
+    },
+    {
+      "n_response": 24,
+      "n_calls": 3456,
+      "detection_rate_p05": 1.0,
+      "mean_noise_ratio": 3.3685620757283403,
+      "mean_between_TV": 0.3474826388888889,
+      "mean_ci_width_pairwise_TV": 0.11764187282986108,
+      "n_monte": 80,
+      "n_perm": 400
+    },
+    {
+      "n_response": 32,
+      "n_calls": 4608,
+      "detection_rate_p05": 1.0,
+      "mean_noise_ratio": 3.7606635071090055,
+      "mean_between_TV": 0.34440104166666663,
+      "mean_ci_width_pairwise_TV": 0.11816175672743053,
+      "n_monte": 80,
+      "n_perm": 400
+    }
+  ],
+  "note": "Offline GPT-replay subsample; choose smallest n with detection_rate>=0.95 and mean between/within TV ratio>=2."
+}

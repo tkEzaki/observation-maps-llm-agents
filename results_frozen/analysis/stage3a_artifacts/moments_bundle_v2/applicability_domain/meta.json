@@ -1,0 +1,9 @@
+{
+  "representation": "moments_m1_m3",
+  "is_histogram_native": false,
+  "train_peers": [
+    8,
+    16,
+    240
+  ]
+}

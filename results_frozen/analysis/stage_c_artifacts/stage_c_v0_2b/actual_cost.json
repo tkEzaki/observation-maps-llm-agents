@@ -1,0 +1,10 @@
+{
+  "total_calls": 28400,
+  "total_valid": 28400,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 5680000,
+  "actual_output_tokens": 526750,
+  "actual_cost_usd": 6.630375,
+  "elapsed_seconds": 3780.120976399994,
+  "estimate_base_usd": 12.0
+}

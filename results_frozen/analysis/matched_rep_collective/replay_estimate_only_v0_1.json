@@ -1,0 +1,15 @@
+{
+  "n_calls": 4608,
+  "n_unique_field_target_prompts": 144,
+  "responses_per_condition": 32,
+  "acquisition_blocks_preferred": "16x2",
+  "protocol": "experiments/stage_c/protocol_matched_rep_collective_replay_v0_1.json",
+  "estimate": {
+    "base_usd": 2.212992,
+    "retry_ceiling_usd": 6.6389759999999995,
+    "protocol_ceiling_usd": 12.0,
+    "under_ceiling": true,
+    "estimated_input_tokens": 2397696
+  },
+  "print": "Matched 3x3 replay pre-run cost estimate\n  planned calls: 4,608\n  estimated input tokens: 2,397,696\n  input estimate method: ceil(characters / 2.5) + 16\n  maximum output tokens: 92,160\n  prices per 1M tokens: input $0.7500, output $4.5000\n  estimated base cost: $2.2130\n  retry ceiling (3 attempts): $6.6390"
+}

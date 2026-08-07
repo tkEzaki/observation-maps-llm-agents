@@ -1,0 +1,506 @@
+[
+  {
+    "coupling": -0.15,
+    "contrast": "centers_24_standard__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.0,
+    "contrast": "centers_24_standard__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.08,
+    "contrast": "centers_24_standard__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 6,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 0,
+    "exact_sign_p_two_sided": 0.03125,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 1,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.15,
+    "contrast": "centers_24_standard__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 6,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 0,
+    "exact_sign_p_two_sided": 0.03125,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 1,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": -0.15,
+    "contrast": "intervals_24_decimal6__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.0,
+    "contrast": "intervals_24_decimal6__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.08,
+    "contrast": "intervals_24_decimal6__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 6,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 0,
+    "exact_sign_p_two_sided": 0.03125,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 1,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.15,
+    "contrast": "intervals_24_decimal6__minus__moments_m1_m3",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 6,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 0,
+    "exact_sign_p_two_sided": 0.03125,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 1,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 1,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": -0.15,
+    "contrast": "intervals_24_decimal6__minus__centers_24_standard",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.0,
+    "contrast": "intervals_24_decimal6__minus__centers_24_standard",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.08,
+    "contrast": "intervals_24_decimal6__minus__centers_24_standard",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  },
+  {
+    "coupling": 0.15,
+    "contrast": "intervals_24_decimal6__minus__centers_24_standard",
+    "n_seeds": 6,
+    "n_ref_lock_other_not": 0,
+    "n_other_lock_ref_not": 0,
+    "n_ties": 6,
+    "exact_sign_p_two_sided": 1.0,
+    "note": "For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125",
+    "per_seed": [
+      {
+        "seed_index": 0,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 1,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 2,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 3,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 4,
+        "lock_ref": 0,
+        "lock_other": 0
+      },
+      {
+        "seed_index": 5,
+        "lock_ref": 0,
+        "lock_other": 0
+      }
+    ]
+  }
+]

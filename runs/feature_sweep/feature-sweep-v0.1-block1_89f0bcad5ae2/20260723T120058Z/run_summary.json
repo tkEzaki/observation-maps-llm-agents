@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\feature_sweep\\feature-sweep-v0.1-block1_89f0bcad5ae2\\20260723T120058Z",
+  "n_records": 12960,
+  "n_valid": 12960,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 7763904,
+  "actual_output_tokens": 198685,
+  "actual_cost_usd": 6.7170105,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 467.1779740999991,
+  "summed_task_elapsed_seconds": 9258.082734999814,
+  "effective_parallelism": 19.81703600824753,
+  "calls_per_second": 27.74103386395079,
+  "seed_block_id": "feature_block_1"
+}

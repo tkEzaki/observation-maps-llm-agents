@@ -1,0 +1,18 @@
+{
+  "label": "dense_exploratory",
+  "n_rows": 1224,
+  "peer_counts": {
+    "240": 1224
+  },
+  "source_counts": {
+    "transmutation": 360,
+    "stimulus_manifold": 288,
+    "antipodal_weight": 576
+  },
+  "p_fail_coverage": {
+    "n_with_trace_fail_rate": 288,
+    "mean_p_fail_where_known": 0.0
+  },
+  "intended_use": "Dense peer=240 phenotype comparison only; not Stage C",
+  "arrays_sha256": "934b292b30500f5c7ee237fa8c7e113cb30032018327b7296fc770f9a43310be"
+}

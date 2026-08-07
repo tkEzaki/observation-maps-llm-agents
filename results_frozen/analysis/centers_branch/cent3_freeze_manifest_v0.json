@@ -1,0 +1,106 @@
+{
+  "status": "paid_complete_prospective_eval_done",
+  "paid_run_authorized": true,
+  "branch": "centers",
+  "version": "centers-cent3-pilot-v0",
+  "representation": "centers_24_standard",
+  "scientific_question": "Can center-bin encoding yield a predictable microscopic surrogate, and does it select different macroscopic dynamics from moments?",
+  "offline_gate_pass": true,
+  "production_model": "activity_direction_hurdle",
+  "dataset_manifest_sha256": "756ebc9153e569cb7fc6ced623cba9b8ff31b4ae90ac8d3ec672e3171b4f4e2a",
+  "risk_calibrator_sha256": "7fbe8986e274bad569cbd09f37fc84c34cfdc61b267954f4153117e1a24bb9f1",
+  "ad_sha256": "eafe10d09d6b5304932e42eb46475e741537af44062c5f1d363ed644ded4f9ea",
+  "cent12_decision_sha256": "67686ece9ca2122168e92e5c5b035715a6492d84f3e5b49744fe2baf5ebb1753",
+  "field_bank_sha256": "55b637834430bc570b34230da32cda5528fca4e1326733e0d3169b3179dce002",
+  "frozen_fields_sha256": "f48e4dc79c3acef5e1b2495df8c1f0b47151e854a807671892179ac1824b9467",
+  "stimulus_catalog_sha256": "4b1a21efd47d9498a1ec73ea11249d44a478b654088c6397287528a875439334",
+  "prospective_lock_sha256": "e087d24046722146d01b4a21b6cf28120b74327bb4911abc20090284a9d7fcd3",
+  "selected_field_ids": [
+    "cent_al_f00_n17_p16",
+    "cent_al_f01_n17_p16",
+    "cent_al_f02_n17_p16",
+    "cent_al_f03_n9_p8",
+    "cent_al_f04_n9_p8",
+    "cent_al_f05_n9_p8",
+    "cent_al_f06_n9_p8",
+    "cent_al_f07_n9_p8",
+    "cent_al_f08_n9_p8",
+    "cent_al_f09_n9_p8",
+    "cent_al_f10_n9_p8",
+    "cent_al_f11_n17_p16",
+    "cent_al_f12_n17_p16",
+    "cent_al_f13_n17_p16",
+    "cent_al_f14_n17_p16",
+    "cent_al_f15_n9_p8",
+    "cent_al_f16_n9_p8",
+    "cent_al_f17_n9_p8",
+    "cent_al_f18_n9_p8",
+    "cent_al_f19_n9_p8",
+    "cent_al_f20_n9_p8",
+    "cent_al_f21_n9_p8",
+    "cent_al_f22_n9_p8",
+    "cent_al_f23_n9_p8",
+    "cent_al_f24_n9_p8",
+    "cent_al_f25_n9_p8",
+    "cent_al_f26_n9_p8",
+    "cent_al_f27_n9_p8",
+    "cent_al_f28_n9_p8",
+    "cent_al_f29_n17_p16",
+    "cent_ctrl_unimodal_positive_polar",
+    "cent_ctrl_unimodal_sign_reversed",
+    "cent_ctrl_exact_antipodal",
+    "cent_ctrl_small_imbalance",
+    "cent_ctrl_sparse_unimodal",
+    "cent_ctrl_sparse_antipodal"
+  ],
+  "bucket_counts": {
+    "high_occupancy_high_risk": 16,
+    "model_disagreement": 8,
+    "k0_or_drift": 6,
+    "control": 6
+  },
+  "protocols": {
+    "block_1": {
+      "path": "experiments/stage_b_response_law/protocol_centers_cent3_v0_block_1.json",
+      "sha256": "18acb1019e7a6ee67d2a48c31eeec8ec8a3e961a8df6117da4f92381f252b172",
+      "expected_calls": 576
+    },
+    "block_2": {
+      "path": "experiments/stage_b_response_law/protocol_centers_cent3_v0_block_2.json",
+      "sha256": "a0972704dfcdbb045190be372f63b66954e9dc70f018e33e8796973152b1601f",
+      "expected_calls": 576
+    }
+  },
+  "expected_total_calls": 1152,
+  "cost_assumptions": {
+    "model": "gpt-5.4-mini",
+    "input_usd_per_m": 0.75,
+    "output_usd_per_m": 4.5,
+    "estimated_base_usd": 0.591,
+    "retry_ceiling_x3_usd": 1.773
+  },
+  "f20_repair": {
+    "note": "replaced loose match with bank_index 36470 exact family match",
+    "match_score": 0.0
+  },
+  "human_review": {
+    "reviewer": "author",
+    "date": "2026-07-24",
+    "decision": "Human review accepted",
+    "paid_authorization": "YES \u2014 CENT-3 pilot spend GO",
+    "authorized_at_utc": "2026-07-24T04:45:19.400043+00:00",
+    "scope": {
+      "representation": "centers_24_standard",
+      "n_fields": 36,
+      "responses_per_condition": 16,
+      "blocks": 2,
+      "total_calls": 1152,
+      "cost_ceiling_usd": 1.773,
+      "prospective_lock_immutable": true,
+      "no_post_hoc_field_drop": true
+    }
+  },
+  "paid_run_complete": true,
+  "actual_cost_usd": 0.621708,
+  "prospective_summary": "analysis/centers_branch/cent3_prospective_summary.json"
+}

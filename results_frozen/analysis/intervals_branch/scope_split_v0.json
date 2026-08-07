@@ -1,0 +1,35 @@
+{
+  "collective": {
+    "label": "collective",
+    "n_rows": 1512,
+    "peer_counts": {
+      "8": 82,
+      "16": 1430
+    },
+    "source_counts": {
+      "stimulus_manifold": 144,
+      "sparse_peer": 1296,
+      "stage3a_pilot": 72
+    },
+    "arrays_sha256": "c37dbc4e3f37058cbf5484127dee3521913aab01d60b0c18b6ead4bab3b4b55b",
+    "intended_use": "Stage C collective surrogate (N in {9,17})"
+  },
+  "dense_exploratory": {
+    "label": "dense",
+    "n_rows": 1224,
+    "peer_counts": {
+      "240": 1224
+    },
+    "source_counts": {
+      "transmutation": 360,
+      "stimulus_manifold": 288,
+      "antipodal_weight": 576
+    },
+    "arrays_sha256": "77310b19c552cb83f032a96c04c3f5e6b1624073f47e332bc5545a5bb6e2c525",
+    "intended_use": "Dense peer=240 exploratory only; not collective freeze"
+  },
+  "bundle_names": {
+    "intervals_collective_scope": "peer in {8,16}",
+    "intervals_dense_exploratory": "peer=240"
+  }
+}

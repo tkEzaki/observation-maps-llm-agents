@@ -1,0 +1,91 @@
+{
+  "protocol_name": "stage_b_representation_transmutation",
+  "protocol_version": "transmutation-v0.1-block1",
+  "prompt_version": "response-law-v0.1",
+  "seed_block_id": "block_1",
+  "base_seed": 2026102301,
+  "seed_strategy": "hash_v1",
+  "schedule_seed": 2026102391,
+  "offset_design": {
+    "kind": "paired_stratified_jitter",
+    "generation_seed": 2026102300,
+    "positive_strata": 18,
+    "jitter_interval": [0.15, 0.85]
+  },
+  "offset_radians": [
+    -3.060726315293831,
+    -2.926401776557810,
+    -2.746279632217894,
+    -2.518873672395674,
+    -2.360717942934366,
+    -2.125472971056087,
+    -1.955683617054956,
+    -1.811305814867310,
+    -1.705137979963140,
+    -1.459132129739855,
+    -1.326501968991361,
+    -1.193267876314604,
+    -1.012055788293730,
+    -0.815390451126862,
+    -0.582253411155328,
+    -0.424110634258503,
+    -0.252363301580937,
+    -0.126277469898986,
+    0.126277469898986,
+    0.252363301580937,
+    0.424110634258503,
+    0.582253411155328,
+    0.815390451126862,
+    1.012055788293730,
+    1.193267876314604,
+    1.326501968991361,
+    1.459132129739855,
+    1.705137979963140,
+    1.811305814867310,
+    1.955683617054956,
+    2.125472971056087,
+    2.360717942934366,
+    2.518873672395674,
+    2.746279632217894,
+    2.926401776557810,
+    3.060726315293831
+  ],
+  "concentration_profiles": {
+    "kappa_2": 2.0,
+    "kappa_4": 4.0,
+    "kappa_6": 6.0,
+    "kappa_9": 9.0,
+    "kappa_12": 12.0
+  },
+  "representations": [
+    "intervals_24_decimal6",
+    "moments_m1_m3",
+    "centers_24_standard"
+  ],
+  "repetitions_per_condition": 24,
+  "bootstrap_samples": 5000,
+  "primary_fourier_order": 6,
+  "sensitivity_fourier_orders": [2, 4, 8, 12],
+  "phenotype_rules": {
+    "intervals_24_decimal6": {
+      "minimum_a1_kappa_2": 0.2,
+      "maximum_abs_a1_kappa_12": 0.2,
+      "minimum_a2_increment": 0.1
+    },
+    "moments_m1_m3": {
+      "minimum_a1_kappa_12": 0.5
+    },
+    "centers_24_standard": {
+      "maximum_a1_kappa_12": -0.1
+    }
+  },
+  "criteria": {
+    "minimum_valid_rate": 0.99,
+    "minimum_valid_samples_per_condition": 24
+  },
+  "replication_rules": {
+    "minimum_phenotype_probability": 0.95,
+    "minimum_classes_replicated": 2,
+    "minimum_trajectory_correlation": 0.8
+  }
+}

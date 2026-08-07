@@ -1,0 +1,10 @@
+{
+  "planned_calls": 4800,
+  "max_attempts_per_call": 3,
+  "estimated_input_tokens": 1924800,
+  "maximum_output_tokens": 96000,
+  "input_price_per_million": 0.0,
+  "output_price_per_million": 0.0,
+  "estimated_base_cost_usd": 0.0,
+  "maximum_retry_cost_usd": 0.0
+}

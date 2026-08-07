@@ -1,0 +1,44 @@
+{
+  "protocol_name": "stage_c_selection_pilot",
+  "protocol_version": "stage-c-v0.1",
+  "purpose": "select informative K / frequency-width ranges; not production",
+  "representation": "moments_m1_m3",
+  "bundle_root": "analysis/stage3a_artifacts/moments_bundle_v1",
+  "n_agents": [
+    9,
+    17
+  ],
+  "peer_counts": [
+    8,
+    16
+  ],
+  "n_steps": 40,
+  "n_bins": 24,
+  "couplings": [
+    -0.15,
+    0.0,
+    0.15
+  ],
+  "omega_halfwidth": 0.05,
+  "omega_spacing": "equally_spaced_symmetric",
+  "n_seeds": 2,
+  "base_seed": 2026072417,
+  "seed_strategy": "hash_v1",
+  "init_kind": "uniform",
+  "prompt_version": "response-law-v0.1",
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency_within_timestep": 20,
+  "criteria": {
+    "minimum_valid_rate": 0.95,
+    "record_risk_and_peer_gates": true,
+    "compare_to_surrogate_prediction": true
+  },
+  "deferred": {
+    "two_body": "peer=1 outside train peers {8,16,240}; separate sparse diagnostic later",
+    "system_spec_N_8_16": "superseded by peer-matched N in {9,17}",
+    "T_100": "reserved for post-selection Stage C expand; this pilot uses T=40"
+  },
+  "expected_calls": 6240,
+  "cost_ceiling_usd_estimate": 2.5
+}

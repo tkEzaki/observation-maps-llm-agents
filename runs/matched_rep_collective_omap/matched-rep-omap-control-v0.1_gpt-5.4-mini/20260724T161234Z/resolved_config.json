@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "4a0c3c183457f2d405755a966349e1fac6391bb6a95c594071f93a8641b319a8",
+  "fields_sha256": "36428ad9de66dafa9f6b9ed583b1c0339711063edb2087a0f74e473206ac0a4a",
+  "freeze_sha256": "a2b042f8aadc243ccb61e8249a274427b56fee757b350172984bf175cdf3a578",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "max_attempts": 3,
+  "control_variants": [
+    "moments_original",
+    "moments_reformatted",
+    "moments_length_matched"
+  ],
+  "estimate_base_usd": 0.952128,
+  "cost_ceiling_usd": 6.0,
+  "expected_calls": 2304
+}

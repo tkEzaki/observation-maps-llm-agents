@@ -1,0 +1,62 @@
+{
+  "verdict": "PASS_prompt_contract_identical",
+  "implication": "Stay bias is surrogate smoothing / coverage, not Stage B\u2194C prompt mismatch.",
+  "code_hashes": {
+    "PROMPT_VERSION": "response-law-v0.1",
+    "instruction_template_sha256": "9ec1323454c91f341e36c38065f563a2c6c400c0b98613563c1c2cf22b4294a2",
+    "parse_social_action_source_sha256": "7289e00aecf5a3dd2c5f40cc76f1bd3cf9779e3da1db022282a86a701721d5c8",
+    "serialize_moments_source_sha256": "f75b4f96796777c406ce1c132320456584a96976df9afdf642365bc28366bb53",
+    "openai_backend_call_source_sha256": "bb7a980d47e1553fd9febdb6da36e84e35743fa16a734594ac2a2217bed7d1ba",
+    "representations_py_sha256": "3b2d16a21cfd447b19144153d5c3d039a14ce4f67356de1f6e942b93f8cb66f7",
+    "response_py_sha256": "09832dc9761aa090f871f868b8467d59d725419bc80875de05ffbd3584402a84",
+    "backends_py_sha256": "ec86c023356a4e37c8e4ebf18ffefea70a72b75b2393cfc00637342ca2865c98"
+  },
+  "generation_settings": {
+    "stage_b": {
+      "model": "gpt-5.4-mini",
+      "temperature": 0.7,
+      "max_output_tokens": 20,
+      "max_attempts": 3,
+      "prompt_version": "response-law-v0.1",
+      "backend": "openai"
+    },
+    "stage_c": {
+      "model": "gpt-5.4-mini",
+      "temperature": 0.7,
+      "max_output_tokens": 20,
+      "max_attempts": 3,
+      "prompt_version": "response-law-v0.1",
+      "representation": "moments_m1_m3"
+    },
+    "matches": {
+      "model": true,
+      "temperature": true,
+      "max_output_tokens": true,
+      "max_attempts": true,
+      "prompt_version": true
+    },
+    "all_match": true
+  },
+  "stage_b_moments_identity": {
+    "profile": "control_exact_antipodal_8_8_r00",
+    "prompt_sha256": "6829e98c1e3dca5903251519a3eda4880d972241ee9deaf24c9ecc396abd9e66",
+    "identical_dual_call": true,
+    "prompt_chars": 789,
+    "contains_no_k_or_time": true,
+    "starts_with_operator_line": true,
+    "has_required_schema": true
+  },
+  "stage_c_prompt_reconstruction": {
+    "checked": 400,
+    "mismatches": 0,
+    "match_rate": 1.0,
+    "examples": []
+  },
+  "shared_builder": {
+    "stage_b_module": "experiments.stage_b_response_law.run_representation",
+    "stage_c_module": "experiments.stage_c.run_collective",
+    "shared_function": "circlemap.representations.build_representation_prompt_from_histogram",
+    "representation": "moments_m1_m3",
+    "stateless_observation_only": true
+  }
+}

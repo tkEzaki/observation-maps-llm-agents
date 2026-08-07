@@ -1,0 +1,24 @@
+{
+  "session_dir": "<PROJECT_ROOT>\\runs\\stage_c\\stage-c-v0.1_0291166d2e39\\20260723T235606Z",
+  "n_runs": 1,
+  "total_calls": 360,
+  "total_valid": 360,
+  "elapsed_seconds": 0.14609539999219123,
+  "runs": [
+    {
+      "run_id": "N9_K+0_s0",
+      "n_agents": 9,
+      "coupling": 0.0,
+      "seed_index": 0,
+      "init_seed": 2026081417,
+      "n_steps": 40,
+      "n_calls": 360,
+      "n_valid": 360,
+      "valid_rate": 1.0,
+      "actual_input_tokens": 71280,
+      "actual_output_tokens": 2465,
+      "final_r": 0.3466140920134394,
+      "mean_r": 0.35915076792229417
+    }
+  ]
+}

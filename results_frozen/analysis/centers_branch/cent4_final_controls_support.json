@@ -1,0 +1,414 @@
+[
+  {
+    "field_id": "cent_ctrl_unimodal_positive_polar",
+    "bucket": "control",
+    "role": "centers_unimodal_positive_polar",
+    "peer_count": 16,
+    "bin_sparsity": 0.25,
+    "obs_stay": 1.0,
+    "obs_a0": 0.0,
+    "obs_A": 0.0,
+    "disc_n_occupied_bins": 6.0,
+    "disc_n_zero_bins": 18.0,
+    "disc_max_zero_run": 18.0,
+    "disc_max_bin_mass": 0.3125,
+    "disc_top2_peak_gap": 0.0,
+    "disc_peak_bin_distance": 1.0,
+    "disc_antipodal_pairing": 0.0,
+    "disc_focal_bin_mass": 0.75,
+    "disc_bin_boundary_proximity": 0.125,
+    "n_peer_neighbors_available": 1430,
+    "k_used": 16,
+    "nearest_emd": 0.010416666666666666,
+    "mean_emd_k": 0.0652126736111111,
+    "nearest_canonical": 2.8295968702578365,
+    "mean_canonical_k": 6.704600054920978,
+    "neighbor_mean_stay": 0.1015625,
+    "neighbor_mean_a0": -0.0859375,
+    "neighbor_mean_activity": 0.8984375,
+    "neighbor_stay_std": 0.21295333078810955,
+    "neighbor_a0_std": 0.5091328987540974,
+    "neighbor_response_mean_tv": 0.41458333333333336,
+    "frac_neighbors_high_stay": 0.0625,
+    "frac_neighbors_active": 0.875,
+    "diagnosis": "neighbors_active_feature_gap",
+    "diagnosis_refined": "neighbors_active_feature_gap",
+    "predictions": {
+      "peer_specific_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer_specific_canonical_emd": {
+        "p_stay": 0.1546430336653219,
+        "a0": -0.06238084706624619,
+        "A": 0.8453569663346778
+      },
+      "peer_specific_activity_direction": {
+        "p_stay": 0.06072854586770782,
+        "a0": -0.3209637463366594,
+        "A": 0.9392714541322922
+      },
+      "peer16_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer16_canonical_emd": {
+        "p_stay": 0.1546430336653219,
+        "a0": -0.06238084706624619,
+        "A": 0.8453569663346778
+      },
+      "peer16_activity_direction": {
+        "p_stay": 0.06072854586770782,
+        "a0": -0.3209637463366594,
+        "A": 0.9392714541322922
+      },
+      "peer16_discrete_emd": {
+        "p_stay": 0.06074506040628211,
+        "a0": -0.40935664190509446,
+        "A": 0.9392549395937178
+      }
+    }
+  },
+  {
+    "field_id": "cent_ctrl_unimodal_sign_reversed",
+    "bucket": "control",
+    "role": "centers_sign_reversed_anchor",
+    "peer_count": 16,
+    "bin_sparsity": 0.25,
+    "obs_stay": 1.0,
+    "obs_a0": 0.0,
+    "obs_A": 0.0,
+    "disc_n_occupied_bins": 6.0,
+    "disc_n_zero_bins": 18.0,
+    "disc_max_zero_run": 18.0,
+    "disc_max_bin_mass": 0.3125,
+    "disc_top2_peak_gap": 0.0,
+    "disc_peak_bin_distance": 1.0,
+    "disc_antipodal_pairing": 0.0,
+    "disc_focal_bin_mass": 0.0,
+    "disc_bin_boundary_proximity": 0.125,
+    "n_peer_neighbors_available": 1430,
+    "k_used": 16,
+    "nearest_emd": 0.15885416666666666,
+    "mean_emd_k": 0.1606716579861111,
+    "nearest_canonical": 12.781776915441018,
+    "mean_canonical_k": 12.633767762286125,
+    "neighbor_mean_stay": 0.0625,
+    "neighbor_mean_a0": -0.5,
+    "neighbor_mean_activity": 0.9375,
+    "neighbor_stay_std": 0.13975424859373686,
+    "neighbor_a0_std": 0.5229125165837972,
+    "neighbor_response_mean_tv": 0.3625,
+    "frac_neighbors_high_stay": 0.0,
+    "frac_neighbors_active": 0.9375,
+    "diagnosis": "neighbors_active_feature_gap",
+    "diagnosis_refined": "neighbors_active_feature_gap",
+    "predictions": {
+      "peer_specific_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer_specific_canonical_emd": {
+        "p_stay": 0.0034067608282939894,
+        "a0": -0.017950669681515628,
+        "A": 0.02944122563306469
+      },
+      "peer_specific_activity_direction": {
+        "p_stay": 1.3671506759938243e-15,
+        "a0": -0.13574134315510666,
+        "A": 0.9999999999999987
+      },
+      "peer16_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer16_canonical_emd": {
+        "p_stay": 0.0034067608282939894,
+        "a0": -0.017950669681515628,
+        "A": 0.02944122563306469
+      },
+      "peer16_activity_direction": {
+        "p_stay": 1.3690392242503185e-15,
+        "a0": -0.13492974541128583,
+        "A": 0.9999999999999987
+      },
+      "peer16_discrete_emd": {
+        "p_stay": 5.506212933763592e-10,
+        "a0": 2.6386886064147684e-10,
+        "A": 2.7306241126565333e-09
+      }
+    }
+  },
+  {
+    "field_id": "cent_ctrl_exact_antipodal",
+    "bucket": "control",
+    "role": "exact_antipodal",
+    "peer_count": 16,
+    "bin_sparsity": 0.4166666666666667,
+    "obs_stay": 0.23809523809523808,
+    "obs_a0": -0.09523809523809523,
+    "obs_A": 0.7619047619047619,
+    "disc_n_occupied_bins": 10.0,
+    "disc_n_zero_bins": 14.0,
+    "disc_max_zero_run": 6.0,
+    "disc_max_bin_mass": 0.1875,
+    "disc_top2_peak_gap": 0.0,
+    "disc_peak_bin_distance": 12.0,
+    "disc_antipodal_pairing": 1.0,
+    "disc_focal_bin_mass": 0.375,
+    "disc_bin_boundary_proximity": 0.625,
+    "n_peer_neighbors_available": 1430,
+    "k_used": 16,
+    "nearest_emd": 0.0,
+    "mean_emd_k": 0.014539930555555554,
+    "nearest_canonical": 0.0,
+    "mean_canonical_k": 0.9481364054450523,
+    "neighbor_mean_stay": 0.5859375,
+    "neighbor_mean_a0": -0.0859375,
+    "neighbor_mean_activity": 0.4140625,
+    "neighbor_stay_std": 0.4115489747208101,
+    "neighbor_a0_std": 0.4067755014670254,
+    "neighbor_response_mean_tv": 0.5395833333333333,
+    "frac_neighbors_high_stay": 0.5625,
+    "frac_neighbors_active": 0.3125,
+    "diagnosis": "local_noncompressibility",
+    "diagnosis_refined": "local_noncompressibility",
+    "predictions": {
+      "peer_specific_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer_specific_canonical_emd": {
+        "p_stay": 0.4395614113374734,
+        "a0": 0.10819375894074937,
+        "A": 0.5604385886625269
+      },
+      "peer_specific_activity_direction": {
+        "p_stay": 0.45851543784843607,
+        "a0": -0.009728297838430322,
+        "A": 0.5414845621515639
+      },
+      "peer16_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer16_canonical_emd": {
+        "p_stay": 0.4395614113374734,
+        "a0": 0.10819375894074937,
+        "A": 0.5604385886625269
+      },
+      "peer16_activity_direction": {
+        "p_stay": 0.45653601434836016,
+        "a0": -0.0029772745209978857,
+        "A": 0.5434639856516399
+      },
+      "peer16_discrete_emd": {
+        "p_stay": 0.24537294448599378,
+        "a0": 0.1400581989707811,
+        "A": 0.7546270555140062
+      }
+    }
+  },
+  {
+    "field_id": "cent_ctrl_small_imbalance",
+    "bucket": "control",
+    "role": "small_imbalance",
+    "peer_count": 16,
+    "bin_sparsity": 0.25,
+    "obs_stay": 0.14814814814814814,
+    "obs_a0": 0.7037037037037037,
+    "obs_A": 0.8518518518518519,
+    "disc_n_occupied_bins": 6.0,
+    "disc_n_zero_bins": 18.0,
+    "disc_max_zero_run": 8.0,
+    "disc_max_bin_mass": 0.3125,
+    "disc_top2_peak_gap": 0.0625,
+    "disc_peak_bin_distance": 12.0,
+    "disc_antipodal_pairing": 0.875,
+    "disc_focal_bin_mass": 0.4375,
+    "disc_bin_boundary_proximity": 1.0,
+    "n_peer_neighbors_available": 1430,
+    "k_used": 16,
+    "nearest_emd": 0.0,
+    "mean_emd_k": 0.024359809027777776,
+    "nearest_canonical": 0.0,
+    "mean_canonical_k": 1.8772413685162308,
+    "neighbor_mean_stay": 0.0859375,
+    "neighbor_mean_a0": 0.4140625,
+    "neighbor_mean_activity": 0.9140625,
+    "neighbor_stay_std": 0.11455373670793109,
+    "neighbor_a0_std": 0.5706334713226608,
+    "neighbor_response_mean_tv": 0.3875,
+    "frac_neighbors_high_stay": 0.0,
+    "frac_neighbors_active": 1.0,
+    "diagnosis": "neighbors_active_feature_gap",
+    "diagnosis_refined": "neighbors_active_feature_gap",
+    "predictions": {
+      "peer_specific_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer_specific_canonical_emd": {
+        "p_stay": 0.11005782967053639,
+        "a0": 0.17296526163263937,
+        "A": 0.8899421703294637
+      },
+      "peer_specific_activity_direction": {
+        "p_stay": 0.11394531046285558,
+        "a0": 0.5519118523325486,
+        "A": 0.8860546895371444
+      },
+      "peer16_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer16_canonical_emd": {
+        "p_stay": 0.11005782967053639,
+        "a0": 0.17296526163263937,
+        "A": 0.8899421703294637
+      },
+      "peer16_activity_direction": {
+        "p_stay": 0.1140487292335492,
+        "a0": 0.5480817645886162,
+        "A": 0.8859512707664507
+      },
+      "peer16_discrete_emd": {
+        "p_stay": 0.15233577487768302,
+        "a0": 0.17748776330538457,
+        "A": 0.8476642251223168
+      }
+    }
+  },
+  {
+    "field_id": "cent_ctrl_sparse_unimodal",
+    "bucket": "control",
+    "role": "sparse_unimodal",
+    "peer_count": 8,
+    "bin_sparsity": 0.25,
+    "obs_stay": 1.0,
+    "obs_a0": 0.0,
+    "obs_A": 0.0,
+    "disc_n_occupied_bins": 6.0,
+    "disc_n_zero_bins": 18.0,
+    "disc_max_zero_run": 18.0,
+    "disc_max_bin_mass": 0.25,
+    "disc_top2_peak_gap": 0.0,
+    "disc_peak_bin_distance": 1.0,
+    "disc_antipodal_pairing": 0.0,
+    "disc_focal_bin_mass": 0.625,
+    "disc_bin_boundary_proximity": 0.25,
+    "n_peer_neighbors_available": 82,
+    "k_used": 16,
+    "nearest_emd": 0.0,
+    "mean_emd_k": 0.0625,
+    "nearest_canonical": 0.0,
+    "mean_canonical_k": 1.92920026510328,
+    "neighbor_mean_stay": 0.328125,
+    "neighbor_mean_a0": 0.05729166666666666,
+    "neighbor_mean_activity": 0.671875,
+    "neighbor_stay_std": 0.422324863026741,
+    "neighbor_a0_std": 0.3605054683473377,
+    "neighbor_response_mean_tv": 0.5555555555555556,
+    "frac_neighbors_high_stay": 0.375,
+    "frac_neighbors_active": 0.625,
+    "diagnosis": "local_noncompressibility",
+    "diagnosis_refined": "local_noncompressibility",
+    "predictions": {
+      "peer_specific_global": {
+        "p_stay": 0.10523532522474881,
+        "a0": 0.058170280274986774,
+        "A": 0.8947646747752511
+      },
+      "peer_specific_canonical_emd": {
+        "p_stay": 0.3485072454854668,
+        "a0": 0.13647709676412123,
+        "A": 0.6514927545145329
+      },
+      "peer_specific_activity_direction": {
+        "p_stay": 0.9012211730160561,
+        "a0": 0.01228960559322842,
+        "A": 0.09877882698394391
+      }
+    }
+  },
+  {
+    "field_id": "cent_ctrl_sparse_antipodal",
+    "bucket": "control",
+    "role": "sparse_antipodal",
+    "peer_count": 16,
+    "bin_sparsity": 0.5,
+    "obs_stay": 1.0,
+    "obs_a0": 0.0,
+    "obs_A": 0.0,
+    "disc_n_occupied_bins": 12.0,
+    "disc_n_zero_bins": 12.0,
+    "disc_max_zero_run": 6.0,
+    "disc_max_bin_mass": 0.125,
+    "disc_top2_peak_gap": 0.0,
+    "disc_peak_bin_distance": 1.0,
+    "disc_antipodal_pairing": 1.0,
+    "disc_focal_bin_mass": 0.3125,
+    "disc_bin_boundary_proximity": 0.25,
+    "n_peer_neighbors_available": 1430,
+    "k_used": 16,
+    "nearest_emd": 0.0,
+    "mean_emd_k": 0.012803819444444444,
+    "nearest_canonical": 0.0,
+    "mean_canonical_k": 0.8785411872647761,
+    "neighbor_mean_stay": 0.5390625,
+    "neighbor_mean_a0": -0.0078125,
+    "neighbor_mean_activity": 0.4609375,
+    "neighbor_stay_std": 0.41391506809217515,
+    "neighbor_a0_std": 0.481024196214442,
+    "neighbor_response_mean_tv": 0.58125,
+    "frac_neighbors_high_stay": 0.4375,
+    "frac_neighbors_active": 0.375,
+    "diagnosis": "local_noncompressibility",
+    "diagnosis_refined": "local_noncompressibility",
+    "predictions": {
+      "peer_specific_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer_specific_canonical_emd": {
+        "p_stay": 0.4617132696142336,
+        "a0": 0.03142431671054802,
+        "A": 0.5382867303857664
+      },
+      "peer_specific_activity_direction": {
+        "p_stay": 0.7796135321504174,
+        "a0": 0.015577252066996367,
+        "A": 0.2203864678495826
+      },
+      "peer16_global": {
+        "p_stay": 0.19532503246505234,
+        "a0": -0.09655488503552062,
+        "A": 0.8046749675349476
+      },
+      "peer16_canonical_emd": {
+        "p_stay": 0.4617132696142336,
+        "a0": 0.03142431671054802,
+        "A": 0.5382867303857664
+      },
+      "peer16_activity_direction": {
+        "p_stay": 0.7463269192982315,
+        "a0": 0.012088332154121195,
+        "A": 0.2536730807017685
+      },
+      "peer16_discrete_emd": {
+        "p_stay": 0.44405420686568675,
+        "a0": 0.1166887303789508,
+        "A": 0.555945793134313
+      }
+    }
+  }
+]

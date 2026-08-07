@@ -1,0 +1,48 @@
+{
+  "n_select": 36,
+  "jaccard_vs_v1": 0.0,
+  "n_overlap_vs_v1": 0,
+  "pilot_calls": 1728,
+  "bank_source_histogram": {
+    "A_init": 2016,
+    "B_k0_drift": 6048,
+    "C_virtual": 42336
+  },
+  "selected_source_histogram": {
+    "C_virtual": 22,
+    "B_k0_drift": 11,
+    "A_init": 3
+  },
+  "bank_dynamics_histogram": {
+    "none": 2016,
+    "k0": 6048,
+    "polar_kernel": 6048,
+    "second_harmonic_kernel": 6048,
+    "negative_odd_kernel": 6048,
+    "soft_polar": 6048,
+    "kernel_nn": 6048,
+    "hurdle_multinomial": 6048,
+    "softmax_stump_boost": 6048
+  },
+  "selected_dynamics_histogram": {
+    "softmax_stump_boost": 8,
+    "negative_odd_kernel": 4,
+    "second_harmonic_kernel": 7,
+    "hurdle_multinomial": 1,
+    "kernel_nn": 1,
+    "k0": 11,
+    "none": 3,
+    "polar_kernel": 1
+  },
+  "peer_count_histogram": {
+    "16": 32,
+    "8": 4
+  },
+  "allocation": {
+    "high_occupancy_high_risk": 18,
+    "high_disagreement": 8,
+    "k0_drift": 6,
+    "maximin_boundary": 4
+  },
+  "note": "Physical fields to acquire once; all 3 encodings share the same fields."
+}

@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\stimulus_manifold\\stimulus-manifold-v0.1-block2_74b53d4dd97b\\20260723T131309Z",
+  "n_records": 7776,
+  "n_valid": 7776,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 3415392,
+  "actual_output_tokens": 126991,
+  "actual_cost_usd": 3.1330035,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 296.28441419999945,
+  "summed_task_elapsed_seconds": 5772.323814500196,
+  "effective_parallelism": 19.482374157567843,
+  "calls_per_second": 26.245052481063023,
+  "seed_block_id": "block_2"
+}

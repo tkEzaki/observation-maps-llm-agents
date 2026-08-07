@@ -1,0 +1,16 @@
+{
+  "family": "claude",
+  "model": "claude-haiku-4-5-20251001",
+  "backend": "anthropic",
+  "run_dir": "<PROJECT_ROOT>\\runs\\matched_rep_collective_r1\\matched-rep-r1-cross-model-v0.1_claude_claude-haiku-4-5-20251001\\20260724T142109Z",
+  "n_planned": 2304,
+  "n_trace_rows": 2304,
+  "n_executed_this_session": 2296,
+  "n_valid_this_session": 2296,
+  "valid_rate_session": 1.0,
+  "actual_input_tokens_session": 1100368,
+  "actual_output_tokens_session": 35790,
+  "actual_cost_usd_session": 1.279318,
+  "elapsed_seconds": 558.6033562999219,
+  "complete": true
+}

@@ -1,0 +1,51 @@
+{
+  "status": "hash_locked",
+  "bundle_version": "stage3b-moments-v1",
+  "representation": "moments_m1_m3",
+  "production_model": "kernel_hurdle",
+  "freeze_ready": true,
+  "stage_c_authorized": true,
+  "created_at": "2026-07-24",
+  "bundle_root": "analysis/stage3a_artifacts/moments_bundle_v1",
+  "file_sha256": {
+    "applicability_domain/meta.json": "76a5c230bd7aa46a924d2122079b55d7f975c1511e14ea2d362a4b5dbc3b4782",
+    "applicability_domain/native.npz": "760093cab2633ae416edbff0b7097a33bb0f7fe44838c6ebd2659de291ba9572",
+    "applicability_domain/orientation.npz": "4140e914b0fd3b265b533e9ec379d3bfaa4ce8bc6b172db73dec5628b1fc66dc",
+    "applicability_domain/shape.npz": "0d28103de639b11736933bbf2c551e032def77eb41c4d5d38de0f2f6cb1ff220",
+    "hyperparameters.json": "8a1f50c7b662fe2fcf61a967f40ecfd7928b3a26416c4c75818657aeebb58245",
+    "kernel_hurdle/dir_kernel.npz": "74219c419c4c48ca3545b999b7a49144464d872049e9082ccadf277cfeff0c21",
+    "kernel_hurdle/meta.json": "d440c336582d69f865b04828cff320652d66aec43812982bf2f5a5c97cb696f9",
+    "kernel_hurdle/stay_kernel.npz": "2cee591eb8885104bad58aa94c3c50e0a774249ed6ff0bbcb88ac90823401982",
+    "ood_policy.json": "32c85a7eec6ed286042ade08c9a7786c9191a9ec324644ee4c0edbf142c23af8",
+    "provenance.json": "362f3c38e867213dba075203c239a0a76c803c1b476366b34f5d65e0e9179123",
+    "risk_calibrator.json": "c16bd7d3a5e6603cab63ff1c9b5ff178f39e8f57008d6ce188246b8744269bf2",
+    "training_arrays_moments.npz": "fb22be7fe7a95b31cd737e656ba07b8bbbeff8e04f5ee5c83c65e24481d7fc73",
+    "training_rows_post_pilot.csv": "6f17d309d29bb87e64be0f237772eb8d57544c737d95c602833e68ea913642c1"
+  },
+  "aggregate_sha256": "fd61cca5980440324c3d00bbb4ea925636439ce1df5a26b6a7d3198f8af4c240",
+  "ood_policy_sha256": "32c85a7eec6ed286042ade08c9a7786c9191a9ec324644ee4c0edbf142c23af8",
+  "hyperparameters_sha256": "8a1f50c7b662fe2fcf61a967f40ecfd7928b3a26416c4c75818657aeebb58245",
+  "risk_calibrator_sha256": "c16bd7d3a5e6603cab63ff1c9b5ff178f39e8f57008d6ce188246b8744269bf2",
+  "constraints": {
+    "peer_counts_allowed": [
+      8,
+      16,
+      240
+    ],
+    "collective_n_allowed": [
+      9,
+      17
+    ],
+    "encodings_frozen": [
+      "moments_m1_m3"
+    ],
+    "encodings_exploratory": [
+      "intervals_24_decimal6",
+      "centers_24_standard"
+    ]
+  },
+  "stage_c_gate": "Authorized for stage-c-v0.1 selection pilot only",
+  "stage_c_authorized_at": "2026-07-24T08:53:00+09:00",
+  "stage_c_authorization_note": "user GO: \u3059\u3059\u3081\u3066 after hash-lock prompt",
+  "stage_c_protocol": "experiments/stage_c/protocol_stage_c_v0_1.json"
+}

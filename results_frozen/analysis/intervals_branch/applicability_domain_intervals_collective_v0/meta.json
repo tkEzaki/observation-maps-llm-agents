@@ -1,0 +1,9 @@
+{
+  "representation": "intervals_24_decimal6",
+  "is_histogram_native": true,
+  "train_peers": [
+    8,
+    16,
+    240
+  ]
+}

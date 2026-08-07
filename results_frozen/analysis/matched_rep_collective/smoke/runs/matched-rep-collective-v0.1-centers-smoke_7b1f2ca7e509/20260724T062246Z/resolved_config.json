@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "7b1f2ca7e509fad8cb5b2eccacfd17b9b3345508c90f96050f932507a389f440",
+  "backend": "mock",
+  "model": "mock",
+  "concurrency": 4,
+  "experiment_family": "matched_representation_collective",
+  "surrogate_free": true,
+  "representation": "centers_24_standard",
+  "match_group": "matched_rep_collective_v0_1",
+  "auth_go_sha256": "c1ba88397af0ecc4e904281fd91f338137109ae32db63a26e882a7d6ed8c2066"
+}

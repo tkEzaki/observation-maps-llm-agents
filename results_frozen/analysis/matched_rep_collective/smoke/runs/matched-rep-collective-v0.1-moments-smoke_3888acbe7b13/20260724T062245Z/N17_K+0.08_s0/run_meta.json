@@ -1,0 +1,21 @@
+{
+  "run_id": "N17_K+0.08_s0",
+  "n_agents": 17,
+  "coupling": 0.08,
+  "seed_index": 0,
+  "init_seed": 2026089500,
+  "n_steps": 3,
+  "n_calls": 51,
+  "n_valid": 51,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 10098,
+  "actual_output_tokens": 347,
+  "final_r": 0.22599507070257474,
+  "mean_r": 0.21783890227759897,
+  "r_series": [
+    0.2062310286711361,
+    0.2176527118202099,
+    0.20986892431001225,
+    0.22599507070257474
+  ]
+}

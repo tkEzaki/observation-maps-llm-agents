@@ -1,0 +1,23 @@
+{
+  "protocol_name": "stage_b_response_law_replication_1",
+  "protocol_version": "0.1-rep1",
+  "prompt_version": "response-law-v0.1",
+  "n_bins": 24,
+  "n_offsets": 48,
+  "concentration_profiles": {
+    "broad_kappa_2": 2.0,
+    "narrow_kappa_12": 12.0
+  },
+  "synthetic_peer_count": 240,
+  "repetitions_per_condition": 50,
+  "base_seed": 2026077301,
+  "max_harmonic": 6,
+  "phase_dependence_permutations": 5000,
+  "criteria": {
+    "minimum_valid_rate": 0.99,
+    "minimum_valid_samples_per_condition": 40,
+    "phase_dependence_family_alpha": 0.01,
+    "minimum_response_range": 0.2,
+    "minimum_mirrored_valid_fraction": 0.9
+  }
+}

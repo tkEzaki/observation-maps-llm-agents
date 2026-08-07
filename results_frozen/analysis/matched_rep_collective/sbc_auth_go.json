@@ -1,0 +1,16 @@
+{
+  "experiment": "matched_rep_collective_serialization_binding_ladder",
+  "paid_authorized": true,
+  "scientific_go": true,
+  "authorized_by": "user",
+  "authorized_at": "2026-07-30T08:05:00+09:00",
+  "authorization_text": "centersの追加実験を実装してください。",
+  "protocol": "experiments/stage_c/protocol_matched_rep_collective_sbc_v0_1.json",
+  "offline_audit": "analysis/matched_rep_collective/sbc_information_audit.json",
+  "notes": [
+    "Follow-up to the serialization-length control, prompted by the observation that its two single-class reference contrasts confound serialization form with prompt length.",
+    "Four serializations of the same 24 bin masses; the two anchors are re-acquired so every comparison is within one acquisition.",
+    "The pivot condition sits 84 characters from the positional anchor and 374 from the fully labelled one, so the length gaps favour the length account a priori and the sign of the contrast separates the two accounts."
+  ],
+  "updated": "2026-07-30"
+}

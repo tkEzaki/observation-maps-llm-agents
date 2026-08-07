@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\centers_cent3\\centers-cent3-v0-block_2_e010ad983960\\20260724T044604Z",
+  "n_records": 576,
+  "n_valid": 535,
+  "valid_rate": 0.9288194444444444,
+  "actual_input_tokens": 365568,
+  "actual_output_tokens": 9495,
+  "actual_cost_usd": 0.3169035,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 27.601822900003754,
+  "summed_task_elapsed_seconds": 464.7669888000819,
+  "effective_parallelism": 16.83827153314641,
+  "calls_per_second": 20.868186934128964,
+  "seed_block_id": "block_2"
+}

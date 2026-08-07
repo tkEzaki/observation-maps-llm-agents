@@ -1,0 +1,136 @@
+{
+  "representation": "moments_m1_m3",
+  "production_model": "kernel_hurdle",
+  "all_gates_pass": true,
+  "gates": [
+    {
+      "id": 1,
+      "name": "beats_global_and_near_best",
+      "pass": true,
+      "evidence": {
+        "acquisition_block_log_loss": {
+          "global_empirical": 1.029166146236036,
+          "kernel_hurdle": 0.3812956907746746,
+          "kernel_nn": 0.4960858565578147,
+          "softmax_stump_boost": 0.4553853088631147,
+          "best": 0.3812956907746746
+        },
+        "within_2pct_of_best": true,
+        "production_model": "kernel_hurdle"
+      }
+    },
+    {
+      "id": 2,
+      "name": "moments_abstention_activation",
+      "pass": true,
+      "evidence": {
+        "stay_gap_holdout_block2": 0.745370127961349,
+        "exact_stay": 0.8751453359858526,
+        "small_imbalance_stay": 0.1297752080245036
+      }
+    },
+    {
+      "id": 3,
+      "name": "sparse_realization_holdout",
+      "pass": true,
+      "evidence": {
+        "sparse_log_loss_global": 1.0980487903334648,
+        "sparse_log_loss_kernel_hurdle": 0.38385230725454544,
+        "beats_global": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "calibrated_risk_orders_error",
+      "pass": true,
+      "evidence": {
+        "oof_spearman": 0.48428337291883694,
+        "monotone_ok": true,
+        "prospective_spearman_pre_refit": 0.392,
+        "note": "prospective from STAGE_3A_PILOT_PROSPECTIVE.md"
+      }
+    },
+    {
+      "id": 5,
+      "name": "peer_matched_Q_risk",
+      "pass": true,
+      "evidence": {
+        "closed_loop_mean_Q_risk_N9_N17": 0.05555555555555556,
+        "allowed_peers": [
+          8,
+          16,
+          240
+        ],
+        "collective_n_allowed": [
+          9,
+          17
+        ],
+        "unsupported_peer_action": "reject"
+      }
+    },
+    {
+      "id": 6,
+      "name": "high_occupancy_risk_policy",
+      "pass": true,
+      "evidence": {
+        "policy": {
+          "unsupported_peer": "hard_reject",
+          "risk_above_threshold": "flag_as_high_risk_not_auto_accept",
+          "risk_threshold": 0.45805915373390027,
+          "threshold_rule": "OOF_predicted_R_quantile_0.8"
+        },
+        "al_v2_targeted_high_occ_high_risk": true,
+        "note": "High-occupancy high-R regions were acquired in pilot; unsupported peers hard-rejected; residual high-R flagged via calibrated threshold rather than silent accept."
+      }
+    },
+    {
+      "id": 7,
+      "name": "ensemble_agreement",
+      "pass": true,
+      "evidence": {
+        "mean_pairwise_tv_disagreement_train_sample": 0.1594807184826737,
+        "models": [
+          "kernel_nn",
+          "kernel_hurdle",
+          "softmax_stump_boost"
+        ],
+        "threshold_used": 0.35,
+        "note": "Soft agreement check on training-support fields; production uses single kernel_hurdle."
+      }
+    },
+    {
+      "id": 8,
+      "name": "hash_lock",
+      "pass": true,
+      "evidence": {
+        "bundle_root": "analysis/stage3a_artifacts/moments_bundle_v1",
+        "aggregate_sha256": "fd61cca5980440324c3d00bbb4ea925636439ce1df5a26b6a7d3198f8af4c240",
+        "freeze_ready": true,
+        "files_locked": [
+          "applicability_domain/meta.json",
+          "applicability_domain/native.npz",
+          "applicability_domain/orientation.npz",
+          "applicability_domain/shape.npz",
+          "hyperparameters.json",
+          "kernel_hurdle/dir_kernel.npz",
+          "kernel_hurdle/meta.json",
+          "kernel_hurdle/stay_kernel.npz",
+          "ood_policy.json",
+          "provenance.json",
+          "risk_calibrator.json",
+          "training_arrays_moments.npz",
+          "training_rows_post_pilot.csv"
+        ]
+      }
+    }
+  ],
+  "partial_freeze_scope": {
+    "frozen": [
+      "moments_m1_m3"
+    ],
+    "exploratory": [
+      "intervals_24_decimal6",
+      "centers_24_standard"
+    ]
+  }
+}

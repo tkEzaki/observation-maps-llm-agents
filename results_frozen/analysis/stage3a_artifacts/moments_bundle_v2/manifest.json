@@ -1,0 +1,42 @@
+{
+  "status": "hash_locked",
+  "bundle_version": "stage3b-moments-v2",
+  "grade": "selection_grade_v2_candidate",
+  "representation": "moments_m1_m3",
+  "production_model": "regime_kernel_hurdle",
+  "freeze_ready": true,
+  "stage_c_authorized": false,
+  "parent_bundle": "moments_bundle_v1",
+  "do_not_overwrite_v1": true,
+  "file_sha256": {
+    "applicability_domain/meta.json": "76a5c230bd7aa46a924d2122079b55d7f975c1511e14ea2d362a4b5dbc3b4782",
+    "applicability_domain/native.npz": "918274efb84d69df6843552a608d07b0bdb1631fe040b6a4b8441b4ddb6555fc",
+    "applicability_domain/orientation.npz": "b1cc9f72e5c6c966e4985e7c513afd46ea7a9a81651a911f74c33d5d44e12e22",
+    "applicability_domain/shape.npz": "72fbe0aefc219e9a233d3babf21ebec4006ea73526ef551c623e85099b3b274e",
+    "hyperparameters.json": "460af0239747986e48c08191a55a4d1968ee3c3c5014f7017d90e54d5c80c423",
+    "ood_policy.json": "b43e60dc1187725d4a4f715e91fe1f146f0013a4de5c8a800c209361cbb2300d",
+    "oof_residual_table_v2.csv": "3c486c3bebbf7507a5303458ca9e567151c88518b6af3be9fca0faf6303c24c5",
+    "provenance.json": "0862dcd095b13cda7f5972c706df99bb36dfded40cd48b53a736b64758b1251a",
+    "regime_kernel_hurdle/dir_kernel.npz": "1bebc9c757af0c37588d252b34c83f3bf3439f9c7568580b81e0432e1ab5b72f",
+    "regime_kernel_hurdle/meta.json": "14716d732579e30b699b0aafea4e1871afa1486379e6c18638427208a9f0f8cd",
+    "regime_kernel_hurdle/stay_abstain.npz": "1a981082c19da2980cc0a300aadd83091c1d76f89819751f89a84ed5549790da",
+    "regime_kernel_hurdle/stay_active.npz": "00ddf4ab31bead36bc3a450b86ebef3544a23f8676e62a57c29e8e44b96d389b",
+    "replay_stay_check_excl_replay_train.csv": "ebc0313257242e4ba6f7be7c0fdf0877d22a8bc3bf0719fa2c278cd35e260f3c",
+    "risk_calibrator.json": "ccd852e24e9a04ad23be4a15bef2844048fa6cb40e2ceece01614e72fae52c4e",
+    "training_arrays_moments.npz": "b4ee0c285c4b0a171393110859a3c13fb31fc8fc74797050b512e50fb58773a6",
+    "training_rows_v2.csv": "fbaea8c680cedefc23d6dd26cb124d66c54450a5e8388e57832e31ef1082f85b"
+  },
+  "aggregate_sha256": "e798662e6e65c47a7de5a9ffa580493140af7f52e5bc612885a520bd2b9b4d84",
+  "constraints": {
+    "peer_counts_allowed": [
+      8,
+      16,
+      240
+    ],
+    "collective_n_allowed": [
+      9,
+      17
+    ],
+    "no_k_t_source_features": true
+  }
+}

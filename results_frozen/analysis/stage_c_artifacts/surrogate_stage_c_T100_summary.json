@@ -1,0 +1,13 @@
+{
+  "protocol_version": "stage-c-v0.1",
+  "n_steps": 100,
+  "n_rows": 12,
+  "mean_final_r_by_K": {
+    "-0.15": 0.13775327862432496,
+    "0.0": 0.2780915662816699,
+    "0.15": 0.9886875281894344
+  },
+  "mean_q_high_risk": 0.0,
+  "mean_q_peer_reject": 0.0,
+  "artifact": "analysis/stage_c_artifacts/surrogate_stage_c_T100.csv"
+}

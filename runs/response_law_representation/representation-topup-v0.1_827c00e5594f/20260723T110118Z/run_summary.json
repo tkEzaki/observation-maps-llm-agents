@@ -1,0 +1,14 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\response_law_representation\\representation-topup-v0.1_827c00e5594f\\20260723T110118Z",
+  "n_records": 13440,
+  "n_valid": 13440,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 7353600,
+  "actual_output_tokens": 214538,
+  "actual_cost_usd": 6.480621,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 496.6190071000019,
+  "summed_task_elapsed_seconds": 9843.213695300044,
+  "effective_parallelism": 19.820453012419563,
+  "calls_per_second": 27.062999619129858
+}

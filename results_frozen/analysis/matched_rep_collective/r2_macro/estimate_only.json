@@ -1,0 +1,29 @@
+{
+  "status": "estimate_only_complete",
+  "protocol_version": "matched-rep-collective-r2-claude-v0.1",
+  "model": "claude-haiku-4-5-20251001",
+  "family": "anthropic",
+  "expected_calls": 132600,
+  "task_manifest_calls": 132600,
+  "n_physical_cells": 26,
+  "cost_ceiling_usd": 175.0,
+  "estimate": {
+    "planned_calls": 132600,
+    "max_attempts_per_call": 3,
+    "input_token_estimation_method": "ceil(characters / 2.5) + 16",
+    "estimated_input_tokens": 68996200,
+    "maximum_output_tokens": 2652000,
+    "input_price_per_million": 1.0,
+    "output_price_per_million": 5.0,
+    "estimated_base_cost_usd": 82.2562,
+    "maximum_retry_cost_usd": 246.76860000000002
+  },
+  "within_ceiling_base": true,
+  "within_ceiling_max_retry": false,
+  "prompt_char_lengths": {
+    "moments_m1_m3": 789,
+    "centers_24_standard": 1429,
+    "intervals_24_decimal6": 1562
+  },
+  "generated_utc": "20260725T045534Z"
+}

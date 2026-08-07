@@ -1,0 +1,55 @@
+{
+  "run_dir": "runs\\collective_replay\\replay-v0.1_a3b41651b3c4\\20260724T005703Z",
+  "branch": "A_replay_confirms_low_stay_v1_smoothes",
+  "overall": {
+    "n": 36,
+    "mean_e_tv": 0.35756636057238456,
+    "mean_delta_p_stay": -0.09332613890768462,
+    "mean_p_stay_obs": 0.08333333333333333,
+    "mean_p_stay_hat": 0.1766594722410179,
+    "frac_obs_stay_lt_0.05": 0.9166666666666666,
+    "frac_obs_stay_lt_0.10": 0.9166666666666666
+  },
+  "by_bucket": {
+    "neg": {
+      "n": 12,
+      "mean_e_tv": 0.39089479734323057,
+      "mean_delta_p_stay": -0.16606463729842222,
+      "mean_p_stay_obs": 0.0,
+      "mean_p_stay_hat": 0.16606463729842222,
+      "frac_obs_stay_lt_0.05": 1.0,
+      "frac_obs_stay_lt_0.10": 1.0
+    },
+    "pos": {
+      "n": 12,
+      "mean_e_tv": 0.2946528162769269,
+      "mean_delta_p_stay": -0.10321894634931154,
+      "mean_p_stay_obs": 0.0,
+      "mean_p_stay_hat": 0.10321894634931154,
+      "frac_obs_stay_lt_0.05": 1.0,
+      "frac_obs_stay_lt_0.10": 1.0
+    },
+    "stage_b_anchor": {
+      "n": 6,
+      "mean_e_tv": 0.3649354483978347,
+      "mean_delta_p_stay": 0.09975787973046168,
+      "mean_p_stay_obs": 0.5,
+      "mean_p_stay_hat": 0.4002421202695383,
+      "frac_obs_stay_lt_0.05": 0.5,
+      "frac_obs_stay_lt_0.10": 0.5
+    },
+    "zero": {
+      "n": 6,
+      "mean_e_tv": 0.40936748779615767,
+      "mean_delta_p_stay": -0.12114754588110194,
+      "mean_p_stay_obs": 0.0,
+      "mean_p_stay_hat": 0.12114754588110194,
+      "frac_obs_stay_lt_0.05": 1.0,
+      "frac_obs_stay_lt_0.10": 1.0
+    }
+  },
+  "artifact": "analysis/stage_c_artifacts/replay_panel_v1/replay_vs_v1_prospective.csv",
+  "branch_note": "All 30 Stage-C-sourced fields have p_stay_obs=0; anchors retain antipodal abstention. Primary=A.",
+  "actual_cost_usd": 0.2687355,
+  "valid_rate": 1.0
+}

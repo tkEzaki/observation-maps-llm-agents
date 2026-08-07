@@ -1,0 +1,16 @@
+{
+  "n_calls": 2304,
+  "length_match_target_chars": 1496,
+  "mean_prompt_chars": {
+    "moments_original": 789.0,
+    "moments_reformatted": 823.0,
+    "moments_length_matched": 1496.0
+  },
+  "estimate": {
+    "base_usd": 0.952128,
+    "retry_ceiling_usd": 2.856384,
+    "protocol_ceiling_usd": 6.0,
+    "under_ceiling": true
+  },
+  "print": "Observation-map control pre-run cost estimate\n  planned calls: 2,304\n  estimated input tokens: 993,024\n  input estimate method: ceil(characters / 2.5) + 16\n  maximum output tokens: 46,080\n  prices per 1M tokens: input $0.7500, output $4.5000\n  estimated base cost: $0.9521\n  retry ceiling (3 attempts): $2.8564"
+}

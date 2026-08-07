@@ -1,0 +1,90 @@
+{
+  "n_fields": 48,
+  "fields_file": "analysis/matched_rep_collective/replay_fields_v0_1.json",
+  "variants": {
+    "moments_standard": {
+      "content": "moments3",
+      "form": "standard"
+    },
+    "moments_compact": {
+      "content": "moments3",
+      "form": "compact"
+    },
+    "centers_standard": {
+      "content": "histogram24",
+      "form": "standard"
+    },
+    "centers_compact": {
+      "content": "histogram24",
+      "form": "compact"
+    }
+  },
+  "prompt_chars": {
+    "moments_standard": {
+      "min": 789,
+      "median": 789.0,
+      "max": 789
+    },
+    "moments_compact": {
+      "min": 752,
+      "median": 752.0,
+      "max": 752
+    },
+    "centers_standard": {
+      "min": 1429,
+      "median": 1429.0,
+      "max": 1429
+    },
+    "centers_compact": {
+      "min": 971,
+      "median": 971.0,
+      "max": 971
+    }
+  },
+  "prompt_tokens": {
+    "moments_standard": {
+      "min": 332,
+      "median": 332.0,
+      "max": 332
+    },
+    "moments_compact": {
+      "min": 317,
+      "median": 317.0,
+      "max": 317
+    },
+    "centers_standard": {
+      "min": 588,
+      "median": 588.0,
+      "max": 588
+    },
+    "centers_compact": {
+      "min": 405,
+      "median": 405.0,
+      "max": 405
+    }
+  },
+  "standard_arms_byte_identical_to_primary": {
+    "moments": true,
+    "centers": true
+  },
+  "information_equivalence": {
+    "max_abs_moment_component_gap": 0.0,
+    "max_abs_bin_mass_gap": 0.0,
+    "max_abs_bin_centre_gap_print_precision": 4.6949787368966156e-07
+  },
+  "length_axis_crosses_content_axis": {
+    "chars_centers_compact_to_centers_standard": 458.0,
+    "chars_centers_compact_to_moments_standard": 182.0,
+    "tokens_centers_compact_to_centers_standard": 183.0,
+    "tokens_centers_compact_to_moments_standard": 73.0,
+    "crossed": true
+  },
+  "moment_order_is_not_a_length_knob": {
+    "order_used_in_all_arms": 3,
+    "order_that_reconstructs_the_histogram": 12,
+    "max_abs_reconstruction_error": 1.3877787807814457e-15,
+    "min_abs_moment_magnitude_orders_1_to_12": 6.123233995736757e-17,
+    "note": "Binned moments are a discrete Fourier transform of the 24 bin masses, so harmonics 1..12 invert exactly. A 12th-order moments arm is the centers arm in another notation, not a longer summary of it."
+  },
+  "pass": true
+}

@@ -1,0 +1,13 @@
+{
+  "status": "stopped_by_user_for_parallel_bat",
+  "stopped_utc": "2026-07-24T06:40:00Z",
+  "note": "Sequential run_paid_all interrupted; use run_matched_rep_collective_PARALLEL.bat or RESUME.bat",
+  "partial_moments_session": "runs/stage_c/matched-rep-collective-v0.1-moments_ed41bff41a9a/20260724T063047Z",
+  "paid_authorized": true,
+  "launcher": {
+    "parallel": "run_matched_rep_collective_PARALLEL.bat",
+    "one": "run_matched_rep_collective_ONE.bat",
+    "resume": "run_matched_rep_collective_RESUME.bat",
+    "status": "run_matched_rep_collective_STATUS.bat"
+  }
+}

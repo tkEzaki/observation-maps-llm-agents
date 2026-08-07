@@ -1,0 +1,121 @@
+{
+  "protocol": {
+    "protocol_name": "stage_3a_coverage_pilot",
+    "protocol_version": "stage3a-pilot-v1-block_1",
+    "prompt_version": "response-law-v0.1",
+    "seed_block_id": "block_1",
+    "base_seed": 2026072411,
+    "seed_strategy": "hash_v1",
+    "schedule_seed": 2026072491,
+    "offset_design": {
+      "kind": "fixed",
+      "values": [
+        0.0
+      ]
+    },
+    "offset_radians": [
+      0.0
+    ],
+    "stimulus_profiles": [
+      "al_f00_n17_p16",
+      "al_f01_n17_p16",
+      "al_f02_n17_p16",
+      "al_f03_n17_p16",
+      "al_f04_n17_p16",
+      "al_f05_n17_p16",
+      "al_f06_n17_p16",
+      "al_f07_n17_p16",
+      "al_f08_n17_p16",
+      "al_f09_n17_p16",
+      "al_f10_n9_p8",
+      "al_f11_n17_p16",
+      "al_f12_n17_p16",
+      "al_f13_n17_p16",
+      "al_f14_n9_p8",
+      "al_f15_n17_p16",
+      "al_f16_n17_p16",
+      "al_f17_n17_p16",
+      "al_f18_n17_p16",
+      "al_f19_n17_p16",
+      "al_f20_n17_p16",
+      "al_f21_n9_p8",
+      "al_f22_n17_p16",
+      "al_f23_n9_p8",
+      "al_f24_n17_p16",
+      "al_f25_n17_p16",
+      "al_f26_n17_p16",
+      "al_f27_n17_p16",
+      "al_f28_n17_p16",
+      "al_f29_n17_p16",
+      "al_f30_n17_p16",
+      "al_f31_n17_p16",
+      "control_lowrisk_sparse_N8_unimodal_k6",
+      "control_exact_antipodal_8_8_r00",
+      "control_small_imbalance_9_7_r00",
+      "control_sparse_N16_antipodal_equal"
+    ],
+    "stimulus_catalog_file": "analysis/stage3a_artifacts/pilot_stimulus_catalog_v1.json",
+    "frozen_fields_file": "analysis/stage3a_artifacts/pilot_frozen_fields_v1.json",
+    "representations": [
+      "intervals_24_decimal6",
+      "moments_m1_m3",
+      "centers_24_standard"
+    ],
+    "repetitions_per_condition": 8,
+    "bootstrap_samples": 400,
+    "bootstrap_pseudocount": 0.5,
+    "primary_fourier_order": 1,
+    "sensitivity_fourier_orders": [
+      1
+    ],
+    "criteria": {
+      "minimum_valid_samples_per_condition": 6,
+      "purpose": "prospective_risk_validation_not_full_response_curve"
+    },
+    "pilot_rules": {
+      "measure_all_fields": true,
+      "no_post_hoc_field_dropping": true,
+      "same_physical_fields_all_encodings": true,
+      "peer_counts_allowed": [
+        8,
+        16
+      ],
+      "collective_N_candidates": [
+        9,
+        17
+      ],
+      "prospective_eval_before_refit": true
+    },
+    "post_pilot_decision_rules": {
+      "require_risk_spearman_positive_on_new_fields": true,
+      "require_high_risk_error_enrichment": true,
+      "require_moments_stay_and_direction_ok": true,
+      "require_kernel_hurdle_grouped_cv": true,
+      "require_N9_N17_Qrisk_review": true,
+      "partial_freeze_allowed": true
+    },
+    "cost_ceiling_calls": 1728,
+    "expected_calls_this_block": 864
+  },
+  "protocol_sha256": "9cd99d18c51dac9e254ddf450c711d1d72bb6c566a2a5d78d3b7157513822b5a",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "base_url": null,
+  "env_file": "<HOME>\\Dropbox\\research_current\\gen_ai_logi\\rq1\\.env",
+  "concurrency": 20,
+  "cost_estimate": {
+    "planned_calls": 864,
+    "max_attempts_per_call": 3,
+    "input_token_estimation_method": "ceil(characters / 2.5) + 16",
+    "estimated_input_tokens": 449568,
+    "maximum_output_tokens": 17280,
+    "input_price_per_million": 0.75,
+    "output_price_per_million": 4.5,
+    "estimated_base_cost_usd": 0.414936,
+    "maximum_retry_cost_usd": 1.2448080000000001
+  },
+  "created_utc": "2026-07-23T23:42:04.398510+00:00"
+}

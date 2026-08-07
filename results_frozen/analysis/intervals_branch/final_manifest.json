@@ -1,0 +1,49 @@
+{
+  "status": "stopped",
+  "paid_authorized": false,
+  "freeze_ready": false,
+  "stage_c_authorized": false,
+  "further_surrogate_engineering": false,
+  "closed_at_utc": "2026-07-24T06:07:23.334229+00:00",
+  "representation": "intervals_24_decimal6",
+  "layers": {
+    "microscopic_transmutation": "supported",
+    "peer_stratified_in_distribution_compressibility": "supported",
+    "prospective_collective_transfer": "not_supported"
+  },
+  "int3_prospective_pilot_go": false,
+  "intervals_collective_stop": true,
+  "locked_wording": "Interval-bin serialization yields an in-distribution-compressible microscopic response operator, but the available finite-peer training manifold does not support reliable prospective transport to collective-like fields.",
+  "support_gate_locked": {
+    "k_neighbors": 16,
+    "coverage_gap_nn_threshold": 0.35,
+    "high_stay_threshold": 0.55,
+    "active_threshold": 0.55,
+    "local_dispersion_tv_threshold": 0.35,
+    "max_gap_risk_fraction": 0.35,
+    "max_noncompress_fraction": 0.35,
+    "max_gap_plus_noncompress_fraction": 0.45,
+    "min_support_ok_fraction": 0.4,
+    "calibration_note": "Thresholds frozen from INT-2 exploratory map + Centers transfer-failure pattern (neighbors_active_feature_gap). Not to be changed after seeing INT-3."
+  },
+  "doc_sha256": {
+    "INTERVALS_FINAL_DECISION.md": "fb2f0fa3b80dbc34b8591ff0fcc0beb3ce44f11d280e30cc3b4e228ca0c80020",
+    "INTERVALS_INT0_2.md": "7b204e7cd23340e1a0fec1df754e3e6e7d691eba07a8b5c8444d5ccff9cc5d22",
+    "INTERVALS_BRANCH.md": "72c785e75c291f84ec40288b8b185936daeac651087dff4660b817b0dafa0cf9"
+  },
+  "artifact_sha256": {
+    "int2b_offline_decision.json": "bb54125bd6487552ed1ab8374ef6f147ffa4f34f478f1eec68669c40c8c17d50",
+    "int2_offline_decision.json": "28425f9fbf9fa08efe2e07c0cbc8a4284525e69a35a6f7b69b2a1e9929974f88",
+    "dataset_manifest_intervals_v0.json": "2d649a05f57f2297ee93ec004ef6a7b7588cfd9c46c69c0964f21859807ed59f"
+  },
+  "forbidden_actions": [
+    "int3_coverage_pilot",
+    "int4_confirmatory_pilot",
+    "intervals_bundle_v1_freeze",
+    "intervals_collective_bundle_v1_N17_freeze",
+    "moments_intervals_matched_stage_c",
+    "further_feature_mixture_chasing_on_current_manifold"
+  ],
+  "next_priority": "archive histogram collective paths; moments Stage C remains the only frozen collective representation path",
+  "manifest_sha256": "0feb16ee8fdcf31476b5156f15922fec38ebb28a53f57b1a8ab0c66e4641c6ed"
+}

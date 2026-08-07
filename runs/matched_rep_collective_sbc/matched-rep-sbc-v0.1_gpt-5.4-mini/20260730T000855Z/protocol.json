@@ -1,0 +1,71 @@
+{
+  "protocol_name": "matched_rep_collective_sbc_v0_1",
+  "protocol_version": "matched-rep-sbc-v0.1",
+  "experiment_family": "matched_representation_serialization_binding_ladder",
+  "purpose": "Separate prompt length from the binding of each value to its referent, by serializing the same 24 bin masses four ways with the length gaps arranged so that length and binding predict opposite signs.",
+  "status": "prespecified_paid_hold",
+  "motivation": "The serialization-length control refuted a monotone prompt-length account but left the compact histogram condition unexplained, because that condition is both 458 characters shorter than the standard histogram condition and positionally rather than explicitly bound. This ladder holds the information fixed and varies the binding.",
+  "fields_file": "analysis/matched_rep_collective/replay_fields_v0_1.json",
+  "parent_freeze": "analysis/matched_rep_collective/replay_hash_freeze_v0_1.json",
+  "parent_experiment": "matched_rep_collective_slc_v0_1",
+  "control_variants": [
+    "centers_compact",
+    "centers_indexed_row",
+    "centers_centered_row",
+    "centers_standard"
+  ],
+  "binding": {
+    "centers_compact": "positional",
+    "centers_indexed_row": "explicit_index",
+    "centers_centered_row": "explicit_centre",
+    "centers_standard": "explicit_index_and_centre"
+  },
+  "serialization_form": {
+    "centers_compact": "row",
+    "centers_indexed_row": "row",
+    "centers_centered_row": "row",
+    "centers_standard": "lines"
+  },
+  "prompt_chars_on_frozen_panel": {
+    "centers_compact": 971,
+    "centers_indexed_row": 1055,
+    "centers_centered_row": 1114,
+    "centers_standard": 1429
+  },
+  "reacquired_anchors": [
+    "centers_compact",
+    "centers_standard"
+  ],
+  "reacquired_anchors_rationale": "Both anchors are re-acquired inside this run so every comparison is within one acquisition, and their agreement with the serialization-length control acquisition is reported as a run-to-run reproducibility check rather than assumed.",
+  "content_class": "histogram24 for every condition; the retained information is identical along the whole ladder and the moment order is not involved",
+  "n_fields": 48,
+  "responses_per_condition": 16,
+  "n_blocks": 2,
+  "responses_per_block": 8,
+  "expected_calls": 3072,
+  "seed_prefix": "mrc-sbc-v0.1",
+  "model": "gpt-5.4-mini",
+  "backend": "openai",
+  "prompt_version": "response-law-v0.1",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "cost_ceiling_usd": 8.0,
+  "input_price_per_million": 0.75,
+  "output_price_per_million": 4.5,
+  "primary_contrast": "delta_binding",
+  "primary_contrast_definition": "Delta_binding = mean_field TV(centers_compact, centers_indexed_row) - mean_field TV(centers_indexed_row, centers_standard). The pivot sits 84 characters from the positional condition and 374 from the fully labelled one, so a monotone prompt-length account predicts Delta_binding < 0 while a binding account predicts Delta_binding > 0. The sign alone separates them and no calibration between characters and response distance is required.",
+  "primary_test": "field_blocked_permutation_of_condition_labels_within_field, 5000 resamples, two sided on the sign of Delta_binding, alpha 0.05, reported with its field-cluster bootstrap interval",
+  "primary_interpretation_rule": "Delta_binding is judged on its bootstrap interval. A permutation p is reported but is not read as support for Delta_binding itself, because its null is the absence of any condition effect rather than Delta_binding = 0.",
+  "secondary_contrasts": [
+    "The same contrast with centers_centered_row as pivot, where the two length gaps are 143 and 315 characters and so nearly balanced: this asks only whether an explicitly bound row groups with the labelled or with the positional condition.",
+    "Whether the four distances from centers_standard are monotone in prompt length, as a monotone length account requires.",
+    "Run-to-run reproducibility of the two re-acquired anchors against the serialization-length control acquisition, compared with the within-run between-block noise floor.",
+    "Rank correlation of the six pairwise distances with absolute prompt-length difference and with binding mismatch.",
+    "Within-condition between-block distance as the noise floor."
+  ],
+  "offline_audit": "analysis/matched_rep_collective/verify_sbc_information_equivalence.py",
+  "offline_audit_artifact": "analysis/matched_rep_collective/sbc_information_audit.json",
+  "auth_go_sidecar": "analysis/matched_rep_collective/sbc_auth_go.json",
+  "scope_note": "This is a serialization control on the frozen 48-field replay panel. It does not re-run the collective experiments and makes no claim about closed-loop outcomes."
+}

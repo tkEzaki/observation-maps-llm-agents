@@ -1,0 +1,50 @@
+{
+  "protocol_name": "matched_rep_collective_3x3_replay_v0_1",
+  "protocol_version": "matched-rep-collective-3x3-replay-v0.1",
+  "experiment_family": "matched_representation_collective_replay",
+  "surrogate_free": true,
+  "purpose": "Mechanistic 3x3 decomposition of Outcome A: identical physical fields under three target encodings; blocked by source trajectory.",
+  "status": "hash_freeze_estimate_only_paid_hold",
+  "fields_file": "analysis/matched_rep_collective/replay_fields_v0_1.json",
+  "target_prompts_file": "analysis/matched_rep_collective/replay_target_prompts_v0_1.json",
+  "n_fields": 48,
+  "target_representations": [
+    "moments_m1_m3",
+    "centers_24_standard",
+    "intervals_24_decimal6"
+  ],
+  "responses_per_condition": 32,
+  "n_blocks": 2,
+  "responses_per_block": 16,
+  "expected_calls": 4608,
+  "expected_field_target_conditions": 144,
+  "peer_count": 16,
+  "n_bins": 24,
+  "offset_radians": 0.0,
+  "prompt_version": "response-law-v0.1",
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency": 20,
+  "retain_raw_on_invalid": true,
+  "invalid_rescue_rule": "deterministic_identical_across_all_144_conditions",
+  "cost_ceiling_usd": 12.0,
+  "primary_analysis": "docs/MATCHED_REP_COLLECTIVE_REPLAY_ANALYSIS_PLAN.md",
+  "lock_doc": "docs/MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md",
+  "paid_gates": {
+    "selection_audit_pass": true,
+    "hash_freeze": true,
+    "estimate_only_under_ceiling": true,
+    "retention_smoke": true,
+    "human_review_complete": false,
+    "auth_go_sidecar": true,
+    "explicit_yes": true
+  },
+  "auth_go_sidecar": "analysis/matched_rep_collective/replay_auth_go.json",
+  "docs": {
+    "lock": "docs/MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md",
+    "cost_card": "docs/MATCHED_REP_COLLECTIVE_REPLAY_COST_CARD.md",
+    "human_review": "docs/MATCHED_REP_COLLECTIVE_REPLAY_HUMAN_REVIEW.md",
+    "analysis_plan": "docs/MATCHED_REP_COLLECTIVE_REPLAY_ANALYSIS_PLAN.md",
+    "parent_results": "docs/MATCHED_REP_COLLECTIVE_RESULTS.md"
+  }
+}

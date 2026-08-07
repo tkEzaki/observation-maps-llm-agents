@@ -1,0 +1,7 @@
+{
+  "checklist_all_gates_pass": true,
+  "grade": "prospectively_frozen_stage_c_v0_2_baseline",
+  "stage_c_v0_2_paid_authorized_by_checklist": true,
+  "checklist_path": "analysis/stage3a_artifacts/stage3b_moments_v2_freeze_checklist.json",
+  "requires_explicit_yes_for_paid": true
+}

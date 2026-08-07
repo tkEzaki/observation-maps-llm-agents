@@ -1,0 +1,64 @@
+{
+  "family": "antipodal_weight_sweep",
+  "protocol_name": "stage_b_antipodal_weight_sweep",
+  "zero_profile": "antipodal_weps_p000_k6",
+  "epsilons": [
+    -0.1,
+    -0.05,
+    -0.02,
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "susceptibilities": [
+    {
+      "representation": "intervals_24_decimal6",
+      "chi_a1": 1.1053601605705388,
+      "chi_b1": 2.529245607015994,
+      "chi_parallel_a1": 1.1053601605705388,
+      "activity_at_0": 0.5428240740740742,
+      "activity_max": 0.9988425925925926,
+      "activity_delta_max": 0.4560185185185184,
+      "eps_half_activation": 0.02,
+      "activity_abs_eps_near0_slope": 0.5594135802469117,
+      "mean_a1_odd_residual": 0.06801790179830958,
+      "mean_A_even_residual": 0.009259259259259226,
+      "mean_R2_even_residual": 0.10357264812484061
+    },
+    {
+      "representation": "moments_m1_m3",
+      "chi_a1": 9.170211563054265,
+      "chi_b1": 1.4401051870771784,
+      "chi_parallel_a1": 9.170211563054265,
+      "activity_at_0": 0.07407407407407408,
+      "activity_max": 1.0,
+      "activity_delta_max": 0.9259259259259259,
+      "eps_half_activation": 0.02,
+      "activity_abs_eps_near0_slope": 4.880401234567895,
+      "mean_a1_odd_residual": 0.03623327611863658,
+      "mean_A_even_residual": 0.008487654320987673,
+      "mean_R2_even_residual": 0.05701365116302587
+    },
+    {
+      "representation": "centers_24_standard",
+      "chi_a1": 5.162531827917917,
+      "chi_b1": 2.5525553043862392,
+      "chi_parallel_a1": 5.162531827917917,
+      "activity_at_0": 0.3263888888888889,
+      "activity_max": 0.9965277777777777,
+      "activity_delta_max": 0.6701388888888888,
+      "eps_half_activation": 0.02,
+      "activity_abs_eps_near0_slope": 0.01929012345678928,
+      "mean_a1_odd_residual": 0.04402527036771873,
+      "mean_A_even_residual": 0.013117283950617287,
+      "mean_R2_even_residual": 0.1332917996780907
+    }
+  ],
+  "interpretation_hooks": {
+    "signed_C1": "chi_a1 / chi_parallel_a1",
+    "activity": "eps_half_activation and activity_abs_eps_near0_slope",
+    "evenness": "mean_*_even_residual / a1_odd_residual"
+  }
+}

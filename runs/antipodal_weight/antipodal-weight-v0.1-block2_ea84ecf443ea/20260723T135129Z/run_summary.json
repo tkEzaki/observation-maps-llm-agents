@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\antipodal_weight\\antipodal-weight-v0.1-block2_ea84ecf443ea\\20260723T135129Z",
+  "n_records": 10368,
+  "n_valid": 10368,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 4548096,
+  "actual_output_tokens": 178960,
+  "actual_cost_usd": 4.216392,
+  "configured_concurrency": 20,
+  "api_execution_elapsed_seconds": 387.8482608000013,
+  "summed_task_elapsed_seconds": 7645.141879199997,
+  "effective_parallelism": 19.711682768489474,
+  "calls_per_second": 26.73210388674757,
+  "seed_block_id": "block_2"
+}

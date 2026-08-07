@@ -1,0 +1,16 @@
+{
+  "family": "gemini",
+  "model": "gemini-3.5-flash",
+  "backend": "google",
+  "run_dir": "<PROJECT_ROOT>\\runs\\matched_rep_collective_r1\\matched-rep-r1-cross-model-v0.1_gemini_gemini-3.5-flash\\20260724T142109Z",
+  "n_planned": 2304,
+  "n_trace_rows": 2304,
+  "n_executed_this_session": 2296,
+  "n_valid_this_session": 2273,
+  "valid_rate_session": 0.9899825783972126,
+  "actual_input_tokens_session": 1486341,
+  "actual_output_tokens_session": 29958,
+  "actual_cost_usd_session": 0.5207973,
+  "elapsed_seconds": 726.4630624999991,
+  "complete": true
+}

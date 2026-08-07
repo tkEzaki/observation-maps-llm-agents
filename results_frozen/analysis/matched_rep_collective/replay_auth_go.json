@@ -1,0 +1,23 @@
+{
+  "experiment": "matched_rep_collective_3x3_replay",
+  "paid_authorized": true,
+  "scientific_go": true,
+  "authorized_by": "user",
+  "authorized_at": "2026-07-24T20:44:00+09:00",
+  "authorization_text": "承認します",
+  "field_rules": "docs/MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md",
+  "cost_card": "docs/MATCHED_REP_COLLECTIVE_REPLAY_COST_CARD.md",
+  "human_review": "docs/MATCHED_REP_COLLECTIVE_REPLAY_HUMAN_REVIEW.md",
+  "parent_outcome": "A",
+  "parent_results": "docs/MATCHED_REP_COLLECTIVE_RESULTS.md",
+  "notes": [
+    "Field selection rules frozen before Outcome A; do not retune.",
+    "PAID COMPLETE 2026-07-24: 4608/4608 valid; actual cost ~$1.876.",
+    "Primary field-blocked inference frozen in replay_primary/decision.json.",
+    "Results: docs/MATCHED_REP_COLLECTIVE_REPLAY_RESULTS.md"
+  ],
+  "run_dir": "runs/matched_rep_collective_replay/matched-rep-collective-3x3-replay-v0.1_1e976b79b71d/20260724T114515Z",
+  "primary_decision": "analysis/matched_rep_collective/replay_primary/decision.json",
+  "results_doc": "docs/MATCHED_REP_COLLECTIVE_REPLAY_RESULTS.md",
+  "updated": "2026-07-24"
+}

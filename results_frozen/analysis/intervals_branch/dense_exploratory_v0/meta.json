@@ -1,0 +1,14 @@
+{
+  "label": "dense",
+  "n_rows": 1224,
+  "peer_counts": {
+    "240": 1224
+  },
+  "source_counts": {
+    "transmutation": 360,
+    "stimulus_manifold": 288,
+    "antipodal_weight": 576
+  },
+  "arrays_sha256": "77310b19c552cb83f032a96c04c3f5e6b1624073f47e332bc5545a5bb6e2c525",
+  "intended_use": "Dense peer=240 exploratory only; not collective freeze"
+}

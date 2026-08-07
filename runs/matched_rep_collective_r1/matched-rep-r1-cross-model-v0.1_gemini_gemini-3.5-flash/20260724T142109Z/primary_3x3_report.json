@@ -1,0 +1,2848 @@
+{
+  "status": "primary_3x3_v0_1",
+  "inference_unit": "48_physical_fields",
+  "n_fields": 48,
+  "n_trace_rows": 2304,
+  "layers": {
+    "1_target_representation_effect": {
+      "moments_m1_m3__vs__centers_24_standard": {
+        "mean_d_TV": 0.15520833333333334,
+        "mean_delta_A": -0.020833333333333332,
+        "mean_delta_a0": -0.2677083333333333
+      },
+      "moments_m1_m3__vs__intervals_24_decimal6": {
+        "mean_d_TV": 0.21336805555555557,
+        "mean_delta_A": -0.020833333333333332,
+        "mean_delta_a0": -0.2184027777777778
+      },
+      "centers_24_standard__vs__intervals_24_decimal6": {
+        "mean_d_TV": 0.11371527777777779,
+        "mean_delta_A": 0.0,
+        "mean_delta_a0": 0.049305555555555554
+      }
+    },
+    "2_source_field_effect": {
+      "moments_m1_m3": {
+        "n_fields": 16,
+        "mean_a0": -0.0234375,
+        "mean_A": 0.9791666666666666
+      },
+      "centers_24_standard": {
+        "n_fields": 16,
+        "mean_a0": -0.04722222222222222,
+        "mean_A": 1.0
+      },
+      "intervals_24_decimal6": {
+        "n_fields": 16,
+        "mean_a0": 0.24427083333333333,
+        "mean_A": 1.0
+      }
+    },
+    "3_source_x_target_interaction_mean_A": {
+      "moments_m1_m3": {
+        "moments_m1_m3": 0.9375,
+        "centers_24_standard": 1.0,
+        "intervals_24_decimal6": 1.0
+      },
+      "centers_24_standard": {
+        "moments_m1_m3": 1.0,
+        "centers_24_standard": 1.0,
+        "intervals_24_decimal6": 1.0
+      },
+      "intervals_24_decimal6": {
+        "moments_m1_m3": 1.0,
+        "centers_24_standard": 1.0,
+        "intervals_24_decimal6": 1.0
+      }
+    }
+  },
+  "block_drift_mean_abs_delta_A": 0.0,
+  "surrogate_refit": "deferred_until_after_primary",
+  "field_rows": [
+    {
+      "field_id": "mrc_replay_f00",
+      "physical_hash": "3d6a868c6556a3b6c333a0942556ef0d848324813b8ce4ce1da8fa6245d6ed3a",
+      "source_representation": "moments_m1_m3",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.4375,
+            0.0,
+            0.5625
+          ],
+          "A": 1.0,
+          "a0": 0.125,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.5625,
+          "delta_A": 0.0,
+          "delta_a0": -1.125
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.5625,
+          "delta_A": 0.0,
+          "delta_a0": -1.125
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f01",
+      "physical_hash": "af193b0c2520657b1a595985483a73a82f0633f2f08fac545d274c7eed1a1860",
+      "source_representation": "centers_24_standard",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f02",
+      "physical_hash": "842a4e3d212c08212098c7f3d22675851ca43d9f46cc1efd3afda7f654a08ded",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f03",
+      "physical_hash": "e07c9adb3aa19475b6e8de6b0dadf6fee160b61b4767172d416e1646459fa88b",
+      "source_representation": "moments_m1_m3",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f04",
+      "physical_hash": "65af3917801e2b4e57236cef3374f288c66a448a95e9e9326c1421c07e749ab5",
+      "source_representation": "centers_24_standard",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f05",
+      "physical_hash": "031e898f03c9efa93eb1d76350e1d17e65d02d9d9105cb4b6b7b7344e4e52d18",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f06",
+      "physical_hash": "45e2c1e82090b90b003b1b1fed8e027199f7e632456c5ccbc6a46681afbf1ce9",
+      "source_representation": "moments_m1_m3",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f07",
+      "physical_hash": "5fe9eb90288dc5c30601a14e3f1de084e11b557b96860df8d0b98fcb4868a514",
+      "source_representation": "centers_24_standard",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f08",
+      "physical_hash": "b5d5ff66521539aa657840e1def8dadb2e7297d8bdc1c81eb1a4e620ff0e90d7",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.8125,
+            0.0,
+            0.1875
+          ],
+          "A": 1.0,
+          "a0": -0.625,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.1875,
+          "delta_A": 0.0,
+          "delta_a0": -0.375
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.1875,
+          "delta_A": 0.0,
+          "delta_a0": 0.375
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f09",
+      "physical_hash": "cfaab9307a4ec825a13e9040396f7212ddc8d8cf0aae666e0cb66539285bc4bd",
+      "source_representation": "moments_m1_m3",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f10",
+      "physical_hash": "a58503fba20197fa5a5ea330564bf39f3a5de1ac1af63d359fd8e95fca1bcead",
+      "source_representation": "centers_24_standard",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f11",
+      "physical_hash": "9f96c0ddb8e8632b43db517558bfb8c702055777db5d8396510abf780eb84eef",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f12",
+      "physical_hash": "742af77a8a2771812e289b214d05136d53da972f2f26a607e7140501c90fa74f",
+      "source_representation": "moments_m1_m3",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f13",
+      "physical_hash": "5f7f9ce993f759cb279902af658f75079476b092e441f67d447b6f4e17f95722",
+      "source_representation": "centers_24_standard",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": 2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": 2.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f14",
+      "physical_hash": "9be42c31c5c951ead646a1f3423ce9438b75b9de5375931d8b30b8d77d8f98ef",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f15",
+      "physical_hash": "ab5b59a7f61a9f18fb2545ffbe347af6ee62442eb996ce3f9564b36c43e3fe3b",
+      "source_representation": "moments_m1_m3",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f16",
+      "physical_hash": "e7b143f328d9e47de13bccb75aaee11a94347b82245a4a4c5041996a4215a4a3",
+      "source_representation": "centers_24_standard",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.13333333333333333,
+            0.0,
+            0.8666666666666667
+          ],
+          "A": 1.0,
+          "a0": 0.7333333333333333,
+          "n_valid": 15,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.8666666666666667,
+          "delta_A": 0.0,
+          "delta_a0": -1.7333333333333334
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.1333333333333333,
+          "delta_A": 0.0,
+          "delta_a0": 0.2666666666666667
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f17",
+      "physical_hash": "3c567f81775c2f350fd4a695eee061870f520b3cebc8af9dfaf65601e46abf6e",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f18",
+      "physical_hash": "50ea5257e7f9fcd8da805c87ce9602a781fe59f0027353e8780c44df88330fee",
+      "source_representation": "moments_m1_m3",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f19",
+      "physical_hash": "9ae6f0d8314015c931195c0cc150c85126522bb36deeb5bd9630c361c84fd747",
+      "source_representation": "centers_24_standard",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f20",
+      "physical_hash": "de602f9b26dc006665eaf8595e602a9ba5b98643008b41e5aa98572d146bcd5b",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0625,
+            0.0,
+            0.9375
+          ],
+          "A": 1.0,
+          "a0": 0.875,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0625,
+            0.0,
+            0.9375
+          ],
+          "A": 1.0,
+          "a0": 0.875,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0625,
+          "delta_A": 0.0,
+          "delta_a0": 0.125
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0625,
+          "delta_A": 0.0,
+          "delta_a0": 0.125
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f21",
+      "physical_hash": "772989a1724d3c4d0a1a2d7d166676b2a189d6e63f0b97ba7a337e803fbfadbe",
+      "source_representation": "moments_m1_m3",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.625,
+            0.0,
+            0.375
+          ],
+          "A": 1.0,
+          "a0": -0.25,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.375,
+          "delta_A": 0.0,
+          "delta_a0": -0.75
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.375,
+          "delta_A": 0.0,
+          "delta_a0": -0.75
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f22",
+      "physical_hash": "5f728aa26faa505af8d85b731bde7ebaecf3e10742bd585fbb5a284d5bf9cb9a",
+      "source_representation": "centers_24_standard",
+      "stratum": "early_transient",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f23",
+      "physical_hash": "abdc81d0e488806a70efc68ec468e5558c862e93dc4d35abc7390f666a2fc8ca",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f24",
+      "physical_hash": "9c5d80b4c92a6090434b69951e24478ffdfec64205cc29e3b90f5fd286ce3ddb",
+      "source_representation": "moments_m1_m3",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f25",
+      "physical_hash": "4441d54a783da922a2c6f680cb92767381ea0f55f0321efce18568d57e516fdf",
+      "source_representation": "centers_24_standard",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f26",
+      "physical_hash": "137938fab3a5df0e36ce337ff9a3624843ea38ecfb09091418baf3d82a74a67d",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f27",
+      "physical_hash": "89b3e3a9a52c4a7b7c82152113dd76d9ca684a24d239bbeb0ebde766477010c4",
+      "source_representation": "moments_m1_m3",
+      "stratum": "pre_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": 2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": 2.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f28",
+      "physical_hash": "b243074ee2a304a609c2795f526460b02225fb2f9b3a3a3b118e716d8fe2198b",
+      "source_representation": "centers_24_standard",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f29",
+      "physical_hash": "5a25c82cc661d6df03c62c1ee482576159ebe2647065cb66425ec01b59717431",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.2,
+            0.0,
+            0.8
+          ],
+          "A": 1.0,
+          "a0": 0.6,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.1875,
+            0.0,
+            0.8125
+          ],
+          "A": 1.0,
+          "a0": 0.625,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.19999999999999998,
+          "delta_A": 0.0,
+          "delta_a0": 0.4
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.1875,
+          "delta_A": 0.0,
+          "delta_a0": 0.375
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.012499999999999983,
+          "delta_A": 0.0,
+          "delta_a0": -0.025000000000000022
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f30",
+      "physical_hash": "b7a7280c1169d7398845808b337b55309a8c25c8a3abf1a6a93b61c7b6535fe5",
+      "source_representation": "moments_m1_m3",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f31",
+      "physical_hash": "51936fdebbdfabb5d2037bb1bf7824e8dfe7cb6c4f481027b4353a101a9ad907",
+      "source_representation": "centers_24_standard",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f32",
+      "physical_hash": "5dec0491157f6d8d126f67922751d224d5e152feefbd5b74837e65b96acb8d00",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "post_onset",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.8125,
+            0.0,
+            0.1875
+          ],
+          "A": 1.0,
+          "a0": -0.625,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.1875,
+          "delta_A": 0.0,
+          "delta_a0": -0.375
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.1875,
+          "delta_A": 0.0,
+          "delta_a0": -0.375
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f33",
+      "physical_hash": "43d5dfae30428adb070170a25a8f7a74f25395a08a112c4ffa9f2242ed4b391b",
+      "source_representation": "moments_m1_m3",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 14,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f34",
+      "physical_hash": "b9796be160e9231ecdd0f325a23b47f8c28d37db6e70df2bb9d50be8e974c03e",
+      "source_representation": "centers_24_standard",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f35",
+      "physical_hash": "d2b8ac574c7f43649c4776f119f5bc509e2edba4229f5c44a532cdc001e314c7",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 14,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f36",
+      "physical_hash": "f3ec78b59e14558ca851f3565f3b32c081deb8b15dcb34c40e56979c06b7dfd4",
+      "source_representation": "moments_m1_m3",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f37",
+      "physical_hash": "0d3aaab74acdeb951771997badfca8cec9f60c3b9242780048a1fb5ba10b91e4",
+      "source_representation": "centers_24_standard",
+      "stratum": "ordered_state",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f38",
+      "physical_hash": "5c95a8e30361fa7c547e282f0945ec2414b441855f3e8a5c1074c4582039ab6c",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f39",
+      "physical_hash": "97af0db2ea703fb7c51079865e008b0b47d2036326d3850be45cc6a93d0bf1cf",
+      "source_representation": "moments_m1_m3",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f40",
+      "physical_hash": "66426b7a9abb7277d9e47d4fa38cd3207586db452e0826e56e4c00c1e688c513",
+      "source_representation": "centers_24_standard",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": 2.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f41",
+      "physical_hash": "d3fcec825f3035aced57c36ff302341ed8895eaf53374d8f1f18235e8a709373",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 13,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f42",
+      "physical_hash": "9e135a3f43414606c278f35bbc301621aa72b81a740aec9a5f089def310c874b",
+      "source_representation": "moments_m1_m3",
+      "stratum": "negative_K",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f43",
+      "physical_hash": "ad73b241a2b833265d687864880c214f13ae8db6c10b98ef73b088de26a14fda",
+      "source_representation": "centers_24_standard",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f44",
+      "physical_hash": "ad12f002f0c5cb264f81e670c3d3dd62bb7c264d6365515ddb08c3509f4ae79c",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f45",
+      "physical_hash": "769ff6674b6ac55990e807652b3aaf2c6e250a2c1138aed5f63446ea64c5b9ac",
+      "source_representation": "moments_m1_m3",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "A": 0.0,
+          "a0": 0.0,
+          "n_valid": 15,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 1.0,
+          "delta_A": -1.0,
+          "delta_a0": -1.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": -1.0,
+          "delta_a0": -1.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f46",
+      "physical_hash": "bb296113cd632d90a4ed52e8ae81a509d3979284633793d7c567d0bd4f61a68b",
+      "source_representation": "centers_24_standard",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        }
+      }
+    },
+    {
+      "field_id": "mrc_replay_f47",
+      "physical_hash": "188a3dd4e4d0de1ef3f4b0f124b8ae1e288bd7a4d21c8b1f38ff0f10298b6555",
+      "source_representation": "intervals_24_decimal6",
+      "stratum": "high_r2",
+      "targets": {
+        "moments_m1_m3": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "centers_24_standard": {
+          "p": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "A": 1.0,
+          "a0": -1.0,
+          "n_valid": 16,
+          "n_total": 16
+        },
+        "intervals_24_decimal6": {
+          "p": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "A": 1.0,
+          "a0": 1.0,
+          "n_valid": 16,
+          "n_total": 16
+        }
+      },
+      "pairwise": {
+        "moments_m1_m3__vs__centers_24_standard": {
+          "d_TV": 0.0,
+          "delta_A": 0.0,
+          "delta_a0": 0.0
+        },
+        "moments_m1_m3__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        },
+        "centers_24_standard__vs__intervals_24_decimal6": {
+          "d_TV": 1.0,
+          "delta_A": 0.0,
+          "delta_a0": -2.0
+        }
+      }
+    }
+  ],
+  "field_meta_note": "stratum/source retained per field for blocked inference"
+}

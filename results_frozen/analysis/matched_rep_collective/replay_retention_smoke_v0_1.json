@@ -1,0 +1,25 @@
+{
+  "status": "schema_ok",
+  "required_keys": [
+    "field_id",
+    "physical_hash",
+    "target_representation",
+    "acquisition_block",
+    "sample_index",
+    "strict_parsed_action",
+    "last_raw_response",
+    "attempt_raw_responses",
+    "rescued_parse",
+    "unrecoverable",
+    "input_tokens",
+    "output_tokens",
+    "valid"
+  ],
+  "missing_in_example": [],
+  "n_fields_frozen": 48,
+  "policy": {
+    "invalid_rescue_rule": "deterministic identical rule applied to all 144 conditions",
+    "blocks": "16 responses x 2 blocks preferred",
+    "surrogate_use": false
+  }
+}

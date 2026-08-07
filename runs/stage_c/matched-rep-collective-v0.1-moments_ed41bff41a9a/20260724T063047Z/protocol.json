@@ -1,0 +1,70 @@
+{
+  "protocol_name": "matched_rep_collective_v0_1_moments",
+  "protocol_version": "matched-rep-collective-v0.1-moments",
+  "experiment_family": "matched_representation_collective",
+  "surrogate_free": true,
+  "purpose": "Surrogate-free causal intervention: measure collective dynamics under moments serialization with physical ICs matched to centers/intervals siblings.",
+  "status": "preregistered_estimate_only",
+  "representation": "moments_m1_m3",
+  "match_group": "matched_rep_collective_v0_1",
+  "base_seed": 2026072420,
+  "seed_strategy": "physical_init_representation_free__api_sample_includes_protocol_version",
+  "n_agents": [
+    17
+  ],
+  "peer_counts": [
+    16
+  ],
+  "n_steps": 100,
+  "n_bins": 24,
+  "couplings": [
+    -0.15,
+    0.0,
+    0.08,
+    0.15
+  ],
+  "omega_halfwidth": 0.05,
+  "omega_spacing": "equally_spaced_symmetric",
+  "n_seeds": 6,
+  "init_kind": "uniform",
+  "prompt_version": "response-law-v0.1",
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency_within_timestep": 20,
+  "primary_endpoints": [
+    "mean_r1",
+    "final_r1",
+    "mean_r2",
+    "final_r2",
+    "mean_r3",
+    "final_r3",
+    "mean_activity",
+    "mean_tau_social",
+    "t_r1_gt_0.5",
+    "t_r1_gt_0.9",
+    "omega_coll",
+    "locking_fraction",
+    "cluster_phenotype",
+    "paired_delta_vs_moments"
+  ],
+  "criteria": {
+    "minimum_valid_rate": 0.95,
+    "compare_to_surrogate": false,
+    "llm_vs_llm_primary": true
+  },
+  "expected_calls": 40800,
+  "cost_ceiling_usd_estimate": 60.0,
+  "paid_gates": {
+    "human_review_complete": false,
+    "estimate_only_reviewed": false,
+    "auth_go_sidecar": true,
+    "explicit_yes": true
+  },
+  "docs": {
+    "hypothesis": "docs/MATCHED_REP_COLLECTIVE_HYPOTHESIS.md",
+    "protocol": "docs/MATCHED_REP_COLLECTIVE_PROTOCOL.md",
+    "cost_card": "docs/MATCHED_REP_COLLECTIVE_COST_CARD.md",
+    "human_review": "docs/MATCHED_REP_COLLECTIVE_HUMAN_REVIEW.md",
+    "replay_lock": "docs/MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md"
+  }
+}

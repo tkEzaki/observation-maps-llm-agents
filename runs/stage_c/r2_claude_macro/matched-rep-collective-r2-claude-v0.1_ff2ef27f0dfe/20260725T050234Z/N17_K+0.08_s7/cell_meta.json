@@ -1,0 +1,40 @@
+{
+  "cell_id": "N17_K+0.08_s7",
+  "panel": "heldout",
+  "seed_index": 7,
+  "coupling": 0.08,
+  "init_seed": 2026089570,
+  "representations": [
+    "moments_m1_m3",
+    "centers_24_standard",
+    "intervals_24_decimal6"
+  ],
+  "totals": {
+    "input_tokens": 2439500,
+    "output_tokens": 78267,
+    "n_calls": 5100,
+    "n_valid": 5100
+  },
+  "k0_control": {
+    "applicable": false,
+    "max_abs_diff_rm": 0.0,
+    "pass": true
+  },
+  "per_representation": {
+    "moments_m1_m3": {
+      "final_r1": 0.47450705446115377,
+      "final_r2": 0.4303825621984224,
+      "valid_rate": 1.0
+    },
+    "centers_24_standard": {
+      "final_r1": 0.9301998954351274,
+      "final_r2": 0.8039810866480055,
+      "valid_rate": 1.0
+    },
+    "intervals_24_decimal6": {
+      "final_r1": 0.9854625572284185,
+      "final_r2": 0.9475879148293443,
+      "valid_rate": 1.0
+    }
+  }
+}

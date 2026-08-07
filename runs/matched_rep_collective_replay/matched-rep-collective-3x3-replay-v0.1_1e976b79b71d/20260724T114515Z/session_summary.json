@@ -1,0 +1,15 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\matched_rep_collective_replay\\matched-rep-collective-3x3-replay-v0.1_1e976b79b71d\\20260724T114515Z",
+  "n_planned": 4608,
+  "n_trace_rows": 4608,
+  "n_executed_this_session": 4596,
+  "n_valid_this_session": 4596,
+  "valid_rate_session": 1.0,
+  "actual_input_tokens_session": 2026656,
+  "actual_output_tokens_session": 78496,
+  "actual_cost_usd_session": 1.873224,
+  "elapsed_seconds": 185.61698469996918,
+  "freeze_pass": true,
+  "task_construction_pass": true,
+  "complete": true
+}

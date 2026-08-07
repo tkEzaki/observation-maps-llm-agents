@@ -1,0 +1,15 @@
+{
+  "experiment": "matched_rep_collective_omap_control",
+  "paid_authorized": true,
+  "scientific_go": true,
+  "authorized_by": "user",
+  "authorized_at": "2026-07-25T01:11:00+09:00",
+  "authorization_text": "実験は実施してOK",
+  "protocol": "experiments/stage_c/protocol_matched_rep_collective_omap_control_v0_1.json",
+  "estimate": "analysis/matched_rep_collective/omap_estimate_only_v0_1.json",
+  "notes": [
+    "Same-information moments controls on frozen 48 fields.",
+    "Explicit user authorization 2026-07-25; estimate $0.952 under $6 ceiling."
+  ],
+  "updated": "2026-07-25"
+}

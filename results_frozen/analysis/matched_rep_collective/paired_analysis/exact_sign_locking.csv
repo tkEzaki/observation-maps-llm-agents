@@ -1,0 +1,13 @@
+coupling,contrast,n_seeds,n_ref_lock_other_not,n_other_lock_ref_not,n_ties,exact_sign_p_two_sided,note
+-0.15,centers_24_standard__minus__moments_m1_m3,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.0,centers_24_standard__minus__moments_m1_m3,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.08,centers_24_standard__minus__moments_m1_m3,6,6,0,0,0.03125,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.15,centers_24_standard__minus__moments_m1_m3,6,6,0,0,0.03125,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+-0.15,intervals_24_decimal6__minus__moments_m1_m3,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.0,intervals_24_decimal6__minus__moments_m1_m3,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.08,intervals_24_decimal6__minus__moments_m1_m3,6,6,0,0,0.03125,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.15,intervals_24_decimal6__minus__moments_m1_m3,6,6,0,0,0.03125,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+-0.15,intervals_24_decimal6__minus__centers_24_standard,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.0,intervals_24_decimal6__minus__centers_24_standard,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.08,intervals_24_decimal6__minus__centers_24_standard,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125
+0.15,intervals_24_decimal6__minus__centers_24_standard,6,0,0,6,1.0,For positive K moments 6/6 lock & other 0/6: p=2/2^6=0.03125

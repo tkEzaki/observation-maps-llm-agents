@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "ed41bff41a9a97580f2c83703217d3e45e90d3ddd562494c499572ff36d1d2f2",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "concurrency": 12,
+  "experiment_family": "matched_representation_collective",
+  "surrogate_free": true,
+  "representation": "moments_m1_m3",
+  "match_group": "matched_rep_collective_v0_1",
+  "auth_go_sha256": "1b3faf8288d2a9db6aae8660d6996b5581e0c63db42063fd9874404292ab5a24"
+}

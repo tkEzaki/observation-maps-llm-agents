@@ -1,0 +1,13 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\matched_rep_collective_sbc\\matched-rep-sbc-v0.1_gpt-5.4-mini\\20260730T000855Z",
+  "n_planned": 3072,
+  "n_trace_rows": 3072,
+  "n_executed_this_session": 3064,
+  "n_valid_this_session": 3064,
+  "valid_rate_session": 1.0,
+  "actual_input_tokens_session": 1175720,
+  "actual_output_tokens_session": 51011,
+  "actual_cost_usd_session": 1.1113395,
+  "elapsed_seconds": 122.59936969983391,
+  "complete": true
+}

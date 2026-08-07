@@ -1,0 +1,22 @@
+{
+  "family": "gemini",
+  "protocol_sha256": "fa41ce26a37b9c70985b9887cc7488c7aa45bb1453fa10800c2c978d9d1a9d45",
+  "fields_sha256": "36428ad9de66dafa9f6b9ed583b1c0339711063edb2087a0f74e473206ac0a4a",
+  "freeze_sha256": "a2b042f8aadc243ccb61e8249a274427b56fee757b350172984bf175cdf3a578",
+  "backend": "google",
+  "model": "gemini-3.5-flash",
+  "max_attempts": 3,
+  "max_output_tokens": 20,
+  "temperature": 0.7,
+  "concurrency": 6,
+  "estimate_base_usd": 0.7282943999999999,
+  "cost_ceiling_usd": 4.0,
+  "expected_calls": 2304,
+  "replication_pass_gates": [
+    "global_target_effect_p_lt_0.05",
+    "between_target_TV_exceeds_within_block_TV",
+    "bootstrap_CI_of_between_minus_within_entirely_positive",
+    "at_least_2_of_3_pairs_exceed_noise_floor",
+    "invalid_rate_acceptable_not_rep_skewed"
+  ]
+}

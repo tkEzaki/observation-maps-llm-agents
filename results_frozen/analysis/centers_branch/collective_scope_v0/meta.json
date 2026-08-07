@@ -1,0 +1,19 @@
+{
+  "label": "collective",
+  "n_rows": 1512,
+  "peer_counts": {
+    "8": 82,
+    "16": 1430
+  },
+  "source_counts": {
+    "stimulus_manifold": 144,
+    "sparse_peer": 1296,
+    "stage3a_pilot": 72
+  },
+  "p_fail_coverage": {
+    "n_with_trace_fail_rate": 1512,
+    "mean_p_fail_where_known": 0.0
+  },
+  "intended_use": "Stage C collective surrogate training (N in {9,17})",
+  "arrays_sha256": "89ce625fbff4060924d0449a407b6fc16f17fc389f9d5b93b31d9ac6a773fad9"
+}

@@ -1,0 +1,35 @@
+{
+  "bundle_version": "stage3b-moments-v2",
+  "n_training_rows_moments": 2772,
+  "n_rows_by_source": {
+    "transmutation": 360,
+    "stimulus_manifold": 432,
+    "antipodal_weight": 576,
+    "sparse_peer": 1296,
+    "stage3a_pilot": 72,
+    "collective_replay": 36
+  },
+  "holdout_block": "replay-v0.1",
+  "holdout_metrics": {
+    "g_rmse": 0.6002108176313107,
+    "activity_rmse": 0.16250184598104125,
+    "mean_tv": 0.29874775368309253,
+    "mean_js": 0.10732283440289735,
+    "log_loss": 0.5649469261218534,
+    "brier": 0.21973678772169236
+  },
+  "moments_stay": {
+    "moments_stay_exact_balance": 0.9074786324786321,
+    "moments_stay_small_imbalance": 0.024714567380439267,
+    "moments_stay_gap": 0.8827640650981928
+  },
+  "collective_stay_excl_replay": {
+    "mean_p_stay_v1": 0.1319429426353139,
+    "mean_p_stay_v2": 0.033266636126691576,
+    "mean_p_stay_obs": 0.0,
+    "improved": true
+  },
+  "risk_spearman": 0.2179389979150468,
+  "reload_smoke_max_abs_delta": 0.0,
+  "parent_v1_aggregate_sha256": "fd61cca5980440324c3d00bbb4ea925636439ce1df5a26b6a7d3198f8af4c240"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "regime_kernel_hurdle",
+  "representation": "moments_m1_m3",
+  "balance_min": 0.95,
+  "abs_z1_max": 0.12,
+  "stay_feature_indices": [
+    2,
+    10,
+    13,
+    14
+  ],
+  "stay_feature_names": [
+    "abs_z1",
+    "antipodal_balance",
+    "sparsity",
+    "peer_count"
+  ],
+  "length_scale_stay_abstain": 1.2,
+  "length_scale_stay_active": 0.25,
+  "k_neighbors_active": 6,
+  "alpha_active_stay": [
+    1.5,
+    0.15
+  ],
+  "length_scale_dir": 1.5,
+  "note": "no K/t/source features; regime from antipodal_balance and abs_z1 only"
+}

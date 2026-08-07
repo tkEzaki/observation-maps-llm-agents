@@ -1,0 +1,24 @@
+{
+  "source": "runs\\response_law\\0.1_b0208be93331\\20260723T101434Z\\response_curve.csv",
+  "profiles": {
+    "broad_kappa_2": {
+      "correlation_with_sin_delta": 0.7429472173004172,
+      "mean_absolute_adjacent_change": 0.3283333333333333,
+      "maximum_adjacent_change": 1.14,
+      "odd_rms": 0.451335979805141,
+      "even_rms": 0.2523803346802863,
+      "mean_standard_error": 0.10812094800767073,
+      "mean_stay_probability": 0.09000000000000001
+    },
+    "narrow_kappa_12": {
+      "correlation_with_sin_delta": -0.1122316788637196,
+      "mean_absolute_adjacent_change": 0.45166666666666666,
+      "maximum_adjacent_change": 1.36,
+      "odd_rms": 0.35576209279048643,
+      "even_rms": 0.2433105012119288,
+      "mean_standard_error": 0.11122342451153593,
+      "mean_stay_probability": 0.1525
+    }
+  },
+  "cross_profile_correlation": 0.1291621850031137
+}

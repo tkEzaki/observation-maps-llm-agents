@@ -1,0 +1,20 @@
+{
+  "protocol_name": "stage_c_collective_field_replay",
+  "protocol_version": "replay-v0.1",
+  "purpose": "measure p_stay on Stage-C-realized fields; keep Stage C v0.1 prospective",
+  "representation": "moments_m1_m3",
+  "fields_file": "analysis/stage_c_artifacts/replay_panel_v1/replay_fields_v1.json",
+  "n_fields": 36,
+  "repetitions_per_condition": 16,
+  "n_blocks": 2,
+  "expected_calls": 1152,
+  "prompt_version": "response-law-v0.1",
+  "reuse_stage_c_actions_as_labels": false,
+  "independent_seeds": true,
+  "bucket_counts": {
+    "neg": 12,
+    "pos": 12,
+    "stage_b_anchor": 6,
+    "zero": 6
+  }
+}

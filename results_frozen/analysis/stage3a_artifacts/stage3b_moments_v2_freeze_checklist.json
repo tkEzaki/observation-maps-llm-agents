@@ -1,0 +1,148 @@
+{
+  "representation": "moments_m1_m3",
+  "production_model": "regime_kernel_hurdle",
+  "bundle": "moments_bundle_v2",
+  "grade": "prospectively_frozen_stage_c_v0_2_baseline",
+  "all_gates_pass": true,
+  "stage_c_v0_2_paid_authorized": true,
+  "gates": [
+    {
+      "id": 1,
+      "name": "grouped_cv_beats_global_near_best",
+      "pass": true,
+      "evidence": {
+        "acquisition_block_log_loss": {
+          "global_empirical": 1.0039818976683401,
+          "regime_kernel_hurdle": 0.426456401101384,
+          "kernel_hurdle": 0.4791913603236641,
+          "kernel_nn": 0.5493640764086719,
+          "softmax_stump_boost": 0.4780667705840059,
+          "best": 0.426456401101384
+        },
+        "within_5pct_of_best": true,
+        "production_model": "regime_kernel_hurdle"
+      }
+    },
+    {
+      "id": 2,
+      "name": "moments_abstention_activation",
+      "pass": true,
+      "evidence": {
+        "holdout_block": "replay-v0.1",
+        "moments_stay_gap": 0.8827640650981928,
+        "exact_stay": 0.9074786324786321,
+        "small_imbalance_stay": 0.024714567380439267
+      }
+    },
+    {
+      "id": 3,
+      "name": "sparse_realization_holdout",
+      "pass": true,
+      "evidence": {
+        "sparse_log_loss_global": 1.0980487903334648,
+        "sparse_log_loss_regime": 0.3401329799409032,
+        "sparse_log_loss_kernel_hurdle": 0.38385230725454544,
+        "beats_global": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "prospective_replay_excl_train",
+      "pass": true,
+      "evidence": {
+        "mean_p_stay_v1": 0.1319429426353139,
+        "mean_p_stay_v2_excl_replay": 0.033266636126691576,
+        "mean_p_stay_obs": 0.0,
+        "exact_antipodal_stay_v2": 0.9056267806267803,
+        "mean_q_advance_given_move": 0.4985760264222858,
+        "improved_vs_v1": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "calibrated_risk_orders_error",
+      "pass": true,
+      "evidence": {
+        "oof_spearman": 0.2179389979150468,
+        "monotone_ok": true,
+        "threshold_note": "v2 threshold 0.15 (v1 used 0.2; more heterogeneous rows)",
+        "risk_threshold": 0.3902922135883959
+      }
+    },
+    {
+      "id": 6,
+      "name": "peer_matched_Q_risk",
+      "pass": true,
+      "evidence": {
+        "closed_loop_mean_Q_risk_N9_N17": 0.0,
+        "per_n": {
+          "9": 0.0,
+          "17": 0.0
+        },
+        "allowed_peers": [
+          8,
+          16,
+          240
+        ],
+        "collective_n_allowed": [
+          9,
+          17
+        ],
+        "unsupported_peer_action": "reject"
+      }
+    },
+    {
+      "id": 7,
+      "name": "ensemble_agreement",
+      "pass": true,
+      "evidence": {
+        "mean_pairwise_tv_train_sample": 0.17268037361979038,
+        "mean_pairwise_tv_collective_bank": 0.15619168133137357,
+        "models": [
+          "kernel_nn",
+          "regime_kernel_hurdle",
+          "softmax_stump_boost"
+        ],
+        "thresholds": {
+          "train": 0.35,
+          "collective_bank": 0.45
+        },
+        "note": "Production uses single regime_kernel_hurdle."
+      }
+    },
+    {
+      "id": 8,
+      "name": "hash_lock",
+      "pass": true,
+      "evidence": {
+        "bundle_root": "analysis/stage3a_artifacts/moments_bundle_v2",
+        "aggregate_sha256": "e798662e6e65c47a7de5a9ffa580493140af7f52e5bc612885a520bd2b9b4d84",
+        "freeze_ready": true,
+        "parent_bundle": "moments_bundle_v1",
+        "do_not_overwrite_v1": true,
+        "grade": "selection_grade_v2_candidate",
+        "files_locked": [
+          "applicability_domain/meta.json",
+          "applicability_domain/native.npz",
+          "applicability_domain/orientation.npz",
+          "applicability_domain/shape.npz",
+          "hyperparameters.json",
+          "ood_policy.json",
+          "oof_residual_table_v2.csv",
+          "provenance.json",
+          "regime_kernel_hurdle/dir_kernel.npz",
+          "regime_kernel_hurdle/meta.json",
+          "regime_kernel_hurdle/stay_abstain.npz",
+          "regime_kernel_hurdle/stay_active.npz",
+          "replay_stay_check_excl_replay_train.csv",
+          "risk_calibrator.json",
+          "training_arrays_moments.npz",
+          "training_rows_v2.csv"
+        ]
+      }
+    }
+  ],
+  "parent_v1_preserved": true,
+  "decision_ref": "moments_bundle_v2_hash_locked",
+  "provenance_holdout_log_loss": 0.5649469261218534
+}

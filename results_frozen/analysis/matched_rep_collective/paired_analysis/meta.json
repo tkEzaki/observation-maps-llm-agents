@@ -1,0 +1,43 @@
+{
+  "n_sessions": 3,
+  "n_long_rows": 72,
+  "n_contrasts": 72,
+  "sessions": [
+    {
+      "session": "runs\\stage_c\\matched-rep-collective-v0.1-moments_ed41bff41a9a\\20260724T065125Z",
+      "representation": "moments_m1_m3",
+      "protocol_version": "matched-rep-collective-v0.1-moments",
+      "n_runs": 24
+    },
+    {
+      "session": "runs\\stage_c\\matched-rep-collective-v0.1-centers_65c4f06d18a1\\20260724T065125Z",
+      "representation": "centers_24_standard",
+      "protocol_version": "matched-rep-collective-v0.1-centers",
+      "n_runs": 24
+    },
+    {
+      "session": "runs\\stage_c\\matched-rep-collective-v0.1-intervals_1d533f018b96\\20260724T065128Z",
+      "representation": "intervals_24_decimal6",
+      "protocol_version": "matched-rep-collective-v0.1-intervals",
+      "n_runs": 24
+    }
+  ],
+  "reference_representation": "moments_m1_m3",
+  "surrogate_free": true,
+  "analysis_revision": "v0.2_outcome_A_review",
+  "phenotype_labels": [
+    "polar_locked",
+    "partial_polar_order",
+    "high_r2_nonpolar",
+    "low_polar_active"
+  ],
+  "primary_endpoints": [
+    "locking",
+    "sustained_lock",
+    "final_r1",
+    "mean_r1",
+    "final_Q2",
+    "cluster_phenotype"
+  ],
+  "note_t09": "t_r1_gt_0.9_first_passage is first hitting time, not locking time; prefer t_r1_gt_0.9_sustained / sustained_lock for lock claims"
+}

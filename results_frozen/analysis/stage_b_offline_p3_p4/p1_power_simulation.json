@@ -1,0 +1,167 @@
+{
+  "activity0_empirical": {
+    "intervals": 0.5543981481481481,
+    "moments": 0.07523148148148148,
+    "centers": 0.3402777777777778
+  },
+  "grids": {
+    "signed_8": [
+      -0.1,
+      -0.05,
+      -0.02,
+      0.0,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "nearzero_9": [
+      -0.1,
+      -0.02,
+      0.0,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  "scenarios": [
+    {
+      "grid": "signed_8",
+      "n_samples": 8,
+      "n_profiles": 8,
+      "calls_per_block": 6912,
+      "calls_two_blocks": 13824,
+      "moments_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.07523148148148148,
+        "a_inf": 1.0,
+        "eps_half": 0.03
+      },
+      "intervals_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.5543981481481481,
+        "a_inf": 0.98,
+        "eps_half": 0.15
+      },
+      "moments_c1_power": {
+        "power_recover_sign_and_scale": 1.0,
+        "chi": 4.0,
+        "noise_sd": 0.35
+      },
+      "intervals_c1_power": {
+        "power_recover_sign_and_scale": 0.9975,
+        "chi": 1.0,
+        "noise_sd": 0.35
+      }
+    },
+    {
+      "grid": "signed_8",
+      "n_samples": 12,
+      "n_profiles": 8,
+      "calls_per_block": 10368,
+      "calls_two_blocks": 20736,
+      "moments_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.07523148148148148,
+        "a_inf": 1.0,
+        "eps_half": 0.03
+      },
+      "intervals_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.5543981481481481,
+        "a_inf": 0.98,
+        "eps_half": 0.15
+      },
+      "moments_c1_power": {
+        "power_recover_sign_and_scale": 1.0,
+        "chi": 4.0,
+        "noise_sd": 0.35
+      },
+      "intervals_c1_power": {
+        "power_recover_sign_and_scale": 1.0,
+        "chi": 1.0,
+        "noise_sd": 0.35
+      }
+    },
+    {
+      "grid": "nearzero_9",
+      "n_samples": 8,
+      "n_profiles": 9,
+      "calls_per_block": 7776,
+      "calls_two_blocks": 15552,
+      "moments_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.07523148148148148,
+        "a_inf": 1.0,
+        "eps_half": 0.03
+      },
+      "intervals_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.5543981481481481,
+        "a_inf": 0.98,
+        "eps_half": 0.15
+      },
+      "moments_c1_power": {
+        "power_recover_sign_and_scale": 1.0,
+        "chi": 4.0,
+        "noise_sd": 0.35
+      },
+      "intervals_c1_power": {
+        "power_recover_sign_and_scale": 0.9925,
+        "chi": 1.0,
+        "noise_sd": 0.35
+      }
+    },
+    {
+      "grid": "nearzero_9",
+      "n_samples": 12,
+      "n_profiles": 9,
+      "calls_per_block": 11664,
+      "calls_two_blocks": 23328,
+      "moments_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.07523148148148148,
+        "a_inf": 1.0,
+        "eps_half": 0.03
+      },
+      "intervals_activity_power": {
+        "power_corr_gt_0.5": 1.0,
+        "a0": 0.5543981481481481,
+        "a_inf": 0.98,
+        "eps_half": 0.15
+      },
+      "moments_c1_power": {
+        "power_recover_sign_and_scale": 1.0,
+        "chi": 4.0,
+        "noise_sd": 0.35
+      },
+      "intervals_c1_power": {
+        "power_recover_sign_and_scale": 1.0,
+        "chi": 1.0,
+        "noise_sd": 0.35
+      }
+    }
+  ],
+  "recommendation": {
+    "grid": "signed_8",
+    "epsilon": [
+      -0.1,
+      -0.05,
+      -0.02,
+      0.0,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "repetitions_per_condition": 12,
+    "n_offsets": 36,
+    "calls_per_block": 10368,
+    "calls_two_blocks": 20736,
+    "rationale": "Signed 8-point weight axis recovers even/odd covariance tests; 12 samples/offset matches manifold v0.1; moments activation power is high under eps_half~0.03. Defer 0.005/0.01 densification to a top-up if A(|\u03b5|) is unresolved between 0 and 0.02.",
+    "estimated_usd_two_blocks_scaled_from_manifold": 8.3557
+  }
+}

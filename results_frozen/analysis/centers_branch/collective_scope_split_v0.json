@@ -1,0 +1,53 @@
+{
+  "status": "centers_scope_split_v0",
+  "representation": "centers_24_standard",
+  "collective_peers": [
+    8,
+    16
+  ],
+  "collective": {
+    "label": "collective",
+    "n_rows": 1512,
+    "peer_counts": {
+      "8": 82,
+      "16": 1430
+    },
+    "source_counts": {
+      "stimulus_manifold": 144,
+      "sparse_peer": 1296,
+      "stage3a_pilot": 72
+    },
+    "p_fail_coverage": {
+      "n_with_trace_fail_rate": 1512,
+      "mean_p_fail_where_known": 0.0
+    },
+    "intended_use": "Stage C collective surrogate training (N in {9,17})",
+    "arrays_sha256": "89ce625fbff4060924d0449a407b6fc16f17fc389f9d5b93b31d9ac6a773fad9"
+  },
+  "dense_exploratory": {
+    "label": "dense_exploratory",
+    "n_rows": 1224,
+    "peer_counts": {
+      "240": 1224
+    },
+    "source_counts": {
+      "transmutation": 360,
+      "stimulus_manifold": 288,
+      "antipodal_weight": 576
+    },
+    "p_fail_coverage": {
+      "n_with_trace_fail_rate": 288,
+      "mean_p_fail_where_known": 0.0
+    },
+    "intended_use": "Dense peer=240 phenotype comparison only; not Stage C",
+    "arrays_sha256": "934b292b30500f5c7ee237fa8c7e113cb30032018327b7296fc770f9a43310be"
+  },
+  "excluded_from_collective_training": {
+    "peer_240_rows": 1224
+  },
+  "bundle_names": {
+    "centers_collective_bundle_v1": "peer in {8,16}; intended N in {9,17}",
+    "centers_dense_exploratory": "peer=240; not used in Stage C"
+  },
+  "manifest_sha256": "b7cc337a14f342aae3a73afeac08bb5e8adc0cc62ba56bcd8451e9fb559d589b"
+}

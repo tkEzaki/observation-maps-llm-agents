@@ -1,0 +1,40 @@
+{
+  "protocol": {
+    "protocol_name": "stage_c_collective_field_replay",
+    "protocol_version": "replay-v0.1",
+    "purpose": "measure p_stay on Stage-C-realized fields; keep Stage C v0.1 prospective",
+    "representation": "moments_m1_m3",
+    "fields_file": "analysis/stage_c_artifacts/replay_panel_v1/replay_fields_v1.json",
+    "n_fields": 36,
+    "repetitions_per_condition": 16,
+    "n_blocks": 2,
+    "expected_calls": 1152,
+    "prompt_version": "response-law-v0.1",
+    "reuse_stage_c_actions_as_labels": false,
+    "independent_seeds": true,
+    "bucket_counts": {
+      "neg": 12,
+      "pos": 12,
+      "stage_b_anchor": 6,
+      "zero": 6
+    }
+  },
+  "protocol_sha256": "a3b41651b3c44132f32525f60e316bf0eedd187111187b10fa886f551721e16a",
+  "fields_sha256": "df6d053207ce786520befaffd400226a43a2bd1519a3dc8ce9c0f60c7e892c26",
+  "v1_predictions_sha256": "059e7af83f7ed5d000dd42257e813357c23389dd7b869a4dbcb1514a6b6740f1",
+  "smoke": {
+    "stage_c_sourced_checked": 30,
+    "n_fields": 36,
+    "n_mismatches": 0,
+    "pass": true,
+    "mismatches": []
+  },
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency": 20,
+  "prompt_version": "response-law-v0.1",
+  "representation": "moments_m1_m3"
+}

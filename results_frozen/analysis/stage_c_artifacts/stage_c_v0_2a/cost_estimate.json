@@ -1,0 +1,11 @@
+{
+  "protocol_version": "stage-c-v0.2a",
+  "planned_calls": 27200,
+  "estimated_base_cost_usd": 9.2208,
+  "maximum_retry_cost_usd": 27.6624,
+  "cost_ceiling_usd": 12.0,
+  "sample_prompt_chars": 789,
+  "authorized": true,
+  "authorization": "user GO 2026-07-24 + v2 checklist sidecar + estimate under ceiling",
+  "surrogate_lock": "analysis/stage_c_artifacts/stage_c_v0_2a/surrogate_lock.json"
+}

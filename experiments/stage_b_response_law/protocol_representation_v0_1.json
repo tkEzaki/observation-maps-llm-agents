@@ -1,0 +1,35 @@
+{
+  "protocol_name": "stage_b_representation_invariance",
+  "protocol_version": "representation-v0.1",
+  "prompt_version": "response-law-v0.1",
+  "n_offsets": 12,
+  "concentration_profiles": {
+    "broad_kappa_2": 2.0,
+    "narrow_kappa_12": 12.0
+  },
+  "representations": [
+    "centers_24_standard",
+    "centers_24_half_shift",
+    "intervals_12",
+    "intervals_48",
+    "intervals_24_decimal4",
+    "counts_100",
+    "moments_m1_m3"
+  ],
+  "repetitions_per_condition": 40,
+  "base_seed": 2026082301,
+  "bootstrap_samples": 5000,
+  "primary_endpoints": [
+    "a_sin_1_broad_kappa_2",
+    "a_sin_1_narrow_kappa_12",
+    "a_sin_2_broad_kappa_2",
+    "a_sin_2_narrow_kappa_12"
+  ],
+  "qualitative_switching_rule": {
+    "minimum_broad_a1": 0.2,
+    "maximum_abs_narrow_a1": 0.2,
+    "minimum_broad_a2": 0.0,
+    "minimum_narrow_minus_broad_a2": 0.1,
+    "minimum_bootstrap_probability": 0.95
+  }
+}

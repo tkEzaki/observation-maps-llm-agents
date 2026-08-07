@@ -1,0 +1,248 @@
+{
+  "protocol_name": "stage_b_sparse_peer_panel",
+  "protocol_version": "sparse-peer-v0.1-block2",
+  "prompt_version": "response-law-v0.1",
+  "seed_block_id": "block_2",
+  "base_seed": 2026172301,
+  "seed_strategy": "hash_v1",
+  "schedule_seed": 2026172391,
+  "offset_design": {
+    "kind": "paired_stratified_jitter",
+    "generation_seed": 2026102300,
+    "positive_strata": 18,
+    "jitter_interval": [
+      0.15,
+      0.85
+    ]
+  },
+  "offset_radians": [
+    -3.060726315293831,
+    -2.92640177655781,
+    -2.746279632217894,
+    -2.518873672395674,
+    -2.360717942934366,
+    -2.125472971056087,
+    -1.955683617054956,
+    -1.81130581486731,
+    -1.70513797996314,
+    -1.459132129739855,
+    -1.326501968991361,
+    -1.193267876314604,
+    -1.01205578829373,
+    -0.815390451126862,
+    -0.582253411155328,
+    -0.424110634258503,
+    -0.252363301580937,
+    -0.126277469898986,
+    0.126277469898986,
+    0.252363301580937,
+    0.424110634258503,
+    0.582253411155328,
+    0.815390451126862,
+    1.01205578829373,
+    1.193267876314604,
+    1.326501968991361,
+    1.459132129739855,
+    1.70513797996314,
+    1.81130581486731,
+    1.955683617054956,
+    2.125472971056087,
+    2.360717942934366,
+    2.518873672395674,
+    2.746279632217894,
+    2.92640177655781,
+    3.060726315293831
+  ],
+  "stimulus_profiles": [
+    "sparse_peer16_antipodal_8_8_r00_k6",
+    "sparse_peer16_antipodal_8_8_r01_k6",
+    "sparse_peer16_antipodal_8_8_r02_k6",
+    "sparse_peer16_antipodal_8_8_r03_k6",
+    "sparse_peer16_antipodal_8_8_r04_k6",
+    "sparse_peer16_antipodal_8_8_r05_k6",
+    "sparse_peer16_antipodal_9_7_r00_k6",
+    "sparse_peer16_antipodal_9_7_r01_k6",
+    "sparse_peer16_antipodal_9_7_r02_k6",
+    "sparse_peer16_antipodal_9_7_r03_k6",
+    "sparse_peer16_antipodal_9_7_r04_k6",
+    "sparse_peer16_antipodal_9_7_r05_k6",
+    "sparse_peer16_antipodal_10_6_r00_k6",
+    "sparse_peer16_antipodal_10_6_r01_k6",
+    "sparse_peer16_antipodal_10_6_r02_k6",
+    "sparse_peer16_antipodal_10_6_r03_k6",
+    "sparse_peer16_antipodal_10_6_r04_k6",
+    "sparse_peer16_antipodal_10_6_r05_k6"
+  ],
+  "sparse_panel_meta": {
+    "sparse_peer16_antipodal_8_8_r00_k6": {
+      "count_a": 8,
+      "count_b": 8,
+      "realization": 0,
+      "peer_count": 16,
+      "imbalance": "8_8"
+    },
+    "sparse_peer16_antipodal_8_8_r01_k6": {
+      "count_a": 8,
+      "count_b": 8,
+      "realization": 1,
+      "peer_count": 16,
+      "imbalance": "8_8"
+    },
+    "sparse_peer16_antipodal_8_8_r02_k6": {
+      "count_a": 8,
+      "count_b": 8,
+      "realization": 2,
+      "peer_count": 16,
+      "imbalance": "8_8"
+    },
+    "sparse_peer16_antipodal_8_8_r03_k6": {
+      "count_a": 8,
+      "count_b": 8,
+      "realization": 3,
+      "peer_count": 16,
+      "imbalance": "8_8"
+    },
+    "sparse_peer16_antipodal_8_8_r04_k6": {
+      "count_a": 8,
+      "count_b": 8,
+      "realization": 4,
+      "peer_count": 16,
+      "imbalance": "8_8"
+    },
+    "sparse_peer16_antipodal_8_8_r05_k6": {
+      "count_a": 8,
+      "count_b": 8,
+      "realization": 5,
+      "peer_count": 16,
+      "imbalance": "8_8"
+    },
+    "sparse_peer16_antipodal_9_7_r00_k6": {
+      "count_a": 9,
+      "count_b": 7,
+      "realization": 0,
+      "peer_count": 16,
+      "imbalance": "9_7"
+    },
+    "sparse_peer16_antipodal_9_7_r01_k6": {
+      "count_a": 9,
+      "count_b": 7,
+      "realization": 1,
+      "peer_count": 16,
+      "imbalance": "9_7"
+    },
+    "sparse_peer16_antipodal_9_7_r02_k6": {
+      "count_a": 9,
+      "count_b": 7,
+      "realization": 2,
+      "peer_count": 16,
+      "imbalance": "9_7"
+    },
+    "sparse_peer16_antipodal_9_7_r03_k6": {
+      "count_a": 9,
+      "count_b": 7,
+      "realization": 3,
+      "peer_count": 16,
+      "imbalance": "9_7"
+    },
+    "sparse_peer16_antipodal_9_7_r04_k6": {
+      "count_a": 9,
+      "count_b": 7,
+      "realization": 4,
+      "peer_count": 16,
+      "imbalance": "9_7"
+    },
+    "sparse_peer16_antipodal_9_7_r05_k6": {
+      "count_a": 9,
+      "count_b": 7,
+      "realization": 5,
+      "peer_count": 16,
+      "imbalance": "9_7"
+    },
+    "sparse_peer16_antipodal_10_6_r00_k6": {
+      "count_a": 10,
+      "count_b": 6,
+      "realization": 0,
+      "peer_count": 16,
+      "imbalance": "10_6"
+    },
+    "sparse_peer16_antipodal_10_6_r01_k6": {
+      "count_a": 10,
+      "count_b": 6,
+      "realization": 1,
+      "peer_count": 16,
+      "imbalance": "10_6"
+    },
+    "sparse_peer16_antipodal_10_6_r02_k6": {
+      "count_a": 10,
+      "count_b": 6,
+      "realization": 2,
+      "peer_count": 16,
+      "imbalance": "10_6"
+    },
+    "sparse_peer16_antipodal_10_6_r03_k6": {
+      "count_a": 10,
+      "count_b": 6,
+      "realization": 3,
+      "peer_count": 16,
+      "imbalance": "10_6"
+    },
+    "sparse_peer16_antipodal_10_6_r04_k6": {
+      "count_a": 10,
+      "count_b": 6,
+      "realization": 4,
+      "peer_count": 16,
+      "imbalance": "10_6"
+    },
+    "sparse_peer16_antipodal_10_6_r05_k6": {
+      "count_a": 10,
+      "count_b": 6,
+      "realization": 5,
+      "peer_count": 16,
+      "imbalance": "10_6"
+    }
+  },
+  "panel_rules": {
+    "peer_count": 16,
+    "imbalances": [
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        10,
+        6
+      ]
+    ],
+    "n_realizations": 6,
+    "partner_paired": true,
+    "repetitions_per_condition": 4,
+    "nested": "imbalance_x_realization"
+  },
+  "representations": [
+    "intervals_24_decimal6",
+    "moments_m1_m3",
+    "centers_24_standard"
+  ],
+  "repetitions_per_condition": 4,
+  "bootstrap_samples": 1000,
+  "bootstrap_pseudocount": 0.5,
+  "primary_fourier_order": 6,
+  "sensitivity_fourier_orders": [
+    2,
+    4,
+    8,
+    12
+  ],
+  "criteria": {
+    "minimum_valid_rate": 0.99,
+    "minimum_valid_samples_per_condition": 4
+  },
+  "replication_rules": {
+    "minimum_classes_with_persistent_separation": 3,
+    "minimum_trajectory_correlation": 0.8
+  }
+}

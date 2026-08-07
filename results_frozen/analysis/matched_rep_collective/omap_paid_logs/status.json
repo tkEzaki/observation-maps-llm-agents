@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "pid": null,
+  "n_trace_rows": 2304,
+  "n_valid": 2304,
+  "valid_rate": 1.0,
+  "actual_cost_usd_session": 0.6100395,
+  "verdict": "SERIALIZATION_SENSITIVE",
+  "run_dir": "runs/matched_rep_collective_omap/matched-rep-omap-control-v0.1_gpt-5.4-mini/20260724T161234Z",
+  "decision": "analysis/matched_rep_collective/omap_primary/decision.json",
+  "results_doc": "docs/MATCHED_REP_COLLECTIVE_OMAP_CONTROL_RESULTS.md"
+}

@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "f71c42094e77a8e6d5c0e47f349268f4967232622f2ac1cf54e53da1d2849250",
+  "fields_sha256": "36428ad9de66dafa9f6b9ed583b1c0339711063edb2087a0f74e473206ac0a4a",
+  "freeze_sha256": "a2b042f8aadc243ccb61e8249a274427b56fee757b350172984bf175cdf3a578",
+  "audit_sha256": "1233c995681bc69c764e5b668a242b08a54aa844f6ae52a145e864d06873e74f",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "max_attempts": 3,
+  "control_variants": [
+    "centers_compact",
+    "centers_indexed_row",
+    "centers_centered_row",
+    "centers_standard"
+  ],
+  "estimate_base_usd": 1.366848,
+  "cost_ceiling_usd": 8.0,
+  "expected_calls": 3072,
+  "prompt_chars": {
+    "centers_compact": 971.0,
+    "centers_indexed_row": 1055.0,
+    "centers_centered_row": 1114.0,
+    "centers_standard": 1429.0
+  }
+}

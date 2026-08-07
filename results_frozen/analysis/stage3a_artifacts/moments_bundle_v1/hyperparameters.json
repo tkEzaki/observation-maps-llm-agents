@@ -1,0 +1,37 @@
+{
+  "model": "kernel_hurdle",
+  "representation": "moments_m1_m3",
+  "length_scale_stay": 1.2,
+  "length_scale_dir": 1.5,
+  "k_neighbors": 32,
+  "dirichlet_alpha": 0.5,
+  "stay_feature_indices": [
+    2,
+    10,
+    13,
+    14
+  ],
+  "stay_feature_names": [
+    "abs_z1",
+    "antipodal_balance",
+    "sparsity",
+    "peer_count"
+  ],
+  "common_feature_names": [
+    "re_z1",
+    "im_z1",
+    "abs_z1",
+    "re_z2",
+    "im_z2",
+    "abs_z2",
+    "re_z3",
+    "im_z3",
+    "abs_z3",
+    "circular_entropy",
+    "antipodal_balance",
+    "asymmetry",
+    "bimodality",
+    "sparsity",
+    "peer_count"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-07-24T06:28:07.037603+00:00",
+  "total_expected_calls": 122400,
+  "entries": [
+    {
+      "representation": "moments_m1_m3",
+      "protocol": "experiments/stage_c/protocol_matched_rep_collective_v0_1_moments.json",
+      "expected_calls": 40800,
+      "stdout": "Matched-rep estimate-only: auth_go not required (family=matched_representation_collective)\nStage C pre-run cost estimate\n  planned calls: 40,800\n  estimated input tokens: 13,545,600\n  input estimate method: ceil(characters / 2.5) + 16\n  maximum output tokens: 816,000\n  prices per 1M tokens: input $0.7500, output $4.5000\n  estimated base cost: $13.8312\n  retry ceiling (3 attempts): $41.4936\n  protocol expected_calls: 40800\n  sample prompt chars: 789\n",
+      "model": "mock",
+      "backend": "mock"
+    },
+    {
+      "representation": "centers_24_standard",
+      "protocol": "experiments/stage_c/protocol_matched_rep_collective_v0_1_centers.json",
+      "expected_calls": 40800,
+      "stdout": "Matched-rep estimate-only: auth_go not required (family=matched_representation_collective)\nStage C pre-run cost estimate\n  planned calls: 40,800\n  estimated input tokens: 23,990,400\n  input estimate method: ceil(characters / 2.5) + 16\n  maximum output tokens: 816,000\n  prices per 1M tokens: input $0.7500, output $4.5000\n  estimated base cost: $21.6648\n  retry ceiling (3 attempts): $64.9944\n  protocol expected_calls: 40800\n  sample prompt chars: 1429\n",
+      "model": "mock",
+      "backend": "mock"
+    },
+    {
+      "representation": "intervals_24_decimal6",
+      "protocol": "experiments/stage_c/protocol_matched_rep_collective_v0_1_intervals.json",
+      "expected_calls": 40800,
+      "stdout": "Matched-rep estimate-only: auth_go not required (family=matched_representation_collective)\nStage C pre-run cost estimate\n  planned calls: 40,800\n  estimated input tokens: 26,152,800\n  input estimate method: ceil(characters / 2.5) + 16\n  maximum output tokens: 816,000\n  prices per 1M tokens: input $0.7500, output $4.5000\n  estimated base cost: $23.2866\n  retry ceiling (3 attempts): $69.8598\n  protocol expected_calls: 40800\n  sample prompt chars: 1562\n",
+      "model": "mock",
+      "backend": "mock"
+    }
+  ],
+  "note": "Paste est. base USD into docs/MATCHED_REP_COLLECTIVE_COST_CARD.md"
+}

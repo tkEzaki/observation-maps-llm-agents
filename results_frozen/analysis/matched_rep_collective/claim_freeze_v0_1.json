@@ -1,0 +1,40 @@
+{
+  "status": "NATCOMM_CLAIM_HIERARCHY_FROZEN_V0_1",
+  "updated": "2026-07-25",
+  "central_proposition": "Observation representations causally select distinct collective phases in the matched GPT system. On identical physical fields, representation-dependent response operators generalize across three model families, and even information-preserving changes in presentation alter the operator.",
+  "claim_scope": {
+    "macro_phase_selection": "gpt_only",
+    "micro_operator_generality_cross_rep": "gpt_claude_gemini",
+    "serialization_sensitivity_same_info": "gpt_omap_control",
+    "macro_generality_across_families": "not_tested",
+    "length_alone_causality": "not_claimed",
+    "mediation": "not_claimed",
+    "source_feedback": "suggested_or_not_established"
+  },
+  "explicit_non_claims": [
+    "collective_phases_replicated_across_three_families",
+    "macro_effect_from_serialization_alone",
+    "prompt_length_alone_caused_effect",
+    "operator_fully_mediates_macro",
+    "source_or_feedback_established"
+  ],
+  "results_sections": [
+    "Equivalent physical fields induce representation-dependent microscopic responses",
+    "Microscopic compressibility does not ensure collective transportability",
+    "Matched observation-map interventions select distinct collective phases",
+    "Cross-encoding replay establishes operator differences on identical fields",
+    "Operator dependence replicates across three model families",
+    "Information-preserving presentation changes also alter the operator"
+  ],
+  "result6_scale_bar": {
+    "block_noise": 0.069,
+    "original_reformatted": 0.145,
+    "same_info_mean": 0.311,
+    "cross_representation_mean": 0.344,
+    "original_padded": 0.414
+  },
+  "next_priority": "manuscript_figures_open_data",
+  "new_large_acquisition_required": false,
+  "optional_non_mandatory": "claude_gemini_same_info_control_micro",
+  "outline_doc": "docs/NATCOMM_RESULTS_OUTLINE.md"
+}

@@ -1,0 +1,23 @@
+{
+  "holdout_block": "block_2",
+  "metrics": {
+    "hellinger": {
+      "g_rmse": 0.4942511994447224,
+      "activity_rmse": 0.2325227254725641,
+      "mean_tv": 0.3145986734770649,
+      "mean_js": 0.11339514016744509,
+      "log_loss": 0.7363846187264154,
+      "brier": 0.2032423508680575
+    },
+    "circular_emd": {
+      "g_rmse": 0.4936895728307928,
+      "activity_rmse": 0.23128558752639167,
+      "mean_tv": 0.31363293571218015,
+      "mean_js": 0.11275954993830127,
+      "log_loss": 0.7353198622519076,
+      "brier": 0.2021042316570676
+    }
+  },
+  "preferred_native_metric_by_holdout_log_loss": "circular_emd",
+  "note": "Full LOGO CV skipped circular for runtime; holdout compare is the native-distance gate. Production model remains acquisition-block CV winner (activity_direction_hurdle), not hybrid kernel."
+}

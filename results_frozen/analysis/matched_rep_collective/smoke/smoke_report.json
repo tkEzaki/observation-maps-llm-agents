@@ -1,0 +1,12 @@
+{
+  "status": "smoke_ok",
+  "init_seed": 2026089500,
+  "n_sessions": 3,
+  "sessions": [
+    "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-moments-smoke_3888acbe7b13\\20260724T062245Z",
+    "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-centers-smoke_7b1f2ca7e509\\20260724T062246Z",
+    "<PROJECT_ROOT>\\analysis\\matched_rep_collective\\smoke\\runs\\matched-rep-collective-v0.1-intervals-smoke_0c44f5cce61a\\20260724T062246Z"
+  ],
+  "paid_authorized": false,
+  "note": "Physical IC matched across 3 reps; paid gate still closed"
+}

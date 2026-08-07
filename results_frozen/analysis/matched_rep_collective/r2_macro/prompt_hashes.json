@@ -1,0 +1,19 @@
+{
+  "prompt_version": "response-law-v0.1",
+  "canonical_state": "linspace_phases_endpoint_false_agent0",
+  "representations": {
+    "moments_m1_m3": {
+      "canonical_prompt_sha256": "0ae3f1f951fb71af7e4b13ed0a37cc0ca89576ca6f5829cfe6f244c69f159c65",
+      "canonical_prompt_chars": 789
+    },
+    "centers_24_standard": {
+      "canonical_prompt_sha256": "467303326724e54e494269b6603b1504f1886cc976ca209476d5277b91172b3f",
+      "canonical_prompt_chars": 1429
+    },
+    "intervals_24_decimal6": {
+      "canonical_prompt_sha256": "de35f0810977571443ceaa89175897ecb086700ed5a7fafc57a1f490a2fbec73",
+      "canonical_prompt_chars": 1562
+    }
+  },
+  "aggregate_sha256": "9925f56601864fbf72a577d6dea4428340d0c4333d8c5894bca139dd6328ea82"
+}

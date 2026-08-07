@@ -1,0 +1,464 @@
+{
+  "status": "intervals_int2b_final_offline_revision",
+  "support_gate_locked": {
+    "k_neighbors": 16,
+    "coverage_gap_nn_threshold": 0.35,
+    "high_stay_threshold": 0.55,
+    "active_threshold": 0.55,
+    "local_dispersion_tv_threshold": 0.35,
+    "max_gap_risk_fraction": 0.35,
+    "max_noncompress_fraction": 0.35,
+    "max_gap_plus_noncompress_fraction": 0.45,
+    "min_support_ok_fraction": 0.4,
+    "calibration_note": "Thresholds frozen from INT-2 exploratory map + Centers transfer-failure pattern (neighbors_active_feature_gap). Not to be changed after seeing INT-3."
+  },
+  "full_collective": {
+    "ranking": [
+      {
+        "model": "peer_specific_activity_direction",
+        "log_loss": 0.8032957634437536,
+        "d_TV": 0.27400263123212754,
+        "abs_e_A": 0.14712864431726475,
+        "abs_e_a0": 0.3695948024076722,
+        "a0_mae": 0.3695948024076722,
+        "a0_sign_acc": 0.7337328767123288,
+        "a0_corr": 0.5760833152754207,
+        "n": 1512.0
+      },
+      {
+        "model": "canonical_emd_plus_interval_discrete",
+        "log_loss": 0.8703536033955563,
+        "d_TV": 0.31972566708350175,
+        "abs_e_A": 0.19216675656831758,
+        "abs_e_a0": 0.3935097929706619,
+        "a0_mae": 0.3935097929706619,
+        "a0_sign_acc": 0.714041095890411,
+        "a0_corr": 0.5491115467179735,
+        "n": 1512.0
+      },
+      {
+        "model": "peer_specific_hellinger",
+        "log_loss": 0.8769161754624807,
+        "d_TV": 0.3203108994863648,
+        "abs_e_A": 0.19067668479790104,
+        "abs_e_a0": 0.3969573748686606,
+        "a0_mae": 0.3969573748686606,
+        "a0_sign_acc": 0.7157534246575342,
+        "a0_corr": 0.5389391949441565,
+        "n": 1512.0
+      },
+      {
+        "model": "peer_specific_canonical_emd",
+        "log_loss": 0.8831551322928152,
+        "d_TV": 0.32303016341982616,
+        "abs_e_A": 0.19158718330477587,
+        "abs_e_a0": 0.4002671706777,
+        "a0_mae": 0.4002671706777,
+        "a0_sign_acc": 0.7080479452054794,
+        "a0_corr": 0.52379582924705,
+        "n": 1512.0
+      },
+      {
+        "model": "direct_native_emd",
+        "log_loss": 0.9314367029963575,
+        "d_TV": 0.3429139617585326,
+        "abs_e_A": 0.21214833863163338,
+        "abs_e_a0": 0.4119740161049284,
+        "a0_mae": 0.4119740161049284,
+        "a0_sign_acc": 0.6960616438356164,
+        "a0_corr": 0.4832495346283471,
+        "n": 1512.0
+      },
+      {
+        "model": "peer_specific_global",
+        "log_loss": 1.0264313943034784,
+        "d_TV": 0.39034176465294845,
+        "abs_e_A": 0.23457654848655146,
+        "abs_e_a0": 0.45185800542252613,
+        "a0_mae": 0.45185800542252613,
+        "a0_sign_acc": 0.5351027397260274,
+        "a0_corr": 0.1354344196012352,
+        "n": 1512.0
+      }
+    ],
+    "cluster_bootstrap": {
+      "peer_specific_activity_direction": {
+        "row_mean": 0.20714069029194243,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.20714069029194243,
+          "ci_low": 0.17743481629326036,
+          "ci_high": 0.3259095796573745,
+          "n_clusters": 56,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.20714069029194243,
+          "ci_low": 0.17776160709488265,
+          "ci_high": 0.3808528194718148,
+          "n_clusters": 41,
+          "ci_entirely_positive": true
+        }
+      },
+      "peer_specific_hellinger": {
+        "row_mean": 0.13798762580217816,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.13798762580217816,
+          "ci_low": 0.11783792241969691,
+          "ci_high": 0.22881699537536296,
+          "n_clusters": 56,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.13798762580217816,
+          "ci_low": 0.1151045485661708,
+          "ci_high": 0.2700275977761837,
+          "n_clusters": 41,
+          "ci_entirely_positive": true
+        }
+      },
+      "peer_specific_canonical_emd": {
+        "row_mean": 0.13299771188156667,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.13299771188156667,
+          "ci_low": 0.11173980869608634,
+          "ci_high": 0.21929054895277633,
+          "n_clusters": 56,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.13299771188156667,
+          "ci_low": 0.10901194278661892,
+          "ci_high": 0.26060576417560516,
+          "n_clusters": 41,
+          "ci_entirely_positive": true
+        }
+      },
+      "canonical_emd_plus_interval_discrete": {
+        "row_mean": 0.13914317354143454,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.13914317354143454,
+          "ci_low": 0.1260776835539427,
+          "ci_high": 0.26148291718067246,
+          "n_clusters": 56,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.13914317354143454,
+          "ci_low": 0.12712074325585318,
+          "ci_high": 0.3189962182789178,
+          "n_clusters": 41,
+          "ci_entirely_positive": true
+        }
+      },
+      "direct_native_emd": {
+        "row_mean": 0.0952694669172018,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.0952694669172018,
+          "ci_low": 0.01308282926708462,
+          "ci_high": 0.10605901714796628,
+          "n_clusters": 56,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.0952694669172018,
+          "ci_low": -0.009098545959138723,
+          "ci_high": 0.10628096496640743,
+          "n_clusters": 41,
+          "ci_entirely_positive": false
+        }
+      }
+    },
+    "risk": {
+      "spearman": 0.15137331637568063,
+      "monotone_ok": true,
+      "enrichment": 1.2644575839475711,
+      "spearman_risk_vs_bin_sparsity": 0.17418604797937587,
+      "spearman_error_vs_bin_sparsity": 0.0404869096462317
+    },
+    "diagnosis_counts": {
+      "local_noncompressible": 963,
+      "active_feature_gap": 473,
+      "supported": 76
+    },
+    "diagnosis_fractions": {
+      "local_noncompressible": 0.6369047619047619,
+      "active_feature_gap": 0.31283068783068785,
+      "supported": 0.05026455026455026
+    },
+    "by_peer_family": {
+      "peer8::sparse_unimodal": {
+        "local_noncompressible": 38,
+        "active_feature_gap": 36
+      },
+      "peer8::trajectory_al": {
+        "active_feature_gap": 4,
+        "local_noncompressible": 4
+      },
+      "peer16::antipodal": {
+        "local_noncompressible": 2
+      },
+      "peer16::other": {
+        "active_feature_gap": 2
+      },
+      "peer16::sparse_antipodal": {
+        "local_noncompressible": 874,
+        "active_feature_gap": 420,
+        "supported": 76
+      },
+      "peer16::trajectory_al": {
+        "local_noncompressible": 45,
+        "active_feature_gap": 11
+      }
+    },
+    "model_gate": {
+      "best_structured": "peer_specific_activity_direction",
+      "beats_global_ll": true,
+      "a0_improved": true,
+      "sign_improved": true,
+      "cluster_field_ci_positive": true,
+      "pass": true
+    },
+    "support_gate_checks": {
+      "gap_risk_le_max": true,
+      "noncompress_le_max": false,
+      "gap_plus_noncompress_le_max": false,
+      "support_ok_ge_min": false
+    },
+    "support_gate_pass": false,
+    "collapsed_families": [
+      "sparse_unimodal",
+      "sparse_antipodal",
+      "trajectory_al"
+    ]
+  },
+  "peer16_only": {
+    "bundle": "intervals_collective_bundle_v1_N17",
+    "n_train": 1430,
+    "ranking": [
+      {
+        "model": "peer16_activity_direction",
+        "log_loss": 0.8342656655163878,
+        "d_TV": 0.2808479317600009,
+        "abs_e_A": 0.15273514226422533,
+        "abs_e_a0": 0.37630050399670095,
+        "a0_mae": 0.37630050399670095,
+        "a0_sign_acc": 0.731996353691887,
+        "a0_corr": 0.5595596879475642,
+        "n": 1430.0
+      },
+      {
+        "model": "peer16_canonical_emd_plus_discrete",
+        "log_loss": 0.8933586794074163,
+        "d_TV": 0.3175172341531242,
+        "abs_e_A": 0.1905398678296507,
+        "abs_e_a0": 0.3914433787311969,
+        "a0_mae": 0.3914433787311969,
+        "a0_sign_acc": 0.715587967183227,
+        "a0_corr": 0.552835300529076,
+        "n": 1430.0
+      },
+      {
+        "model": "peer16_hellinger",
+        "log_loss": 0.9035044267015808,
+        "d_TV": 0.32533997589516006,
+        "abs_e_A": 0.1938660660839783,
+        "abs_e_a0": 0.4036938701946124,
+        "a0_mae": 0.4036938701946124,
+        "a0_sign_acc": 0.7128532360984503,
+        "a0_corr": 0.5236015180614879,
+        "n": 1430.0
+      },
+      {
+        "model": "peer16_canonical_emd",
+        "log_loss": 0.9081288416442689,
+        "d_TV": 0.327608882703765,
+        "abs_e_A": 0.1942571565538947,
+        "abs_e_a0": 0.4068575426503981,
+        "a0_mae": 0.4068575426503981,
+        "a0_sign_acc": 0.7037374658158614,
+        "a0_corr": 0.5069326913152458,
+        "n": 1430.0
+      },
+      {
+        "model": "peer16_direct_native_emd",
+        "log_loss": 0.9388843337126225,
+        "d_TV": 0.342811737270817,
+        "abs_e_A": 0.2126963854648302,
+        "abs_e_a0": 0.4121719100175249,
+        "a0_mae": 0.4121719100175249,
+        "a0_sign_acc": 0.6982680036463081,
+        "a0_corr": 0.4797511970579724,
+        "n": 1430.0
+      },
+      {
+        "model": "peer16_global",
+        "log_loss": 1.0444499368380455,
+        "d_TV": 0.39385547945766364,
+        "abs_e_A": 0.23667495441781375,
+        "abs_e_a0": 0.4552758331989277,
+        "a0_mae": 0.4552758331989277,
+        "a0_sign_acc": 0.5159525979945305,
+        "a0_corr": -0.00744310101852159,
+        "n": 1430.0
+      }
+    ],
+    "cluster_bootstrap": {
+      "peer16_activity_direction": {
+        "row_mean": 0.20047989805058605,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.20047989805058605,
+          "ci_low": 0.16341812278589452,
+          "ci_high": 0.287309032357857,
+          "n_clusters": 50,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.20047989805058605,
+          "ci_low": 0.15279227925731992,
+          "ci_high": 0.32328471234137346,
+          "n_clusters": 35,
+          "ci_entirely_positive": true
+        }
+      },
+      "peer16_hellinger": {
+        "row_mean": 0.13355775832931113,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.13355775832931113,
+          "ci_low": 0.10413931260099918,
+          "ci_high": 0.2071484404810802,
+          "n_clusters": 50,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.13355775832931113,
+          "ci_low": 0.09508944513161975,
+          "ci_high": 0.23879911544292617,
+          "n_clusters": 35,
+          "ci_entirely_positive": true
+        }
+      },
+      "peer16_canonical_emd": {
+        "row_mean": 0.12929458376124742,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.12929458376124742,
+          "ci_low": 0.09861407281816602,
+          "ci_high": 0.19979909431425535,
+          "n_clusters": 50,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.12929458376124742,
+          "ci_low": 0.08888293577148094,
+          "ci_high": 0.23245749214584685,
+          "n_clusters": 35,
+          "ci_entirely_positive": true
+        }
+      },
+      "peer16_canonical_emd_plus_discrete": {
+        "row_mean": 0.14643595907094853,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.14643595907094853,
+          "ci_low": 0.1317828008203139,
+          "ci_high": 0.22943287932275078,
+          "n_clusters": 50,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.14643595907094853,
+          "ci_low": 0.1248771369924065,
+          "ci_high": 0.266295602997429,
+          "n_clusters": 35,
+          "ci_entirely_positive": true
+        }
+      },
+      "peer16_direct_native_emd": {
+        "row_mean": 0.0995855989730304,
+        "physical_field_cluster": {
+          "mean_delta_ll": 0.0995855989730304,
+          "ci_low": 0.01864031144320112,
+          "ci_high": 0.11489599200859395,
+          "n_clusters": 50,
+          "ci_entirely_positive": true
+        },
+        "profile_family_cluster": {
+          "mean_delta_ll": 0.0995855989730304,
+          "ci_low": -0.010917411136125961,
+          "ci_high": 0.11314510609880157,
+          "n_clusters": 35,
+          "ci_entirely_positive": false
+        }
+      }
+    },
+    "risk": {
+      "spearman": 0.10284756621949803,
+      "monotone_ok": true,
+      "enrichment": 1.1246056964035893,
+      "spearman_risk_vs_bin_sparsity": 0.0025468229991778587,
+      "spearman_error_vs_bin_sparsity": -0.029576158012721385
+    },
+    "diagnosis_counts": {
+      "local_noncompressible": 921,
+      "active_feature_gap": 433,
+      "supported": 76
+    },
+    "diagnosis_fractions": {
+      "local_noncompressible": 0.644055944055944,
+      "active_feature_gap": 0.3027972027972028,
+      "supported": 0.05314685314685315
+    },
+    "by_peer_family": {
+      "peer16::antipodal": {
+        "local_noncompressible": 2
+      },
+      "peer16::other": {
+        "active_feature_gap": 2
+      },
+      "peer16::sparse_antipodal": {
+        "local_noncompressible": 874,
+        "active_feature_gap": 420,
+        "supported": 76
+      },
+      "peer16::trajectory_al": {
+        "local_noncompressible": 45,
+        "active_feature_gap": 11
+      }
+    },
+    "model_gate": {
+      "best_structured": "peer16_activity_direction",
+      "beats_global_ll": true,
+      "a0_improved": true,
+      "sign_improved": true,
+      "cluster_field_ci_positive": true,
+      "pass": true
+    },
+    "support_gate_checks": {
+      "gap_risk_le_max": true,
+      "noncompress_le_max": false,
+      "gap_plus_noncompress_le_max": false,
+      "support_ok_ge_min": false
+    },
+    "support_gate_pass": false,
+    "collapsed_families": [
+      "sparse_antipodal",
+      "trajectory_al"
+    ],
+    "discrete_help_on_gap_fields": {
+      "n_gap": 433,
+      "mean_tv_canonical": 0.14863153420154912,
+      "mean_tv_discrete": 0.15666452271367265,
+      "improved_fraction": 0.4387990762124711
+    }
+  },
+  "int3_prospective_pilot_go": false,
+  "intervals_collective_stop": true,
+  "paid_authorized": false,
+  "freeze_ready": false,
+  "locked_stop_wording": "Interval-bin serialization yields an in-distribution-compressible microscopic response operator, but the available finite-peer training manifold does not support reliable prospective transport to collective-like fields.",
+  "next": "STOP intervals collective branch; archive as microscopic-only",
+  "p_fail_plumbing_required_before_paid": true,
+  "raw_response_retention_smoke_required_before_paid": true,
+  "artifacts": {
+    "support_full": "int2b_support_detail_full.csv",
+    "support_peer16": "int2b_support_detail_peer16.csv"
+  }
+}

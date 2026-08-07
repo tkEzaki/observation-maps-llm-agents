@@ -1,0 +1,29 @@
+{
+  "session_dir": "<PROJECT_ROOT>\\runs\\stage_c\\stage-c-v0.1_0291166d2e39\\20260723T235620Z",
+  "total_calls": 6240,
+  "total_valid": 6240,
+  "valid_rate": 1.0,
+  "actual_input_tokens": 1248000,
+  "actual_output_tokens": 115592,
+  "actual_cost_usd": 1.456164,
+  "overall_mae_final_r": 0.06865877214224253,
+  "overall_mae_mean_r": 0.11597498204897944,
+  "by_K": {
+    "-0.15": {
+      "llm_final_r": 0.04317050697109048,
+      "surr_final_r": 0.14486482639941595,
+      "mae_final_r": 0.10169431942832549
+    },
+    "0.0": {
+      "llm_final_r": 0.1875588989829329,
+      "surr_final_r": 0.1875588989829329,
+      "mae_final_r": 0.0
+    },
+    "0.15": {
+      "llm_final_r": 0.9948805963519867,
+      "surr_final_r": 0.891112728009918,
+      "mae_final_r": 0.1042819969984021
+    }
+  },
+  "comparison_csv": "analysis/stage_c_artifacts/llm_vs_surrogate_T40.csv"
+}

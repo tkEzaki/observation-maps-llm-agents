@@ -1,0 +1,9 @@
+{
+  "representation": "centers_24_standard",
+  "is_histogram_native": true,
+  "train_peers": [
+    8,
+    16,
+    240
+  ]
+}

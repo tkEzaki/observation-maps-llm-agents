@@ -1,0 +1,16 @@
+{
+  "runner_source_sha256": "513dbd316df9eedc2022a4ab2053c974b1a77292f339972da212fab855d89dd0",
+  "encoder_sources_sha256": "b92e69c8306b43e39fcef6ea91bc6ffeb2acc12429db0c70b0dc7a27e383463a",
+  "selector_source_sha256": "34894468c9dec8cfefaf4ec353b7f3afb17652f779e53d5ed9749d44cdbeb206",
+  "dependency_snapshot_sha256": "7cb7308840697671a2c89d475996f2e48a07461d86bcc9d92b888ceb8dcefa3d",
+  "files": {
+    "runner": "experiments/stage_c/run_matched_rep_collective_replay.py",
+    "encoder": "circlemap/representations.py",
+    "selector": "analysis/matched_rep_collective/select_replay_fields.py",
+    "parser": "circlemap/response.py",
+    "backends": "circlemap/backends.py",
+    "protocol": "experiments/stage_c/protocol_matched_rep_collective_replay_v0_1.json"
+  },
+  "runner_commit_hash": null,
+  "note": "Git unavailable; source-file aggregates used for reproducibility."
+}

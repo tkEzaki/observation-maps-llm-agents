@@ -1,0 +1,13 @@
+{
+  "run_dir": "<PROJECT_ROOT>\\runs\\matched_rep_collective_omap\\matched-rep-omap-control-v0.1_gpt-5.4-mini\\20260724T161234Z",
+  "n_planned": 2304,
+  "n_trace_rows": 2304,
+  "n_executed_this_session": 2296,
+  "n_valid_this_session": 2296,
+  "valid_rate_session": 1.0,
+  "actual_input_tokens_session": 565952,
+  "actual_output_tokens_session": 41239,
+  "actual_cost_usd_session": 0.6100395,
+  "elapsed_seconds": 99.03707039996516,
+  "complete": true
+}

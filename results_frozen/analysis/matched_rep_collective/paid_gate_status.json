@@ -1,0 +1,34 @@
+{
+  "updated_utc": "2026-07-24T06:24:55.977495+00:00",
+  "paid_authorized": false,
+  "mock_smoke_authorized": true,
+  "match_manifest_exists": true,
+  "estimate_only_log_exists": true,
+  "mock_smoke_ok": true,
+  "gates_already_done": [
+    "three per-rep character-heuristic --estimate-only logged on cost card",
+    "match manifest locked (24 cells x 3 reps)",
+    "mock smoke IC-match passed",
+    "replay field rules locked pre-outcome",
+    "protocols + surrogate-free auth path implemented"
+  ],
+  "gates_remaining_before_paid": [
+    "human review checklist signed (docs/MATCHED_REP_COLLECTIVE_HUMAN_REVIEW.md)",
+    "flip auth_go.json paid_authorized to true",
+    "explicit user --yes",
+    "then run N=17 x 4K x 6seeds x 3reps",
+    "then 3x3 replay under MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md",
+    "then conditional R1/R2 second-model only if Outcome A or B"
+  ],
+  "explicit_non_actions": [
+    "no INT/CENT surrogate reopen",
+    "no OpenAI spend while paid_authorized is false",
+    "no N=9 before N=17 effect"
+  ],
+  "next_commands_after_go": [
+    "optional: py analysis/matched_rep_collective/run_estimate_only.py --backend openai --model MODEL",
+    "set auth_go paid_authorized true after human review",
+    "py -m experiments.stage_c.run_collective --protocol experiments/stage_c/protocol_matched_rep_collective_v0_1_moments.json --backend openai --model MODEL --yes",
+    "(repeat for centers and intervals protocols)"
+  ]
+}

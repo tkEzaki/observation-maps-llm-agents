@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "47d97bc0acc3e13b8d0e80e3b1560f618b21a8dcf71c4121e71a8dc07c64945c",
+  "bundle_manifest_sha256": "ebcd8f52fb08c5860030f33f0511e6f698568731698dc9e1204b5e9bf7f5123e",
+  "backend": "openai",
+  "model": "gpt-5.4-mini",
+  "concurrency": 20
+}

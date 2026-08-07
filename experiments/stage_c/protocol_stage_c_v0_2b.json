@@ -1,0 +1,78 @@
+{
+  "protocol_name": "stage_c_v0_2b_size_negative_replication",
+  "protocol_version": "stage-c-v0.2b",
+  "purpose": "size (N=9) and polar-suppression (K=-0.15) replication after v0.2a success; activity/stay/speed remain primary",
+  "status": "paid_go_authorized",
+  "depends_on": "stage-c-v0.2a",
+  "representation": "moments_m1_m3",
+  "bundle_root": "analysis/stage3a_artifacts/moments_bundle_v2",
+  "bundle_root_prediction": "analysis/stage3a_artifacts/moments_bundle_v2",
+  "bundle_root_comparator": "analysis/stage3a_artifacts/moments_bundle_v1",
+  "comparison": {
+    "models": ["v1_frozen", "v2_frozen", "llm_collective"],
+    "prediction_model": "v2",
+    "v1_role": "archived_prospective_baseline_comparator"
+  },
+  "n_agents": [9, 17],
+  "peer_counts": [8, 16],
+  "n_steps": 100,
+  "n_bins": 24,
+  "couplings_by_n": {
+    "9": [-0.15, 0.0, 0.06, 0.08, 0.10, 0.15],
+    "17": [-0.15]
+  },
+  "couplings": [-0.15, 0.0, 0.06, 0.08, 0.10, 0.15],
+  "omega_halfwidth": 0.05,
+  "omega_spacing": "equally_spaced_symmetric",
+  "n_seeds": 4,
+  "base_seed": 2026072419,
+  "seed_strategy": "hash_v1_new_seeds_not_reused_from_v0_1_or_v0_2a",
+  "init_kind": "uniform",
+  "prompt_version": "response-law-v0.1",
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "concurrency_within_timestep": 20,
+  "primary_endpoints": [
+    "r1_T",
+    "time_averaged_r1",
+    "t_r1_gt_0.5",
+    "t_r1_gt_0.9",
+    "mean_activity",
+    "mean_tau_social",
+    "predictive_interval_coverage"
+  ],
+  "secondary_endpoints": [
+    "r2",
+    "r3",
+    "omega_coll",
+    "locking_fraction",
+    "teacher_forced_one_step_stay_direction",
+    "trajectory_risk",
+    "polar_order_under_negative_K"
+  ],
+  "design_rationale": {
+    "N9_grid": "sanity K=0; pre/cross/post around K_cross≈0.08; K=0.15 post; K=-0.15 polar suppression",
+    "N17_negative_only": "v0.2a already covered positive transition; add polar-suppression control",
+    "avoid_duplicate_v0_2a_cells": "no N=17 positive K rerun"
+  },
+  "criteria": {
+    "minimum_valid_rate": 0.95,
+    "record_risk_and_peer_gates": true,
+    "compare_to_v1_and_v2_surrogate": true,
+    "activity_is_primary": true,
+    "negative_K_not_called_disordered": true
+  },
+  "expected_calls": 28400,
+  "cost_ceiling_usd_estimate": 12.0,
+  "call_breakdown": {
+    "N9": "9 × 6 × 100 × 4 = 21600",
+    "N17_neg": "17 × 1 × 100 × 4 = 6800",
+    "total": 28400
+  },
+  "paid_gates": {
+    "v0_2a_success": true,
+    "v2_checklist_all_pass": true,
+    "estimate_only_reviewed": true,
+    "explicit_yes": true
+  }
+}

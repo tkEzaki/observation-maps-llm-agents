@@ -1,0 +1,126 @@
+{
+  "protocol_name": "matched_rep_collective_r2_claude_v0_1",
+  "protocol_version": "matched-rep-collective-r2-claude-v0.1",
+  "experiment_family": "matched_representation_collective_r2",
+  "purpose": "Targeted second-family macroscopic replication: Claude Haiku under GPT-matched physical seeds; test whether observation representation selects collective phenotype.",
+  "status": "preregistered_estimate_only",
+  "selection_rationale": "targeted_replication_from_R1_micro_operator_PASS_not_random_family_draw",
+  "parent_gpt_match_group": "matched_rep_collective_v0_1",
+  "parent_gpt_match_manifest": "analysis/matched_rep_collective/match_manifest.json",
+  "parent_r1_protocol": "experiments/stage_c/protocol_matched_rep_collective_r1_v0_1.json",
+  "surrogate_free": true,
+  "family": "anthropic",
+  "backend": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "input_price_per_million": 1.0,
+  "output_price_per_million": 5.0,
+  "base_seed": 2026072420,
+  "seed_strategy": "physical_init_matches_gpt_match_manifest__api_sample_hash_family_model_rep_init_K_agent_t",
+  "n_agents": 17,
+  "peer_count": 16,
+  "n_steps": 100,
+  "n_bins": 24,
+  "omega_halfwidth": 0.05,
+  "omega_spacing": "equally_spaced_symmetric",
+  "init_kind": "uniform",
+  "representations": [
+    "moments_m1_m3",
+    "centers_24_standard",
+    "intervals_24_decimal6"
+  ],
+  "core_panel": {
+    "seed_indices": [0, 1, 2, 3, 4, 5],
+    "couplings": [0.0, 0.08, 0.15],
+    "n_physical_seeds": 6,
+    "expected_calls": 91800
+  },
+  "heldout_panel": {
+    "seed_indices": [6, 7, 8, 9],
+    "couplings": [0.08, 0.15],
+    "n_physical_seeds": 4,
+    "expected_calls": 40800,
+    "note": "Frozen before Claude outcomes; K=0 omitted (covered by core)."
+  },
+  "excluded_couplings": [-0.15],
+  "excluded_couplings_rationale": "R2 targets positive-K qualitative phase selection; negative-K torque-sign is secondary.",
+  "acquisition": {
+    "schedule": "seed_K_matched_triplet_round_robin_representations",
+    "representation_order": [
+      "moments_m1_m3",
+      "centers_24_standard",
+      "intervals_24_decimal6"
+    ],
+    "concurrency_within_timestep_per_rep": 17,
+    "task_manifest": "analysis/matched_rep_collective/r2_macro/task_manifest.json",
+    "physical_seed_manifest": "analysis/matched_rep_collective/r2_macro/physical_seed_manifest.json"
+  },
+  "prompt_version": "response-law-v0.1",
+  "temperature": 0.7,
+  "max_output_tokens": 20,
+  "max_attempts": 3,
+  "invalid_policy": {
+    "retain_raw_on_invalid": true,
+    "separate_strict_and_rescued": true,
+    "never_replace_unrecoverable_with_stay": true,
+    "never_write_partial_agent_step": true,
+    "never_substitute_seed": true,
+    "reacquire_same_cell_on_unrecoverable": true
+  },
+  "k0_control": {
+    "required": true,
+    "panels": ["core"],
+    "metric": "max_abs_diff_rm_across_representations",
+    "m_values": [1, 2, 3],
+    "tolerance": 1e-12,
+    "on_fail": "abort_engine_matching_failure"
+  },
+  "phenotypes": {
+    "frozen_from": "matched_rep_collective_v0_2_gpt",
+    "labels": [
+      "polar_locked",
+      "high_r2_nonpolar",
+      "partial_polar_order",
+      "low_polar_active"
+    ],
+    "rules": {
+      "polar_locked": "final_r1 >= 0.9",
+      "high_r2_nonpolar": "final_r2 >= 0.5 and final_r2 > final_r1",
+      "partial_polar_order": "0.35 <= final_r1 < 0.9 and not high_r2_nonpolar",
+      "low_polar_active": "final_r1 < 0.35"
+    },
+    "sustained_lock": "exists t: r1(s)>0.9 for all s in [t,T]",
+    "first_passage_not_locking_time": true
+  },
+  "primary_inference": {
+    "unit": "physical_seed",
+    "endpoint": "L_sR = mean sustained_lock over K in {0.08,0.15}",
+    "statistic": "T_L = sum_R (mean_L_R - grand_mean)^2",
+    "null": "exact_seed_blocked_permutation_of_representation_labels",
+    "n_permutations": 46656,
+    "alpha": 0.05,
+    "panel": "core"
+  },
+  "gates": {
+    "A_core_macro_effect": "required",
+    "B_qualitative_phase_separation": "near_required",
+    "C_gpt_phenotype_map": "optional_strong"
+  },
+  "expected_calls": 132600,
+  "cost_ceiling_usd": 175.0,
+  "heuristic_base_usd_from_r1_extrapolation": 74.0,
+  "paid_gates": {
+    "human_review_complete": false,
+    "estimate_only_reviewed": false,
+    "auth_go_sidecar": true,
+    "explicit_yes": true
+  },
+  "auth_go_sidecar": "analysis/matched_rep_collective/r2_macro/auth_go.json",
+  "artifact_dir": "analysis/matched_rep_collective/r2_macro",
+  "docs": {
+    "hypothesis": "docs/MATCHED_REP_COLLECTIVE_R2_HYPOTHESIS.md",
+    "protocol": "docs/MATCHED_REP_COLLECTIVE_R2_PROTOCOL.md",
+    "analysis_plan": "docs/MATCHED_REP_COLLECTIVE_R2_ANALYSIS_PLAN.md",
+    "cost_card": "docs/MATCHED_REP_COLLECTIVE_R2_COST_CARD.md",
+    "human_review": "docs/MATCHED_REP_COLLECTIVE_R2_HUMAN_REVIEW.md"
+  }
+}
