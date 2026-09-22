@@ -21,7 +21,7 @@ authors:
     family-names: Nishinari
     affiliation: "Research Center for Advanced Science and Technology, The University of Tokyo"
     orcid: "https://orcid.org/0000-0003-3069-1757"
-version: v1.1.1
+version: v1.2.0
 date-released: 2026-09-22
 license: MIT
 repository-code: https://github.com/tkEzaki/observation-maps-llm-agents

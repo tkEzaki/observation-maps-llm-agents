@@ -122,7 +122,7 @@
     "same_info_mean": 0.311,
     "cross_rep_mean": 0.344
   },
-  "central_proposition_doc": "docs/NATCOMM_RESULTS_OUTLINE.md",
+  "central_proposition_doc": "docs/publication_RESULTS_OUTLINE.md",
   "padding_wording": "The neutral-padding manipulation produced the largest separation; do not claim prompt length alone.",
   "explicit_non_claims": [
     "collective_phases_replicated_across_three_families",

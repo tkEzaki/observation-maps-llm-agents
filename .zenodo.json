@@ -4,7 +4,7 @@
   "license": "MIT",
   "access_right": "open",
   "language": "eng",
-  "description": "<p>Research data and code accompanying the study by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari, How a shared state is described determines whether AI agents synchronize.</p><p>Version 1.1.0 retains the original 15 acquisition groups and adds the September 2026 Claude controlled-field concentration sweep: 25,920 accepted responses in two blocks, the separate preflight journal, immutable attempt records, stimuli, protocols, and frozen analysis tables. It includes the response-count audit for 507,112 valid responses in the reported analyses, the persistence check, and the current figure-generation scripts and 44 PDF display assets.</p><p>Offline analysis and figure reproduction use recorded data and require no provider API calls. The README distinguishes current figures from the historical v1.0.0 figure pipeline and gives verification commands. Exact re-acquisition depends on provider model availability.</p>",
+  "description": "<p>Research data and code accompanying How a shared state is described determines whether AI agents synchronize, by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari.</p><p>This release provides recorded acquisitions, protocols, offline analyses, current figure-generation code and 44 reference figure assets. The reported analyses include 507,112 valid responses, including 25,920 responses in the later Claude controlled-field follow-up.</p><p>Version 1.2.0 consolidates figure-generation code and uses neutral directory names. Unused earlier plotting implementations and outdated instructions are removed. Raw acquisition records and reference artwork are unchanged from v1.1.1. Model identifiers and scientific provenance are retained.</p>",
   "creators": [
     {
       "name": "Ezaki, Takahiro",
@@ -46,7 +46,7 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Version 1.1.1 corrects checksum manifests for the archived line endings. Scientific data, current artwork and figure-generation scripts are unchanged from v1.1.0. Version 1.1.0 adds the Claude follow-up and current figure sources to the original release. This software/data release does not imply journal acceptance.",
-  "version": "v1.1.1",
+  "notes": "Packaging and code-organization update. Scientific data and conclusions are unchanged.",
+  "version": "v1.2.0",
   "publication_date": "2026-09-22"
 }

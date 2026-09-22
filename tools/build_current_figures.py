@@ -6,12 +6,12 @@ def main():
     subprocess.run([sys.executable,'-B','tools/restore_frozen_results.py'],cwd=ROOT,check=True)
     for module in ['uppercase_figure_panels_20260922','uppercase_figure_references_20260922',
                    'build_figures_v4','build_main_figures_v4','build_figS27_v4']:
-        subprocess.run([sys.executable,'-B','-m','analysis.sciadv_revision.'+module],cwd=ROOT,check=True)
-    output=ROOT/'figures/sciadv_current'
+        subprocess.run([sys.executable,'-B','-m','analysis.publication.'+module],cwd=ROOT,check=True)
+    output=ROOT/'figures/publication'
     output.mkdir(exist_ok=True)
-    for folder in ['sciadv_caps_20260922','sciadv_v4']:
+    for folder in ['panel_conversion','rendered_main']:
         for source in (ROOT/'figures'/folder).glob('*.pdf'):
             shutil.copy2(source,output/source.name)
     assert len(list(output.glob('*.pdf')))==44
-    print('Current figures: figures/sciadv_current (44 PDFs).')
+    print('Current figures: figures/publication (44 PDFs).')
 if __name__=='__main__': main()

@@ -1,0 +1,1 @@
+"""Main figure rendering helpers."""

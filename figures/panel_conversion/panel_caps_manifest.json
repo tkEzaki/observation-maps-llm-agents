@@ -1,0 +1,2158 @@
+[
+  {
+    "source": "figures/figure_work/fig1_collective_phases.pdf",
+    "output": "figures/panel_conversion/fig1_collective_phases.pdf",
+    "source_sha256": "f9b1d3bc726669db2a11101c6a9af84bbc49fd2762023b3f2b2bb41cbf4b4377",
+    "output_sha256": "530e3175bc3d179347ee55701feca3948c81fc6f189bfd5cc23af68d4a3c7c16",
+    "width": 511.2,
+    "height": 640.8,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 3.6,
+        "top": 12.589749999999981,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 39.6,
+        "top": 332.506,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 295.2,
+        "top": 332.506,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 39.6,
+        "top": 461.94975,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 363.6,
+        "top": 462.106,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 12.96,
+        "top": 166.5285,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 268.56,
+        "top": 166.5285,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/figure_work/fig2_microscopic_operators.pdf",
+    "output": "figures/panel_conversion/fig2_microscopic_operators.pdf",
+    "source_sha256": "eea3e15cfd52fcc071e609aa60f33e1179fcdafd9ae9eb05339d0a9ac6fee60e",
+    "output_sha256": "f4400525aaf626d3d104202d04b5abfdeab3c602f4a19c7a47cb0c069170108c",
+    "width": 511.2,
+    "height": 489.6,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 46.008,
+        "top": 17.26400000000001,
+        "size": 8.0
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 213.2748387097,
+        "top": 17.26400000000001,
+        "size": 8.0
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 380.5416774194,
+        "top": 17.26400000000001,
+        "size": 8.0
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 46.008,
+        "top": 128.89192589150002,
+        "size": 8.0
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 213.2748387097,
+        "top": 128.89192589150002,
+        "size": 8.0
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 380.5416774194,
+        "top": 128.89192589150002,
+        "size": 8.0
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 46.008,
+        "top": 242.36360178310002,
+        "size": 8.0
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 213.2748387097,
+        "top": 242.36360178310002,
+        "size": 8.0
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 380.5416774194,
+        "top": 242.36360178310002,
+        "size": 8.0
+      },
+      {
+        "from": "j",
+        "to": "J",
+        "x0": 46.008,
+        "top": 353.99152767460004,
+        "size": 8.0
+      },
+      {
+        "from": "k",
+        "to": "K",
+        "x0": 213.2748387097,
+        "top": 353.99152767460004,
+        "size": 8.0
+      },
+      {
+        "from": "l",
+        "to": "L",
+        "x0": 380.5416774194,
+        "top": 353.99152767460004,
+        "size": 8.0
+      }
+    ]
+  },
+  {
+    "source": "figures/figure_work/fig3_replay_operator.pdf",
+    "output": "figures/panel_conversion/fig3_replay_operator.pdf",
+    "source_sha256": "4075f99b4124137c2d22ec4e844d738eaaca4d06d74016214ffe2180fc609926",
+    "output_sha256": "634e35881393127ddd861639e4e4876942164762c0b4e7452cceb2f6fcab04a2",
+    "width": 510.2362204724,
+    "height": 368.5039370079,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 15.3070866142,
+        "top": 11.443732283500026,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 185.3858267717,
+        "top": 11.443732283500026,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 335.6220472441,
+        "top": 11.443732283500026,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 15.3070866142,
+        "top": 133.33349606299998,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 318.6141732283,
+        "top": 133.33349606299998,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 15.3070866142,
+        "top": 255.2232598425,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 225.0708661417,
+        "top": 255.2232598425,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/figure_work/fig4_cross_family.pdf",
+    "output": "figures/panel_conversion/fig4_cross_family.pdf",
+    "source_sha256": "51101a5b98d341dd3f85d54a49f726a3d9252e8918bea02ea1d39294ed25aee6",
+    "output_sha256": "53de2d1e77da7225c038b8445941a255c1f1bac191f255e00a3c4d898eb22289",
+    "width": 510.2362204724,
+    "height": 464.8818897638,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 15.979165354400038,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 219.4015748031,
+        "top": 15.979165354400038,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 12.4724409449,
+        "top": 161.67995275590005,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 219.4015748031,
+        "top": 161.67995275590005,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 12.4724409449,
+        "top": 317.5854645669,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 219.4015748031,
+        "top": 317.5854645669,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/figure_work/fig5_observation_map_control.pdf",
+    "output": "figures/panel_conversion/fig5_observation_map_control.pdf",
+    "source_sha256": "c4aa81b1e45052fc3834b12fb225d26c6981b4e27f376a85c2081909dc76ec8b",
+    "output_sha256": "a967bb147267c8c30f27ceb98c3382754f2d556bec0822b5911e81693c35b7c5",
+    "width": 510.2362204724,
+    "height": 365.6692913386,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 10.309874015800006,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 12.4724409449,
+        "top": 86.84530708659997,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 323.1496062992,
+        "top": 86.84530708659997,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 220.07365354329997,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 174.0472440945,
+        "top": 220.07365354329997,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 368.5039370079,
+        "top": 220.07365354329997,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS01_engine_validation.pdf",
+    "output": "figures/panel_conversion/figS01_engine_validation.pdf",
+    "source_sha256": "d630650fe0358f516052b7b260ec4d14d27b087e0b4dbe624f15be3e2b565ad3",
+    "output_sha256": "97a194dcc488d07cc847eb90355e581176c49ae6cf4b0f70bce3323f6809f193",
+    "width": 510.2362204724,
+    "height": 342.9921259843,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 13.144519685100022,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 11.3385826772,
+        "top": 190.02640944889998,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 160.157480315,
+        "top": 190.02640944889998,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 360.0,
+        "top": 190.02640944889998,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS02a_observation_maps.pdf",
+    "output": "figures/panel_conversion/figS02a_observation_maps.pdf",
+    "source_sha256": "c90b1dd56744e0fbdc9949457e372b6763dc4ac7f1bac0e1ca82c17919b454a5",
+    "output_sha256": "ff218477a4ca74a5c75480c20ec97a696f558e342406b9eb2981ce71f6fb5984",
+    "width": 510.2362204724,
+    "height": 598.1102362205,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 13.144519685100022,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 34.0157480315,
+        "top": 314.46735433070006,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 170.0787401575,
+        "top": 314.46735433070006,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 334.4881889764,
+        "top": 314.46735433070006,
+        "size": 8.5
+      },
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 421.2885294066004,
+        "top": 130.56840511810003,
+        "size": 5.800000000000011,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS02b_serialization_metadata.pdf",
+    "output": "figures/panel_conversion/figS02b_serialization_metadata.pdf",
+    "source_sha256": "e712e20f1e4c370a7e59dd5eb00cbf411d4ae5acb3e0bc7302988d79e8b44652",
+    "output_sha256": "edb84e39119f487f0a20c9a79c96efc6dcb3e9f583ee70df3f4e4ce2f256bf23",
+    "width": 510.2362204724,
+    "height": 396.8503937008,
+    "labels": [
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 11.3385826772,
+        "top": 13.144519685100022,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 11.3385826772,
+        "top": 247.0027874016,
+        "size": 8.5
+      },
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 370.70052303150015,
+        "top": 222.2012535433,
+        "size": 5.800000000000011,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS08a_gpt_trajectories_moments.pdf",
+    "output": "figures/panel_conversion/figS08a_gpt_trajectories_moments.pdf",
+    "source_sha256": "bc34cd9d1e222fbd5e022d44b037e0bd48620db0f01af16c5219c9e3efd3bb41",
+    "output_sha256": "3648595cb325e8e58c878f0e0b2117f7dfd69d923bbffdbe0b5b2ba928b0df9f",
+    "width": 510.2362204724,
+    "height": 469.1338582677,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 14.7401574803,
+        "top": 66.71932283460006,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 14.7401574803,
+        "top": 157.42798425200004,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 14.7401574803,
+        "top": 248.1366456693,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 354.43585826770004,
+        "size": 8.500000000000014
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS08b_gpt_trajectories_centers.pdf",
+    "output": "figures/panel_conversion/figS08b_gpt_trajectories_centers.pdf",
+    "source_sha256": "8e1c43ea9462178fc3549c46debcf37c3368670c40c69596e6029c0a4ceb63dd",
+    "output_sha256": "cf60c072a974a10bfc9ce62e6316be8deed50aca15adf650898e99ff7046a6fc",
+    "width": 510.2362204724,
+    "height": 469.1338582677,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 14.7401574803,
+        "top": 66.71932283460006,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 14.7401574803,
+        "top": 157.42798425200004,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 14.7401574803,
+        "top": 248.1366456693,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 354.43585826770004,
+        "size": 8.500000000000014
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS08c_gpt_trajectories_intervals.pdf",
+    "output": "figures/panel_conversion/figS08c_gpt_trajectories_intervals.pdf",
+    "source_sha256": "f234d4a2c7c648141a1db23af809b333160e281660eafc2a176057f260e584d4",
+    "output_sha256": "509dd5d8e6fcb560b4114f4d8d94451491d83c6529aecb75ae38105fb8eef985",
+    "width": 510.2362204724,
+    "height": 469.1338582677,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 14.7401574803,
+        "top": 66.71932283460006,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 14.7401574803,
+        "top": 157.42798425200004,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 14.7401574803,
+        "top": 248.1366456693,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 354.43585826770004,
+        "size": 8.500000000000014
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS09_phenotype_robustness.pdf",
+    "output": "figures/panel_conversion/figS09_phenotype_robustness.pdf",
+    "source_sha256": "b090249a7924d0d722fe8777f69683a0a91a05992d1842f4ffe8bc311fbfafb0",
+    "output_sha256": "183d030cd2edfbbf83d13cab2a7e89ec2d87563463b44eb2b8687141395c44b3",
+    "width": 510.2362204724,
+    "height": 497.4803149606,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 14.1732283465,
+        "top": 14.278377952700055,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 178.5826771654,
+        "top": 14.278377952700055,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 342.9921259843,
+        "top": 14.278377952700055,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 14.1732283465,
+        "top": 136.16814173230006,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 235.2755905512,
+        "top": 136.16814173230006,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 14.1732283465,
+        "top": 265.144519685,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS10_negative_coupling.pdf",
+    "output": "figures/panel_conversion/figS10_negative_coupling.pdf",
+    "source_sha256": "03ed99539495d2626057b24e343c727ac5a0f28bcedc8e9cb9c1af6b6a498574",
+    "output_sha256": "1a51ed68f25962ab1a59d9c90b4a0aa80ca84080b5279b4150958ee911bef5dc",
+    "width": 510.2362204724,
+    "height": 381.2598425197,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 18.246881889800022,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 192.7559055118,
+        "top": 18.246881889800022,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 351.4960629921,
+        "top": 18.246881889800022,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 215.53822047249997,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 192.7559055118,
+        "top": 215.53822047249997,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 351.4960629921,
+        "top": 215.53822047249997,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS03_offset_design_aliasing.pdf",
+    "output": "figures/panel_conversion/figS03_offset_design_aliasing.pdf",
+    "source_sha256": "19178bedfcb545d74b016c46af41e4eb367a5f72c659acf432be82635cd2d8f8",
+    "output_sha256": "1ac3a7bdba8b70643454d92c9b24a73625948a9742a61ba6b114fe8c439df0a9",
+    "width": 510.2362204724,
+    "height": 459.2125984252,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 13.144519685000034,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 176.8818897638,
+        "top": 13.144519685000034,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 342.4251968504,
+        "top": 13.144519685000034,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 239.91617322829998,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 176.8818897638,
+        "top": 239.91617322829998,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 342.4251968504,
+        "top": 239.91617322829998,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS04_representation_screen.pdf",
+    "output": "figures/panel_conversion/figS04_representation_screen.pdf",
+    "source_sha256": "20f9628199678d8c12e1c8cca8f9c808c9d0135c24b497b1cc629f2496f7c46c",
+    "output_sha256": "2288cae842226f6b41f41a41b2169264bbd26b397fc7fdb148160c45fbb4e2c1",
+    "width": 510.2362204724,
+    "height": 498.8976377953,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 17.396488189000024,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 11.3385826772,
+        "top": 149.20751181100002,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 208.062992126,
+        "top": 149.20751181100002,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 352.6299212598,
+        "top": 149.20751181100002,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 11.3385826772,
+        "top": 310.7823149607,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 352.6299212598,
+        "top": 310.7823149607,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS05_transmutation_map.pdf",
+    "output": "figures/panel_conversion/figS05_transmutation_map.pdf",
+    "source_sha256": "4e85fcc8c856a43c47659ea15c9cb2486b875346373e8808822a0b76dee4913e",
+    "output_sha256": "a158a76488b9168b4c3adce770864120ea2a02b7722a53c5e3b2e40fbad5f42d",
+    "width": 510.2362204724,
+    "height": 473.3858267717,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 32.42011023630005,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 178.0157480315,
+        "top": 32.42011023630005,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 343.5590551181,
+        "top": 32.42011023630005,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 173.58546456700003,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 178.0157480315,
+        "top": 173.58546456700003,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 343.5590551181,
+        "top": 173.58546456700003,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 12.4724409449,
+        "top": 307.94766929139996,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 343.5590551181,
+        "top": 307.94766929139996,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS06_antipodal_imbalance.pdf",
+    "output": "figures/panel_conversion/figS06_antipodal_imbalance.pdf",
+    "source_sha256": "fc05e1e7d00dcf39fb1eda4170aa4f263d3996228e96b2ad51a26698de3f13ff",
+    "output_sha256": "3ffb8ec2cfa3fe924d4aece915c8a6749128e313f7ab11ada72c6e7f8cee1c45",
+    "width": 510.2362204724,
+    "height": 447.874015748,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 11.443732283399981,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 340.157480315,
+        "top": 11.443732283399981,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 11.3385826772,
+        "top": 154.0264094488,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 175.7480314961,
+        "top": 154.0264094488,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 340.157480315,
+        "top": 154.0264094488,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 11.3385826772,
+        "top": 295.75869291339995,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 175.7480314961,
+        "top": 295.75869291339995,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 340.157480315,
+        "top": 295.75869291339995,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS07_sparse_finite_peer.pdf",
+    "output": "figures/panel_conversion/figS07_sparse_finite_peer.pdf",
+    "source_sha256": "4f1e60ff5a3684ae24aaf3ce862b4dbd8f6a200e19b13e2d82d25d6c14cbd747",
+    "output_sha256": "dc4308713c86b037d3de5fa157d57cbbd57f1d3d1bb5af2fe54e8b676301e77e",
+    "width": 510.2362204724,
+    "height": 493.2283464567,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 13.6062992126,
+        "top": 17.11302362210006,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 148.5354330709,
+        "top": 17.11302362210006,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 329.9527559055,
+        "top": 17.11302362210006,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 13.6062992126,
+        "top": 235.6642047244,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 148.5354330709,
+        "top": 235.6642047244,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 329.9527559055,
+        "top": 235.6642047244,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 13.6062992126,
+        "top": 433.0988913386,
+        "size": 5.799999999999997
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 13.6062992126,
+        "top": 443.2488913386,
+        "size": 5.799999999999997
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 74.59569921260001,
+        "top": 473.33572283470005,
+        "size": 6.200000000000003,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS14_replay_field_audit.pdf",
+    "output": "figures/panel_conversion/figS14_replay_field_audit.pdf",
+    "source_sha256": "53e81a356078633ba16971b109d5092abd6e4de1d169a6c2919cfb760eead276",
+    "output_sha256": "105b344273cd6ae2dddd1021a042760d66175502cdebcabf24740828d46848ea",
+    "width": 510.2362204724,
+    "height": 530.0787401575,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 15.3070866142,
+        "top": 15.695700787399915,
+        "size": 8.500000000000057
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 188.2204724409,
+        "top": 15.695700787399915,
+        "size": 8.500000000000057
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 361.1338582677,
+        "top": 15.695700787399915,
+        "size": 8.500000000000057
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 15.3070866142,
+        "top": 204.19963779529996,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 188.2204724409,
+        "top": 204.19963779529996,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 361.1338582677,
+        "top": 204.19963779529996,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 15.3070866142,
+        "top": 357.27050393699994,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 188.2204724409,
+        "top": 357.27050393699994,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 361.1338582677,
+        "top": 357.27050393699994,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS15a_replay_fields_early_transient.pdf",
+    "output": "figures/panel_conversion/figS15a_replay_fields_early_transient.pdf",
+    "source_sha256": "b0f73fc2cd7ca7d0c49f26b3f8913218139738f625829923257b0c31659592f2",
+    "output_sha256": "122c28c862c7cf0a9eb24f4f8cc136668ca6d83f9254ed94234945da2054f0fc",
+    "width": 510.2362204724,
+    "height": 362.8346456693,
+    "labels": []
+  },
+  {
+    "source": "figures/plot_supplement/figS15b_replay_fields_pre_onset.pdf",
+    "output": "figures/panel_conversion/figS15b_replay_fields_pre_onset.pdf",
+    "source_sha256": "c9855e0543619691a46d1838e1ff9f52a16b2e72160835ee773e8cbf7edefdbb",
+    "output_sha256": "e1e7e49d2e202d1b90509096bed5ed35fc75971c6acd6832f6dbe2805f957549",
+    "width": 510.2362204724,
+    "height": 362.8346456693,
+    "labels": []
+  },
+  {
+    "source": "figures/plot_supplement/figS15c_replay_fields_post_onset.pdf",
+    "output": "figures/panel_conversion/figS15c_replay_fields_post_onset.pdf",
+    "source_sha256": "aa070f18ba4694ecd494d735c963ea6006204d98a551e92a1bc91f57e497f421",
+    "output_sha256": "c44d988aa8af6f4fb453c8afe8f1b5273def7eae13476279f0c496b619fd1729",
+    "width": 510.2362204724,
+    "height": 362.8346456693,
+    "labels": []
+  },
+  {
+    "source": "figures/plot_supplement/figS15d_replay_fields_ordered_state.pdf",
+    "output": "figures/panel_conversion/figS15d_replay_fields_ordered_state.pdf",
+    "source_sha256": "1d865547983bb27c9adc4ac363f2d31cb6696d6fe43a7ad60709ef775bc85d7b",
+    "output_sha256": "c5e39dc9d82cb5cc1815d76f4450281a7cebbd4ac650b71db4cedf6d1a6e3bd5",
+    "width": 510.2362204724,
+    "height": 362.8346456693,
+    "labels": []
+  },
+  {
+    "source": "figures/plot_supplement/figS15e_replay_fields_negative_k.pdf",
+    "output": "figures/panel_conversion/figS15e_replay_fields_negative_k.pdf",
+    "source_sha256": "9726c42b41e1e990cb8e99e1775b06c37fe009379791e7b086253c90e6b597f9",
+    "output_sha256": "70f58b2cf813783f16a21549a8f64510ea6ca5c888fa3b881d7f4a533615bbec",
+    "width": 510.2362204724,
+    "height": 362.8346456693,
+    "labels": []
+  },
+  {
+    "source": "figures/plot_supplement/figS15f_replay_fields_high_r2.pdf",
+    "output": "figures/panel_conversion/figS15f_replay_fields_high_r2.pdf",
+    "source_sha256": "a54f85d6c40de088ec2d42798967ab0e17bf9f027feb527c9e7905db1d65bbb5",
+    "output_sha256": "9db86767b7127981abf93016f3b84d0c8b8eb9eeba31f2ff5d2b4ec404d68313",
+    "width": 510.2362204724,
+    "height": 362.8346456693,
+    "labels": []
+  },
+  {
+    "source": "figures/plot_supplement/figS16_replay_robustness.pdf",
+    "output": "figures/panel_conversion/figS16_replay_robustness.pdf",
+    "source_sha256": "52a51cd4ca4aeb557cc13df7a8cab68838a12579f29e67f30f26db21153a224c",
+    "output_sha256": "d8994bf7b2ee11ab7ae556a560aabaf5992e3934df3697a1e6fe444005244599",
+    "width": 510.2362204724,
+    "height": 504.5669291339,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 17.113023622100002,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 176.8818897638,
+        "top": 17.113023622100002,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 341.2913385827,
+        "top": 17.113023622100002,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 164.5145984252,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 176.8818897638,
+        "top": 164.5145984252,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 341.2913385827,
+        "top": 164.5145984252,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 12.4724409449,
+        "top": 328.92404724409994,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 176.8818897638,
+        "top": 328.92404724409994,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 341.2913385827,
+        "top": 328.92404724409994,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS17_three_family_replication.pdf",
+    "output": "figures/panel_conversion/figS17_three_family_replication.pdf",
+    "source_sha256": "8172cdd45b2033c4d213d2137a30d2c6df52cdbdd227a00c91bdd62f01c702f1",
+    "output_sha256": "a389ee8e79ed7e4150728adff0da6fa58450b9033ca6703e3c11d0be253981b3",
+    "width": 510.2362204724,
+    "height": 544.2519685039,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 26.6456692913,
+        "top": 17.113023622000014,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 293.1023622047,
+        "top": 17.113023622000014,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 26.6456692913,
+        "top": 134.4673543307,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 26.6456692913,
+        "top": 255.2232598425,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 26.6456692913,
+        "top": 300.5775905511,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 26.6456692913,
+        "top": 345.9319212598,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 26.6456692913,
+        "top": 416.7980629921,
+        "size": 8.500000000000014
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 293.1023622047,
+        "top": 416.7980629921,
+        "size": 8.500000000000014
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS19a_claude_trajectories_moments.pdf",
+    "output": "figures/panel_conversion/figS19a_claude_trajectories_moments.pdf",
+    "source_sha256": "c32e8ed4abe45d27a6705c47291a66fd906c8723c0737042d0274e2544cf7482",
+    "output_sha256": "becfeb88fd8376a113979e6f5f276f83378ecf79c727bdda13795d5ed2fd8d0b",
+    "width": 510.2362204724,
+    "height": 473.3858267717,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 17.0078740157,
+        "top": 73.80593700790001,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 17.0078740157,
+        "top": 151.7586929134,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 17.0078740157,
+        "top": 229.7114488189,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 17.0078740157,
+        "top": 317.8689291339,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 282.5111417322999,
+        "top": 18.861952755999994,
+        "size": 7.0,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS19b_claude_trajectories_centers.pdf",
+    "output": "figures/panel_conversion/figS19b_claude_trajectories_centers.pdf",
+    "source_sha256": "0b7fe0f47fee27b5e94c020127047e6fd57a57fd294adb195ee07c00dab4459d",
+    "output_sha256": "540d63113424d03fc68adf2e11042fe7755a50b71ceb9f58e24bcdc1aa2da60c",
+    "width": 510.2362204724,
+    "height": 473.3858267717,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 17.0078740157,
+        "top": 73.80593700790001,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 17.0078740157,
+        "top": 151.7586929134,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 17.0078740157,
+        "top": 229.7114488189,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 17.0078740157,
+        "top": 317.8689291339,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 282.5111417322999,
+        "top": 18.861952755999994,
+        "size": 7.0,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS19c_claude_trajectories_intervals.pdf",
+    "output": "figures/panel_conversion/figS19c_claude_trajectories_intervals.pdf",
+    "source_sha256": "fd894d9284aa2e0e1b70232ce738b77aa345b4b55b7c56e21e5fbf70c715f092",
+    "output_sha256": "99a92d398f89f922d5cf50b9670e25d241c90eca2d296fff8d6dca577283bb1a",
+    "width": 510.2362204724,
+    "height": 473.3858267717,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 17.0078740157,
+        "top": 73.80593700790001,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 17.0078740157,
+        "top": 151.7586929134,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 17.0078740157,
+        "top": 229.7114488189,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 17.0078740157,
+        "top": 317.8689291339,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 282.5111417322999,
+        "top": 18.861952755999994,
+        "size": 7.0,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS20_claude_r2_gates.pdf",
+    "output": "figures/panel_conversion/figS20_claude_r2_gates.pdf",
+    "source_sha256": "ce952a6809f7aa3540ab8d3f4338ff8aaf48b1297173f4c3107b660e5bd2ee0c",
+    "output_sha256": "9159c5e315cec83694ea97a9f7c8dfada846ccd2edc28dee6f875f68a86c356e",
+    "width": 510.2362204724,
+    "height": 493.2283464567,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 18.530346456700045,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 176.8818897638,
+        "top": 18.530346456700045,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 341.2913385827,
+        "top": 18.530346456700045,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 161.67995275590005,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 176.8818897638,
+        "top": 161.67995275590005,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 341.2913385827,
+        "top": 161.67995275590005,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 12.4724409449,
+        "top": 297.74294488190003,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 176.8818897638,
+        "top": 297.74294488190003,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 341.2913385827,
+        "top": 297.74294488190003,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS21_gpt_claude_reversal.pdf",
+    "output": "figures/panel_conversion/figS21_gpt_claude_reversal.pdf",
+    "source_sha256": "4ac404c91ec2e9787c6f5dc4396d9c68dea7f7d362023ae3ee9e72048ab20c8d",
+    "output_sha256": "f26bf85347d3005b21d9899d3977099c1077dd492bbbcce83e05f9977508e222",
+    "width": 510.2362204724,
+    "height": 505.9842519685,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 12.861055118100012,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 182.5511811024,
+        "top": 12.861055118100012,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 352.6299212598,
+        "top": 12.861055118100012,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 171.60121259840002,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 182.5511811024,
+        "top": 171.60121259840002,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 352.6299212598,
+        "top": 171.60121259840002,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 12.4724409449,
+        "top": 313.333496063,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 182.5511811024,
+        "top": 313.333496063,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 352.6299212598,
+        "top": 313.333496063,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS18a_omap_prompt_construction.pdf",
+    "output": "figures/panel_conversion/figS18a_omap_prompt_construction.pdf",
+    "source_sha256": "30ac8fc927202287bf8325237adc4c00e22e226eb5732de6b711aef21602631c",
+    "output_sha256": "70c3cbe55bfbc60d8244c534a31f096f9f454e69ecdeb267695c80ff305b2078",
+    "width": 510.2362204724,
+    "height": 629.2913385827,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 13.144519685100022,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 12.4724409449,
+        "top": 192.2092755906,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 12.4724409449,
+        "top": 318.4940314961,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 457.98807874019997,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 162.7086614173,
+        "top": 457.98807874019997,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 315.7795275591,
+        "top": 457.98807874019997,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS18b_omap_response_analysis.pdf",
+    "output": "figures/panel_conversion/figS18b_omap_response_analysis.pdf",
+    "source_sha256": "4782a77e1f00f0ca16f703be048594ab6d965b4b1ca1da3aaa0275900e0524c0",
+    "output_sha256": "d27aa43c0818818beb2e65792308be35895fc24c5419ee3a0c72cfc80fcfa377",
+    "width": 510.2362204724,
+    "height": 492.094488189,
+    "labels": [
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 12.4724409449,
+        "top": 14.278377952800042,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 12.4724409449,
+        "top": 124.82955905510005,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 196.7244094488,
+        "top": 124.82955905510005,
+        "size": 8.5
+      },
+      {
+        "from": "j",
+        "to": "J",
+        "x0": 12.4724409449,
+        "top": 272.2311338583,
+        "size": 8.5
+      },
+      {
+        "from": "k",
+        "to": "K",
+        "x0": 151.3700787402,
+        "top": 272.2311338583,
+        "size": 8.5
+      },
+      {
+        "from": "l",
+        "to": "L",
+        "x0": 332.7874015748,
+        "top": 272.2311338583,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS22_serialization_length.pdf",
+    "output": "figures/panel_conversion/figS22_serialization_length.pdf",
+    "source_sha256": "6ff8448d504ab8cd89a2fb57f0c6e8e3cbe3c1dc2f4ae1de3a66672381c65e2b",
+    "output_sha256": "44ad1879f4e9c4c4649ce9b8c91c84e8962d1d9f41ae8cab671a32d7081d2a13",
+    "width": 510.2362204724,
+    "height": 637.7952755906,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 13.144519685100022,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 12.4724409449,
+        "top": 182.08940157490002,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 12.4724409449,
+        "top": 272.7980629922,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 236.4094488189,
+        "top": 272.7980629922,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 12.4724409449,
+        "top": 365.7744409449,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 12.4724409449,
+        "top": 467.8216850394,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 310.1102362205,
+        "top": 467.8216850394,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 12.4724409449,
+        "top": 561.648456693,
+        "size": 8.500000000000014
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS23_serialization_binding.pdf",
+    "output": "figures/panel_conversion/figS23_serialization_binding.pdf",
+    "source_sha256": "70e692fc99777fc0679b880778322b746caa2f26d7313924d84a243bd3ff9a56",
+    "output_sha256": "e7b73f08fa98ab8af98a282f5999c63123f95525ec8ced3b953906894b667ce7",
+    "width": 510.2362204724,
+    "height": 637.7952755906,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 12.4724409449,
+        "top": 13.144519685100022,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 12.4724409449,
+        "top": 170.75081889770001,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 247.7480314961,
+        "top": 170.75081889770001,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 12.4724409449,
+        "top": 256.9240472441,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 304.4409448819,
+        "top": 256.9240472441,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 12.4724409449,
+        "top": 340.5460944882,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 12.4724409449,
+        "top": 458.1838897638,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS_surrogate_logic_schematic.pdf",
+    "output": "figures/panel_conversion/figS_surrogate_logic_schematic.pdf",
+    "source_sha256": "bd46194cfcf0bd4ccc229f496f8697766046ed923087689ae46d1088bc010460",
+    "output_sha256": "065c9bad3e3e4e6afc27c3ab0da2758ec1fd6804a46f2ec6df566bba8007659d",
+    "width": 540,
+    "height": 230.4,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 8.64,
+        "top": 7.524000000000001,
+        "size": 9.0
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 218.88,
+        "top": 7.524000000000001,
+        "size": 9.0
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 374.4,
+        "top": 7.524000000000001,
+        "size": 9.0
+      }
+    ]
+  },
+  {
+    "source": "figures/source_main/fig6_compressibility_transportability.pdf",
+    "output": "figures/panel_conversion/fig6_compressibility_transportability.pdf",
+    "source_sha256": "8b94f368bc9b5e14c8e63d3d649b666ab96fb311613d86fe2b050068f7d4565e",
+    "output_sha256": "9b8d8b0a548bbf45b3371c3199ba5dd4acaa05aa0ffba48b641addd17ac7f49e",
+    "width": 510.2362204724,
+    "height": 384.094488189,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 11.727196850400048,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 11.3385826772,
+        "top": 114.34137007880003,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 272.125984252,
+        "top": 114.34137007880003,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 236.23113385829998,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 272.125984252,
+        "top": 236.23113385829998,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 11.3385826772,
+        "top": 332.04215748030003,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS11a_moments_surrogate_development.pdf",
+    "output": "figures/panel_conversion/figS11a_moments_surrogate_development.pdf",
+    "source_sha256": "e9e05452d99672834530f7800802e098ca7def29baf91f54d0c37414e54a34b9",
+    "output_sha256": "ceb5f78bd78fc8099f7c2299fbd11d6311067e90bb2d4eaf157ae1e7bef9d2ee",
+    "width": 510.2362204724,
+    "height": 416.6929133858,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 21.93192125980005,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 272.125984252,
+        "top": 21.93192125980005,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 11.3385826772,
+        "top": 230.2783779527,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 272.125984252,
+        "top": 230.2783779527,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 220.14154430620002,
+        "top": 114.66488894820003,
+        "size": 5.800000000000011,
+        "kind": "internal_reference"
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS11b_moments_prospective_repair.pdf",
+    "output": "figures/panel_conversion/figS11b_moments_prospective_repair.pdf",
+    "source_sha256": "ab7775e41abb1314d7b3e1a5bbb3f48de2f5225b04d5cf2efade4f11208987e8",
+    "output_sha256": "848ca357d8fab295fbe93a61418d1d2af8b5f6d0e35704dd0da4702596e6d11b",
+    "width": 510.2362204724,
+    "height": 476.2204724409,
+    "labels": [
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 32.3149606299,
+        "top": 21.931921259799992,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 191.0551181102,
+        "top": 21.931921259799992,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 349.7952755906,
+        "top": 21.931921259799992,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 32.3149606299,
+        "top": 250.12089763779997,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS12_centers_stop_rule.pdf",
+    "output": "figures/panel_conversion/figS12_centers_stop_rule.pdf",
+    "source_sha256": "4646da63f4b3b5a9ac8f3e41f53576d63687194714a40abdea477441a41996af",
+    "output_sha256": "32949ae7a9adbae8537ae1625d4b3068021eab771019aea5e58110b597265699",
+    "width": 510.2362204724,
+    "height": 480.4724409449,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 25.616960629900007,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 175.7480314961,
+        "top": 25.616960629900007,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 340.157480315,
+        "top": 25.616960629900007,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 158.84530708659997,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 175.7480314961,
+        "top": 158.84530708659997,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 340.157480315,
+        "top": 158.84530708659997,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 11.3385826772,
+        "top": 314.75081889769996,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 175.7480314961,
+        "top": 314.75081889769996,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 340.157480315,
+        "top": 314.75081889769996,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/plot_supplement/figS13_intervals_stop_rule.pdf",
+    "output": "figures/panel_conversion/figS13_intervals_stop_rule.pdf",
+    "source_sha256": "a2e91365ce1efbb1de211d505078d503c608bd3a8a8bf4a2be039501c85a782a",
+    "output_sha256": "1927d0254d51c3fa6351a2c4304fca32a54c4af7abf3967179a897c9b1f921f3",
+    "width": 510.2362204724,
+    "height": 552.7559055118,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 11.3385826772,
+        "top": 25.616960629900063,
+        "size": 8.5
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 175.7480314961,
+        "top": 25.616960629900063,
+        "size": 8.5
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 340.157480315,
+        "top": 25.616960629900063,
+        "size": 8.5
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 11.3385826772,
+        "top": 178.6878267716001,
+        "size": 8.5
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 175.7480314961,
+        "top": 178.6878267716001,
+        "size": 8.5
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 340.157480315,
+        "top": 178.6878267716001,
+        "size": 8.5
+      },
+      {
+        "from": "g",
+        "to": "G",
+        "x0": 11.3385826772,
+        "top": 348.7665669291,
+        "size": 8.5
+      },
+      {
+        "from": "h",
+        "to": "H",
+        "x0": 175.7480314961,
+        "top": 348.7665669291,
+        "size": 8.5
+      },
+      {
+        "from": "i",
+        "to": "I",
+        "x0": 340.157480315,
+        "top": 348.7665669291,
+        "size": 8.5
+      }
+    ]
+  },
+  {
+    "source": "figures/figure_work/figS26_claude_sensitivity.pdf",
+    "output": "figures/panel_conversion/figS26_claude_sensitivity.pdf",
+    "source_sha256": "8372964af7bf7f88c1dd84d6db271cd97788e42912d1fcda511c76accc138609",
+    "output_sha256": "d4384c4fbdd7bf17ba6e3038426b8b90fa8c2d1df645d50872930189dc37bc93",
+    "width": 511.2,
+    "height": 352.8,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 46.008,
+        "top": 29.30212499999999,
+        "size": 8.0
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 213.6277894737,
+        "top": 29.30212499999999,
+        "size": 8.0
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 381.2475789474,
+        "top": 30.22399999999999,
+        "size": 8.0
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 46.008,
+        "top": 189.96181730770002,
+        "size": 8.0
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 213.6277894737,
+        "top": 189.96181730770002,
+        "size": 8.0
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 381.2475789474,
+        "top": 190.88369230770002,
+        "size": 8.0
+      }
+    ]
+  },
+  {
+    "source": "figures/figure_work/figS27_claude_actions.pdf",
+    "output": "figures/panel_conversion/figS27_claude_actions.pdf",
+    "source_sha256": "c6b49f5729c6d4845dcb3906796f4f5c2c7d1ce057e3ddb0cfbb13f0879c4326",
+    "output_sha256": "41a656c46c1dc367308c16dc536eb93138f0856d68048c03f6e30dd1ec2fa1cf",
+    "width": 511.2,
+    "height": 331.2,
+    "labels": [
+      {
+        "from": "a",
+        "to": "A",
+        "x0": 40.896,
+        "top": 27.631999999999948,
+        "size": 8.0
+      },
+      {
+        "from": "b",
+        "to": "B",
+        "x0": 204.0639069767,
+        "top": 27.631999999999948,
+        "size": 8.0
+      },
+      {
+        "from": "c",
+        "to": "C",
+        "x0": 367.2318139535,
+        "top": 27.631999999999948,
+        "size": 8.0
+      },
+      {
+        "from": "d",
+        "to": "D",
+        "x0": 40.896,
+        "top": 164.0645925926,
+        "size": 8.0
+      },
+      {
+        "from": "e",
+        "to": "E",
+        "x0": 204.0639069767,
+        "top": 164.0645925926,
+        "size": 8.0
+      },
+      {
+        "from": "f",
+        "to": "F",
+        "x0": 367.2318139535,
+        "top": 164.0645925926,
+        "size": 8.0
+      }
+    ]
+  }
+]

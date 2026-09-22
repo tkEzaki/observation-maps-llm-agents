@@ -303,7 +303,7 @@ Moments Stage C paid expansion is **not required**.
 (figures: `py analysis/synthesis/build_synthesis_figures.py`).
 
 **Next scientific / paid priority:** surrogate-free matched representation
-collective (Nat Commun path) — **not** Centers/Intervals surrogate reopen:
+collective (the study path) — **not** Centers/Intervals surrogate reopen:
 
 | matched-rep step | status |
 | --- | --- |

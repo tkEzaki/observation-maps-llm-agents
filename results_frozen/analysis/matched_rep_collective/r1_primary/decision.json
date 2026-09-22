@@ -441,7 +441,7 @@
     "mediation": "not_claimed",
     "source_feedback": "suggested_or_not_established"
   },
-  "results_outline": "docs/NATCOMM_RESULTS_OUTLINE.md",
+  "results_outline": "docs/publication_RESULTS_OUTLINE.md",
   "explicit_non_claims": [
     "collective_phases_replicated_across_three_families",
     "macro_effect_from_serialization_alone",

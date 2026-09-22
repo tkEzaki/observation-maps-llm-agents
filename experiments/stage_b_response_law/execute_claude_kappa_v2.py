@@ -19,7 +19,7 @@ def build_stages(concurrency):
         ('acquisition',['experiments.stage_b_response_law.run_claude_kappa_v2','--mode','run','--yes',
                         '--concurrency',str(concurrency)]),
         ('analysis',['experiments.stage_b_response_law.run_claude_kappa_v2','--mode','analyze']),
-        ('figures',['analysis.sciadv_revision.plot_claude_kappa','--run-root',str(RUN)])]
+        ('figures',['analysis.publication.plot_claude_kappa','--run-root',str(RUN)])]
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)

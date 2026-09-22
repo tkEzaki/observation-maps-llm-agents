@@ -38,7 +38,7 @@ R2 tests the **Claude-only** representation effect. Numerical match to GPT and e
 | Qualitative phase replication | ≥1 representation locks; another does not |
 | GPT phenotype-map replication | moments lock → centers partial → intervals high-\(Q_2\) hierarchy |
 
-Tiers 1–2 are the Nature Machine Intelligence primary gates. Tier 3 is strong but optional.
+Tiers 1–2 are the the study primary gates. Tier 3 is strong but optional.
 
 ## Design summary
 
