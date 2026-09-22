@@ -1,0 +1,76 @@
+{
+  "backend": "anthropic",
+  "synthetic": false,
+  "spec": {
+    "experiment_id": "claude-kappa-v2",
+    "status": "syntax_amendment_after_9_preflight_responses_before_full_acquisition",
+    "purpose": "Descriptive cross-model comparison of controlled-field responses underlying the GPT/Claude collective reversal.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0.7,
+    "max_output_tokens": 64,
+    "timeout_seconds": 60.0,
+    "max_attempts": 3,
+    "gpt_sources": {
+      "block_1": "runs/transmutation/transmutation-v0.1-block1_2bf5f01c6698/20260723T113147Z",
+      "block_2": "runs/transmutation/transmutation-v0.1-block2_d8eb58f5e0d6/20260723T113939Z"
+    },
+    "design": {
+      "concentrations": [
+        2,
+        4,
+        6,
+        9,
+        12
+      ],
+      "representations": [
+        "moments_m1_m3",
+        "centers_24_standard",
+        "intervals_24_decimal6"
+      ],
+      "offsets_per_condition": 36,
+      "responses_per_offset_per_block": 24,
+      "blocks": 2,
+      "planned_valid_responses": 25920,
+      "prompt_matching": "Exact equality to the recorded GPT payload and SHA-256; same mirror-paired jittered offsets.",
+      "schedule": "Retain each GPT block's frozen shuffled task order; acquire blocks sequentially.",
+      "seed_note": "Anthropic does not receive sample_seed; retained only as a task bookkeeping field and for mock tests."
+    },
+    "invalid_policy": {
+      "parser": "Remove only one complete outer markdown JSON fence, then require the original strict one-field JSON schema. Prose, extra keys and invalid labels remain invalid.",
+      "macro_difference": "Matches the fenced-JSON subset of macro rescue; no regex extraction of labels from prose. Strict validity and fence removal are separately recorded.",
+      "retries": "Same prompt/task, at most three dispatched attempts including interrupted/uncertain dispatches; no SDK-internal retries.",
+      "retain": "All attempts, raw text, timestamps, returned model, stop reason, token usage and error type.",
+      "no_fallback_action": true,
+      "no_outcome_adaptive_topup": true,
+      "minimum_first_attempt_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 24,
+      "failure": "Stop at exhausted/fatal attempts. Incomplete or failed-quality acquisition cannot enter primary analysis."
+    },
+    "analysis": {
+      "primary_fourier_order": 6,
+      "sensitivity_fourier_orders": [
+        2,
+        4,
+        8,
+        12
+      ],
+      "bootstrap_samples": 2000,
+      "primary_outputs": [
+        "offset_action_curves.csv",
+        "complex_endpoints.csv"
+      ],
+      "display": "Show both blocks separately, a0, a1, R2 and full action distributions; display-only clipping of fitted mean action to [-1,1].",
+      "interpretation": "No GPT-derived directional phenotype pass/fail hypotheses for Claude; no claim that a first-harmonic sign predicts closed-loop stability.",
+      "temporal_caveat": "Acquisition date differs from historical GPT and Claude macro experiments, even with the same pinned Claude model identifier."
+    },
+    "amendment": {
+      "date": "2026-09-18",
+      "reason": "All 9 v1 preflight responses were JSON enclosed in markdown fences.",
+      "prompt_unchanged": true,
+      "reuse": "Import only the first received response for each preflight task. Later duplicate retries remain in the immutable v1 journal, excluded from analysis.",
+      "interpretation": "Syntax change after inspecting raw responses, not an externally preregistered rule.",
+      "parent_journal": "runs/claude_kappa_v1/anthropic/block_1/attempts.jsonl"
+    }
+  },
+  "note": "Descriptive cross-model follow-up; GPT phenotype gates are not Claude hypotheses."
+}

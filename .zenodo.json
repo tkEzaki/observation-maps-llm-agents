@@ -1,10 +1,10 @@
 {
-  "title": "Observation maps select collective outcomes in language-model agents: code, frozen results and acquisition traces",
+  "title": "How a shared state is described determines whether AI agents synchronize: data and code",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
   "language": "eng",
-  "description": "<p>Complete research compendium for the study of how the encoding of a physical state into model input changes both the microscopic response operator of a language-model agent and the collective outcome of a population of such agents.</p><p>The deposit contains the deterministic circular-agent engine, the observation-map encoders, the prompt contract, the acquisition runners with their versioned and hash-locked protocol files, the statistical analyses, a byte-for-byte frozen copy of every analysis artefact the paper reports, and the complete raw acquisition traces for all fifteen acquisition groups (one JSON line per model call: task and field identifiers, the physical hash of the field, the encoding, the acquisition block, the sampling seed, the SHA-256 of the prompt, the raw response, the parser stage that read it, token counts and elapsed time).</p><p>No API key or access to a provider service is needed to reproduce the deterministic engine, the statistical analyses or any reported number. Exact re-acquisition depends on the continued availability of the specific model checkpoints.</p><p>The figure sources and the rendered display items are included, so every figure in the paper rebuilds from the deposited artefacts.</p>",
+  "description": "<p>Research data and code accompanying the study by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari, How a shared state is described determines whether AI agents synchronize.</p><p>Version 1.1.0 retains the original 15 acquisition groups and adds the September 2026 Claude controlled-field concentration sweep: 25,920 accepted responses in two blocks, the separate preflight journal, immutable attempt records, stimuli, protocols, and frozen analysis tables. It includes the response-count audit for 507,112 valid responses in the reported analyses, the persistence check, and the current figure-generation scripts and 44 PDF display assets.</p><p>Offline analysis and figure reproduction use recorded data and require no provider API calls. The README distinguishes current figures from the historical v1.0.0 figure pipeline and gives verification commands. Exact re-acquisition depends on provider model availability.</p>",
   "creators": [
     {
       "name": "Ezaki, Takahiro",
@@ -38,7 +38,15 @@
       "relation": "isSupplementTo",
       "scheme": "url",
       "resource_type": "software"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/2608.06968",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Before publishing the record, add the journal article as a related identifier with relation 'isSupplementTo' and scheme 'doi', and set the version to match the GitHub release tag."
+  "notes": "Version 1.1.0 adds the Claude follow-up and current figure sources to the original release. This software/data release does not imply journal acceptance.",
+  "version": "v1.1.0",
+  "publication_date": "2026-09-22"
 }

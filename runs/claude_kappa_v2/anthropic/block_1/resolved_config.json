@@ -1,0 +1,166 @@
+{
+  "spec": {
+    "experiment_id": "claude-kappa-v2",
+    "status": "syntax_amendment_after_9_preflight_responses_before_full_acquisition",
+    "purpose": "Descriptive cross-model comparison of controlled-field responses underlying the GPT/Claude collective reversal.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0.7,
+    "max_output_tokens": 64,
+    "timeout_seconds": 60.0,
+    "max_attempts": 3,
+    "gpt_sources": {
+      "block_1": "runs/transmutation/transmutation-v0.1-block1_2bf5f01c6698/20260723T113147Z",
+      "block_2": "runs/transmutation/transmutation-v0.1-block2_d8eb58f5e0d6/20260723T113939Z"
+    },
+    "design": {
+      "concentrations": [
+        2,
+        4,
+        6,
+        9,
+        12
+      ],
+      "representations": [
+        "moments_m1_m3",
+        "centers_24_standard",
+        "intervals_24_decimal6"
+      ],
+      "offsets_per_condition": 36,
+      "responses_per_offset_per_block": 24,
+      "blocks": 2,
+      "planned_valid_responses": 25920,
+      "prompt_matching": "Exact equality to the recorded GPT payload and SHA-256; same mirror-paired jittered offsets.",
+      "schedule": "Retain each GPT block's frozen shuffled task order; acquire blocks sequentially.",
+      "seed_note": "Anthropic does not receive sample_seed; retained only as a task bookkeeping field and for mock tests."
+    },
+    "invalid_policy": {
+      "parser": "Remove only one complete outer markdown JSON fence, then require the original strict one-field JSON schema. Prose, extra keys and invalid labels remain invalid.",
+      "macro_difference": "Matches the fenced-JSON subset of macro rescue; no regex extraction of labels from prose. Strict validity and fence removal are separately recorded.",
+      "retries": "Same prompt/task, at most three dispatched attempts including interrupted/uncertain dispatches; no SDK-internal retries.",
+      "retain": "All attempts, raw text, timestamps, returned model, stop reason, token usage and error type.",
+      "no_fallback_action": true,
+      "no_outcome_adaptive_topup": true,
+      "minimum_first_attempt_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 24,
+      "failure": "Stop at exhausted/fatal attempts. Incomplete or failed-quality acquisition cannot enter primary analysis."
+    },
+    "analysis": {
+      "primary_fourier_order": 6,
+      "sensitivity_fourier_orders": [
+        2,
+        4,
+        8,
+        12
+      ],
+      "bootstrap_samples": 2000,
+      "primary_outputs": [
+        "offset_action_curves.csv",
+        "complex_endpoints.csv"
+      ],
+      "display": "Show both blocks separately, a0, a1, R2 and full action distributions; display-only clipping of fitted mean action to [-1,1].",
+      "interpretation": "No GPT-derived directional phenotype pass/fail hypotheses for Claude; no claim that a first-harmonic sign predicts closed-loop stability.",
+      "temporal_caveat": "Acquisition date differs from historical GPT and Claude macro experiments, even with the same pinned Claude model identifier."
+    },
+    "amendment": {
+      "date": "2026-09-18",
+      "reason": "All 9 v1 preflight responses were JSON enclosed in markdown fences.",
+      "prompt_unchanged": true,
+      "reuse": "Import only the first received response for each preflight task. Later duplicate retries remain in the immutable v1 journal, excluded from analysis.",
+      "interpretation": "Syntax change after inspecting raw responses, not an externally preregistered rule.",
+      "parent_journal": "runs/claude_kappa_v1/anthropic/block_1/attempts.jsonl"
+    }
+  },
+  "protocol": {
+    "protocol_name": "claude-kappa-v2",
+    "protocol_version": "claude-kappa-v2-block_1",
+    "prompt_version": "response-law-v0.1",
+    "seed_block_id": "block_1",
+    "base_seed": 2026102301,
+    "seed_strategy": "hash_v1",
+    "schedule_seed": 2026102391,
+    "offset_design": {
+      "kind": "paired_stratified_jitter",
+      "generation_seed": 2026102300,
+      "positive_strata": 18,
+      "jitter_interval": [
+        0.15,
+        0.85
+      ]
+    },
+    "offset_radians": [
+      -3.060726315293831,
+      -2.92640177655781,
+      -2.746279632217894,
+      -2.518873672395674,
+      -2.360717942934366,
+      -2.125472971056087,
+      -1.955683617054956,
+      -1.81130581486731,
+      -1.70513797996314,
+      -1.459132129739855,
+      -1.326501968991361,
+      -1.193267876314604,
+      -1.01205578829373,
+      -0.815390451126862,
+      -0.582253411155328,
+      -0.424110634258503,
+      -0.252363301580937,
+      -0.126277469898986,
+      0.126277469898986,
+      0.252363301580937,
+      0.424110634258503,
+      0.582253411155328,
+      0.815390451126862,
+      1.01205578829373,
+      1.193267876314604,
+      1.326501968991361,
+      1.459132129739855,
+      1.70513797996314,
+      1.81130581486731,
+      1.955683617054956,
+      2.125472971056087,
+      2.360717942934366,
+      2.518873672395674,
+      2.746279632217894,
+      2.92640177655781,
+      3.060726315293831
+    ],
+    "concentration_profiles": {
+      "kappa_2": 2.0,
+      "kappa_4": 4.0,
+      "kappa_6": 6.0,
+      "kappa_9": 9.0,
+      "kappa_12": 12.0
+    },
+    "representations": [
+      "intervals_24_decimal6",
+      "moments_m1_m3",
+      "centers_24_standard"
+    ],
+    "repetitions_per_condition": 24,
+    "bootstrap_samples": 2000,
+    "primary_fourier_order": 6,
+    "sensitivity_fourier_orders": [
+      2,
+      4,
+      8,
+      12
+    ],
+    "criteria": {
+      "minimum_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 24
+    }
+  },
+  "backend": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "temperature": 0.7,
+  "max_output_tokens": 64,
+  "max_attempts": 3,
+  "source_config_sha256": "26a81aa540b96721013f531e6df27be6ec1721354120cc33d5efd06e1ee28e7c",
+  "source_stimuli_sha256": "a392cd9f9f24f36ea7f2d5bdeb3381265f1177e65bf80c854846dc639edece7b",
+  "tasks_sha256": "11a461f92fe86351169160d57a77e7656a7b8f016e9bad4710b480b9b37f8147",
+  "runner_sha256": "89efc39cb30666d5420b7ee4bba17ac4ecfc7ca914380cf5c2907785251f11c1",
+  "parser_sha256": "09832dc9761aa090f871f868b8467d59d725419bc80875de05ffbd3584402a84",
+  "frozen_sha256": "f28cf64285f2e8a749754a9e689304af052d8b33470c3a0ce0db9c68c961d9e2",
+  "created_utc": "2026-09-18T05:50:55.535511+00:00"
+}

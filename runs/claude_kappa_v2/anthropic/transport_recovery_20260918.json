@@ -1,0 +1,18 @@
+{
+  "authorized_by": "User requested resume after the reported transport stop",
+  "created_utc": "2026-09-18T07:28:24.174143+00:00",
+  "task_ids": [
+    "intervals_24_decimal6__kappa_12__offset_08__rep_0014",
+    "intervals_24_decimal6__kappa_2__offset_15__rep_0009",
+    "moments_m1_m3__kappa_12__offset_09__rep_0005",
+    "moments_m1_m3__kappa_6__offset_09__rep_0023"
+  ],
+  "additional_attempts_per_task": 3,
+  "maximum_total_attempts_per_selected_task": 6,
+  "journal_sha256_before": "6fb8dd0f4f40464274d11bf1f9a3423c54373622526cc1065c0277cdaf8d2959",
+  "accepted_before": 5289,
+  "reason": "Three transport failures per task; no response text received. No action-dependent selection.",
+  "usage_caveat": "A transport failure may have been processed or billed remotely; unavailable usage is not zero cost.",
+  "accepted_recovered": 4,
+  "checked_utc": "2026-09-18T07:28:56.998987+00:00"
+}

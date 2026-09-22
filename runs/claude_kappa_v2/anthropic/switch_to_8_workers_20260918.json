@@ -1,0 +1,36 @@
+{
+  "utc": "2026-09-18T08:14:45.117836+00:00",
+  "reason": "User explicitly requested stopping the active run and restarting with 8 workers",
+  "concurrency_before": 4,
+  "concurrency_after": 8,
+  "blocks": {
+    "block_1": {
+      "accepted": 12254,
+      "uncertain_dispatches": [
+        [
+          "centers_24_standard__kappa_12__offset_32__rep_0013",
+          1
+        ],
+        [
+          "intervals_24_decimal6__kappa_2__offset_05__rep_0008",
+          1
+        ],
+        [
+          "intervals_24_decimal6__kappa_9__offset_24__rep_0014",
+          1
+        ],
+        [
+          "moments_m1_m3__kappa_9__offset_07__rep_0008",
+          1
+        ]
+      ],
+      "journal_sha256": "073f34a1444cca9426d4cd7d2a5d0aac3ac491bfe347d412c680c5b58be22bac"
+    },
+    "block_2": {
+      "accepted": 0,
+      "uncertain_dispatches": [],
+      "journal_sha256": null
+    }
+  },
+  "usage_note": "Interrupted dispatches may have been billed; their unavailable results are not fabricated. Retry the same planned tasks and retain all start events."
+}

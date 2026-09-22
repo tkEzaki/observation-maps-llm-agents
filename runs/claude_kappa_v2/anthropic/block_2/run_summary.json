@@ -1,0 +1,20 @@
+{
+  "backend": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "updated_utc": "2026-09-18T09:55:30.267028+00:00",
+  "planned_samples": 12960,
+  "accepted_samples": 12960,
+  "dispatched_attempts": 12984,
+  "returned_attempts": 12984,
+  "uncertain_dispatches": [],
+  "unresolved_tasks": [],
+  "invalid_responses": 0,
+  "first_attempt_valid_rate": 0.9993827160493827,
+  "accepted_with_fence_removed": 12960,
+  "first_attempt_strict_valid_rate": 0.0,
+  "complete": true,
+  "quality_pass": true,
+  "input_tokens_recorded": 6173280,
+  "output_tokens_recorded": 204516,
+  "usage_caveat": "Recorded usage excludes uncertain dispatches and errors without usage."
+}

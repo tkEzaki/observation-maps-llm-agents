@@ -1,0 +1,38 @@
+{
+  "blocks": {
+    "block_1": {
+      "accepted": 12960,
+      "cells": 540,
+      "responses_per_cell": 24,
+      "dispatches": 12984,
+      "results": 12980,
+      "errors": 20,
+      "unreturned_dispatches": 4,
+      "first_attempt_valid_rate": 0.9990740740740741,
+      "raw_probabilities_match_figure_data": true,
+      "retained_prompt_hashes_verified": true,
+      "imported_first_responses": 4
+    },
+    "block_2": {
+      "accepted": 12960,
+      "cells": 540,
+      "responses_per_cell": 24,
+      "dispatches": 12984,
+      "results": 12984,
+      "errors": 24,
+      "unreturned_dispatches": 0,
+      "first_attempt_valid_rate": 0.9993827160493827,
+      "raw_probabilities_match_figure_data": true,
+      "retained_prompt_hashes_verified": true,
+      "imported_first_responses": 0
+    }
+  },
+  "source_hashes": {
+    "analysis\\complex_kernel_transmutation\\complex_endpoints.csv": "936e2503c671478a0c99cf94a0dd54a3a1ed8eaf2813cfb5a2be6319fec7028c",
+    "analysis\\complex_kernel_transmutation\\offset_action_curves.csv": "0cfde10416630836ee0224136b11b841c4af0e0d06a2c7346956cbf517b6be57",
+    "runs\\claude_kappa_v2\\anthropic\\analysis\\complex_endpoints.csv": "5d9e30966f3077fddaec8b56b3015651317b63e0977abae4fa57263fa15198b2",
+    "runs\\claude_kappa_v2\\anthropic\\analysis\\offset_action_curves.csv": "678ce629ae01c2a4e3745f99846b4487ec9d7254ae4447b1592dcf0c6c70cbc6"
+  },
+  "excluded_preflight_duplicate_responses": 5,
+  "unique_dispatches_including_preflight": 25973
+}

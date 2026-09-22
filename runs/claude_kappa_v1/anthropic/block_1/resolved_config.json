@@ -1,0 +1,158 @@
+{
+  "spec": {
+    "experiment_id": "claude-kappa-v1",
+    "status": "prepared_before_claude_kappa_acquisition_not_external_preregistration",
+    "purpose": "Descriptive cross-model comparison of controlled-field responses underlying the GPT/Claude collective reversal.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0.7,
+    "max_output_tokens": 64,
+    "timeout_seconds": 60.0,
+    "max_attempts": 3,
+    "gpt_sources": {
+      "block_1": "runs/transmutation/transmutation-v0.1-block1_2bf5f01c6698/20260723T113147Z",
+      "block_2": "runs/transmutation/transmutation-v0.1-block2_d8eb58f5e0d6/20260723T113939Z"
+    },
+    "design": {
+      "concentrations": [
+        2,
+        4,
+        6,
+        9,
+        12
+      ],
+      "representations": [
+        "moments_m1_m3",
+        "centers_24_standard",
+        "intervals_24_decimal6"
+      ],
+      "offsets_per_condition": 36,
+      "responses_per_offset_per_block": 24,
+      "blocks": 2,
+      "planned_valid_responses": 25920,
+      "prompt_matching": "Exact equality to the recorded GPT payload and SHA-256; same mirror-paired jittered offsets.",
+      "schedule": "Retain each GPT block's frozen shuffled task order; acquire blocks sequentially.",
+      "seed_note": "Anthropic does not receive sample_seed; retained only as a task bookkeeping field and for mock tests."
+    },
+    "invalid_policy": {
+      "parser": "Frozen strict one-field social_action JSON, matching GPT controlled-field acquisition.",
+      "macro_difference": "The Claude macro runner also allowed deterministic rescue; this new acquisition uses strict parsing only and reports first-attempt missingness.",
+      "retries": "Same prompt/task, at most three dispatched attempts including interrupted/uncertain dispatches; no SDK-internal retries.",
+      "retain": "All attempts, raw text, timestamps, returned model, stop reason, token usage and error type.",
+      "no_fallback_action": true,
+      "no_outcome_adaptive_topup": true,
+      "minimum_first_attempt_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 24,
+      "failure": "Stop at exhausted/fatal attempts. Incomplete or failed-quality acquisition cannot enter primary analysis."
+    },
+    "analysis": {
+      "primary_fourier_order": 6,
+      "sensitivity_fourier_orders": [
+        2,
+        4,
+        8,
+        12
+      ],
+      "bootstrap_samples": 2000,
+      "primary_outputs": [
+        "offset_action_curves.csv",
+        "complex_endpoints.csv"
+      ],
+      "display": "Show both blocks separately, a0, a1, R2 and full action distributions; display-only clipping of fitted mean action to [-1,1].",
+      "interpretation": "No GPT-derived directional phenotype pass/fail hypotheses for Claude; no claim that a first-harmonic sign predicts closed-loop stability.",
+      "temporal_caveat": "Acquisition date differs from historical GPT and Claude macro experiments, even with the same pinned Claude model identifier."
+    }
+  },
+  "protocol": {
+    "protocol_name": "claude-kappa-v1",
+    "protocol_version": "claude-kappa-v1-block_1",
+    "prompt_version": "response-law-v0.1",
+    "seed_block_id": "block_1",
+    "base_seed": 2026102301,
+    "seed_strategy": "hash_v1",
+    "schedule_seed": 2026102391,
+    "offset_design": {
+      "kind": "paired_stratified_jitter",
+      "generation_seed": 2026102300,
+      "positive_strata": 18,
+      "jitter_interval": [
+        0.15,
+        0.85
+      ]
+    },
+    "offset_radians": [
+      -3.060726315293831,
+      -2.92640177655781,
+      -2.746279632217894,
+      -2.518873672395674,
+      -2.360717942934366,
+      -2.125472971056087,
+      -1.955683617054956,
+      -1.81130581486731,
+      -1.70513797996314,
+      -1.459132129739855,
+      -1.326501968991361,
+      -1.193267876314604,
+      -1.01205578829373,
+      -0.815390451126862,
+      -0.582253411155328,
+      -0.424110634258503,
+      -0.252363301580937,
+      -0.126277469898986,
+      0.126277469898986,
+      0.252363301580937,
+      0.424110634258503,
+      0.582253411155328,
+      0.815390451126862,
+      1.01205578829373,
+      1.193267876314604,
+      1.326501968991361,
+      1.459132129739855,
+      1.70513797996314,
+      1.81130581486731,
+      1.955683617054956,
+      2.125472971056087,
+      2.360717942934366,
+      2.518873672395674,
+      2.746279632217894,
+      2.92640177655781,
+      3.060726315293831
+    ],
+    "concentration_profiles": {
+      "kappa_2": 2.0,
+      "kappa_4": 4.0,
+      "kappa_6": 6.0,
+      "kappa_9": 9.0,
+      "kappa_12": 12.0
+    },
+    "representations": [
+      "intervals_24_decimal6",
+      "moments_m1_m3",
+      "centers_24_standard"
+    ],
+    "repetitions_per_condition": 24,
+    "bootstrap_samples": 2000,
+    "primary_fourier_order": 6,
+    "sensitivity_fourier_orders": [
+      2,
+      4,
+      8,
+      12
+    ],
+    "criteria": {
+      "minimum_valid_rate": 0.99,
+      "minimum_valid_samples_per_condition": 24
+    }
+  },
+  "backend": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "temperature": 0.7,
+  "max_output_tokens": 64,
+  "max_attempts": 3,
+  "source_config_sha256": "26a81aa540b96721013f531e6df27be6ec1721354120cc33d5efd06e1ee28e7c",
+  "source_stimuli_sha256": "a392cd9f9f24f36ea7f2d5bdeb3381265f1177e65bf80c854846dc639edece7b",
+  "tasks_sha256": "11a461f92fe86351169160d57a77e7656a7b8f016e9bad4710b480b9b37f8147",
+  "runner_sha256": "b24f1844084c739adb89e2c1a117a58ffe35ef678ee7af67d0667324aa9eca78",
+  "parser_sha256": "09832dc9761aa090f871f868b8467d59d725419bc80875de05ffbd3584402a84",
+  "frozen_sha256": "b1477501c843f4bf7126ef218a03b46b33a10310f9afeb072d30dd7e2b0e3baf",
+  "created_utc": "2026-09-15T10:41:14.764448+00:00"
+}

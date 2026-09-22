@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software or the accompanying data, please cite the paper."
-title: "Observation maps select collective outcomes in language-model agents: code and frozen results"
+message: "If you use this software or the accompanying data, please cite this version and the associated preprint (arXiv:2608.06968)."
+title: "How a shared state is described determines whether AI agents synchronize: data and code"
 abstract: >-
   Deterministic circular-agent engine, observation-map encoders, acquisition
   runners, statistical analyses and figure code for the study of how the
@@ -21,20 +21,7 @@ authors:
     family-names: Nishinari
     affiliation: "Research Center for Advanced Science and Technology, The University of Tokyo"
     orcid: "https://orcid.org/0000-0003-3069-1757"
-version: v1.0.0
-date-released: 2026-08-07
+version: v1.1.0
+date-released: 2026-09-22
 license: MIT
 repository-code: https://github.com/tkEzaki/observation-maps-llm-agents
-preferred-citation:
-  type: article
-  title: "Same physical state, different collective dynamics: state encodings select synchronization outcomes in language-model agents"
-  authors:
-    - given-names: Takahiro
-      family-names: Ezaki
-    - given-names: Naoto
-      family-names: Imura
-    - given-names: Katsuhiro
-      family-names: Nishinari
-  journal: TODO_JOURNAL
-  year: TODO_YEAR
-  doi: TODO_PAPER_DOI
