@@ -1,6 +1,6 @@
 {
   "n_files": 1547,
-  "total_bytes": 528546966,
+  "total_bytes": 528553858,
   "files": [
     {
       "path": "figures/sciadv_current/fig1_collective_phases.pdf",
@@ -9,8 +9,8 @@
     },
     {
       "path": "figures/sciadv_current/fig2_microscopic_operators.pdf",
-      "bytes": 90266,
-      "sha256": "e5b01449f0f2cf6e567d6ee0933465daa3a7d5c4830dfb1fd577cfe6df6af653"
+      "bytes": 97158,
+      "sha256": "7dff3edb0e68a6dd949e7ba0e8a62f2ee80a97c303d0eac2fed44436d761b0ed"
     },
     {
       "path": "figures/sciadv_current/fig3_replay_operator.pdf",

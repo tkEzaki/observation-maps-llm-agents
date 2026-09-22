@@ -340,26 +340,54 @@ def fig2():
     # ---- a  protocol: one field, rotated ----------------------------------
     label_at(fig, 0.21, 0.22, 'A', 'Controlled-field protocol: one peer distribution rotated around the focal agent')
     kappa = 12.0
+    FIELD, FIELD_EDGE = '#7A8791', '#5A6772'
+    ARROW = dict(arrowstyle='-|>,head_length=0.32,head_width=0.16', lw=.6, color=INK, shrinkA=0, shrinkB=0)
     for i, delta in enumerate([-np.pi/2, 0.0, np.pi/2]):
         ax = axes_in(0.3+i*1.05, 0.55, 0.8, 0.8, projection='polar')
         phi = np.linspace(-np.pi, np.pi, 361)
         dens = np.exp(kappa*np.cos(phi-delta)); dens = 0.85*dens/dens.max()
-        ax.fill_between(phi, 0, dens, color='#7A8791', alpha=.55, lw=0)
-        ax.plot(phi, dens, color='#5A6772', lw=.6)
-        ax.plot([0], [1.0], 'o', ms=5, mfc='white', mec=INK, mew=1.0, zorder=5)
-        ax.set_theta_zero_location('E'); ax.set_ylim(0, 1.05); ax.set_yticks([])
+        if delta != 0:  # direction of the focal agent, the zero of delta
+            ax.plot([0, 0], [0, 1], color=GREY, lw=.5, ls=(0, (1.5, 1.5)), zorder=1)
+        ax.fill_between(phi, 0, dens, color=FIELD, alpha=.55, lw=0, zorder=2)
+        ax.plot(phi, dens, color=FIELD_EDGE, lw=.6, zorder=2)
+        if delta != 0:
+            end = delta - np.sign(delta)*0.34  # stop the rotation arrow short of the peak
+            arc = np.linspace(0, end, 80)
+            ax.plot(arc[:-3], np.full(77, .6), color=INK, lw=.6, zorder=3)
+            ax.annotate('', xy=(end, .6), xytext=(arc[-4], .6), arrowprops=ARROW, zorder=3)
+            ax.text(end/2, .8, r'$\delta$', fontsize=6.8, ha='center', va='center', color=INK)
+        # The focal agent sits on the rim; clip_on=False keeps the open circle whole (it was cut to a "C").
+        ax.plot([0], [1.0], 'o', ms=5.2, mfc='white', mec=INK, mew=1.0, zorder=6, clip_on=False)
+        ax.set_theta_zero_location('E'); ax.set_ylim(0, 1.0); ax.set_yticks([])
         ax.set_xticks([0, np.pi/2, np.pi, 3*np.pi/2]); ax.set_xticklabels(['', '', '', ''])
         ax.tick_params(pad=-3); ax.grid(False); ax.spines['polar'].set_linewidth(.5)
-        ax.set_title({0: r'$\delta=-\pi/2$' + '\npeers behind', 1: r'$\delta=0$' + '\npeers at the agent', 2: r'$\delta=+\pi/2$' + '\npeers ahead'}[i], fontsize=FS_MIN, pad=1)
-    axT = axes_in(3.55, 0.3, 3.45, 1.05); axT.set_axis_off(); axT.set_xlim(0, 1); axT.set_ylim(0, 1)
-    axT.text(0, 0.98, 'A von Mises peer field (open circle: focal agent) is rotated by $\\delta$ (36 values)\n'
-             'at concentration $\\kappa$ (5 values), written under each encoding, and shown to\n'
-             'the model 24 times in each of two acquisition blocks (25,920 responses per\n'
-             'model family).', fontsize=6.1, va='top', color=INK, linespacing=1.35)
-    axT.text(0, 0.42, 'Mean action $g(\\delta)=p(+1\\mid\\delta)-p(-1\\mid\\delta)$ is the interaction rule.\n'
-             '$g>0$ with peers ahead and $g<0$ with peers behind is attraction toward\n'
-             'the group; Fourier components $a_1\\sin\\delta+b_1\\cos\\delta+\\ldots$ summarize it.',
-             fontsize=6.1, va='top', color=INK, linespacing=1.35)
+        ax.set_title({0: r'$\delta=-\pi/2$' + '\npeers behind', 1: r'$\delta=0$' + '\npeers at the agent', 2: r'$\delta=+\pi/2$' + '\npeers ahead'}[i], fontsize=FS_MIN, pad=2)
+    # Right: legend and design/readout as short labels (inches, y downward).
+    axT = axes_in(3.55, 0.3, 3.45, 1.05); axT.set_axis_off(); axT.set_xlim(0, 3.45); axT.set_ylim(1.05, 0)
+    FS_T = 6.2
+    KEY = dict(fontsize=FS_T, color='#66707A', va='baseline', ha='left')
+    VAL = dict(fontsize=FS_T, color=INK, va='baseline', ha='left')
+    HEAD = dict(fontsize=6.4, color=INK, va='baseline', ha='left', fontweight='bold')
+    y = 0.12
+    axT.plot([0.05], [y-0.025], 'o', ms=5.2, mfc='white', mec=INK, mew=1.0, clip_on=False)
+    axT.text(0.14, y, 'focal agent', **VAL)
+    axT.add_patch(plt.Rectangle((0.86, y-0.075), 0.15, 0.085, facecolor=FIELD, alpha=.55, edgecolor=FIELD_EDGE, lw=.5))
+    axT.text(1.08, y, 'peer density (von Mises)', **VAL)
+    axT.annotate('', xy=(2.47, y-0.03), xytext=(2.25, y-0.03), arrowprops=ARROW)
+    axT.text(2.54, y, r'rotation $\delta$', **VAL)
+    axT.text(0, 0.38, 'Design', **HEAD)
+    for k, (key, val) in enumerate([(r'rotation $\delta$', '36 values'),
+                                    (r'concentration $\kappa$', '2, 4, 6, 9, 12'),
+                                    ('encodings', 'M, C, I'),
+                                    ('repeats', '24 per field × 2 blocks'),
+                                    ('responses', '25,920 per model family')]):
+        axT.text(0, 0.53+k*0.125, key, **KEY); axT.text(0.8, 0.53+k*0.125, val, **VAL)
+    axT.text(2.02, 0.38, 'Readout', **HEAD)
+    for k, line in enumerate([r'$g(\delta)=p(\mathrm{advance})-p(\mathrm{retard})$',
+                              r'$g\approx a_0+a_1\sin\delta+b_1\cos\delta+\ldots$',
+                              r'$a_1>0$: pull toward the peers',
+                              r'$b_1$: angular shift of the rule']):
+        axT.text(2.02, 0.53+k*0.125, line, **VAL)
 
     # ---- b  full action distributions on one rotated field ------------------
     target = -0.252
