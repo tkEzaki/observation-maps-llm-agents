@@ -1,12 +1,12 @@
 # How a shared state is described determines whether AI agents synchronize
 
 Research data and code by **Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari**.
-**Version v1.1.0**, September 22, 2026. Earlier manuscript:
+**Version v1.1.1**, September 22, 2026. Earlier manuscript:
 [arXiv:2608.06968](https://arxiv.org/abs/2608.06968).
 
 This release adds the September Claude controlled-field follow-up, current figure
 scripts, and an audit of **507,112 valid responses in the reported analyses**.
-See [release notes](docs/RELEASE_v1.1.0.md).
+See [release notes](docs/RELEASE_v1.1.1.md).
 
 ## Offline verification and reproduction
 
@@ -15,7 +15,7 @@ Use Python 3.11 or later. On Windows, use a short checkout path or Git long-path
 ```bash
 git clone https://github.com/tkEzaki/observation-maps-llm-agents.git
 cd observation-maps-llm-agents
-git checkout v1.1.0
+git checkout v1.1.1
 python -m pip install -r requirements-figures.txt
 python -B tools/verify_release.py
 python -B tools/restore_frozen_results.py

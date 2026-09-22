@@ -46,7 +46,7 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Version 1.1.0 adds the Claude follow-up and current figure sources to the original release. This software/data release does not imply journal acceptance.",
-  "version": "v1.1.0",
+  "notes": "Version 1.1.1 corrects checksum manifests for the archived line endings. Scientific data, current artwork and figure-generation scripts are unchanged from v1.1.0. Version 1.1.0 adds the Claude follow-up and current figure sources to the original release. This software/data release does not imply journal acceptance.",
+  "version": "v1.1.1",
   "publication_date": "2026-09-22"
 }
