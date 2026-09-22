@@ -51,10 +51,10 @@ systematically:
 - time-averaged / final \(r_2\), \(r_3\);
 - collective frequency \(\Omega_{\mathrm{coll}}\).
 
-Outcome B alone is scientifically interesting for Nature Communications if
+Outcome B alone is scientifically interesting for the study if
 pathway differences are robust and paired.
 
-### Outcome null (NO-GO for Nat Commun macro claim)
+### Outcome null (NO-GO for the study macro claim)
 
 - Representation contrasts fall inside seed variance;
 - centers/intervals collectives indistinguishable from moments on all
@@ -62,7 +62,7 @@ pathway differences are robust and paired.
 - cross-encoding replay later shows operator differences vanish on
   collective-generated fields (see protocol Phase-2 lock).
 
-## Nature Communications submission gates
+## the study submission gates
 
 ### GO
 
@@ -80,7 +80,7 @@ pathway differences are robust and paired.
 
 Desk-rejection risk elevated; specialist venues remain viable.
 
-### NO-GO (for Nat Commun macro narrative)
+### NO-GO (for the study macro narrative)
 
 - Matched collectives ≈ moments across reps within seed noise;
 - cross-encoding operator gaps disappear on endogenous fields.

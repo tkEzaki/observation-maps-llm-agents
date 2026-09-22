@@ -43,4 +43,4 @@ PASS — field-blocked globals frozen in replay_primary/decision.json.
 | Paid authorization | 2026-07-24 | **GO** |
 | Primary inference freeze | 2026-07-24 | **COMPLETE** |
 
-**Current:** paid acquisition complete; Nat Commun route continues with second-model micro replication (next paid priority).
+**Current:** paid acquisition complete; the study route continues with second-model micro replication (next paid priority).

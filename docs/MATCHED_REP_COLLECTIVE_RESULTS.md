@@ -167,7 +167,7 @@ matched endogenous dynamics.
 
 ---
 
-## Nat Commun gates
+## the study gates
 
 | Gate | Status |
 | --- | --- |

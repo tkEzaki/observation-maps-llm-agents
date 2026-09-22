@@ -132,7 +132,7 @@ Full feedback claim is **not** asserted.
 
 `analysis/matched_rep_collective/replay_primary/decision.json`
 
-## Next Nat Commun gates
+## Next the study gates
 
 1. Second-model-family micro replication  
 2. One observation-map / length control  

@@ -259,7 +259,7 @@ def main() -> int:
             "same_info_mean": round(same_mean, 3),
             "cross_rep_mean": round(cross_mean, 3),
         },
-        "central_proposition_doc": "docs/NATCOMM_RESULTS_OUTLINE.md",  # historical label kept verbatim: decision.json is frozen with this string
+        "central_proposition_doc": "docs/publication_RESULTS_OUTLINE.md",  # historical label kept verbatim: decision.json is frozen with this string
         "padding_wording": (
             "The neutral-padding manipulation produced the largest separation; "
             "do not claim prompt length alone."

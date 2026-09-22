@@ -4,7 +4,7 @@ Working memo on the length-confounding question: what was asked, what was
 measured, which two readings had to be withdrawn and why, and where the answer
 now stands.
 
-Project: `pilot4_kuramoto`. All figures are Supplementary Figures of the NMI
+Project: `pilot4_kuramoto`. All figures are Supplementary Figures of the study
 submission. Every number below is read from a frozen artifact; the artifact path
 is given for each block so any figure can be regenerated from it.
 

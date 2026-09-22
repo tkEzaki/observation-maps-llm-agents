@@ -63,7 +63,7 @@ feedback.
 | Target ≈ 0 | Macro difference mainly manifold branching |
 | All weak | 48-field / offset-0 panel insufficient |
 
-Strongest Nat Commun story: **target + source×target**. Source-only still
+Strongest the study story: **target + source×target**. Source-only still
 valuable with matched macro Outcome A.
 
 ## Explicit non-actions before primary report

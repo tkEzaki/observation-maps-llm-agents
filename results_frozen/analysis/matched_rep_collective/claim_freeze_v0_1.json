@@ -1,5 +1,5 @@
 {
-  "status": "NATCOMM_CLAIM_HIERARCHY_FROZEN_V0_1",
+  "status": "publication_CLAIM_HIERARCHY_FROZEN_V0_1",
   "updated": "2026-07-25",
   "central_proposition": "Observation representations causally select distinct collective phases in the matched GPT system. On identical physical fields, representation-dependent response operators generalize across three model families, and even information-preserving changes in presentation alter the operator.",
   "claim_scope": {
@@ -36,5 +36,5 @@
   "next_priority": "manuscript_figures_open_data",
   "new_large_acquisition_required": false,
   "optional_non_mandatory": "claude_gemini_same_info_control_micro",
-  "outline_doc": "docs/NATCOMM_RESULTS_OUTLINE.md"
+  "outline_doc": "docs/publication_RESULTS_OUTLINE.md"
 }
