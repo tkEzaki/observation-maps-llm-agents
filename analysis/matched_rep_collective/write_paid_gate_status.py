@@ -47,13 +47,7 @@ def main() -> int:
             "no OpenAI spend while paid_authorized is false",
             "no N=9 before N=17 effect",
         ],
-        "next_commands_after_go": [
-            "optional: py analysis/matched_rep_collective/run_estimate_only.py --backend openai --model MODEL",
-            "set auth_go paid_authorized true after human review",
-            "py -m experiments.stage_c.run_collective --protocol experiments/stage_c/protocol_matched_rep_collective_v0_1_moments.json --backend openai --model MODEL --yes",
-            "(repeat for centers and intervals protocols)",
-        ],
-    }
+        }
     OUT.write_text(json.dumps(status, indent=2), encoding="utf-8")
     print(json.dumps(status, indent=2))
     return 0

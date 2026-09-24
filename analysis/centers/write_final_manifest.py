@@ -70,7 +70,6 @@ def main() -> int:
             "cent3_informed_feature_chasing",
             "paid_stay_collapse_coverage_acquisition",
         ],
-        "next_priority": "intervals_branch",
     }
     body = json.dumps(manifest, indent=2, sort_keys=True)
     manifest["manifest_sha256"] = hashlib.sha256(body.encode()).hexdigest()

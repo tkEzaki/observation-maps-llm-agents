@@ -6,7 +6,7 @@ The same-task-information control (`omap_control_v0_1`, main Fig. 5) varies
 layout and neutral padding at fixed moment values. Its padded condition moved
 the operator a lot, but that condition changes context volume, the position of
 the relevant numbers and prompt length together, so it does not isolate length.
-A reviewer can therefore still ask whether the primary encoding effect is a
+A remaining question is whether the primary encoding effect is a
 prompt-length effect in disguise.
 
 This control answers that question with no filler text anywhere.
@@ -81,60 +81,18 @@ outcomes.
 | audit artifact | `analysis/matched_rep_collective/slc_information_audit.json` |
 | protocol | `experiments/stage_c/protocol_matched_rep_collective_slc_v0_1.json` |
 | acquisition runner | `experiments/stage_c/run_slc_control.py` |
-| launcher | `launch_slc_paid.py (operational launcher; not included in this release)` |
 | authorization sidecar | `analysis/matched_rep_collective/slc_auth_go.json` |
-| one-shot Windows pipeline | `run_slc_all.bat` (operational launcher; not included in this release) |
 | analysis | `analysis/matched_rep_collective/analyze_slc_control.py` |
 | decision artifact | `analysis/matched_rep_collective/slc_primary/decision.json` |
 | figure | `analysis/figures_si/figS22.py` -> `figures/si/figS22_serialization_length.pdf` |
 
-## How to run
-
-On Windows, everything at once:
-
-```
-analysis\matched_rep_collective\run_slc_all.bat
-```
-
-It runs the audit, the estimate, the acquisition, the inference, the figure and
-a LaTeX recompile in order, stopping at the first failure. It asks once before
-spending, showing the cost; `run_slc_all.bat /y` skips that prompt. Re-running
-resumes an unfinished acquisition rather than paying twice.
-
-Step by step, on any platform:
-
-```
-# 1. offline audit (no cost, must pass before the runner will spend anything)
-python analysis/matched_rep_collective/verify_slc_information_equivalence.py
-
-# 2. cost estimate only
-python experiments/stage_c/run_slc_control.py --estimate-only
-#    -> 3,072 calls, $1.2223 base, $3.6668 retry ceiling, protocol ceiling $8
-
-# 3. authorize: set paid_authorized true in
-#    analysis/matched_rep_collective/slc_auth_go.json
-
-# 4. acquire
-python launch_slc_paid.py   # operational launcher; not included in this release
-
-# 5. analyse and render
-python analysis/matched_rep_collective/analyze_slc_control.py
-python analysis/figures_si/figS22.py
-```
-
-The runner refuses to spend money unless the freeze verification, the offline
-audit and the task-construction audit all pass, and unless `--yes` is given.
-It is resumable: re-running with `--resume-dir` skips completed task ids.
-
 ## Status
 
-Complete. Acquisition 2026-07-29, 3,072 calls, 100% valid, $0.93. Analysis, figure
-and manuscript text are all in place; the figure appears as **Supplementary
+Complete. Acquisition 2026-07-29, 3,072 calls, 100% valid, $0.93. The figure appears as **Supplementary
 Figure S19** in the document (the script series number `figS22` is a file name and
 differs from the document number).
 
 The prespecified contrast came out inconclusive: 0.049 with a bootstrap interval of
 -0.043 to 0.134. The interpretation rests on the anchored paired contrasts added
 after acquisition, which are labelled post hoc and diagnostic in the caption. See
-`docs/LENGTH_CONFOUNDING_MEMO.md` for the full arc and for what is and is not
-claimed.
+`docs/SERIALIZATION_VALIDATION.md` for the statistical interpretation.

@@ -597,15 +597,6 @@ def main() -> int:
             "manifold does not support reliable prospective transport to "
             "collective-like fields."
         ),
-        "next": (
-            "draft INT-3 protocol + cost card (still needs explicit auth)"
-            if int3_go
-            else (
-                "STOP intervals collective branch; archive as microscopic-only"
-                if stop
-                else "document residual offline options without paid spend"
-            )
-        ),
         "p_fail_plumbing_required_before_paid": True,
         "raw_response_retention_smoke_required_before_paid": True,
     }
@@ -633,8 +624,7 @@ def main() -> int:
                 "discrete_help": discrete_help,
                 "int3_go": int3_go,
                 "stop": stop,
-                "next": decision["next"],
-            },
+                },
             indent=2,
         )
     )

@@ -1,8 +1,6 @@
 # Matched 3×3 replay — primary analysis plan (frozen pre-acquisition)
 
 Date: 2026-07-24  
-Status: **frozen before paid replay**  
-SHA: see `analysis/matched_rep_collective/replay_hash_freeze_v0_1.json` → `analysis_plan_sha256`
 
 ## Inference unit
 
@@ -63,8 +61,6 @@ feedback.
 | Target ≈ 0 | Macro difference mainly manifold branching |
 | All weak | 48-field / offset-0 panel insufficient |
 
-Strongest the study story: **target + source×target**. Source-only still
-valuable with matched macro Outcome A.
 
 ## Explicit non-actions before primary report
 

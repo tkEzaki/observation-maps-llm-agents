@@ -413,11 +413,6 @@ def main() -> int:
         "int3_prospective_pilot_go": int3_go,
         "paid_authorized": False,
         "freeze_ready": False,
-        "next": (
-            "draft INT-3 coverage pilot protocol + cost card (still needs explicit auth)"
-            if int3_go
-            else "revise intervals offline (native metric / features / peer16-only) before any paid pilot"
-        ),
         "centers_lessons_applied": [
             "peer_scope_split",
             "peer_specific_global_baseline",

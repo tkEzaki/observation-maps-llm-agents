@@ -1,8 +1,6 @@
-# Stage C v0.2 — protocol lock (design GO; paid conditional)
+# Stage C v0.2 — prospective validation protocol
 
 Date: 2026-07-24  
-Design status: **GO**  
-Paid status: **conditional** (v2 checklist + cost card + explicit `--yes`)
 
 ## Scientific purpose
 
@@ -35,9 +33,9 @@ v1 remains the permanent v0.1 prospective baseline; v0.2’s prediction model is
 \(r_2,r_3\), \(\Omega_{\mathrm{coll}}\), locking fraction, teacher-forced one-step
 stay/direction, trajectory risk.
 
-## Two-stage paid design
+## Two-stage design
 
-### v0.2a — transition validation (first paid)
+### v0.2a — transition validation 
 
 Protocol: `experiments/stage_c/protocol_stage_c_v0_2a.json`
 
@@ -55,7 +53,6 @@ to the Stage C v0.1 → replay training slice.
 ### v0.2b — size / negative replication
 
 Protocol: `experiments/stage_c/protocol_stage_c_v0_2b.json`  
-Cost card: `docs/STAGE_C_V0_2B_COST_CARD.md`
 
 | item | value |
 | --- | --- |
@@ -71,24 +68,6 @@ Cost card: `docs/STAGE_C_V0_2B_COST_CARD.md`
 | ---: | --- |
 | 9 | 0, 0.06, 0.08, 0.10, 0.15 [, −0.15] |
 | 17 | 0, 0.08, 0.10, 0.12, 0.15 [, −0.15] |
-
-## Preconditions before paid v0.2a
-
-1. [x] v2 8-gate checklist all pass → `docs/STAGE_3B_V2_FREEZE_CHECKLIST.md`
-2. [x] Rich dense v1/v2 compare reviewed → `docs/STAGE_C_DENSE_K_RICH_V1_VS_V2.md`
-3. [x] Cost card + fresh `--estimate-only` reviewed → `docs/STAGE_C_V0_2A_COST_CARD.md`
-4. [x] Explicit user `--yes`
-
-**v0.2a complete:** `docs/STAGE_C_RESULTS_V0_2A.md`  
-
-## Preconditions before paid v0.2b
-
-1. [x] v0.2a success (activity/stay)
-2. [x] `--estimate-only` under ceiling
-3. [x] Explicit continue (進めて)
-4. [x] Surrogate lock + paid run  
-
-**v0.2b complete:** `docs/STAGE_C_RESULTS_V0_2B.md`
 
 ## Naming
 

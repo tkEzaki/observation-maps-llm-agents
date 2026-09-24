@@ -452,7 +452,6 @@
   "int3_prospective_pilot_go": false,
   "paid_authorized": false,
   "freeze_ready": false,
-  "next": "revise intervals offline (native metric / features / peer16-only) before any paid pilot",
   "centers_lessons_applied": [
     "peer_scope_split",
     "peer_specific_global_baseline",

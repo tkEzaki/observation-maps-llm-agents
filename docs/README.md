@@ -1,17 +1,22 @@
-# Project records
+# Technical documentation
 
-Protocols, cost cards, human-review records, decision logs and the memos cited
-in the Methods. They are kept in the repository because the manuscript's
-prespecification claim rests on them: each protocol was versioned and
-hash-locked before the acquisition it governs.
+These notes describe experimental designs, analysis methods and validation.
+Machine-readable protocols are in `experiments/`; acquisition records and
+historical hashes are retained in `runs/` and `results_frozen/`.
+The notes are current technical references; historical document hashes identify
+the original acquisition-time records, not these release copies.
 
-Entry points:
+- `MATCHED_REP_COLLECTIVE_PROTOCOL.md`: matched collective design and endpoints.
+- `MATCHED_REP_COLLECTIVE_HYPOTHESIS.md`: original scientific hypotheses.
+- `MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md`: pre-outcome field selection.
+- `MATCHED_REP_COLLECTIVE_REPLAY_ANALYSIS_PLAN.md`: replay inference.
+- `MATCHED_REP_COLLECTIVE_R1_PROTOCOL.md`: second-family microscopic comparison.
+- `MATCHED_REP_COLLECTIVE_R2_PROTOCOL.md` and `MATCHED_REP_COLLECTIVE_R2_ANALYSIS_PLAN.md`: Claude collective replication.
+- `MATCHED_REP_COLLECTIVE_OMAP_CONTROL_PROTOCOL.md`, `MATCHED_REP_COLLECTIVE_SLC_PROTOCOL.md` and `MATCHED_REP_COLLECTIVE_SBC_PROTOCOL.md`: serialization controls.
+- `SERIALIZATION_VALIDATION.md`: control results, including inconclusive and non-diagnostic contrasts and post-hoc interpretations.
+- `STAGE_C_V0_2_PROTOCOL.md`: prospective surrogate validation.
+- `STATS_AUDIT_MEMO.md`: statistical corrections and revised numerical results.
+- `response_count_audit.json`: response accounting.
 
-| File | Contents |
-|---|---|
-| `STATS_AUDIT_MEMO.md` | Audit of the manuscript's statistical description against this implementation. Ten discrepancies, their resolution, and the numbers that moved when two artefacts were re-frozen. |
-| `LENGTH_CONFOUNDING_MEMO.md` | The prompt-length confound: how it was raised, the two controls built to address it, and what they do and do not settle. |
-
-| `MATCHED_REP_COLLECTIVE_*` | Protocol, hypothesis, cost card, human review and results for the matched-representation collective experiments and their controls. |
-| `STAGE_*` | The earlier stages: response-law acquisition, offline analysis, surrogate development. |
-| `CENTERS_*`, `INTERVALS_*` | The two surrogate branches that were stopped under their prespecified rules. |
+Negative surrogate-transfer results remain in the frozen analysis records;
+the corresponding data and numerical results are unchanged.

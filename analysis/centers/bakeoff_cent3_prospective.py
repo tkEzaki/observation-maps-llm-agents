@@ -264,11 +264,7 @@ def main() -> int:
         "decision": {
             "centers_bundle_v1_freeze": "NO-GO",
             "centers_collective_stage_c": "NO-GO",
-            "next": (
-                "revise centers model family offline; do not refit on CENT-3 "
-                "as freeze evidence; plan confirmatory pilot after revision"
-            ),
-        },
+            },
     }
 
     with (branch / "cent4b_bakeoff_detail.csv").open(

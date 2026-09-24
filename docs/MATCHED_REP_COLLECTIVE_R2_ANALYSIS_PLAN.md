@@ -1,7 +1,6 @@
 # Matched collective R2 — analysis plan (preregistered)
 
 Date: 2026-07-25  
-Status: **frozen before paid acquisition**  
 Inference unit: **physical seed** (not agents, timesteps, or API calls).
 
 ## Primary endpoint

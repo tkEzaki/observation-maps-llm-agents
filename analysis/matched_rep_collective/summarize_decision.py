@@ -203,14 +203,7 @@ def main() -> int:
         "n_pathway_significant": len(pathway_hits),
         "significant_events": sig_events,
         "means_by_rep_K": means,
-        "next": {
-            "if_A_or_B": [
-                "run cross-encoding replay under MATCHED_REP_COLLECTIVE_REPLAY_LOCK.md",
-                "conditional second-model R1",
-            ],
-            "if_null": ["specialist venue / microscopic+C/T narrative"],
-        },
-    }
+        }
     path = OUT / "decision.json"
     path.write_text(json.dumps(decision, indent=2), encoding="utf-8")
     print("\n=== OUTCOME ===", outcome)

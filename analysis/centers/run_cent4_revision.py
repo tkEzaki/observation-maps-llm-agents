@@ -728,15 +728,6 @@ def main() -> int:
                 "fields remains insufficient for confirmatory paid pilot"
             ),
         },
-        "next": (
-            "prepare non-overlapping 768-call confirmatory pilot"
-            if confirmatory_go
-            else (
-                "continue offline coverage repair (peer8 densification / "
-                "finite-peer abstention neighborhood) before any paid pilot; "
-                "do not freeze; stop-rule still applies after confirmatory"
-            )
-        ),
         "stop_rule_note": (
             "Confirmatory pilot is the last model-establishment test; "
             "second prospective failure → do not continue surrogate engineering"

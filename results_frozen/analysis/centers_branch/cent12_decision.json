@@ -125,6 +125,5 @@
     "high_risk_error_enrichment_gt_1_2": true,
     "beats_global_on_holdout": true
   },
-  "offline_gate_pass": true,
-  "next": "CENT-3 coverage-directed 36-field pilot selection + cost card"
+  "offline_gate_pass": true
 }

@@ -10,6 +10,5 @@
     "16": 25
   },
   "recommended_pilot_calls_low": 1152,
-  "recommended_pilot_calls_high": 2304,
-  "near_zero_topup_priority": "not_first_priority"
+  "recommended_pilot_calls_high": 2304
 }

@@ -60,10 +60,6 @@ def main() -> int:
             "moments_intervals_matched_stage_c",
             "further_feature_mixture_chasing_on_current_manifold",
         ],
-        "next_priority": (
-            "archive histogram collective paths; moments Stage C remains the "
-            "only frozen collective representation path"
-        ),
     }
     body = json.dumps(manifest, indent=2, sort_keys=True)
     manifest["manifest_sha256"] = hashlib.sha256(body.encode()).hexdigest()

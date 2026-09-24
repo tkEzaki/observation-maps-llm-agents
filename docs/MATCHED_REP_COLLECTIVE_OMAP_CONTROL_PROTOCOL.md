@@ -1,8 +1,6 @@
 # Same-information observation-map control (preregistered)
 
 Date: 2026-07-25  
-Status: **PREREGISTERED — paid NOT authorized**  
-Parent: GPT replay + R1 operator replication  
 Purpose: Test whether representation effects reduce to format / length artifacts
 
 ## Design
@@ -51,6 +49,3 @@ and near the within-target block-noise floor?
 - Adding centers/intervals arms into this control budget  
 - Upgrading source/feedback claims from this control  
 
-## Auth
-
-`analysis/matched_rep_collective/omap_auth_go.json` remains `paid_authorized: false` until explicit user GO.

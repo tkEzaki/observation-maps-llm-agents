@@ -1,7 +1,7 @@
 # How a shared state is described determines whether AI agents synchronize
 
 Research data and code by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari.
-Version v1.2.0. Associated preprint: https://arxiv.org/abs/2608.06968.
+Version v1.2.1. Associated preprint: https://arxiv.org/abs/2608.06968.
 
 ## Offline reproduction
 
@@ -32,18 +32,15 @@ the original records of those attempts are retained for auditability.
 - `analysis/figure_assets/`: generation of numerical figure inputs.
 - `figures/publication/`: 44 reference PDF assets for five main and 27 supplementary figures.
 - `figures/source_main/`, `figures/plot_supplement/`, `figures/figure_work/`: frozen vector inputs required by the current supplementary rendering pipeline.
-- `docs/`: scientific protocols, decision records and response-count audit.
+- `docs/`: technical documentation and response-count audit.
 
 Run verification before regenerating outputs. PDF metadata and fonts can vary
 across machines. The current driver regenerates main figures and S27 from data,
 and converts retained supplementary vector inputs to the current panel labeling.
 Additional supplementary plotting sources are included for reproducibility.
 
-This release consolidates the figure pipeline and uses neutral directory names.
-Unused earlier plotting implementations and outdated release instructions have
-been removed. Raw acquisition files, accepted responses and reference artwork
-are unchanged from v1.1.1. Scientific model identifiers and provider metadata are
-retained; they identify the systems actually studied.
+This release tidies unnecessary files and updates package documentation.
+Raw acquisition files, numerical results and reference artwork are unchanged.
 
 The Claude controlled-field experiment is a descriptive follow-up after the
 collective reversal was observed. Its response curves do not establish a general
@@ -52,4 +49,4 @@ stability criterion. Model family and acquisition date were not independently ra
 ## Citation and license
 
 See CITATION.cff. MIT License. Concept DOI: https://doi.org/10.5281/zenodo.21834781.
-Cite the version-specific DOI for an exact snapshot. See docs/RELEASE_v1.2.0.md.
+Cite the version-specific DOI for an exact snapshot. See docs/RELEASE_v1.2.1.md.
