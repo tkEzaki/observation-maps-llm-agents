@@ -1,7 +1,6 @@
 # Matched representation collective — cross-encoding replay lock
 
 Date: 2026-07-24  
-Status: **LOCKED before matched-collective outcomes — still binding after Outcome A**  
 Purpose: mechanistic decomposition after surrogate-free matched collectives
 
 > Do **not** revise strata quotas, sampling rules, or call budgets after
@@ -124,6 +123,5 @@ Source reproducibility (no git): `replay_source_hashes_v0_1.json`
 
 Paid acquisition **COMPLETE** (2026-07-24): 4,608/4,608 valid;
 actual \$1.876; primary inference in
-`docs/MATCHED_REP_COLLECTIVE_REPLAY_RESULTS.md` and
 `analysis/matched_rep_collective/replay_primary/decision.json`.
 Selection rules herein remain binding and must not be retuned.

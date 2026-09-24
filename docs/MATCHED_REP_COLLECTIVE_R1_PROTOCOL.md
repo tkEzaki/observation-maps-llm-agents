@@ -1,8 +1,6 @@
 # Matched collective R1 — second-model-family micro replication
 
 Date: 2026-07-24  
-Status: **PAID AUTHORIZED** (user: model-family experiments)  
-Parent: `docs/MATCHED_REP_COLLECTIVE_REPLAY_RESULTS.md` (operator effect supported)
 
 ## Design
 

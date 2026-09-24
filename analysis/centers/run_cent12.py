@@ -316,12 +316,7 @@ def main() -> int:
         },
         "offline_gates": gates,
         "offline_gate_pass": offline_pass,
-        "next": (
-            "CENT-3 coverage-directed 36-field pilot selection + cost card"
-            if offline_pass
-            else "revise model family / risk features before paid pilot"
-        ),
-    }
+        }
     (branch / "cent12_decision.json").write_text(
         json.dumps(decision, indent=2), encoding="utf-8"
     )

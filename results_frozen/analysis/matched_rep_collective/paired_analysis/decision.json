@@ -10,7 +10,7 @@
     "K0_order_parameter_identity": true,
     "Q2_hierarchy_K_0_15": {
       "moments": -0.013,
-      "centers": -0.110,
+      "centers": -0.11,
       "intervals": 0.213
     }
   },
@@ -20,6 +20,5 @@
     "high_r2_nonpolar",
     "low_polar_active"
   ],
-  "docs": "docs/MATCHED_REP_COLLECTIVE_RESULTS.md",
-  "next": "3x3_replay_scientific_GO_paid_pending_review"
+  "docs": "docs/MATCHED_REP_COLLECTIVE_RESULTS.md"
 }

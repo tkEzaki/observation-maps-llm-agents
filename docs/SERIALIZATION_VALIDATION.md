@@ -1,84 +1,4 @@
-# Is the observation-map effect a prompt-length effect?
-
-Working memo on the length-confounding question: what was asked, what was
-measured, which two readings had to be withdrawn and why, and where the answer
-now stands.
-
-Project: `pilot4_kuramoto`. All figures are Supplementary Figures of the study
-submission. Every number below is read from a frozen artifact; the artifact path
-is given for each block so any figure can be regenerated from it.
-
----
-
-## 1. The question
-
-The paper's central claim is that the observation map, the code that turns a
-physical state into the text an agent reads, is part of the effective policy: the
-same relative-phase field elicits different action distributions under different
-encodings, and in the closed loop that difference selects a different collective
-outcome.
-
-The three primary encodings differ in prompt length as well as in content:
-
-| encoding | chars | est. tokens | lines |
-|---|---|---|---|
-| `moments_m1_m3` | 789 | 332 | 16 |
-| `centers_24_standard` | 1429 | 588 | 34 |
-| `intervals_24_decimal6` | 1562 | 641 | 34 |
-
-So the obvious deflationary reading is available: perhaps nothing about the
-*mapping* matters and the model simply responds differently to longer prompts.
-Closing that off is what this line of work is for.
-
----
-
-## 2. What was already in hand, and why it was not enough
-
-**Identical-field replay (main Fig. 3).**
-`analysis/matched_rep_collective/replay_primary/decision.json`
-
-48 endogenous fields, each re-encoded under all three encodings and presented to
-GPT for 32 responses. Mean pairwise total-variation distance 0.344
-(*p* = 0.0002, 5,000 within-field permutations), 3.76 times the within-encoding
-between-block noise of 0.092. Pairwise:
-
-| pair | mean TV | 95% CI |
-|---|---|---|
-| moments vs centers | 0.335 | 0.251-0.423 |
-| moments vs intervals | 0.408 | 0.323-0.490 |
-| **centers vs intervals** | **0.290** | 0.221-0.363 |
-
-That third row is the first piece of leverage. Centers and intervals carry the
-*same* 24 bin masses in the *same* 24 rows and differ only in how each bin is
-labelled, and they still separate by 0.290, 3.2 times the block noise. So
-serialization moves the operator with the retained information held exactly
-fixed. But their lengths differ too (1429 vs 1562), so this alone does not
-isolate length.
-
-**Same-task-information control (main Fig. 5).**
-`analysis/matched_rep_collective/omap_primary/decision.json`
-
-Three GPT inputs carrying identical circular-moment values: the original moments
-text, the same numbers as a table, and a neutral-padding version. Global mean
-pairwise distance 0.311 (*p* = 0.0002) against a within-version block distance of
-0.069.
-
-| manipulation | mean TV | 95% CI |
-|---|---|---|
-| re-laid out as a table | 0.145 | 0.079-0.219 |
-| neutral context added | 0.414 | 0.311-0.517 |
-| table vs padded | 0.374 | 0.273-0.475 |
-
-Two readings follow, and only one of them is safe. Re-laying out identical
-numbers is at most a weak effect: 2.1 times the block noise with an interval that
-overlaps the noise floor. Adding neutral context is large, exceeding even the
-0.344 between genuinely different encodings. But the padded condition changed
-context volume, the position of the task-relevant numbers, and length **all at
-once**, so it is not a prompt-length mechanism and cannot be used as one. The
-sensitivity reported in the paper rests on that condition, so the length question
-was still open.
-
----
+# Serialization controls: design, results and limitations
 
 ## 3. Serialization-length control (Supplementary Fig. S19)
 
@@ -294,8 +214,7 @@ The "both" cell carries it: a 7.8-fold difference in length gap produces a 0.012
 difference in response distance, and the interval covers zero.
 
 **Within this tested 2x2 ladder, the pair category was more informative about
-response distance than the magnitude of the character-count difference.** Put for
-the manuscript: response differences tracked the type of textual binding
+response distance than the magnitude of the character-count difference.** Response differences tracked the type of textual binding
 manipulation more closely than the size of the character-count gap. This is a
 statement about the two features this ladder crosses, not a general claim about
 serialization.
@@ -318,7 +237,7 @@ label moves the operator by 0.301, 2.2 times the block noise.
 - **Within the tested ladder, the pair category was more informative about
   response distance than the magnitude of the character-count difference**, from
   the within-cell length insensitivity, with the strongest case at a 7.8-fold gap
-  ratio. Stated for the manuscript: response differences tracked the type of
+  ratio. Response differences tracked the type of
   textual binding manipulation more closely than the size of the character-count
   gap.
 - Of the two features tested, **printing the numeric bin centre next to each mass
@@ -328,8 +247,7 @@ label moves the operator by 0.301, 2.2 times the block noise.
   0.145, 2.1× the floor with an interval overlapping it; the length control gave
   0.074 across a different layout change, below the floor. Note this is *smaller
   and less consistently resolved*, not absent: the 0.145 interval does not exclude
-  the floor but the point estimate is above it. This is the reading the paper
-  wanted preserved and it now rests on two acquisitions.
+  the floor but the point estimate is above it. This finding is supported by two acquisitions.
 
 **Not established.**
 
@@ -382,136 +300,3 @@ label moves the operator by 0.301, 2.2 times the block noise.
 
 ---
 
-## 9. Prepared answer to the reviewer question
-
-> **Is this simply a prompt-length effect?**
-
-We tested this directly. First, we fixed a moments prompt and compared it with two
-histogram prompts that retained identical bin masses but differed in serialization
-and length. Under a monotone prompt-length account, the histogram prompt further
-away in character count should be at least as distant in response. The opposite
-occurred for two independent anchors: the closer prompt was more distant by 0.145
-[0.027, 0.259] and 0.165 [0.049, 0.283], with paired exact sign tests *p* = 0.026
-and *p* = 0.040 (Supplementary Fig. S19e).
-
-Second, a four-condition serialization ladder crossed whether bin indices and
-numerical bin centres were printed. Within each manipulation class, character-count
-gaps varied by factors of 2.6 to 7.8 while response distances changed by only 0.012
-to 0.023 and the corresponding intervals included zero (Supplementary Fig. S20f).
-The operator differences therefore do not follow a simple monotone dose-response
-relationship with prompt length; they depend instead on which textual binding
-features are changed.
-
-We do not claim that prompt length can never affect language-model responses, or
-that the ladder identifies a universal serialization mechanism. The controls were
-performed on the frozen replay panel and were not re-run in the collective loop.
-
-### The position the manuscript fixes on
-
-> The microscopic encoding effect cannot be reduced to a simple monotone
-> prompt-length difference: it persists with retained information fixed, and
-> response distance tracks the type of serialization change more closely than the
-> size of the character-count gap.
-
-> These replay controls do not identify a universal textual mechanism and were not
-> tested for macroscopic transport.
-
-### Claim matrix
-
-| claim | status | placement |
-|---|---|---|
-| encoding changes the operator on the same field | established | main text |
-| serialization matters with retained information fixed | established | main Fig. 5 and SI |
-| a simple monotone prompt-length account | refuted | SI, one or two sentences in main text |
-| any length-only mechanism whatsoever | not refuted | not claimed |
-| the type of textual feature matters | supported within the tested ladder | SI |
-| centre printing exceeds index printing | secondary, post hoc | SI, limited mention in Discussion |
-| serialization alone changes the macroscopic outcome | untested | not claimed |
-| the neutral-padding condition is a length-only test | no | explicitly denied |
-| closed-loop transport of these controls | untested | limitation |
-
-### Whether a further experiment is needed before submission
-
-No. The deflationary reading a reviewer will actually raise is answered by
-multiple independent controls with retained information fixed, and by paired
-evidence running against a monotone length account. Going further would move the
-paper's centre of gravity onto the details of serialization mechanism. A further
-experiment is worth running only if the independent claim *numerical coordinate
-binding is the mechanism* is to be made, and that would need a prespecified
-factorial design with token length matched as closely as possible.
-
-## 10. Methodological lessons worth keeping
-
-1. **A contrast that two competing accounts predict the same sign for is not
-   evidence, whatever its interval.** Check diagnosticity at design time, not
-   after. The analysis script now computes the flag and refuses to read a
-   non-diagnostic contrast as decisive.
-2. **A permutation *p* whose null is "no effect at all" is not a statement about a
-   derived contrast.** Judge derived contrasts on their bootstrap intervals. The
-   first version of the length-control verdict reported a `PASS` that its own
-   interval did not support.
-3. **Comparing two manipulations of unequal magnitude tells you about the
-   magnitudes, not the kinds.** The 0.074-versus-0.448 reading failed for exactly
-   this reason. An anchored paired contrast, where one side is held fixed and the
-   two comparisons differ only in the factor of interest, does not have this
-   failure mode.
-4. **Design the figure after the result.** The first figure for the length control
-   was laid out around the anticipated finding and had to be rebuilt, both in its
-   panels and in its caption, once the numbers arrived. The ladder's pipeline
-   deliberately has no figure step.
-5. **Hash text artifacts with newlines normalized.** Python's text writer
-   translates `\n` to `\r\n` on Windows, so a "frozen" JSON artifact's digest was
-   platform-dependent and the integrity check failed when the artifact and the
-   decision were produced on different machines.
-
----
-
-## 11. Artifact index
-
-| what | path |
-|---|---|
-| Replay target effect (Fig. 3) | `analysis/matched_rep_collective/replay_primary/decision.json` |
-| Same-task-information control (Fig. 5) | `analysis/matched_rep_collective/omap_primary/decision.json` |
-| Length control protocol | `experiments/stage_c/protocol_matched_rep_collective_slc_v0_1.json` |
-| Length control audit | `analysis/matched_rep_collective/slc_information_audit.json` |
-| Length control decision | `analysis/matched_rep_collective/slc_primary/decision.json` |
-| Length control figure (document S19) | `analysis/figures_si/figS22.py` → `figures/si/figS22_serialization_length.pdf` |
-| Binding ladder figure (document S20) | `analysis/figures_si/figS23.py` → `figures/si/figS23_serialization_binding.pdf` |
-
-The script series (`figS22`, `figS23`) and the document numbering (S19, S20) differ; the script numbers are file names and the document numbers come from the position of each figure in the Supplementary Information.
-| Binding ladder protocol | `experiments/stage_c/protocol_matched_rep_collective_sbc_v0_1.json` |
-| Binding ladder audit | `analysis/matched_rep_collective/sbc_information_audit.json` |
-| Binding ladder decision | `analysis/matched_rep_collective/sbc_primary/decision.json` |
-| Encoders, length control | `circlemap/serialization_length_controls.py` |
-| Encoders, binding ladder | `circlemap/serialization_binding_controls.py` |
-| Protocol documents | `docs/MATCHED_REP_COLLECTIVE_SLC_PROTOCOL.md`, `docs/MATCHED_REP_COLLECTIVE_SBC_PROTOCOL.md` |
-
-Acquisitions: `runs/matched_rep_collective_slc/matched-rep-slc-v0.1_gpt-5.4-mini/20260729T215934Z`
-and `runs/matched_rep_collective_sbc/matched-rep-sbc-v0.1_gpt-5.4-mini/20260730T000855Z`.
-Both 3,072 calls at 100% valid, $0.93 and $1.11, GPT `gpt-5.4-mini`, temperature
-0.7, on the frozen 48-field replay panel.
-
-## 12. State of the write-up
-
-Both pages are in the Supplementary Information and both are wired into the main
-text.
-
-- **Supplementary Fig. S19**, serialization-length control, eight panels. Title
-  and caption recentred on the single message that response distance does not
-  follow a monotone function of the character-count difference. The prespecified
-  contrast is labelled inconclusive; the anchored contrasts are labelled post hoc
-  and diagnostic; the two single-class references are labelled confounded with
-  length; the rank-correlation panel is labelled descriptive.
-- **Supplementary Fig. S20**, serialization-binding ladder, seven panels plus a
-  verdict strip. Centred on the crossed 2x2 reading. The contrast designated
-  primary is marked non-diagnostic and is reported for transparency only.
-- **Main text.** Two sentences in the Fig. 5 Results subsection and an extension of
-  the same-task-information Discussion paragraph, both hedged as above. Nothing
-  added to the Abstract. Two Methods subsections carry the detail, which is outside
-  the word cap. Main text 3,499 words against the 3,500 limit.
-- **Supplementary Note 1** now opens with a paragraph recording that the
-  prespecified contrast of S19 was inconclusive and the designated pivot of S20
-  non-diagnostic, and that the interpretation rests on diagnostic paired contrasts
-  and the crossed structure of the acquired conditions, labelled post hoc.
-
-Nothing further is planned for this line of work before submission.

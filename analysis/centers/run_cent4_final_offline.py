@@ -745,17 +745,7 @@ def main() -> int:
             "response surface was not sufficiently stable or compressible for "
             "prospective collective prediction under the tested descriptors and coverage."
         ),
-        "next": (
-            "draft peer16-only confirmatory protocol"
-            if confirmatory_go
-            else (
-                "STOP centers collective surrogate path; move to intervals "
-                "or archive centers as microscopic-only result"
-                if stop_centers
-                else "document residual offline options without further paid spend"
-            )
-        ),
-    }
+        }
 
     # Persist support table (flatten predictions)
     flat_support = []
@@ -792,8 +782,7 @@ def main() -> int:
                 "cent3_peer16_top": cent3_peer16_rank[:5],
                 "stay_hold": stay_hold,
                 "unimodal_diag": uni_diag,
-                "next": decision["next"],
-            },
+                },
             indent=2,
         )
     )

@@ -1,7 +1,6 @@
 # Matched representation collective — protocol v0.1
 
 Date: 2026-07-24  
-Status: **preregistered; surrogate-free; paid not authorized**  
 Protocols:
 
 - `experiments/stage_c/protocol_matched_rep_collective_v0_1_moments.json`
@@ -109,24 +108,6 @@ endpoints secondary / pathway.
 
 See `docs/MATCHED_REP_COLLECTIVE_HYPOTHESIS.md` Outcomes A / B / null.
 
-## Authorization
-
-Paid OpenAI runs require:
-
-1. Cost card estimate reviewed (`docs/MATCHED_REP_COLLECTIVE_COST_CARD.md`);
-2. Human review checklist complete;
-3. Sidecar `analysis/matched_rep_collective/auth_go.json` with
-   `paid_authorized: true` (currently **false**);
-4. CLI `--yes`.
-
-`--estimate-only` is allowed **without** paid auth for this family.
-
-No `moments_bundle_*` is required or consulted for primary analysis.
-
-## Size replication
-
-\(N=9\) is **blocked** until \(N=17\) shows Outcome A or B.
-
 ## Cross-encoding replay (Phase 2) — rules locked pre-outcome
 
 Field-selection strata, quotas, and call budget are frozen in
@@ -142,8 +123,3 @@ py analysis/matched_rep_collective/analyze_paired_endpoints.py --sessions ...
 
 Primary path is LLM-vs-LLM; surrogate columns are out of scope.
 
-## Explicit non-actions
-
-- INT-3 / CENT confirmatory / histogram surrogate freeze
-- Bundle-based Stage C auth for this family
-- Post-hoc retuning of cluster phenotype thresholds after Outcome A/B calls

@@ -32,9 +32,5 @@
     "same_info_mean": 0.311,
     "cross_representation_mean": 0.344,
     "original_padded": 0.414
-  },
-  "next_priority": "manuscript_figures_open_data",
-  "new_large_acquisition_required": false,
-  "optional_non_mandatory": "claude_gemini_same_info_control_micro",
-  "outline_doc": "docs/publication_RESULTS_OUTLINE.md"
+  }
 }

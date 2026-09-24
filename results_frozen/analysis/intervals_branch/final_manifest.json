@@ -44,6 +44,5 @@
     "moments_intervals_matched_stage_c",
     "further_feature_mixture_chasing_on_current_manifold"
   ],
-  "next_priority": "archive histogram collective paths; moments Stage C remains the only frozen collective representation path",
   "manifest_sha256": "0feb16ee8fdcf31476b5156f15922fec38ebb28a53f57b1a8ab0c66e4641c6ed"
 }

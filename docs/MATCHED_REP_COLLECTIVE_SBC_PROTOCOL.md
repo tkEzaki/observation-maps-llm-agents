@@ -92,26 +92,8 @@ collective experiments and makes no claim about closed-loop outcomes.
 | protocol | `experiments/stage_c/protocol_matched_rep_collective_sbc_v0_1.json` |
 | acquisition runner | `experiments/stage_c/run_sbc_control.py` |
 | authorization sidecar | `analysis/matched_rep_collective/sbc_auth_go.json` |
-| one-shot Windows pipeline | `run_sbc_all.bat` (operational launcher; not included in this release) |
 | analysis | `analysis/matched_rep_collective/analyze_sbc_control.py` |
 | decision artifact | `analysis/matched_rep_collective/sbc_primary/decision.json` |
-
-## How to run
-
-```
-analysis\matched_rep_collective\run_sbc_all.bat
-```
-
-Four steps: offline audit, cost estimate, paid acquisition, inference. It asks
-once before spending and stops at the first failure. `run_sbc_all.bat /y` skips
-the prompt. Re-running resumes an unfinished acquisition rather than paying twice.
-
-Estimate: 3,072 calls, $1.3668 base, $4.1005 at the retry ceiling, protocol
-ceiling $8.
-
-No SI figure step. The length control taught us to design the figure around the
-result rather than around the anticipated result, so the figure and the
-manuscript text are written after the numbers exist.
 
 ## Status
 
@@ -125,4 +107,4 @@ change across a large one, so a prompt-length account and a centre-printing acco
 predict the same sign for it. It is reported for transparency and not used for
 inference. The interpretation rests instead on the crossed 2x2 structure of the
 acquired conditions, which is a post hoc reading of the design. See
-`docs/LENGTH_CONFOUNDING_MEMO.md`.
+`docs/SERIALIZATION_VALIDATION.md`.

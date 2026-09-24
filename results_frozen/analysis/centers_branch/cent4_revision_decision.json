@@ -568,6 +568,5 @@
     "cent3_transfer": "structured models still do not clearly beat peer-specific global on the CENT-3 collective-like fields; finite-peer stay-collapse phenotype is not reproduced",
     "hypothesis_status": "partially supported: removing peer240 and stratifying peers improves OOF compressibility, but coverage of collective-like fields remains insufficient for confirmatory paid pilot"
   },
-  "next": "continue offline coverage repair (peer8 densification / finite-peer abstention neighborhood) before any paid pilot; do not freeze; stop-rule still applies after confirmatory",
   "stop_rule_note": "Confirmatory pilot is the last model-establishment test; second prospective failure \u2192 do not continue surrogate engineering"
 }

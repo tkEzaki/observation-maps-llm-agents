@@ -193,12 +193,7 @@ def main() -> int:
         },
         "recommended_pilot_calls_low": 24 * 3 * 8 * 2,
         "recommended_pilot_calls_high": 48 * 3 * 8 * 2,
-        "near_zero_topup_priority": (
-            "consider_eps_0.005_0.01"
-            if float(np.mean(near_zero_bank[peer_matched])) >= 0.15
-            else "not_first_priority"
-        ),
-    }
+        }
     (out_dir / "active_learning_selection_meta.json").write_text(
         json.dumps(summary, indent=2), encoding="utf-8"
     )

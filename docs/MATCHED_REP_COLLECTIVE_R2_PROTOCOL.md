@@ -1,7 +1,6 @@
 # Matched collective R2 — Claude macroscopic protocol
 
 Date: 2026-07-25  
-Status: **frozen for estimate-only; paid acquisition gated**  
 Protocol: `experiments/stage_c/protocol_matched_rep_collective_r2_claude_v0_1.json`
 
 ## Model / contract (match R1 + GPT collective)
@@ -105,12 +104,92 @@ On core 6 seeds, require
 
 Activity/action bias may differ across \(\mathcal R\). Failure ⇒ abort as **engine / matching failure** (not a scientific null).
 
-## Paid gates
 
-1. Freeze manifests + hashes written  
-2. `--estimate-only` reviewed (`estimate_only.json`)  
-3. Human review checklist signed  
-4. `auth_go.json` → `paid_authorized=true`  
-5. Explicit `--yes` on paid launch  
+## Selection rationale (not random)
 
-Until then: protocol/analysis freeze **GO**; paid acquisition **NO-GO**.
+
+
+Claude Haiku (`claude-haiku-4-5-20251001`) is the second family by **targeted replication** from R1 micro evidence on the frozen 48-field panel:
+
+
+
+- valid rate 1.000
+
+- target operator effect \(p=0.0002\)
+
+- pairwise \(d_{\mathrm{TV}}\) comparable to GPT
+
+- between/within ratio \(20.4\times\)
+
+
+
+This is **not** a random draw among all available families.
+
+
+
+## Primary scientific question
+
+
+
+> Does GPT’s observation-representation selection of collective phenotype replicate in an independently developed Claude family under matched physical dynamics?
+
+
+
+GPT positive-\(K\) outcome (6 seeds):
+
+
+
+| representation | polar lock |
+
+| --- | ---: |
+
+| moments | 6/6 |
+
+| centers | 0/6 |
+
+| intervals | 0/6 |
+
+
+
+R2 tests the **Claude-only** representation effect. Numerical match to GPT and exact ranking are **not** primary requirements.
+
+
+
+## Claim hierarchy
+
+
+
+| Tier | Meaning |
+
+| --- | --- |
+
+| Macro representation effect | Claude: representation changes collective outcome |
+
+| Qualitative phase replication | ≥1 representation locks; another does not |
+
+| GPT phenotype-map replication | moments lock → centers partial → intervals high-\(Q_2\) hierarchy |
+
+
+
+Tiers 1–2 are the primary scientific criteria. Tier 3 is optional.
+
+
+
+## Design summary
+
+
+
+- Family: Anthropic / `claude-haiku-4-5-20251001` (R1-identical fixed ID; no `latest`)
+
+- \(N=17\), \(T=100\); \(\mathcal R\in\{\mathrm{moments},\mathrm{centers},\mathrm{intervals}\}\)
+
+- Core 6 seeds: \(K\in\{0,0.08,0.15\}\) (same physical ICs as GPT matched collective)
+
+- Held-out 4 seeds: \(K\in\{0.08,0.15\}\) only
+
+- Drop \(K=-0.15\) (secondary torque-sign; not needed for positive-\(K\) phase gate)
+
+- Budget: **132,600** calls; protocol ceiling **\$175**
+
+
+
