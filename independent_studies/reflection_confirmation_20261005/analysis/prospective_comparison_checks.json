@@ -1,0 +1,8 @@
+{
+  "created_at_utc": "2026-10-05T07:15:09.983280+00:00",
+  "forecast_hashes_unchanged": true,
+  "forecasts_fixed_before_real_acquisition": true,
+  "input_and_code_freeze_verified": true,
+  "compared_run_model_pairs": 32,
+  "refits": 0
+}

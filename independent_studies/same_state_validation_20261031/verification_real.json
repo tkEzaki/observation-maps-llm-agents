@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-10-31T07:50:24.423853+00:00",
+  "passed": true,
+  "mode": "real",
+  "tasks": 16960,
+  "dispatches": 16960,
+  "verification_procedure": "complete_recovered.py: two immutable journals, format-only resource amendment",
+  "primary_phase_strict_valid": 15232,
+  "resource_accepted": 1728,
+  "resource_strict_format_failures": 87,
+  "resource_explanation_truncated": 87,
+  "resource_format_amendment": true,
+  "exact_math_verified": true,
+  "all_payloads_reconstructed": true,
+  "predictions_precede_validation": true,
+  "protected_files_unchanged": true,
+  "journal_sha256": "fd83c55530767da3fa3cea51cf7422308e4d817c3e7fcf1be4c53c5d5b5d1f8b",
+  "continuation_journal_sha256": "4d7669319cc41521c056774e3eb260900a9a95f086c7e96d32b4f9adb0b110ed",
+  "amendment_sha256": "c890f329ddae3e49bf313724bcf80e3beee982529709752061c5cd5e41b9f4fb",
+  "frozen_analysis_sha256": "f8c537b011d89a617a31c4b9d57c805b8e94d18bcb022c4a114493003fa5c897"
+}

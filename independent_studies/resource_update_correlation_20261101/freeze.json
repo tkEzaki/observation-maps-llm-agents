@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-31T15:29:49.275120+00:00",
+  "sources": {
+    "independent_studies/resource_collective_design_20261031/analysis_real/counts.npy": "165c823db6f382869df06a00b98301cd67f7a947f26aa9dd1f8546e13fc9ceca",
+    "independent_studies/resource_collective_design_20261031/analysis_real/joint_counts.npy": "476f62dcf6a831351673b40c8c5171ff20aa5fdce56fe164174cf5f51e125042",
+    "independent_studies/resource_collective_design_20261031/analysis_real/answers.npy": "d150722669e8bf63031ac603f1fa1abf71cb42dc3c588078e0de30e817a00ea7",
+    "independent_studies/resource_collective_design_20261031/analysis_real/results.json": "484541e93efbd0d78fb4062ff54dbbaee878dbaf9c527d4dfb28b0b30682d225",
+    "independent_studies/resource_collective_design_20261031/audit_real.json": "13b14923d3e89ab4a02dbcdb6584001df031934211a926ebe6968f1641d5cbe1",
+    "independent_studies/resource_collective_design_20261031/prompts.json": "2686f16d1f8a4405f6273cf530b375aad46ff88d0efc5e7cf3ca92bc15650ece",
+    "independent_studies/resource_collective_design_20261031/freeze.json": "ea50535e5b3086e17d9fec092d98d5f01df5f4e190b5e2c43c94ee8e2321f82a",
+    "independent_studies/resource_collective_design_20261031/kernel.py": "5332f8f6d789a987b5118793081312641e604296331aabeda38d4ac7a08b5057",
+    "independent_studies/prospective_closure_validation_20261031/analysis_real/contrasts.csv": "61ac27c0d5ed8a933d72415e89700dd8c5802c97da5fc2c4852f2afdf459b645"
+  },
+  "local": {
+    "engine.py": "e85f59d85b175ebe0707136d2caf39a61deb6cec496c5cc6ef725f5e5a12a331",
+    "analyze.py": "2608a2f3481923e2762425a20eb42db647a9c306f580f54fb66c01cf83ad913c",
+    "protocol.json": "a491d5f6c9c5934303d682bd75475bae1edf8ca0840234b9efd108be8f0242c0",
+    "verify_engine.py": "dc4b884705dd05a6e34d2067eac6bb1fd155f4be05d22d01513f86c2a3ac57e5"
+  }
+}

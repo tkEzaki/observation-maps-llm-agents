@@ -1,0 +1,7 @@
+{
+  "source_files_unchanged": true,
+  "vectorized_encoder_matches": true,
+  "train_rows": 16320,
+  "later_rows": 16320,
+  "closed_loop_simulations": 2048
+}

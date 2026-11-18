@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-05T06:23:59.602134+00:00",
+  "mode": "real",
+  "complete_unique_valid_tasks": 8160,
+  "trajectories": 8,
+  "all_dynamic_prompts_and_payloads_reconstructed": true,
+  "mirror_action_mapping_verified": true,
+  "max_engine_error": 1.0685896612017132e-15,
+  "max_common_rotation_order_error": 4.440892098500626e-16,
+  "all_input_and_code_hashes_unchanged": true,
+  "original_protected_files_unchanged": 2782
+}

@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-05T07:15:03.456023+00:00",
+  "primary_tests": 1,
+  "n_independent_physical_seeds": 8,
+  "positive_pairs": 8,
+  "zero_pairs": 0,
+  "negative_pairs": 0,
+  "mean_effect": 0.15811212149866066,
+  "median_effect": 0.15044786295233126,
+  "minimum_effect": 0.048234192462608294,
+  "maximum_effect": 0.251725762358202,
+  "one_sided_exact_sign_p": 0.00390625,
+  "null": "Probability of strictly positive per-seed effect is at most one half.",
+  "ties": "Exact zeros count as nonpositive; all eight seeds retained.",
+  "pilot_pairs_in_test": 0,
+  "secondary_inferential_tests": 0,
+  "assumptions": "Independent initial draws and response sampling; shared backend variation is not established absent."
+}

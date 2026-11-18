@@ -1,7 +1,7 @@
 # How a shared state is described determines whether AI agents synchronize
 
 Research data and code by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari.
-Version v1.2.1. Associated preprint: https://arxiv.org/abs/2608.06968.
+Version v2.0.0. Associated preprint: https://arxiv.org/abs/2608.06968.
 
 ## Offline reproduction
 
@@ -39,8 +39,27 @@ across machines. The current driver regenerates main figures and S27 from data,
 and converts retained supplementary vector inputs to the current panel labeling.
 Additional supplementary plotting sources are included for reproducibility.
 
-This release tidies unnecessary files and updates package documentation.
-Raw acquisition files, numerical results and reference artwork are unchanged.
+## Additional experiments (v2.0.0)
+
+`independent_studies/` holds later acquisitions and offline analyses: frozen response-model forecasts of new
+populations, reflection interventions, fixed-state tests and a resource-allocation task. `collective_forecast/`
+holds the offline tools and source data for the corresponding figures in `figures/collective_forecast/`.
+Response counts of these acquisitions are listed per set in `collective_forecast/dataset_index.json` and are
+not summed with the count above.
+
+```bash
+python -B collective_forecast/verify_counts.py
+python -B collective_forecast/verify_protocol.py
+python -B collective_forecast/response_model.py
+python -B collective_forecast/recompute_from_raw.py
+python -B collective_forecast/build_figures.py
+python -B collective_forecast/build_fig1.py
+python -B collective_forecast/build_figS5.py
+```
+
+Install the additional offline dependencies with `python -m pip install -r requirements-collective.txt`.
+
+Raw acquisition files, numerical results and reference artwork of the earlier release are unchanged.
 
 The Claude controlled-field experiment is a descriptive follow-up after the
 collective reversal was observed. Its response curves do not establish a general
@@ -49,4 +68,4 @@ stability criterion. Model family and acquisition date were not independently ra
 ## Citation and license
 
 See CITATION.cff. MIT License. Concept DOI: https://doi.org/10.5281/zenodo.21834781.
-Cite the version-specific DOI for an exact snapshot. See docs/RELEASE_v1.2.1.md.
+Cite the version-specific DOI for an exact snapshot. See docs/RELEASE_v2.0.0.md.

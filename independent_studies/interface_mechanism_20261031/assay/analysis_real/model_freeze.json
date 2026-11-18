@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-10-31T09:50:10.157548+00:00",
+  "mode": "real",
+  "files": {
+    "Claude_cos_first_constant.json": "180bb912755d6a74bd53e7f6764ee063dd8ddd0c62c83a80fbcbfa01cbff966d",
+    "Claude_cos_first_four_parameter.json": "ac84fa463b99f190ab3c8d55ebb279c8e34e5bbc4ccd1d9d2e185d56ffd23d45",
+    "Claude_cos_first_linear6.json": "40ce413fdfa5367a1011c78ff01105b94498c70d4c34413c19f15a1681457817",
+    "Claude_cos_first_quadratic6.json": "c415303e204348d45b244f5bfb9e9143bd89475b60989a7041e1111e4dc26a38",
+    "Claude_cos_first_sign.json": "c8b01bcb809e3082f60b33ec396f6378d3379235b166bb4a05fa1abf01106605",
+    "Claude_sin_first_constant.json": "37fa8142191deee6d8f5055e46cfbc2e0025e32f898b590da9fe3775812e75c9",
+    "Claude_sin_first_four_parameter.json": "8fea618dd19c01961294f88c2a49f592787b7b53fdf9074ea2eebbc66f8efb6c",
+    "Claude_sin_first_linear6.json": "3f9de46d019c0fa8edfab756a77c79f860dd2b00d0a6ad403fa38980bca0f3b1",
+    "Claude_sin_first_quadratic6.json": "aed61d9e35e3042f9cad8aaa9a0d3ef5dc2f90f40c90b1843feb828a617040eb",
+    "Claude_sin_first_sign.json": "af5a34955f17d93c6fbb45364de3d345af93082e6472dd768d8cc824421fff98",
+    "GPT_cos_first_constant.json": "f256c454b4daf08f3cde773cc70570650485e91b898e351e2167a6e305469f12",
+    "GPT_cos_first_four_parameter.json": "43126a447b67a27cff813bda3e81217fb9104fbd91f6cdcd7614bf46913f6e17",
+    "GPT_cos_first_linear6.json": "00a3c5683d431be0263f6751fad708382c0d0c1d7a9800566142d18c6d2932ff",
+    "GPT_cos_first_quadratic6.json": "7bbc36e7931cbc5c6280a2c834e85bda01ff1127c3eb91a3476f195876883a08",
+    "GPT_cos_first_sign.json": "c358a97071bd291fe3e5f2afbb0ecb654d3ae96b96c1b61e2b98c2dd2b3f9a1e",
+    "GPT_sin_first_constant.json": "5369afb82d12b58627e3944ec4b6c39fbcd80bc54def08c0e3ae86f7257a7e38",
+    "GPT_sin_first_four_parameter.json": "02dc3b433196aff7a9f90ae3ede5f766bcb821993f5a13788b4c8982e0c91336",
+    "GPT_sin_first_linear6.json": "83f08d1e673e1911e81d42a6b8998fe34baaae593427f9a314fe94b389ed9b84",
+    "GPT_sin_first_quadratic6.json": "23d542679627a516f283fefebd71fac6816af38320b34b67c84ef9b5500a5cd5",
+    "GPT_sin_first_sign.json": "fa6a461a89807bbb9e1ddcca95330b1a8ac28109b03c7ee66a231d9cf2d6e294",
+    "results.json": "1970a4448b8932eafe710dae7bf7fcde03a4cb71d6be23a228088537b09238f9"
+  },
+  "input_journal_sha256": "76ff61caeae6af2d99fba70321a2cd8cda40b8938ac942e2225d83a6b3227587"
+}

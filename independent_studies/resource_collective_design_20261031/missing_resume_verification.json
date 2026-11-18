@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-31T14:46:19.381380+00:00",
+  "completed": 14688,
+  "valid": 14687,
+  "missing": 1,
+  "dispatches": 14688,
+  "no_replacement": true,
+  "real_journal_unchanged": true,
+  "protocol_sha256": "fa7736530458f08376b63392d6fa0ea7973ff4daa2891c58f2118fc2bec5ce15",
+  "study_sha256": "551950cd625f7211c1e06081d100550c4163b77c2e2c9e4c5987843951c70b10",
+  "analysis_sha256": "4d572fd6e09cd3e269f91ef5f2644add1b683c9b9d083e2e2994ec95b09e6feb"
+}

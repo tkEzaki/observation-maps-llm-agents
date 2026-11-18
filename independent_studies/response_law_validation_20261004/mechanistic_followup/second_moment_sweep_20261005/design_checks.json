@@ -1,0 +1,10 @@
+{
+  "first_and_third_identical": true,
+  "prompt_diff_only_second_lines": true,
+  "physical_realizability": true,
+  "front_back_mass_identical": true,
+  "extreme_pair_repeated": true,
+  "protected_unchanged": true,
+  "new_real_api_calls": 0,
+  "unique_prompts": 37
+}

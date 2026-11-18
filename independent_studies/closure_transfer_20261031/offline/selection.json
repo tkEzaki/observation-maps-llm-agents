@@ -1,0 +1,10 @@
+{
+  "selected": "quadratic6",
+  "old_seed_cv_mean": {
+    "constant": 0.4263222317852388,
+    "knn64": 0.11946857100057093,
+    "linear6": 0.08539860227384585,
+    "quadratic6": 0.08020875302805248
+  },
+  "test_used_for_selection": false
+}

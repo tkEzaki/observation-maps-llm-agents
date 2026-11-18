@@ -1,0 +1,40 @@
+{
+  "policies": {
+    "native": {
+      "initial_wrong_minimum_probability": 0.038377917582913874,
+      "early_wrong_minimum_probability": 0.0019246278655381417,
+      "late_wrong_minimum_probability": 4.823113177924216e-159,
+      "early_increase_congestion_probability": 0.0019246278655381417,
+      "late_increase_congestion_probability": 4.823113177924216e-159,
+      "balanced_probability_after17_updates": 0.9980838005697417,
+      "balanced_probability_after170_updates": 1.0000000000000044,
+      "balanced_states_have_no_observed_errors": true,
+      "initial_probability_of_states_with_observed_errors": 0.21118201624075694
+    },
+    "permutation_average": {
+      "initial_wrong_minimum_probability": 0.03837791758291388,
+      "early_wrong_minimum_probability": 0.0019776258046826254,
+      "late_wrong_minimum_probability": 5.055147658974958e-159,
+      "early_increase_congestion_probability": 0.0019776258046826254,
+      "late_increase_congestion_probability": 5.055147658974958e-159,
+      "balanced_probability_after17_updates": 0.998083800569739,
+      "balanced_probability_after170_updates": 0.9999999999999901,
+      "balanced_states_have_no_observed_errors": true,
+      "initial_probability_of_states_with_observed_errors": 0.3644208812095119
+    }
+  },
+  "all_initial_states": {
+    "MLE": {
+      "early_benefit_all_initial_states_range": [
+        -9.4682313520833e-05,
+        0.00010712733842366262
+      ]
+    },
+    "Dirichlet_half": {
+      "early_benefit_all_initial_states_range": [
+        -0.00010063895595280314,
+        0.00010532354830350421
+      ]
+    }
+  }
+}

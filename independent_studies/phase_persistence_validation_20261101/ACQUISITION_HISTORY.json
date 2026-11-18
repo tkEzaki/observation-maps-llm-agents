@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-11-01T02:45:35.306219+00:00",
+  "original_launch": {
+    "launched_at_utc": "2026-11-01T02:40:14.2157091Z",
+    "script": "independent_studies/phase_persistence_validation_20261101/run_real.py",
+    "responses": 81600,
+    "workers": 8
+  },
+  "interruption": "After408 valid responses: Windows atomic progress-file replacement denied. All408 retained, no unresolved requests. First step reconstructed without network.",
+  "resume_launch": {
+    "launched_at_utc": "2026-11-01T02:44:11.1629474Z",
+    "retained_responses": 408,
+    "script": "resume_io.py"
+  },
+  "scientific_protocol_changed": false,
+  "cumulative_response_target": 81600,
+  "recovery_validation": "io_recovery_validation.json"
+}

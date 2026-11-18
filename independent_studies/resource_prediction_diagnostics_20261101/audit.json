@@ -1,0 +1,93 @@
+{
+  "api_calls": 0,
+  "received": 16320,
+  "visited_inputs": 142,
+  "calibration_valid": 14670,
+  "novel_action_count": 0,
+  "fixed_tie_match_count": 16275,
+  "minimum_load_count": 16300,
+  "response_weighted_tv_calibration": 9.191176470588235e-05,
+  "response_weighted_tv_primary": 0.029949795392069302,
+  "brier_primary": 0.001487945513422234,
+  "brier_empirical": 0.00014839920343137254,
+  "brier_primary_minus_empirical_seed_bootstrap95": [
+    0.0013381563022485162,
+    0.001341441987146231
+  ],
+  "concentrated_inputs": [
+    2,
+    49,
+    456
+  ],
+  "concentrated_visits": 12070,
+  "concentrated_live_counts": [
+    [
+      4034,
+      0,
+      0
+    ],
+    [
+      3892,
+      0,
+      0
+    ],
+    [
+      0,
+      4144,
+      0
+    ]
+  ],
+  "concentrated_calibration_counts": [
+    [
+      32,
+      0,
+      0
+    ],
+    [
+      32,
+      0,
+      0
+    ],
+    [
+      0,
+      32,
+      0
+    ]
+  ],
+  "concentrated_alpha_half_probabilities": [
+    [
+      0.9701492537313433,
+      0.014925373134328358,
+      0.014925373134328358
+    ],
+    [
+      0.9701492537313433,
+      0.014925373134328358,
+      0.014925373134328358
+    ],
+    [
+      0.014925373134328358,
+      0.9701492537313433,
+      0.014925373134328358
+    ]
+  ],
+  "concentrated_novel_actions": 0,
+  "pause": {
+    "before": 13515,
+    "after": 2805,
+    "overlap_inputs": 65,
+    "before_coverage": 0.9750647428782834,
+    "after_coverage": 0.9996434937611408,
+    "overlap_weighted_total_variation": 0.0
+  },
+  "fixed_tie_mismatches_by_step": {
+    "1": 45
+  },
+  "after_first_step_response_count": 16048,
+  "after_first_step_all_match_fixed_tie": true,
+  "calibration_split": {
+    "invalid_received": 2,
+    "transport_missing": 16,
+    "scoring": "Conditional on valid choices; the alpha grid is evaluated after collective results, so this is not independent confirmation of a newly selected estimator."
+  }
+}

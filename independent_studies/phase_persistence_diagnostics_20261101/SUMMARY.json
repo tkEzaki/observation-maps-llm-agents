@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-01T12:49:30.605222+00:00",
+  "post_hoc": true,
+  "api_calls": 0,
+  "findings": {
+    "same_state_late_effect_positive_both_models_all_3360_states": true,
+    "long_time_negative_gap_not_explained_by_negative_same_state_covariance": true,
+    "state_distribution_decomposition_not_a_unique_causal_explanation": true,
+    "quadratic6_all_step_RMSE": 0.040750925628238927,
+    "baseline_all_step_RMSE": 0.5245299920150926
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-11-01T02:14:13.490761+00:00",
+  "api_calls": 0,
+  "protected_sources_unchanged": true,
+  "frozen_prediction_hashes_unchanged": true,
+  "trajectory_shape": [
+    201,
+    24,
+    256
+  ],
+  "effects_recomputed": 18,
+  "max_summary_reconstruction_error": 9.71445146547012e-17,
+  "old_regression": {
+    "passed": true,
+    "api_calls": 0,
+    "source_forecasts_reproduced_max_error": {
+      "quadratic6": 2.220446049250313e-16,
+      "four_parameter": 2.220446049250313e-16
+    },
+    "vectorized_encoder_matches_scalar": true
+  },
+  "html_local_links_valid": true
+}

@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-10-31T09:21:19.686853+00:00",
+  "files": {
+    "core.py": "e5caad09c17825fe67faa5bea53411deec296f6ea2b66871036fe0c06d132cf7",
+    "assay.py": "ea42fe049a54a9e22d5f1cd4adc8b985f0503de2ce8ad645c464d5353d21c8a1",
+    "assay_analysis.py": "f5bfcc716502267f3f71f970af475bbffda492f55c2a98e5ae18d0094afa517f",
+    "assay/fields.json": "a3a6ce60381b3790b844f377976ecee4c3452898afb81e6f2882dd537464c205",
+    "assay/prompts.json": "c98d15279255232761668e2a6c8799904f9a5a81c4de3c838732338e21672e19",
+    "assay/protocol.json": "35e69880448aaae0ef55b03e9af90e0aa3475ede867d2c63f34ac2d0c493d6d0",
+    "assay/tasks.json": "887935384d53e6da5abfeb894e13aee0c7411169c837944db338f53e8a338217",
+    "assay/pre_acquisition_amendment.json": "c9d455491b09f2a26a3bf174d3385c7f9fe477a1b5258bae3031b8fce57877e0"
+  },
+  "inputs": {
+    "independent_studies/relative_dynamics_20261005/protocol.json": "2f41074041ceeaaadb6fd3a2c4ae4af80918dfd199d43cc90f13692537b57648",
+    "independent_studies/relative_dynamics_20261005/runs/real/checkpoint.json": "999defdfa97ba448d1920515aefd8b1f85d159420e305074bb8b1c061e2b75f5",
+    "independent_studies/reflection_confirmation_20261005/protocol.json": "074a00c2e711e229247d31ef42d123ccaf57cc05f624f2dd025d04b8b5239fec",
+    "independent_studies/reflection_confirmation_20261005/runs/real/checkpoint.json": "29fe5545e5ae1e525b154bfe72e1704c5aada3a43e89dc433119dc7fff38b487",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/collective_dynamics_20261004/common.py": "27a152bd611c7b772334e76355a1092769fe216ce82bf6a99f100a66dc7c9d36",
+    "circlemap/representations.py": "3b2d16a21cfd447b19144153d5c3d039a14ce4f67356de1f6e942b93f8cb66f7",
+    "circlemap/observation.py": "e66b4349060ff86781c34c81e0215171bd6d9bffd3ace7553fd2480ea1e0d3da"
+  }
+}

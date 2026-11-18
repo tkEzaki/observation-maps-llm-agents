@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-31T07:50:32.365600+00:00",
+  "mode": "real",
+  "secondary_analysis": true,
+  "frozen_primary_unchanged": true,
+  "maximum_pair_formula_error": 5.551115123125783e-16,
+  "maximum_observed_metric_error": 2.6020852139652106e-16,
+  "resource_correct": 1707,
+  "resource_responses": 1728,
+  "resource_total_excess": 84,
+  "mean_ideal_coin_gap": 0.0032554417581717094,
+  "mean_scheduled_coin_gap": 0.0030271707340792592,
+  "mean_finite_schedule_contribution": -0.0002282710240924499,
+  "mean_finite_schedule_first_order": -0.00019853835157148194
+}

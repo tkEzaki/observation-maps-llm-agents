@@ -1,0 +1,113 @@
+{
+  "retrospective": true,
+  "api_calls": 0,
+  "selected": "quadratic6",
+  "models": [
+    {
+      "model": "constant",
+      "selected_on_old_cv": false,
+      "old_cv_nll": 0.4263222317852388,
+      "later_nll": 0.627704136804764,
+      "fixed_state_gap_rmse": 0.0032695181702168397,
+      "closed_loop_r1_rmse": 0.5069010739518272
+    },
+    {
+      "model": "linear6",
+      "selected_on_old_cv": false,
+      "old_cv_nll": 0.08539860227384585,
+      "later_nll": 0.12917797490299054,
+      "fixed_state_gap_rmse": 0.0011176751475446866,
+      "closed_loop_r1_rmse": 0.026787064612278026
+    },
+    {
+      "model": "quadratic6",
+      "selected_on_old_cv": true,
+      "old_cv_nll": 0.08020875302805248,
+      "later_nll": 0.11823938769326572,
+      "fixed_state_gap_rmse": 0.0010522667556608547,
+      "closed_loop_r1_rmse": 0.026404897524553383
+    },
+    {
+      "model": "knn64",
+      "selected_on_old_cv": false,
+      "old_cv_nll": 0.11946857100057093,
+      "later_nll": 0.17287116159892615,
+      "fixed_state_gap_rmse": 0.0013465623954397614,
+      "closed_loop_r1_rmse": 0.03885849751079614
+    }
+  ],
+  "contrasts": [
+    {
+      "model": "constant",
+      "contrast": "independent_mirror - native",
+      "predicted": 0.02704859000201735,
+      "observed": 0.12011696172622768
+    },
+    {
+      "model": "constant",
+      "contrast": "independent_mirror - shuffled_mirror",
+      "predicted": 0.008533546748807262,
+      "observed": 0.584817923562952
+    },
+    {
+      "model": "constant",
+      "contrast": "shared_mirror - independent_mirror",
+      "predicted": -0.02354955767301163,
+      "observed": 0.06081537037647078
+    },
+    {
+      "model": "knn64",
+      "contrast": "independent_mirror - native",
+      "predicted": 0.1566769952513309,
+      "observed": 0.12011696172622768
+    },
+    {
+      "model": "knn64",
+      "contrast": "independent_mirror - shuffled_mirror",
+      "predicted": 0.6311870456637608,
+      "observed": 0.584817923562952
+    },
+    {
+      "model": "knn64",
+      "contrast": "shared_mirror - independent_mirror",
+      "predicted": 0.022413839432849497,
+      "observed": 0.06081537037647078
+    },
+    {
+      "model": "linear6",
+      "contrast": "independent_mirror - native",
+      "predicted": 0.10230789233340207,
+      "observed": 0.12011696172622768
+    },
+    {
+      "model": "linear6",
+      "contrast": "independent_mirror - shuffled_mirror",
+      "predicted": 0.6018440538166173,
+      "observed": 0.584817923562952
+    },
+    {
+      "model": "linear6",
+      "contrast": "shared_mirror - independent_mirror",
+      "predicted": 0.06670995355420911,
+      "observed": 0.06081537037647078
+    },
+    {
+      "model": "quadratic6",
+      "contrast": "independent_mirror - native",
+      "predicted": 0.12227002412558585,
+      "observed": 0.12011696172622768
+    },
+    {
+      "model": "quadratic6",
+      "contrast": "independent_mirror - shuffled_mirror",
+      "predicted": 0.6164559410373571,
+      "observed": 0.584817923562952
+    },
+    {
+      "model": "quadratic6",
+      "contrast": "shared_mirror - independent_mirror",
+      "predicted": 0.05220320034524817,
+      "observed": 0.06081537037647078
+    }
+  ]
+}

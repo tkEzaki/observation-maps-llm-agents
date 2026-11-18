@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-05T03:48:27.322410+00:00",
+  "experiment": "reflection-response-20261005",
+  "providers": {
+    "GPT": {
+      "model": "gpt-5.4-mini",
+      "max_output_tokens": 20
+    },
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "temperature": 0.7,
+  "workers": 8,
+  "blocks": 2,
+  "responses_per_block": 32,
+  "unique_inputs": 6,
+  "planned_calls": 768,
+  "maximum_dispatched_attempts_per_task": 3,
+  "analysis": {
+    "primary": "For each of three physical pairs and two providers, test whether the mirrored response distribution equals the original after swapping advance and retard; block-stratified conditional response tests; Holm across six pair/provider tests. 19999 conditional Monte Carlo null tables per test, fixed analysis seeds.",
+    "secondary": "Six untransformed original/mirror input-dependence tests, with a separate Holm family; marginal Wilson 95% action intervals descriptive.",
+    "effect": "Report g_original, g_mirror, even=(g_original+g_mirror)/2, odd=(g_mirror-g_original)/2, and total variation from reflection covariance.",
+    "forecasts": "Score the previously frozen updated first_state and three_state models, separating original and mirror inputs; no refitting.",
+    "replication": "Per-block distributions plus current originals versus the earlier original fields; historical counts are not pooled into primary tests."
+  },
+  "invalid_policy": "No outcome-adaptive top-ups. Keep malformed returned responses; at most three transport attempts; dispatch journal before send; unknown usage remains reserved."
+}

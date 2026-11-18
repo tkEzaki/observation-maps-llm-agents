@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-10-31T01:56:02.953951+00:00",
+  "local": {
+    "lib.py": "6ae221337f787131946723c99d21b4eb6a8789e8121c83d9ba4102d7acd9c5b0",
+    "prepare.py": "378a737c43061f34b077c7fde69bbe14e0a5042475c5bbe392547b50cc1c882f",
+    "run.py": "b6b9114396a36714aee5480efe74525887dabad2b9968b3672f27452e8caea68",
+    "verify.py": "7bee56c8fa7947344fcd8022d05908dc7486ac3add4a3dd7146dcdf5df5bf776",
+    "analyze.py": "963ea61cd31f50355f67ce29396f6a136b86a7e403b7decb8414dc90d52d7d6c",
+    "offline.py": "78aef0f7e150b7b92e954c5b87a510874df0e5f48c9558f2534a1bc7dd2d7c6d",
+    "protocol.json": "e23f2227e0e1fa125433445445331e9ba98cd108928b7937a2ebdfe23edd1aeb",
+    "design.json": "407aaba25caa77947de767f45a3c313c965a5a3cedc700e02308f2671b1de46d"
+  },
+  "inputs": {
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/collective_dynamics_20261004/common.py": "27a152bd611c7b772334e76355a1092769fe216ce82bf6a99f100a66dc7c9d36",
+    "independent_studies/reflection_confirmation_20261005/protocol.json": "074a00c2e711e229247d31ef42d123ccaf57cc05f624f2dd025d04b8b5239fec",
+    "independent_studies/reflection_confirmation_20261005/runs/real/checkpoint.json": "29fe5545e5ae1e525b154bfe72e1704c5aada3a43e89dc433119dc7fff38b487",
+    "independent_studies/reflection_confirmation_20261005/runs/real/summary.json": "9d8287a65b9c877bb6400f16c491641e3e2f3b9ddc8c81173a69b80908ffc452",
+    "circlemap/backends.py": "ca8e011df237b1e1bfbd43fd9dce2f170ce3c9814eb3c8115f62766ecc36ab42",
+    "circlemap/costing.py": "2c0836c6e2b3b6ee9a4c5ed1d5facc66d351f0429b28ce3267aa57d6e97a161b",
+    "circlemap/engine.py": "6ee26aa3a4a759dae2b451cdd339ede7153ac295e8c04013f361ef3663d7e24a",
+    "circlemap/envload.py": "a118bfac8f99da546d6b3d38fcee351c0c601aa0b37a293344db5bc2025e232f",
+    "circlemap/field_features.py": "2ee188d1a67cd5aa7e5df51cb63812ae6b03de8047f640387321ed07deccc9e0",
+    "circlemap/metrics.py": "b75d7f0d6be184e98bd0d1dc98e56900286557af4c7214c538de6b92116b79a0",
+    "circlemap/observation.py": "e66b4349060ff86781c34c81e0215171bd6d9bffd3ace7553fd2480ea1e0d3da",
+    "circlemap/observation_map_controls.py": "eebc5a288e90add52258e792d285c46c3a1e7bdbee867b373a24fc27b3cc6f54",
+    "circlemap/representations.py": "3b2d16a21cfd447b19144153d5c3d039a14ce4f67356de1f6e942b93f8cb66f7",
+    "circlemap/response.py": "09832dc9761aa090f871f868b8467d59d725419bc80875de05ffbd3584402a84",
+    "circlemap/response_analysis.py": "4ca47d7cd704c1bdbeb71525733dc6956c1ab7330ab9ca7acc72e3fe86f7f3a1",
+    "circlemap/serialization_binding_controls.py": "e9441cd7fde11b740e6e4ce5b1d26e002b3a3a4bd560697dd7ce50cdf33a1276",
+    "circlemap/serialization_length_controls.py": "1d5bda659b82701f1206e17bd78aa0a0f4f4272f8aaf339be23242ac4fe41394",
+    "circlemap/stimuli.py": "2f3ea90350798ba0d2cb974e7cf8f8ca106cca70f46b3b86dde4f9c87adecc37",
+    "circlemap/symmetry_audit.py": "4a5aed0e51450bff92f63036ca63117019cc7eb985152859aaa2feb5f28b5d3b",
+    "circlemap/__init__.py": "f6ef69a3a6f92ffe48956374bbc4668c35f28840dc50ba20611a22007cc9ed1f"
+  }
+}

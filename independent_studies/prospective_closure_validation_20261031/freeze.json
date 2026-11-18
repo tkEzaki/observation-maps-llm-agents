@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-10-31T08:19:30.332269+00:00",
+  "local": {
+    "study.py": "d7c47a6fb537ac6e5a985ae318397e77dd461a08c39aa2d1ed9882120e040fef",
+    "protocol.json": "49caf0c496c5f5b0ddb9759c97094efbec5e60c65387278a2f4d93d0619b809a",
+    "design.json": "b9b69d03d5e5e298154d567e15e888884f564f32d62ea2e83a5173ff46928c40",
+    "analyze.py": "97cc3c68f66c709ba6a6d2fac0da9f534aa4a86e2c7860cfec52a157b12af150"
+  },
+  "inputs": {
+    "independent_studies/closure_transfer_20261031/prospective_phase/freeze.json": "c5a0d63bfe0849100071bef755c59b7edc07a3aefba87f3d670cfff075a8026c",
+    "independent_studies/closure_transfer_20261031/prospective_phase_plan.py": "6d24106d5e9aaf53513c6080fd9bdf00ffb5a2e72f1382356e522ebe2dbd5953",
+    "independent_studies/closure_transfer_20261031/prospective_phase/protocol.json": "3d14b0b064c6e722fa0119a430c94cbfd0f71181884491828aaa79384275f8e9",
+    "independent_studies/closure_transfer_20261031/prospective_phase/transformations.json": "1e4e47251d558c8aa9d93be1dab946a59da6b92702730ba53622c52a4324eef7",
+    "independent_studies/closure_transfer_20261031/prospective_phase/predictions.csv": "5aaf8a7986ddccb47e9dc33776a2f917c613070e9743587b5bfe0ffdecbc7cd0",
+    "independent_studies/closure_transfer_20261031/prospective_phase/predicted_effects.json": "25a21676f3c67d8676936b72268f94f4880166d78e08559c7f292139e8bce424",
+    "independent_studies/closure_transfer_20261031/offline/quadratic6.npz": "85354fc8549e27704446e2f1e4752849525f5da8c66dacac75a35757d96c101e",
+    "independent_studies/closure_transfer_20261031/phase_lag/coefficients.json": "7d70f56555b1529b00d61e40730c13e42fcb78ef28230394b1c66d8c3a9783da",
+    "independent_studies/closure_transfer_20261031/offline_closure.py": "3bfb0a757dc7b76080f4e0e321256a602e2125b837702152270f22526d407d9d",
+    "independent_studies/closure_transfer_20261031/phase_lag_response.py": "2fb2e551c9de725cc754cbe6cc66279d82ec253cc6bdfa747e20b20360bc0b44",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/collective_dynamics_20261004/common.py": "27a152bd611c7b772334e76355a1092769fe216ce82bf6a99f100a66dc7c9d36"
+  }
+}

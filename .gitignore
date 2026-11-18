@@ -34,3 +34,6 @@ __pycache__/
 .DS_Store
 *.pid
 *.log
+
+# --- restored large journals (see tools/restore_large_files.py) ---------------
+independent_studies/phase_persistence_validation_20261101/runs/real/attempts.jsonl

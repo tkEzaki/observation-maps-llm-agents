@@ -1,0 +1,58 @@
+{
+  "updated_at_utc": "2026-10-05T03:54:00.026696+00:00",
+  "mode": "real",
+  "planned_tasks": 768,
+  "terminal_tasks": 768,
+  "valid_tasks": 768,
+  "dispatches": 768,
+  "unknown_dispatches": 0,
+  "complete": true,
+  "quality_passed": true,
+  "groups": [
+    {
+      "provider": "GPT",
+      "representation": "moments_m1_m3",
+      "block": 0,
+      "planned": 192,
+      "terminal": 192,
+      "valid": 192,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    },
+    {
+      "provider": "GPT",
+      "representation": "moments_m1_m3",
+      "block": 1,
+      "planned": 192,
+      "terminal": 192,
+      "valid": 192,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    },
+    {
+      "provider": "Claude",
+      "representation": "moments_m1_m3",
+      "block": 0,
+      "planned": 192,
+      "terminal": 192,
+      "valid": 192,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    },
+    {
+      "provider": "Claude",
+      "representation": "moments_m1_m3",
+      "block": 1,
+      "planned": 192,
+      "terminal": 192,
+      "valid": 192,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    }
+  ],
+  "elapsed_seconds": 98.73872350016609
+}

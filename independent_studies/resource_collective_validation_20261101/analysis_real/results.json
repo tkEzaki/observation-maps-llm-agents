@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-11-01T00:51:11.568624+00:00",
+  "mode": "real",
+  "synthetic": false,
+  "responses": 16320,
+  "format_fallbacks": 0,
+  "dispatches": 16335,
+  "transport_extra_attempts": 15,
+  "observed_contrast": 0.6989690721649449,
+  "paired_seed_bootstrap95": [
+    0.6922680412371095,
+    0.7046391752577288
+  ],
+  "positive_pairs": 8,
+  "one_sided_sign_test": 0.00390625,
+  "primary_predicted_contrast": 0.4795372507416471,
+  "contrast_residual": 0.21943182142329776,
+  "run_mean_rmse": 0.1301385195847376,
+  "frozen_predictive95": [
+    0.40282968213058296,
+    0.602028565292093
+  ],
+  "contrast_within_predictive95": false,
+  "absolute_contrast_error_le_010": false,
+  "run_rmse_le_015": true
+}

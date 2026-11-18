@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-11-01T02:43:36.326015+00:00",
+  "changes": "Windows atomic JSON I/O adapter only;",
+  "network_calls_during_test": 0,
+  "atomic_replacements_verified": 100,
+  "retained_responses": 408,
+  "journal_prefix_bytes": 588832,
+  "journal_prefix_sha256": "7e88e7d7cdf22cacad346f6dc9dfb7f8959fc5e77b3fb590e3a2f269d5f85b27",
+  "reconstructed_steps": 1,
+  "adapter_sha256": {
+    "atomic_io.py": "ecdbb52faf33b3547b2828f41957363b34a1ee3c0c09ddff02255036ad6b8780",
+    "resume_io.py": "2fe195c26e78e296d6a97aa63f9ff71b0fc4f082964334c88828616253d9cb2f",
+    "run_real.py": "9a3d0e07e79697943e71199155bce6b17d4c09e195c61c58e3a2ff700e074b24"
+  }
+}

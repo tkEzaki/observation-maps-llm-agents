@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-31T09:20:34.493557+00:00",
+  "study": "information-preserving moment-line permutation",
+  "providers": {
+    "GPT": {
+      "model": "gpt-5.4-mini",
+      "max_output_tokens": 20
+    },
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "temperature": 0.7,
+  "workers": 8,
+  "maximum_dispatched_attempts_per_task": 3,
+  "planned_responses": 8192,
+  "rounds": 16,
+  "intervention": "Swap cos and sin line order within each harmonic only: indices1,0,3,2,5,4. Same instruction, labels, signed six-decimal values and physical input.",
+  "fields": "64 old visited native-state peer histograms:32 each from GPT and Claude, response-blind maximin selection on six moments including reflection-orbit deduplication. Their128 original/reflected inputs are shared by both providers.",
+  "primary": "Per provider, squared order effect on mean action, estimated without within-half sampling-noise inflation as the mean product of order contrasts from rounds0..7 and8..15 across128 fixed inputs. Can be negative from sampling.",
+  "secondary": "Change in squared reflection-even response, same cross-half estimator; descriptive model interaction. Resample entire acquisition rounds separately within the two halves, preserving all fields/orders/providers. CIs conditional on the chosen field set, not a population of states.",
+  "model_selection": "constant, sign, four_parameter, linear6, quadratic6; leave whole original physical source seeds out, all mirror/format/provider copies together. Fixed ridge1e-4. Choose minimum equal-field CV NLL separately per provider/order.",
+  "endpoints": {
+    "GPT": "https://api.openai.com/v1",
+    "Claude": "https://api.anthropic.com"
+  },
+  "invalid_policy": "Stop on any invalid/incompatible terminal action. Retain raw response; no replacement or fallback. Unknown dispatches block resume."
+}

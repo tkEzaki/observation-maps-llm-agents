@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-10-05T01:57:37.563885+00:00",
+  "experiment": "second-moment-sweep-20261005",
+  "providers": {
+    "GPT": {
+      "model": "gpt-5.4-mini",
+      "max_output_tokens": 20
+    },
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "temperature": 0.7,
+  "workers": 8,
+  "blocks": 2,
+  "samples_per_input_per_block": 32,
+  "unique_inputs": 37,
+  "planned_calls": 4736,
+  "geometry": "Four fixed peers plus six antipodal pairs: pair component radii .25/.5/.75 at 12 angles, plus zero pair component. The total second moment is offset by the fixed four-peer contribution; radii are NOT total |z2|.",
+  "fixed_first_third": [
+    0.099169,
+    0.03939,
+    -0.047835,
+    -0.16332
+  ],
+  "fixed_second_offset": [
+    -0.056035967010503375,
+    -0.12074072828613346
+  ],
+  "anchors": {
+    "A": "moments_m1_m3__28a4c3e2723ad729",
+    "B": "moments_m1_m3__94fef2929a65cb34"
+  },
+  "analysis": {
+    "primary": "Block-stratified conditional Monte Carlo Pearson test of input-invariant response distributions, 19999 null tables, Holm over two providers.",
+    "secondary": "Per-radius direction tests (Holm over six provider/radius tests); original frozen forecast scores; same-input block transport and leave-direction-out prediction by fixed exploratory model set.",
+    "fitting": "New local response models have L2=.01, scale floor .05; intercept, second-sine, second-cosine, linear second, quadratic second, signs, magnitude-only. Whole-direction holdout purges each held-out direction at all radii; baseline held separately.",
+    "intervals": "Marginal action-probability Wilson 95% intervals descriptive, not simultaneous.",
+    "pilot": "Offline mock stop/resume only. Previous real 256-call experiment validated parsing and model availability."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-31T14:31:53.230811+00:00",
+  "study": "Complete finite-state resource response calibration",
+  "providers": {
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "temperature": 0.7,
+  "workers": 8,
+  "maximum_dispatched_attempts_per_task": 3,
+  "planned_responses": 14688,
+  "unique_inputs": 459,
+  "rounds": 32,
+  "stage": "Calibration only.",
+  "parsing": "Same pre-existing complete-initial-choice JSON decoder as the independent resource confirmation; optional code fences and trailing explanatory prose accepted. Invalid/incomplete initial choice is terminal, not replaced.",
+  "acquisition": "32 blocks each containing459 distinct prompts in shuffled order. First16 blocks estimate probabilities with Dirichlet0.5 smoothing over four outcomes; conditional three-choice probabilities also retained. Predictions are saved and hashed before any second-half dispatch. Second16 blocks validate the fixed probabilities. All32 then estimate the collective transition kernel. Reuse of old responses excluded to keep one acquisition series.",
+  "collective": "Exact171-count-state kernel conditional on a memoryless, stable policy and independent service draws, one uniformly sampled agent per update. Empirical MLE and Dirichlet0.5 posterior-mean tables. Native versus average over6 input/output label permutations. Post-update early1..170 and late681..1020 cost=sum(loads^2)/97. These windows are descriptive calibration diagnostics, not a frozen future collective-test primary.",
+  "endpoints": {
+    "Claude": "https://api.anthropic.com"
+  },
+  "stopping": "Reviewed compatible-model format failures are terminal missing outcomes and do not stop remaining scheduled inputs; no replacement sampling.",
+  "format_failure_amendment": "After1138 real replies including one truncated prose response and before any half-prediction freeze: retain malformed/truncated choices as terminal fourth outcomes, never replace. Validate four-class probabilities (Dirichlet0.5 over A/B/C/failure); estimate three-choice collective tables conditional on valid outputs. Report observed missing counts and empirical-mass worst-case finite-horizon sensitivity separately. Same prompts, schedule,14688 total responses,64 output tokens,8 workers. No policy fallback is claimed as observed behavior."
+}

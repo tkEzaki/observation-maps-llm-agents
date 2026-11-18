@@ -1,0 +1,11 @@
+{
+  "updated_at_utc": "2026-11-01T09:05:52.208553+00:00",
+  "mode": "real",
+  "completed_steps": 200,
+  "valid_tasks": 81600,
+  "planned_tasks": 81600,
+  "dispatches": 81653,
+  "unknown_dispatches": 0,
+  "quality_passed": true,
+  "stopped": false
+}

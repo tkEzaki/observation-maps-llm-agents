@@ -1,0 +1,90 @@
+{
+  "created_at_utc": "2026-11-01T01:50:24.613890+00:00",
+  "api_calls": 0,
+  "virtual_trajectories": 12288,
+  "steps": 200,
+  "primary_window_effects": [
+    {
+      "model": "quadratic6",
+      "window": "primary_61_200",
+      "contrast": "independent_mirror - native",
+      "prediction": 0.19486765548687962,
+      "mean_mc_se": 0.000331073073215267,
+      "fixed_eight_process95": [
+        0.1844795156018313,
+        0.20517789497625694
+      ],
+      "resampled_eight_plus_process95": [
+        0.17308870641076635,
+        0.21782398719684806
+      ],
+      "positive_seed_mean_count": 8,
+      "per_seed_predictions": [
+        0.21382496285803265,
+        0.18354941044995712,
+        0.18968085862239123,
+        0.2332806763170987,
+        0.21904193907709424,
+        0.1611858121051,
+        0.16884916131889255,
+        0.18952842314647042
+      ],
+      "conditional_fraction_cohort_positive": 1.0
+    },
+    {
+      "model": "quadratic6",
+      "window": "primary_61_200",
+      "contrast": "shared_mirror - independent_mirror",
+      "prediction": -0.028734970849128565,
+      "mean_mc_se": 0.00013311481758253223,
+      "fixed_eight_process95": [
+        -0.03232932830852382,
+        -0.024187538561852462
+      ],
+      "resampled_eight_plus_process95": [
+        -0.03650845335990053,
+        -0.02084821814630336
+      ],
+      "positive_seed_mean_count": 0,
+      "per_seed_predictions": [
+        -0.03719842074327119,
+        -0.01941916406653566,
+        -0.03365413957929593,
+        -0.026297057345122478,
+        -0.03930575091675064,
+        -0.028309718197757537,
+        -0.02919192463943948,
+        -0.01650359130485563
+      ],
+      "conditional_fraction_cohort_positive": 0.0
+    },
+    {
+      "model": "quadratic6",
+      "window": "primary_61_200",
+      "contrast": "shared_mirror - native",
+      "prediction": 0.16613268463775105,
+      "mean_mc_se": 0.0003437096588863238,
+      "fixed_eight_process95": [
+        0.1554326080333004,
+        0.17636901197159843
+      ],
+      "resampled_eight_plus_process95": [
+        0.14436558887594142,
+        0.18803581132097022
+      ],
+      "positive_seed_mean_count": 8,
+      "per_seed_predictions": [
+        0.17662654211476148,
+        0.16413024638342147,
+        0.15602671904309534,
+        0.2069836189719762,
+        0.17973618816034362,
+        0.13287609390734245,
+        0.13965723667945307,
+        0.17302483184161477
+      ],
+      "conditional_fraction_cohort_positive": 1.0
+    }
+  ],
+  "paid_experiment_started": false
+}

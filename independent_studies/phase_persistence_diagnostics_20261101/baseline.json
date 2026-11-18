@@ -1,0 +1,21 @@
+{
+  "raw_action_order": [
+    -1,
+    0,
+    1
+  ],
+  "old_raw_counts": [
+    2383,
+    18,
+    13919
+  ],
+  "old_response_count": 16320,
+  "probabilities": [
+    0.14603437184082346,
+    0.0011334742517538215,
+    0.8528321539074227
+  ],
+  "smoothing_per_class": 0.5,
+  "matches_existing_constant_npz": true,
+  "estimated_from_current_cohort": false
+}

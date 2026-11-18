@@ -1,0 +1,5 @@
+provider,anchor,field_id,previous_n,previous_retard,previous_stay,previous_advance,new_n,new_retard,new_stay,new_advance,previous_mean,new_mean
+GPT,A,r75_d08,64,12,0,52,64,5,0,59,0.625,0.84375
+GPT,B,r75_d02,64,0,0,64,64,0,0,64,1.0,1.0
+Claude,A,r75_d08,64,0,0,64,64,0,0,64,1.0,1.0
+Claude,B,r75_d02,64,0,0,64,64,0,0,64,1.0,1.0

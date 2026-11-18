@@ -1,0 +1,253 @@
+{
+  "created_at_utc": "2026-10-31T07:44:56.146040+00:00",
+  "decision": "Accept the complete initial JSON choice object, optionally fenced, and ignore subsequent prose. Preserve original strict invalid flags and raw outputs.",
+  "planned_additional_dispatches": 1706,
+  "total_planned_responses": 16960,
+  "original_journal_sha256": "fd83c55530767da3fa3cea51cf7422308e4d817c3e7fcf1be4c53c5d5b5d1f8b",
+  "recovery_script_sha256": "6c7e415f15d5fdd06b871d1881fb934cb20a484c3766c827f7b090bd5a6b6dd2",
+  "parser_tests_passed": true,
+  "initial_resource_audit": [
+    {
+      "task_id": "resource_r0_resource_876d8888bdbd7cc408f1",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_ef865790346e9c00b2d8",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_92ef6a859a833763bf5f",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "928b75f087b5e5c740dd20aa161186863a1d431969bb7184eb1e3b97e0d2cc3d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_95bd31f502b55b5d63e7",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "ab01d19701bb51e1cda4f1657027fe3adbb22e3389dae8623c7cff6ca718543f",
+      "accepted_choice": {
+        "label": "C",
+        "value": 2,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_a9de9d81a7d5d36af075",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_2aeaed5515b820f12edc",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "928b75f087b5e5c740dd20aa161186863a1d431969bb7184eb1e3b97e0d2cc3d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_66c241cb11a4e5576425",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_75f16feee964559b8a79",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "ab01d19701bb51e1cda4f1657027fe3adbb22e3389dae8623c7cff6ca718543f",
+      "accepted_choice": {
+        "label": "C",
+        "value": 2,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_bc1b06b0bb34e0eecff7",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_8e3f2ce6816125b01b6b",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "ab01d19701bb51e1cda4f1657027fe3adbb22e3389dae8623c7cff6ca718543f",
+      "accepted_choice": {
+        "label": "C",
+        "value": 2,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_8a545149560aa6962848",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_ec57ab05a90e748110d8",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "928b75f087b5e5c740dd20aa161186863a1d431969bb7184eb1e3b97e0d2cc3d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_42454276397f847a3f6a",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "928b75f087b5e5c740dd20aa161186863a1d431969bb7184eb1e3b97e0d2cc3d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_d53323ab382a952b3cbd",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_e1f62292c5c784765ec9",
+      "strict_valid": false,
+      "stop_reason": "max_tokens",
+      "raw_response_sha256": "822102532311e5d98f9bcf1cdc8ac2c8746581afd6a94b6e8ff22926db274948",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_c6de5a22068a925168b2",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "928b75f087b5e5c740dd20aa161186863a1d431969bb7184eb1e3b97e0d2cc3d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_51ac003703b6fcb706ef",
+      "strict_valid": false,
+      "stop_reason": "max_tokens",
+      "raw_response_sha256": "40d527ce72821820672cabffdace95d4e36463ecec0dd3720fb5a92b6e6c883d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_7ceb118531256a162ef4",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "928b75f087b5e5c740dd20aa161186863a1d431969bb7184eb1e3b97e0d2cc3d",
+      "accepted_choice": {
+        "label": "B",
+        "value": 1,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_9a39385c6d4dbfb8d87f",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "ab01d19701bb51e1cda4f1657027fe3adbb22e3389dae8623c7cff6ca718543f",
+      "accepted_choice": {
+        "label": "C",
+        "value": 2,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_82b4e31beb8399189d9a",
+      "strict_valid": true,
+      "stop_reason": "end_turn",
+      "raw_response_sha256": "7df4d1c24d6835859effc857c05d29cab2cf5af826950a227306038ae65b28f5",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_e35ab03cd5fa916d950a",
+      "strict_valid": false,
+      "stop_reason": "max_tokens",
+      "raw_response_sha256": "2bbce410f280f49df02ccd2bbb9125c35f78cd659dd76dfa1f8bb057b36176b4",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    },
+    {
+      "task_id": "resource_r0_resource_ec80fc495eeb769a962d",
+      "strict_valid": false,
+      "stop_reason": "max_tokens",
+      "raw_response_sha256": "e4097da1096181eb2c9da90e927688d05fa95105a613a7fa9242a3414eecbed9",
+      "accepted_choice": {
+        "label": "A",
+        "value": 0,
+        "fence_removed": true
+      }
+    }
+  ]
+}

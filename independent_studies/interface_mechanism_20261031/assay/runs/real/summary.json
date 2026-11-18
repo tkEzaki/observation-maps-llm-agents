@@ -1,0 +1,10 @@
+{
+  "updated_at_utc": "2026-10-31T09:49:42.034374+00:00",
+  "mode": "real",
+  "status": "complete",
+  "valid": 8192,
+  "planned": 8192,
+  "dispatches": 8192,
+  "unknown_dispatches": 0,
+  "quality_passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "verified_at_utc": "2026-10-05T03:59:06.211534+00:00",
+  "journal_matches_response_table": true,
+  "all_768_tasks_unique_complete_valid": true,
+  "raw_counts_means_parity_and_total_variation_recomputed": true,
+  "pearson_statistics_and_holm_recomputed": true,
+  "report_local_links_resolve": true,
+  "input_and_code_hashes_unchanged": true,
+  "protected_files_verified": 2782
+}

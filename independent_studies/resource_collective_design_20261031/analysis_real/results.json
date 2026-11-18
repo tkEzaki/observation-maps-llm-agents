@@ -1,0 +1,63 @@
+{
+  "mode": "real",
+  "synthetic": false,
+  "new_collective_api_calls": 0,
+  "calibration": {
+    "held_half_nll": 0.11345688426257136,
+    "held_half_brier": 0.025595766427284068,
+    "score_classes": "A,B,C,invalid_or_incomplete",
+    "held_half_conditional_nll": 0.07744447255526844,
+    "held_half_probability_mse": 0.006506251917526818,
+    "held_half_mean_excess_load_rmse": 0.3460302779832585,
+    "missing_choices": 18,
+    "valid_choices": 14670,
+    "unobserved_action_cells": 899,
+    "total_action_cells": 1377,
+    "inputs_with_all32_same_choice": 424
+  },
+  "forecasts": [
+    {
+      "estimator": "MLE",
+      "policy": "native",
+      "early_mean_iid_initial": 1.0012518021876395,
+      "late_mean_iid_initial": 1.0000000000000044,
+      "early_mean_equal_counts": 1.0106240384632783,
+      "late_mean_equal_counts": 1.0000000000000049
+    },
+    {
+      "estimator": "MLE",
+      "policy": "permutation_average",
+      "early_mean_iid_initial": 1.0012531008961578,
+      "late_mean_iid_initial": 0.9999999999999798,
+      "early_mean_equal_counts": 1.0106233794402557,
+      "late_mean_equal_counts": 0.999999999999979
+    },
+    {
+      "estimator": "Dirichlet_half",
+      "policy": "native",
+      "early_mean_iid_initial": 1.002717134053118,
+      "late_mean_iid_initial": 1.0014139812000193,
+      "early_mean_equal_counts": 1.0123671269301295,
+      "late_mean_equal_counts": 1.0014139812000187
+    },
+    {
+      "estimator": "Dirichlet_half",
+      "policy": "permutation_average",
+      "early_mean_iid_initial": 1.0027226002616116,
+      "late_mean_iid_initial": 1.0014184685835696,
+      "early_mean_equal_counts": 1.0123704436484258,
+      "late_mean_equal_counts": 1.0014184685835699
+    }
+  ],
+  "conditional_dirichlet95": {
+    "benefit_early": [
+      -7.372992189172423e-05,
+      6.538065435654494e-05
+    ],
+    "benefit_late": [
+      -7.421032840851383e-05,
+      6.454476074960191e-05
+    ]
+  },
+  "posterior_table_draws": 256
+}

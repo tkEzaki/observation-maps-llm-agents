@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "api_calls": 0,
+  "exhaustive_labeled_checks": 243,
+  "max_difference": 1.6653345369377348e-16,
+  "old_asynchronous_kernel_reproduced": true,
+  "single_agent_shared_equals_independent": true,
+  "one_step_covariance_identity_verified": true,
+  "uniform_synchronous_multinomial_verified": true,
+  "common_vs_independent_blind_label_reference_verified": true,
+  "seconds_for_three_m_random_tables": 0.14473600004566833
+}

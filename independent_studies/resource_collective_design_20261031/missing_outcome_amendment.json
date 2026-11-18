@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-31T14:44:55.914081+00:00",
+  "stage": "After1138 real replies,1137 valid choices,1 missing; before any half predictions or validation dispatch",
+  "changes": "After1138 real replies including one truncated prose response and before any half-prediction freeze: retain malformed/truncated choices as terminal fourth outcomes, never replace. Validate four-class probabilities (Dirichlet0.5 over A/B/C/failure); estimate three-choice collective tables conditional on valid outputs. Report observed missing counts and empirical-mass worst-case finite-horizon sensitivity separately. Same prompts, schedule,14688 total responses,64 output tokens,8 workers. No policy fallback is claimed as observed behavior.",
+  "prior_protocol_sha256": "395974f57e17bcb48bc6a7989fc2141bdaf986d6f05b4d997bd59e951e4b7b87",
+  "current_protocol_sha256": "fa7736530458f08376b63392d6fa0ea7973ff4daa2891c58f2118fc2bec5ce15",
+  "journal_at_review_sha256": "cf62ebf09a1620ebccddf1a11c7fd49daf01523c9dd2bce94c5f2f8a153625ae",
+  "old_files_directory": "independent_studies\\resource_collective_design_20261031\\protocol_history\\before_missing_outcome_amendment",
+  "pre_acquisition_registration_claim": false
+}

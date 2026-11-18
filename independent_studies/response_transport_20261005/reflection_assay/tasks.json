@@ -1,0 +1,6148 @@
+{
+  "main": [
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1973805484
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 106722111
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 1399089847
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1855806730
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 274974050
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1562923766
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 2061211799
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 928104158
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 203385554
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 1956915896
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 417550718
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1329562062
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 1511094697
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 180884917
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 1337791704
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 322788516
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 1410627874
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 237841919
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 180274927
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 829049366
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 245213820
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 864074953
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 950495551
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 965014488
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 598063976
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1900540348
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 854397296
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 751682914
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 768503885
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 320670882
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1152060127
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 532858474
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 863823341
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 273937244
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 346084073
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 1617011606
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 942204678
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1365554831
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 549071492
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 915860688
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 156863683
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 63694591
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 67905516
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 762953938
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 1255917021
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 1619403383
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 951170527
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 310026383
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 848007376
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 1549596509
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 1385937552
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 557854629
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 1951011712
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 444598460
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 126216443
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1062296488
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 1539436322
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 206000372
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 209190464
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 1062958083
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1217035671
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 1856602946
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 1898026591
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 228089761
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 438982060
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 1957033490
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 1195668374
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 1262412935
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 1910360057
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 120519094
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1565617490
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 756434641
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 2080908525
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 1053972571
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 198749398
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 1430368026
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 1283573717
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 2040014625
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 1048195563
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 78714454
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 1581744984
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 647429495
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 114014767
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 1445728589
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 99686818
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1388633572
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 947696681
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 465502
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 970265361
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 1635177609
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1323433834
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 17157061
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 682858355
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1379966801
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 244086438
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 1290600156
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 10240632
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 2049619500
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 1159934186
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 255744557
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 1937756110
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 1654730767
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1178472693
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 2105013541
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 40464515
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 600338674
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 299382516
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 871651374
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1750612472
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 1735972055
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 885761487
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 649530927
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 667366023
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 784140198
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 1029607753
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1251548600
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 152624368
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 152030371
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 754261638
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1986109973
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 787036334
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 218288183
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 1156574302
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 702611042
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 341147755
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 1714121518
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1551434300
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 1552526636
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 463532652
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 1235153087
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 57236964
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 107617147
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 1018503339
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 813944315
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 1970391846
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 544063288
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 155147198
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 1901982273
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 1236469563
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 626595460
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 2062158533
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 781320531
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 363224734
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 1767175728
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1193198495
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 1740738198
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 357289451
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 85087634
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 253942842
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1498500446
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 523018
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 1976309470
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 2052861092
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 1428090421
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 1992686479
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1264528730
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 1838478822
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 1040985149
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 950774455
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 39737437
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 861061444
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 1726230241
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 2121500854
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 1506129055
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 1768826662
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 1527274464
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 917315747
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 977360293
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 843506325
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 664703019
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1783051662
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 1454741789
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 977185556
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 1280087410
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 1747384911
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 1005420282
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 281628911
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 1156608976
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 724533724
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 1989944000
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 31190450
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 92694396
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 1026124124
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 215928705
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 882088458
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 985170301
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 1711051213
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 1332378091
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1056992403
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 973315092
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 163842354
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1960605283
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 1063621135
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 438810166
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 1472788182
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1833852148
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 40446197
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 158713131
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 2107167875
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 1975978198
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 1349337885
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 1400574523
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 1221781684
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 1769125412
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 1599898420
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 2105375891
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 902063563
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 185309461
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 487842349
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 983338480
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 1963082093
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 742563165
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1820567289
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 1539706084
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 1512625703
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 806988731
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 362217464
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 613745227
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 1028816561
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 1783664243
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 687703513
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 1997745712
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 753963699
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 892505609
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 1569188659
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 1794697427
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 1315264034
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 781464629
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 1071049478
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 293478227
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 1570921026
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1625810155
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 1308527091
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 1978320696
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 2145507073
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 1334116032
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 1530745375
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 651828835
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 416151216
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1305239768
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 671936088
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 1525725946
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 1117575989
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 208934017
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1751417874
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 1133153089
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 927266207
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 259591671
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 502608565
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 1507941920
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 1172720780
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1566030711
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 868796339
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 1762308522
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1523484737
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 739227911
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 2073727296
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 25235450
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 432164444
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 1025361241
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 1587682140
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 688652864
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 962049920
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 1863937400
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 1997707246
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 2065457920
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 1485522699
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 241933294
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 326273976
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 232778205
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 1106399569
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 2071437864
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 473653826
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 16,
+      "sample_seed": 329320466
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 459919045
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 970905353
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 1109914275
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 1032869866
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 1362326281
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 874815152
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 1160887261
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 794528678
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 1602114334
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 1425004012
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 1846098257
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 618641507
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 73239388
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 720139885
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 2095631944
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 1941470975
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1271154196
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 1483251483
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 302890876
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 1515292461
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 1126208623
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 413742626
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 790558827
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 789677172
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 339202387
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 14077472
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 1182686
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 30,
+      "sample_seed": 390383417
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b0__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 583816399
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 1016013173
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 1125519226
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 130918279
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 919891611
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 2,
+      "sample_seed": 579840338
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 2014683078
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 895282255
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 258844156
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1556632860
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 1763330410
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 14,
+      "sample_seed": 36140345
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 220393462
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 778799139
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 1993637535
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 1585727683
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 208531523
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 1272865871
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 656377312
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 53264887
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 903954888
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 1195164760
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 21,
+      "sample_seed": 1986658380
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 1330875059
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1079312799
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 1646858758
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 992415461
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 657457861
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 900227726
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 504023785
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 527713886
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 22,
+      "sample_seed": 712587327
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 12,
+      "sample_seed": 1818278510
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1393405222
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1575489947
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 1677187728
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 91372728
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 715884731
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 31,
+      "sample_seed": 1677851400
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 563625116
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 292985917
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 878878075
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 1323231747
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 67754278
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 624332854
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 9,
+      "sample_seed": 2106727664
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 8,
+      "sample_seed": 1371965883
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 1833513749
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 1071653783
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 24,
+      "sample_seed": 1183613844
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 0,
+      "sample_seed": 478425799
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 1351411682
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1684763240
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 1503361671
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 853819237
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 10,
+      "sample_seed": 883475338
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 25,
+      "sample_seed": 295237839
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 2131123164
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 27,
+      "sample_seed": 1135720027
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b0__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 137956431
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 20,
+      "sample_seed": 875314054
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 1197301946
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b0__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 580028245
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 18,
+      "sample_seed": 319119084
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 1,
+      "sample_seed": 1351616473
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 3,
+      "sample_seed": 1668838391
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 5,
+      "sample_seed": 1069215418
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 7,
+      "sample_seed": 256433828
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 11,
+      "sample_seed": 1909667114
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 28,
+      "sample_seed": 20107588
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b0__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 6,
+      "sample_seed": 418134308
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 1652331186
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 4,
+      "sample_seed": 1212447342
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b0__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 251777599
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b0__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 15,
+      "sample_seed": 1806874718
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 17,
+      "sample_seed": 628636896
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b0__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 332788561
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b0__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 0,
+      "sample": 26,
+      "sample_seed": 421965235
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b0__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 0,
+      "sample": 19,
+      "sample_seed": 124320985
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b0__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 0,
+      "sample": 13,
+      "sample_seed": 657660031
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b0__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 23,
+      "sample_seed": 240740491
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b0__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 0,
+      "sample": 29,
+      "sample_seed": 2075364458
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1809562835
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 624363591
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 413294153
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 1495282920
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 316600112
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 606438111
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 419909676
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 124153464
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1562021984
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 211568776
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1063114167
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 1816570633
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 1228960902
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 39402814
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 1801378454
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 1725997960
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1941850955
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 1427298776
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 919204191
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 200007678
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 1325715785
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 466992011
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 1703447504
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 1300368496
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 1485094713
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 1248447736
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 234923475
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 1728530083
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 1002514954
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 249417279
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 1941368113
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 1908868108
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1100076023
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 2085020941
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 1809123836
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 578366117
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 873548204
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1540107270
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 530440273
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1012451814
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1725356660
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 1998591996
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 1348438113
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 363265482
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 1107696259
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 805008291
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 302642681
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1702001177
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 1486638792
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 1255819594
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 833852041
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 1709789452
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 237904657
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 1965805284
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 512174771
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 1210901750
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 536680864
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 1425518826
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 1678208736
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 604141355
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 888604454
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 121500607
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 941519118
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 1850667247
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 2139980962
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 1723859178
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 1642565742
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 1691700297
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 274946108
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 579871860
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 1563409944
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 2041339210
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 1906428960
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 1459250439
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 28217303
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 1161501106
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1748819893
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 950559167
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 239638455
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 1723579498
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 608085734
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 846357944
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 581176996
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 396555218
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 1432466002
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 313967423
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 612303897
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 1649292097
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 937925815
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1461496313
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 649576595
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 1475973602
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 552595052
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 85273840
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1210428187
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 1769074106
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 314882498
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 247256598
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 311598806
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1166350348
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 1335886524
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 183542848
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1987702340
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 281600722
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 1286568745
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 1132810192
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 964575768
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1112155297
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 1955294365
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 882649010
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 1871895015
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 1293475904
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 509980962
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 426254376
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 1431371033
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 1944794447
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1264770090
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 158995708
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 1400504801
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1339471414
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 202142976
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 69823267
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1312916758
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 514146688
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 739847372
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1432347956
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 1518548291
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 389131794
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 2088063238
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 1584996512
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 621661423
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 1760962574
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 2098304994
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1610855251
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 2008280598
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 1000025592
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1354012213
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 484988182
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 1765630758
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 915447194
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 954450828
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 1410190780
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 2053360065
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1688302802
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 673887936
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 2012190738
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 1893239957
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 1045991298
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 2034698375
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 301596733
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 627611935
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 1228014561
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1828431803
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 562218395
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 723688464
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s07",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1761155638
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 1657274542
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 1153517710
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1268325336
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1384532771
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 287326145
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 888041355
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 2085714582
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 232312644
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1650964457
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 1862517064
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 554699614
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 835689355
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 141293222
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 1955003836
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 78424979
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 1884868137
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 1710772205
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 1099844607
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1075014789
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 1908651856
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 1838369723
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 675009572
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 2133198041
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 1297267675
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 1671296155
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 731740654
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 1819734988
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 568689602
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 351706949
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 303415032
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 969467011
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 962107991
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 817365539
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 1378692485
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 96267426
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 231226965
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 1640803621
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 81636010
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 1103616731
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 785480261
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 535676947
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 716056120
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 2106206798
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 221308834
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 617857497
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 266356189
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 909690573
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s14",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 59458250
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 1552088968
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1388023472
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1511593960
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 946704107
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s17",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1604386677
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1012466449
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 837927770
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 1372668817
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 405670923
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1332926730
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 1837468938
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 2121288124
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 2005764970
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 1166258092
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 801948568
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 856700943
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s31",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 78898071
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 626408427
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 1445994895
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 7499893
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 302342587
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 639008372
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1451369647
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 2107695122
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 2143873064
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 1996444021
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s18",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 2013920558
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 892371674
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 244485362
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 1984376413
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 1218079962
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s00",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1733259747
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 375968049
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 597817053
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 2080591746
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 1516603564
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s28",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 493389081
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1091466745
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 211949610
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 2078061223
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 434415947
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 755492610
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 1292411572
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 133052496
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 1598609240
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s03",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 1641760284
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 2033269252
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 1354972963
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 1936916051
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 145119454
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 1388365766
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 1155618803
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 1264692049
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 1647321868
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 13136952
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 260097458
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 205082953
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 2129127257
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s29",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 238390752
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 632198756
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s23",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1763860955
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 918787857
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 514457334
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 476713483
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 1999042758
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 140943419
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1423915886
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 382651996
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 396848620
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 431914974
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1182609430
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1585296269
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s20",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 1145496533
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 1515170922
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 153686615
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s03",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 3,
+      "sample_seed": 1525249510
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 879780291
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 2056927734
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 776873486
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1762265868
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 415796808
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 1044545732
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 800271778
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 2092023019
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 125735062
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 2118373377
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s27",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 76553336
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 42113386
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s11",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 700222276
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s06",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 437429256
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 444505439
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 967726177
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 136784253
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s09",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 1629870890
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s18",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 18,
+      "sample_seed": 1311602493
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 181487786
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 1104458208
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 1730429086
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 247276246
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 972568531
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1696078996
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 1572620826
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 2068461795
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 101640852
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 731863999
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 1711371660
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 2025074258
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 908502005
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s08",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 1020734391
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 1265740153
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 1621743533
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s09",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 9,
+      "sample_seed": 1832268803
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 183208874
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 936949616
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 853687281
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s30",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 979870585
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1377793176
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 822887179
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s26",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 447995410
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s15",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 1185008057
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 2002761831
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s21",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 1178178954
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s15",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 15,
+      "sample_seed": 620582471
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s14",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 14,
+      "sample_seed": 1791576108
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s28",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 28,
+      "sample_seed": 993228539
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 571133868
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s21",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 21,
+      "sample_seed": 271915780
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 903526321
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s13",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 1447908500
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 433794068
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s24",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 1986708067
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1914498103
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s06",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 6,
+      "sample_seed": 168283920
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s16",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 1543559576
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 720401304
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 1916019912
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s16",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 16,
+      "sample_seed": 221223848
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s05",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 612744099
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s29",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 29,
+      "sample_seed": 1660617768
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1863438506
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s25",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 246043035
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 173964693
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s27",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 27,
+      "sample_seed": 908818639
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 380669649
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s11",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 11,
+      "sample_seed": 2130839179
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 208298650
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s13",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 13,
+      "sample_seed": 1486449838
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 1877306751
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s08",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 8,
+      "sample_seed": 450463149
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s23",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 23,
+      "sample_seed": 1804646566
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s12",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1591538518
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s02",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 264837312
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__90a4072c033aa5ab__b1__s26",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 26,
+      "sample_seed": 920064811
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 1540306967
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s19",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 1134352901
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 1057281374
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 211095051
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s05",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 5,
+      "sample_seed": 221044628
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 798360686
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s19",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 19,
+      "sample_seed": 1462602213
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s12",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 12,
+      "sample_seed": 1368305093
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 235317058
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s02",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 2,
+      "sample_seed": 2003962014
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1415973625
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s20",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 20,
+      "sample_seed": 613661900
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__19e8dda4803b0980__b1__s22",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 1932483502
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__90a4072c033aa5ab__b1__s31",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "block": 1,
+      "sample": 31,
+      "sample_seed": 2095633163
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__19e8dda4803b0980__b1__s01",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 1338962299
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__0ae5b6ea3236b576__b1__s04",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 419478183
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s25",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 25,
+      "sample_seed": 1427650967
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s07",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 7,
+      "sample_seed": 1196723269
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__324dd9c6223d8348__b1__s10",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 2001392324
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s10",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 10,
+      "sample_seed": 854255497
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__80c954f53e8568e1__b1__s24",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 24,
+      "sample_seed": 100534693
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__80c954f53e8568e1__b1__s30",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "block": 1,
+      "sample": 30,
+      "sample_seed": 1517412856
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__b6e9220003640ed6__b1__s04",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 4,
+      "sample_seed": 1821932100
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s22",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 22,
+      "sample_seed": 956694531
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__0ae5b6ea3236b576__b1__s17",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "block": 1,
+      "sample": 17,
+      "sample_seed": 1932350780
+    },
+    {
+      "task_id": "reflect__Claude__moments_m1_m3__b6e9220003640ed6__b1__s01",
+      "provider": "Claude",
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "block": 1,
+      "sample": 1,
+      "sample_seed": 1727371208
+    },
+    {
+      "task_id": "reflect__GPT__moments_m1_m3__324dd9c6223d8348__b1__s00",
+      "provider": "GPT",
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "block": 1,
+      "sample": 0,
+      "sample_seed": 1249374467
+    }
+  ]
+}

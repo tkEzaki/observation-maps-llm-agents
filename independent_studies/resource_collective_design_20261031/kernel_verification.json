@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "real_api_calls": 0,
+  "numeric_inputs": 459,
+  "collective_count_states": 171,
+  "all_six_permutations_equivariant": true,
+  "projection_idempotent": true,
+  "microstates_exhaustively_verified": 27,
+  "two_step_path_moments_verified": true,
+  "uniform_stationary_verified": true,
+  "synthetic_only": {
+    "uniform": {
+      "initial_count_states_equal_weight": true,
+      "early_mean": 1.1305841924280189,
+      "late_mean": 1.109965635738822,
+      "late_mean_range": [
+        1.1099656357388212,
+        1.1099656357388226
+      ]
+    },
+    "least_load": {
+      "initial_count_states_equal_weight": true,
+      "early_mean": 1.0104858079054595,
+      "late_mean": 1.0000000000000067,
+      "late_mean_range": [
+        1.0000000000000064,
+        1.000000000000007
+      ]
+    },
+    "label_bias": {
+      "initial_count_states_equal_weight": true,
+      "early_mean": 1.0836226222887528,
+      "late_mean": 1.075475134364308,
+      "late_mean_range": [
+        1.0754751343643076,
+        1.0754751343643085
+      ]
+    },
+    "symmetric_label_bias": {
+      "initial_count_states_equal_weight": true,
+      "early_mean": 1.0434852606077252,
+      "late_mean": 1.0331996514306558,
+      "late_mean_range": [
+        1.0331996514306554,
+        1.0331996514306567
+      ]
+    }
+  }
+}

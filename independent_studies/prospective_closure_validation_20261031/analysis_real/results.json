@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-10-31T09:00:31.529936+00:00",
+  "mode": "real",
+  "responses": 24480,
+  "initial_conditions": 8,
+  "policies": 3,
+  "steps": 60,
+  "models": [
+    {
+      "model": "quadratic6",
+      "primary": true,
+      "rmse": 0.025374387523881298,
+      "rmse_bootstrap95": [
+        0.014624096143609797,
+        0.03467950551237617
+      ],
+      "mean_residual": 0.004211656298157576,
+      "mean_residual_bootstrap95": [
+        -0.0027311464946229297,
+        0.011827114633958044
+      ],
+      "maximum_absolute_run_error": 0.07215541255484426,
+      "rmse_within_005": true,
+      "all_contrasts_within_005": true,
+      "engineering_targets_passed": true
+    },
+    {
+      "model": "four_parameter",
+      "primary": false,
+      "rmse": 0.029272966171934534,
+      "rmse_bootstrap95": [
+        0.014434058167068142,
+        0.04023232975943596
+      ],
+      "mean_residual": 0.0042203784449908145,
+      "mean_residual_bootstrap95": [
+        -0.004718305763219977,
+        0.01462752525969586
+      ],
+      "maximum_absolute_run_error": 0.09191136060866367,
+      "rmse_within_005": true,
+      "all_contrasts_within_005": true,
+      "engineering_targets_passed": true
+    }
+  ],
+  "primary_passed": true,
+  "refitting": false
+}

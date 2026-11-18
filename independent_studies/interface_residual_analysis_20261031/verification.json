@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "prior123files_unchanged": true,
+  "no_api_calls": true,
+  "source_seed_folds_keep_mirror_pairs_together": true
+}

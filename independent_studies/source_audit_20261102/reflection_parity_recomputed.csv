@@ -1,0 +1,7 @@
+provider,pair,g_original,g_mirror,g_even,g_odd,reflection_total_variation
+GPT,0,-0.96875,1.0,0.015625,0.984375,0.015625
+GPT,1,-1.0,1.0,0.0,1.0,0.0
+GPT,2,-0.4375,1.0,0.28125,0.71875,0.28125
+Claude,0,1.0,1.0,1.0,0.0,1.0
+Claude,1,1.0,1.0,1.0,0.0,1.0
+Claude,2,1.0,1.0,1.0,0.0,1.0

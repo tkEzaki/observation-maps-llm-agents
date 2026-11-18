@@ -4,7 +4,7 @@
   "license": "MIT",
   "access_right": "open",
   "language": "eng",
-  "description": "<p>Research data and code accompanying How a shared state is described determines whether AI agents synchronize, by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari.</p><p>This release provides recorded acquisitions, protocols, offline analyses, current figure-generation code and 44 reference figure assets. The reported analyses include 507,112 valid responses, including 25,920 responses in the later Claude controlled-field follow-up.</p><p>Version 1.2.1 is a maintenance update that tidies unnecessary files and updates package documentation. Data, numerical results and reference figures are unchanged.</p>",
+  "description": "<p>Research data and code by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari.</p><p>This release provides recorded acquisitions, protocols, offline analyses, figure-generation code and reference figure assets. The earlier analyses include 507,112 valid responses, including 25,920 responses in the Claude controlled-field follow-up.</p><p>Version 2.0.0 adds later acquisitions and offline analyses: frozen response-model forecasts of new populations, reflection interventions, fixed-state tests and a resource-allocation task, with their raw journals, frozen forecasts, derived tables and figure code. Response counts of these acquisitions are listed per acquisition set in the archive.</p>",
   "creators": [
     {
       "name": "Ezaki, Takahiro",
@@ -46,7 +46,7 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Maintenance update. Data and numerical results are unchanged.",
-  "version": "v1.2.1",
-  "publication_date": "2026-09-24"
+  "notes": "Adds additional experiments and offline reproduction tools; updates package documentation and metadata.",
+  "version": "v2.0.0",
+  "publication_date": "2026-11-18"
 }

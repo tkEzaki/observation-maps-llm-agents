@@ -1,0 +1,42 @@
+{
+  "post_hoc": true,
+  "api_calls": 0,
+  "metrics": [
+    {
+      "provider": "GPT",
+      "focal_contexts": 32,
+      "source_seeds": 2,
+      "mean_delta_r1_squared": -0.00042871082521117517,
+      "conditional_round_bootstrap95": [
+        -0.0007163188408670919,
+        -0.00017867386277268984
+      ],
+      "positive_contexts": 2,
+      "negative_contexts": 17,
+      "unchanged_contexts": 13,
+      "min_delta": -0.004899896203526821,
+      "max_delta": 0.0003490914928742095
+    },
+    {
+      "provider": "Claude",
+      "focal_contexts": 32,
+      "source_seeds": 8,
+      "mean_delta_r1_squared": 0.0005459980701912346,
+      "conditional_round_bootstrap95": [
+        0.000481154631465369,
+        0.0006021187648099581
+      ],
+      "positive_contexts": 4,
+      "negative_contexts": 1,
+      "unchanged_contexts": 27,
+      "min_delta": -2.5657228103534788e-05,
+      "max_delta": 0.008539758697507671
+    }
+  ],
+  "inputs": {
+    "independent_studies/relative_dynamics_20261005/protocol.json": "2f41074041ceeaaadb6fd3a2c4ae4af80918dfd199d43cc90f13692537b57648",
+    "independent_studies/relative_dynamics_20261005/runs/real/checkpoint.json": "999defdfa97ba448d1920515aefd8b1f85d159420e305074bb8b1c061e2b75f5",
+    "independent_studies/reflection_confirmation_20261005/protocol.json": "074a00c2e711e229247d31ef42d123ccaf57cc05f624f2dd025d04b8b5239fec",
+    "independent_studies/reflection_confirmation_20261005/runs/real/checkpoint.json": "29fe5545e5ae1e525b154bfe72e1704c5aada3a43e89dc433119dc7fff38b487"
+  }
+}

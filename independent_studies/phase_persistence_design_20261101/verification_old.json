@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "api_calls": 0,
+  "source_forecasts_reproduced_max_error": {
+    "quadratic6": 2.220446049250313e-16,
+    "four_parameter": 2.220446049250313e-16
+  },
+  "vectorized_encoder_matches_scalar": true
+}

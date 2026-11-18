@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-10-31T15:29:49.274532+00:00",
+  "api_calls": 0,
+  "n": 17,
+  "resources": 3,
+  "simultaneous_update_sizes": [
+    1,
+    4,
+    17
+  ],
+  "policies": [
+    "native",
+    "independent",
+    "shared"
+  ],
+  "baseline_policies": [
+    "least_load_random_ties",
+    "least_load_fixed_ties",
+    "uniform"
+  ],
+  "input_prompt": "Unchanged; unaware of simultaneous decisions. All selected individuals observe the same pre-update state.",
+  "clock": "Uniform subset without replacement each batch; total1020 individual updates=60 expected updates per agent. m=1:1020 batches,m=4:255,m=17:60.",
+  "primary_diagnostic": "Mean post-batch normalized congestion over all1020 updates; cost=sum(n_j^2)/97. m is constant within each run, so equal batch weights equal update-count weights.",
+  "secondary_diagnostic": "Post-batch cost after680 through1020 individual updates (last20 sweeps). Lag1/lag2 squared occupancy-fraction changes are descriptive and not a proof of a period2 cycle.",
+  "initial": "Each agent initially chooses each resource with probability1/3 independently. Equal-count-state weights and all171 initial states are descriptive sensitivity.",
+  "estimators": [
+    "MLE conditional on valid replies",
+    "Dirichlet0.5 posterior mean conditional on valid replies"
+  ],
+  "missing": "Original18 missing choices retained. Main estimates condition on parseability. For sensitivity assign all missing mass to A,B,C or own resource, then separately repeat symmetrization; these are scenarios, not worst-case bounds.",
+  "contrast": "shared minus independent cost (positive means common frame is harmful). This has the same raw sign as positive shared minus independent phase order, but opposite utility. Opposite utility alone is not a new physical law.",
+  "engineering_gate": "Suggest live validation only if a prespecified m has absolute full-window shared-minus-independent contrast above0.01 (1% of optimal cost), same sign for MLE/posterior mean/all4 missing scenarios, and conditional central95% draw interval entirely outside[-0.01,+0.01]. Also assess all baseline explanations.",
+  "stop_rule": "One comparison over m=1,4,17 and three policies; no prompt/temperature/extra-m search to rescue small or unstable effects.",
+  "review_corrections": [
+    "m17 is motivated by matching phase update timing but remains post-calibration exploration.",
+    "Phase primary predicted shared-independent order contrast is0.0231667; observed0.0314868.",
+    "Transport missingness cannot be proven independent of content from an outage alone; delayed completion never erases original missingness or restores original timing.",
+    "New initial states and contemporaneous controls preferred for a future persistence test."
+  ]
+}

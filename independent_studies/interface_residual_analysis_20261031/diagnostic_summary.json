@@ -1,0 +1,79 @@
+{
+  "post_hoc": true,
+  "error_concentration": [
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "top8_input_fraction": 0.0625,
+      "top8_squared_error_share": 0.7608443868396811,
+      "top16_squared_error_share": 0.8786385638660661
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "top8_input_fraction": 0.0625,
+      "top8_squared_error_share": 0.5523516801194707,
+      "top16_squared_error_share": 0.6960404683604429
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "top8_input_fraction": 0.0625,
+      "top8_squared_error_share": 0.6225926697257499,
+      "top16_squared_error_share": 0.8339794789918331
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "top8_input_fraction": 0.0625,
+      "top8_squared_error_share": 0.6953897109824589,
+      "top16_squared_error_share": 0.8875017158081169
+    }
+  ],
+  "repeatability": [
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "mean_pair_disagreement": 0.058268229166666664,
+      "deterministic_inputs": 104,
+      "stay_fraction": 0.00048828125
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "mean_pair_disagreement": 0.17291666666666666,
+      "deterministic_inputs": 51,
+      "stay_fraction": 0.0400390625
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "mean_pair_disagreement": 0.015690104166666663,
+      "deterministic_inputs": 122,
+      "stay_fraction": 0.00537109375
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "mean_pair_disagreement": 0.027018229166666664,
+      "deterministic_inputs": 116,
+      "stay_fraction": 0.04150390625
+    }
+  ],
+  "reversals": [
+    {
+      "provider": "GPT",
+      "n_inputs": 128,
+      "mean_sign_reversals": 5,
+      "strong_mean_reversals": 1,
+      "all16_opposite_actions": 0
+    },
+    {
+      "provider": "Claude",
+      "n_inputs": 128,
+      "mean_sign_reversals": 8,
+      "strong_mean_reversals": 7,
+      "all16_opposite_actions": 2
+    }
+  ]
+}

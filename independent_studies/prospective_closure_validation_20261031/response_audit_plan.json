@@ -1,0 +1,19 @@
+{
+  "script_sha256": "fba06275df5e50b013d48274e8f7afbe42c6dfe21ca4ed1ed5ee86c5cbdfd813",
+  "timing": "Prepared during acquisition; current-study response values and phases not inspected, only status counts and cost.",
+  "created_at_utc": "2026-10-31T08:40:09.6731608Z",
+  "changes_to_primary_gate": false,
+  "status_when_prepared": {
+    "status": "running",
+    "updated_at_utc": "2026-10-31T17:39:43.266728+09:00",
+    "mode": "real",
+    "valid_tasks": 11424,
+    "planned_tasks": 24480,
+    "dispatches": 11424,
+    "unknown_dispatches": 0,
+    "completed_steps": 28,
+    "complete": false,
+    "quality_passed": false
+  },
+  "secondary": true
+}

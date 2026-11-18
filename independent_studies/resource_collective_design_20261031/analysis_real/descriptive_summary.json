@@ -1,0 +1,34 @@
+{
+  "mean_accuracy_equal_input_weight": 0.9423316817766534,
+  "accuracy_all_dispatches": 0.9411764705882353,
+  "mean_excess_load_equal_input_weight": 0.08749077588024456,
+  "first_half_accuracy": 0.9434758921274857,
+  "second_half_accuracy": 0.9411844978165939,
+  "input_accuracy_min": 0.0,
+  "inputs_all_choices_minimum": 408,
+  "responses_with_max_tokens_stop": 1042,
+  "estimator_comparison": {
+    "MLE": {
+      "early_benefit": -1.2987085182825098e-06,
+      "late_benefit": 2.4646951146678475e-14,
+      "late_benefit_all_initial_states_range": [
+        2.4424906541753444e-14,
+        2.5646151868841116e-14
+      ],
+      "late_benefit_positive_initial_count_states": 0,
+      "late_benefit_negative_initial_count_states": 0,
+      "native_late_excess_above_optimum": 4.440892098500626e-15
+    },
+    "Dirichlet_half": {
+      "early_benefit": -5.466208493620783e-06,
+      "late_benefit": -4.487383550300095e-06,
+      "late_benefit_all_initial_states_range": [
+        -4.487383551410318e-06,
+        -4.487383549411916e-06
+      ],
+      "late_benefit_positive_initial_count_states": 0,
+      "late_benefit_negative_initial_count_states": 171,
+      "native_late_excess_above_optimum": 0.001413981200019343
+    }
+  }
+}

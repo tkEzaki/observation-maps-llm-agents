@@ -1,0 +1,14 @@
+{
+  "updated_at_utc": "2026-10-05T06:17:49.655985+00:00",
+  "mode": "real",
+  "planned_tasks": 8160,
+  "terminal_tasks": 8160,
+  "valid_tasks": 8160,
+  "dispatches": 8160,
+  "unknown_dispatches": 0,
+  "complete": true,
+  "quality_passed": true,
+  "completed_steps_per_trajectory": 60,
+  "n_trajectories": 8,
+  "elapsed_seconds_this_invocation": 1024.197733100038
+}

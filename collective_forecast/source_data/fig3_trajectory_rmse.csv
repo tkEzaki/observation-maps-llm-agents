@@ -1,0 +1,10 @@
+interface,model,trajectory_rmse
+native,constant_old,0.424428865340527
+native,four_parameter,0.07522379488554164
+native,quadratic6,0.06628399278446474
+independent_mirror,constant_old,0.5719607911696893
+independent_mirror,four_parameter,0.015463773698066877
+independent_mirror,quadratic6,0.01986772651932549
+shared_mirror,constant_old,0.564017844753475
+shared_mirror,four_parameter,0.0156857101962987
+shared_mirror,quadratic6,0.01391472465329768

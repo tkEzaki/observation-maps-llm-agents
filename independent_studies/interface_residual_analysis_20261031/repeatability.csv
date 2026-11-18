@@ -1,0 +1,5 @@
+provider,order,mean_pair_disagreement,deterministic_inputs,stay_fraction
+GPT,cos_first,0.058268229166666664,104,0.00048828125
+GPT,sin_first,0.17291666666666666,51,0.0400390625
+Claude,cos_first,0.015690104166666663,122,0.00537109375
+Claude,sin_first,0.027018229166666664,116,0.04150390625

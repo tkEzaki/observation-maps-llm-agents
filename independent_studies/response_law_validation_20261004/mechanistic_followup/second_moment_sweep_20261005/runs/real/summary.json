@@ -1,0 +1,57 @@
+{
+  "updated_at_utc": "2026-10-05T02:08:41.352353+00:00",
+  "mode": "real",
+  "planned_tasks": 4736,
+  "terminal_tasks": 4736,
+  "valid_tasks": 4736,
+  "dispatches": 4736,
+  "unknown_dispatches": 0,
+  "complete": true,
+  "quality_passed": true,
+  "groups": [
+    {
+      "provider": "GPT",
+      "representation": "moments_m1_m3",
+      "block": 0,
+      "planned": 1184,
+      "terminal": 1184,
+      "valid": 1184,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    },
+    {
+      "provider": "GPT",
+      "representation": "moments_m1_m3",
+      "block": 1,
+      "planned": 1184,
+      "terminal": 1184,
+      "valid": 1184,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    },
+    {
+      "provider": "Claude",
+      "representation": "moments_m1_m3",
+      "block": 0,
+      "planned": 1184,
+      "terminal": 1184,
+      "valid": 1184,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    },
+    {
+      "provider": "Claude",
+      "representation": "moments_m1_m3",
+      "block": 1,
+      "planned": 1184,
+      "terminal": 1184,
+      "valid": 1184,
+      "valid_fraction": 1.0,
+      "incompatible_model": 0,
+      "unknown_prior_dispatches": 0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-10-05T02:11:47.537392+00:00",
+  "real_planned_calls": 4736,
+  "terminal_tasks": 4736,
+  "valid_responses": 4736,
+  "dispatches": 4736,
+  "unknown_dispatches": 0,
+  "invalid_responses": 0,
+  "original_files_unchanged": true,
+  "protected_files": 2782,
+  "historical_models_unchanged": true,
+  "frozen_acquisition_unchanged": true,
+  "prior_predictions_unchanged": true,
+  "analysis_plan_frozen_before_first_dispatch": true,
+  "provider_models": {
+    "GPT": [
+      "gpt-5.4-mini-2026-03-17"
+    ],
+    "Claude": [
+      "claude-haiku-4-5-20251001"
+    ]
+  },
+  "files_sha256": {
+    "runs/real/attempts.jsonl": "52541f86c4773f256a3e67d7857d5cee0cd8522751c4db50712ec70b749318a8",
+    "frozen_predictions.csv": "d70b83ce0525027b0d98157c0ebffe4e7cdddc8471e88ac7d543c6ebf6511b50",
+    "protocol.json": "dd64df21395e610d762bdc34acf9b7fcb8e613e64a80304722f52734d1e60b89",
+    "acquisition_freeze.json": "9ba3bd40af002ad7ad54c5e9e7ea991ee6b96e595c7d3b003c4977cfb7484acf"
+  },
+  "intervals": "Marginal Wilson 95%, not family-adjusted. Primary p values use a stratified fixed-margin Monte Carlo test and Holm correction for two providers."
+}

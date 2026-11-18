@@ -1,0 +1,7 @@
+{
+  "post_hoc": true,
+  "api_calls": 0,
+  "form": "p(retard,stay,advance)=softmax(-eta,lambda,eta); eta=b0+bc*c1+bs*s1.",
+  "selection": "No tuning on later outcomes. Same old eight-seed grouped validation; later four seeds are retrospective transfer tests.",
+  "script_sha256": "2fb2e551c9de725cc754cbe6cc66279d82ec253cc6bdfa747e20b20360bc0b44"
+}
