@@ -1,6 +1,6 @@
 {
-  "n_files": 2663,
-  "total_bytes": 1121061602,
+  "n_files": 2664,
+  "total_bytes": 1121061932,
   "files": [
     {
       "path": ".env.example",
@@ -19,8 +19,8 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 2341,
-      "sha256": "8d1503000841fda00b4801faf948f5e7a15caa28708afdce8c3f5a63d08dd90c"
+      "bytes": 2398,
+      "sha256": "fec55ba71b2e8e40d8bc1c3e55c36712382409f549f4eddf00d839552633b06d"
     },
     {
       "path": "analysis/__init__.py",
@@ -860,7 +860,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 1369,
-      "sha256": "451e326b835879e3421575b5fde1ebcd6488ec8b8e657294d053edfac2666c20"
+      "sha256": "e0fbc5cb4d1cb303006373c0b744cd5d6ce5df484a601b4c7e12629883a4b491"
     },
     {
       "path": "collective_forecast/build_fig1.py",
@@ -1148,6 +1148,11 @@
       "sha256": "b7cbb70d8c765dc6f606435aad63c7efe2807765eec12ccdebf307ee8492dc02"
     },
     {
+      "path": "docs/RELEASE_v2.0.1.md",
+      "bytes": 246,
+      "sha256": "d63573c495bbf02a5e263bdb432efba023478937d2b1480d53002229f3787e6c"
+    },
+    {
       "path": "docs/response_count_audit.json",
       "bytes": 52568,
       "sha256": "d3f37be66a3b93c72eec532ba015e29e90aeb044524114194b03c8e3e870eab6"
@@ -1164,8 +1169,8 @@
     },
     {
       "path": "docs/STATS_AUDIT_MEMO.md",
-      "bytes": 4720,
-      "sha256": "4de9011227ce1179d17f8b0a98c2a74ef2a715f53abf0273689d4c97748cdc61"
+      "bytes": 4747,
+      "sha256": "9b01c9eb3937f864cd90a2e0d7c5fb84fde8ba8424f41f752fd3a75ce3f4f64d"
     },
     {
       "path": "experiments/__init__.py",
@@ -5650,7 +5655,7 @@
     {
       "path": "README.md",
       "bytes": 3676,
-      "sha256": "d7b50fdc7e41ae95e974bd923563199fb0bd5771cdd62c026824fc4dc2253615"
+      "sha256": "1321573915ba32f1ec7bc771e1d2b668f2ba3f9ea0fc83c32cf2072ef1477ff5"
     },
     {
       "path": "requirements-acquisition.txt",

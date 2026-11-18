@@ -46,7 +46,7 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Adds additional experiments and offline reproduction tools; updates package documentation and metadata.",
-  "version": "v2.0.0",
+  "notes": "Documentation update clarifying total variation distances in the statistical notes. Acquisitions, numerical outputs and figure assets are unchanged from v2.0.0.",
+  "version": "v2.0.1",
   "publication_date": "2026-11-18"
 }
