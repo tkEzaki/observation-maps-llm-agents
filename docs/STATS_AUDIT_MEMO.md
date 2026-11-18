@@ -58,9 +58,9 @@ pairwise summary and result-description fields.
 | Source main-effect p | 0.0768 | 0.0784 |
 | Source-by-presentation interaction p | 0.0664 | 0.0716 |
 | Presentation effect p | 0.0002 | 0.0002 |
-| Centres-minus-intervals 95% CI | 0.221--0.363 | 0.220--0.364 |
-| Moments-minus-centres 95% CI | 0.251--0.423 | 0.256--0.422 |
-| Moments-minus-intervals 95% CI | 0.323--0.490 | 0.324--0.493 |
+| TV distance (centres, intervals) 95% CI | 0.221--0.363 | 0.220--0.364 |
+| TV distance (moments, centres) 95% CI | 0.251--0.423 | 0.256--0.422 |
+| TV distance (moments, intervals) 95% CI | 0.323--0.490 | 0.324--0.493 |
 | Intervals-minus-moments delta a0 95% CI | 0.021--0.686 | 0.021--0.685 |
 | Replay between-condition noise-floor 95% CI | 0.298--0.392 | 0.286--0.405 |
 | Replay within-condition noise-floor 95% CI | 0.076--0.109 | 0.074--0.110 |

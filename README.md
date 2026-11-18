@@ -1,7 +1,7 @@
 # How a shared state is described determines whether AI agents synchronize
 
 Research data and code by Takahiro Ezaki, Naoto Imura and Katsuhiro Nishinari.
-Version v2.0.0. Associated preprint: https://arxiv.org/abs/2608.06968.
+Version v2.0.1. Associated preprint: https://arxiv.org/abs/2608.06968.
 
 ## Offline reproduction
 
@@ -68,4 +68,4 @@ stability criterion. Model family and acquisition date were not independently ra
 ## Citation and license
 
 See CITATION.cff. MIT License. Concept DOI: https://doi.org/10.5281/zenodo.21834781.
-Cite the version-specific DOI for an exact snapshot. See docs/RELEASE_v2.0.0.md.
+Cite the version-specific DOI for an exact snapshot. See docs/RELEASE_v2.0.1.md.
