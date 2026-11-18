@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-10-31T14:35:18.197512+00:00",
+  "phase": "Before real acquisition; only first459 synthetic mock results exist",
+  "real_dispatches": 0,
+  "changes": [
+    "Use standard per-response categorical Brier score; retain squared distance to held-half empirical probabilities under separate probability_mse name."
+  ],
+  "before_sha256": {
+    "study.py": "828ee58e0765267061446b7d241bc5dcad4d5f6b02567fea5e2a8001d35953c9",
+    "kernel.py": "5332f8f6d789a987b5118793081312641e604296331aabeda38d4ac7a08b5057",
+    "analyze.py": "7a2121c5869f8cbea13cd6d30cf4f5c19cccba0dfdc8b9697b9035c93cf71fde",
+    "protocol.json": "a9b6881dfc51773ebb129f42549614b9a6558f2ffa06f8460d20cacec599d8ff",
+    "prompts.json": "2686f16d1f8a4405f6273cf530b375aad46ff88d0efc5e7cf3ca92bc15650ece",
+    "tasks.json": "b259c39ab92dd629097725b7114bc336f69862a1c9033c06e8491c63cd73d1fd",
+    "coverage.json": "dbc85c5f19e3636155d011128d2a722467168d85c4ecc8de99cb217297689a0a"
+  },
+  "after_sha256": {
+    "study.py": "d74b7e9aa68beba7c4352fdea4ea06563fe08ffd17ce27e649ace1246a7cb0b0",
+    "kernel.py": "5332f8f6d789a987b5118793081312641e604296331aabeda38d4ac7a08b5057",
+    "analyze.py": "3c90f12c6ce628beec0e45275ddf78d4458412de1b430f851d25e89ed95b4466",
+    "protocol.json": "395974f57e17bcb48bc6a7989fc2141bdaf986d6f05b4d997bd59e951e4b7b87",
+    "prompts.json": "2686f16d1f8a4405f6273cf530b375aad46ff88d0efc5e7cf3ca92bc15650ece",
+    "tasks.json": "b259c39ab92dd629097725b7114bc336f69862a1c9033c06e8491c63cd73d1fd",
+    "coverage.json": "dbc85c5f19e3636155d011128d2a722467168d85c4ecc8de99cb217297689a0a"
+  }
+}

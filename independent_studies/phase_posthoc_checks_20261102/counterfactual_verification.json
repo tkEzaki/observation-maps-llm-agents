@@ -1,0 +1,12 @@
+{
+  "exact_marginal_max_errors": [
+    2.7755575615628914e-16,
+    1.1102230246251565e-16
+  ],
+  "quadratic6_original_sampler_error": 0.0,
+  "four_parameter_original_sampler_error": 0.0,
+  "passed": true,
+  "sources_unchanged": true,
+  "api_calls": 0,
+  "virtual_trajectories": 24576
+}

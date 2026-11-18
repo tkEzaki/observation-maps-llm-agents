@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "mode": "real",
+  "created_at_utc": "2026-10-31T02:22:35.208635+00:00",
+  "tasks": 16320,
+  "dispatches": 16320,
+  "math": {
+    "exact_three_agent_joint_enumeration": true,
+    "exact_shuffle_enumeration": true,
+    "global_rotation": true,
+    "constant_response_limit": true
+  },
+  "protected_files_unchanged": true,
+  "checkpoint_sha256": "575f15def504bf0d950368ba4642c766d16729bd9282ee115adf173e0d8df699",
+  "journal_sha256": "0fabc3ffd48ab186c45e7660a0ba45216431da16eb80904dfee91e31e71d5df1"
+}

@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-10-05T05:55:24.792956+00:00",
+  "files": {
+    "lib.py": "5aa8bcc4659ac6aaee62debd26e15a1753eb6fb4051ea16cb444c464ffda44af",
+    "offline.py": "b471176bc414e9f863454b8f55fae6330aac2a5f353fa1fa1413b9d7ac53f826",
+    "prepare.py": "0b427624243a4c5ecb84305fc2101b7a4a9cf04442c92eb1c4e7fcdc7ad739a6",
+    "run.py": "09bbb966a72e9e95af6b6d011238f5aa4bb79c43eec2109924612d08543cc632",
+    "analyze.py": "bdee40c015606c202e50b9620262933710d5e1e72ea1a77b78fd5c5192438db8",
+    "protocol.json": "2f41074041ceeaaadb6fd3a2c4ae4af80918dfd199d43cc90f13692537b57648",
+    "design.json": "08e6c774fb7164a94ae2a0038c7a1efda590ec818e8f73470826cb21f32238f6",
+    "pre_acquisition_amendment.json": "6fce4ae6654c4b71c1ce1126fa8f121512d969b60eb43a2da72bc5e31731f4c0"
+  },
+  "inputs": {
+    "independent_studies/response_transport_20261005/reflection_assay/protocol.json": "5c6110d4a53dfc52c60d60ec75a426aae807566c5c174d5dcca17fc7c4bfcc7c",
+    "independent_studies/response_transport_20261005/reflection_assay/runs/real/summary.json": "6891784003355496334fdf18c2c1408af192548847341db6303a6d2c3e652851",
+    "independent_studies/response_transport_20261005/study_lib.py": "d9bfb365fad29b233b3417315ac0e1e68399d76c41f5041e806e46c97616e18b",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/collective_dynamics_20261004/common.py": "27a152bd611c7b772334e76355a1092769fe216ce82bf6a99f100a66dc7c9d36",
+    "independent_studies/response_transport_20261005/results/models/Claude_first_state.npz": "eb7fb8a1f4847df50c254a804801558327512a87ee11db8b460331ce7f78e8d7",
+    "independent_studies/response_transport_20261005/results/models/Claude_first_state_without_old_A.npz": "ec6342f05f5e2638c045e0d5f47e1de547245d0911c577ea24cead48864f618f",
+    "independent_studies/response_transport_20261005/results/models/Claude_sign_only.npz": "1b0d8d3ed3f8bb969e5c6dbc542a0dd088ff822861b005814b189e3678035a1c",
+    "independent_studies/response_transport_20261005/results/models/Claude_sign_only_without_old_A.npz": "b597b8a98381c22de67f43f12d93e4cfac21ceb0c8adae092aa3fd74eb9f6612",
+    "independent_studies/response_transport_20261005/results/models/Claude_three_state.npz": "c536b0c9e30047fcdcced3f3f34756d10c10de37d03c9d92f96bcd1a9c86599d",
+    "independent_studies/response_transport_20261005/results/models/Claude_three_state_without_old_A.npz": "ce2970e6b2569043f6852794b63d0658b815d151838038092b466547e639ac06",
+    "independent_studies/response_transport_20261005/results/models/GPT_first_state.npz": "cd11c4c0ce0abc82e441cf3dd0e2998d5b76245567031edcec098cfab3d584d8",
+    "independent_studies/response_transport_20261005/results/models/GPT_first_state_without_old_A.npz": "4212f24cc939d9120b379b911ee1961edf01dc80896ca296cd081153e9046a87",
+    "independent_studies/response_transport_20261005/results/models/GPT_sign_only.npz": "a77ea0cdfdfb49f468fe17ed25ffd5a3d2846c4adcb8ced7bbda284fc58ce09a",
+    "independent_studies/response_transport_20261005/results/models/GPT_sign_only_without_old_A.npz": "12295c2fc86ee72ce3be82281463aa794a031a85cd20ece27815ca44d9d82fec",
+    "independent_studies/response_transport_20261005/results/models/GPT_three_state.npz": "80443444d9b3b86c5f653f52cbca681bb1354866d9d606e14427fa4b4668f27d",
+    "independent_studies/response_transport_20261005/results/models/GPT_three_state_without_old_A.npz": "0a44f98085f4637e22401d6cafd92409a7496d7acb69e2250eef084309d86915"
+  }
+}

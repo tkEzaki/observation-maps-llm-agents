@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mode": "real",
+  "responses": 81600,
+  "transitions": 4800,
+  "all_payloads_replayed": true,
+  "journal_sha256": "e4c895d1e0d50a1fd88275551930318ed4389060daa2254bd579ea472ae0748a",
+  "checkpoint_sha256": "70004ba195c361523edcb7d68f10a65eab8112556efcc2e7c021cf22ca42c812",
+  "created_at_utc": "2026-11-01T09:06:14.991427+00:00"
+}

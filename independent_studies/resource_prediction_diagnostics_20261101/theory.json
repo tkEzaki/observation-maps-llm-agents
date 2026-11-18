@@ -1,0 +1,48 @@
+{
+  "resource_identity_max_error": 8.881784197001252e-16,
+  "covariance_vs_exact_kernel_max_error": 8.881784197001252e-16,
+  "phase_late_squared_order_shared_minus_independent": 0.048273356611704565,
+  "phase_late_squared_order_paired_differences": [
+    0.15277860551169864,
+    0.12184480844455514,
+    0.054920875531516145,
+    -0.015038068402762783,
+    0.012619486847923023,
+    0.1250552391945422,
+    -0.018139717597418836,
+    -0.047854376636417006
+  ],
+  "phase_original_late_order_shared_minus_independent": 0.03148682260924683,
+  "resource_mean_squared_concentration_shared_minus_independent": 0.35190311418685116,
+  "resource_late_squared_concentration_shared_minus_independent": 0.35216262975778545,
+  "idealized_two_cycle_mean_congestion": 2.2783505154639174,
+  "idealized_shared_minus_independent": 0.7010309278350517,
+  "rare_split_probability_with_min_occupancy_le1": 0.000274658203125,
+  "assumptions": "Unit-modulus next-state embeddings. Marginal equality at identical state, conditional independence given the label frame, memoryless response law. Observed trajectories under different policies generally differ. Covariance identity is one-step, not a decomposition of the60-step effect.",
+  "phase_squared_order_bootstrap95": [
+    7.190658745839795e-06,
+    0.0993905930231994
+  ],
+  "phase_squared_order_positive_pairs": 5,
+  "phase_original_order_bootstrap95": [
+    0.000508093462316549,
+    0.0642475354945773
+  ],
+  "phase_exact_empirical_bootstrap95": {
+    "squared_order": [
+      2.901473647104469e-05,
+      0.0989807228537818
+    ],
+    "original_order": [
+      0.0005267422071475458,
+      0.06400428820520065
+    ]
+  },
+  "bootstrap_note": "Exact empirical resampling distribution of8 paired initial states (6435 multinomial count vectors); percentile inference remains approximate at8 states. Squared-order analysis is exploratory.",
+  "covariance_sign_examples": {
+    "two_identical_binary_responses_shared_minus_independent": 0.5,
+    "two_opposite_binary_responses_shared_minus_independent": -0.5
+  },
+  "covariance_vs_exact_m1_max_error": 2.7819957105458983e-16,
+  "covariance_vs_exact_m4_max_error": 2.220446049250313e-16
+}

@@ -1,0 +1,70 @@
+{
+  "prompts": {
+    "moments_m1_m3__19e8dda4803b0980": {
+      "prompt_id": "moments_m1_m3__19e8dda4803b0980",
+      "representation": "moments_m1_m3",
+      "prompt": "You are an interaction operator for a phase on a circle.\nThe values are the first three normalized circular moments of the distribution of other phases relative to you.\nNegative relative phase is behind you; positive relative phase is ahead of you.\nChoose one social correction in response to this distribution:\n- \"advance\": move in the positive phase direction\n- \"stay\": apply no social correction\n- \"retard\": move in the negative phase direction\nUse only the relative distribution below. Return exactly one JSON object and no other text.\nRequired schema: {\"social_action\":\"advance|stay|retard\"}\nRelative phase distribution as circular moments:\nmoment_1_cos: +0.488120\nmoment_1_sin: -0.444163\nmoment_2_cos: +0.253323\nmoment_2_sin: -0.108899\nmoment_3_cos: +0.298619\nmoment_3_sin: -0.047835",
+      "sha256": "19e8dda4803b09801384812bda322d67c87d93c06f8215ca79517e35ae70c055",
+      "field_ids": [
+        "pair_0_original"
+      ],
+      "pair": 0,
+      "mirrored": false
+    },
+    "moments_m1_m3__90a4072c033aa5ab": {
+      "prompt_id": "moments_m1_m3__90a4072c033aa5ab",
+      "representation": "moments_m1_m3",
+      "prompt": "You are an interaction operator for a phase on a circle.\nThe values are the first three normalized circular moments of the distribution of other phases relative to you.\nNegative relative phase is behind you; positive relative phase is ahead of you.\nChoose one social correction in response to this distribution:\n- \"advance\": move in the positive phase direction\n- \"stay\": apply no social correction\n- \"retard\": move in the negative phase direction\nUse only the relative distribution below. Return exactly one JSON object and no other text.\nRequired schema: {\"social_action\":\"advance|stay|retard\"}\nRelative phase distribution as circular moments:\nmoment_1_cos: +0.488120\nmoment_1_sin: +0.444163\nmoment_2_cos: +0.253323\nmoment_2_sin: +0.108899\nmoment_3_cos: +0.298619\nmoment_3_sin: +0.047835",
+      "sha256": "90a4072c033aa5abeb0ca578e3dba112c3a7ccb5ff9aa405313c639f40ad7ce9",
+      "field_ids": [
+        "pair_0_mirror"
+      ],
+      "pair": 0,
+      "mirrored": true
+    },
+    "moments_m1_m3__b6e9220003640ed6": {
+      "prompt_id": "moments_m1_m3__b6e9220003640ed6",
+      "representation": "moments_m1_m3",
+      "prompt": "You are an interaction operator for a phase on a circle.\nThe values are the first three normalized circular moments of the distribution of other phases relative to you.\nNegative relative phase is behind you; positive relative phase is ahead of you.\nChoose one social correction in response to this distribution:\n- \"advance\": move in the positive phase direction\n- \"stay\": apply no social correction\n- \"retard\": move in the negative phase direction\nUse only the relative distribution below. Return exactly one JSON object and no other text.\nRequired schema: {\"social_action\":\"advance|stay|retard\"}\nRelative phase distribution as circular moments:\nmoment_1_cos: +0.583355\nmoment_1_sin: -0.409901\nmoment_2_cos: +0.273834\nmoment_2_sin: -0.144424\nmoment_3_cos: +0.278805\nmoment_3_sin: -0.019814",
+      "sha256": "b6e9220003640ed699a56e70172ab6f78855515b39052f0d9177bbb52bd3a9c6",
+      "field_ids": [
+        "pair_1_original"
+      ],
+      "pair": 1,
+      "mirrored": false
+    },
+    "moments_m1_m3__80c954f53e8568e1": {
+      "prompt_id": "moments_m1_m3__80c954f53e8568e1",
+      "representation": "moments_m1_m3",
+      "prompt": "You are an interaction operator for a phase on a circle.\nThe values are the first three normalized circular moments of the distribution of other phases relative to you.\nNegative relative phase is behind you; positive relative phase is ahead of you.\nChoose one social correction in response to this distribution:\n- \"advance\": move in the positive phase direction\n- \"stay\": apply no social correction\n- \"retard\": move in the negative phase direction\nUse only the relative distribution below. Return exactly one JSON object and no other text.\nRequired schema: {\"social_action\":\"advance|stay|retard\"}\nRelative phase distribution as circular moments:\nmoment_1_cos: +0.583355\nmoment_1_sin: +0.409901\nmoment_2_cos: +0.273834\nmoment_2_sin: +0.144424\nmoment_3_cos: +0.278805\nmoment_3_sin: +0.019814",
+      "sha256": "80c954f53e8568e1546c04f61bfc6b4cfe4808a191ab0485286a8e51d1213751",
+      "field_ids": [
+        "pair_1_mirror"
+      ],
+      "pair": 1,
+      "mirrored": true
+    },
+    "moments_m1_m3__0ae5b6ea3236b576": {
+      "prompt_id": "moments_m1_m3__0ae5b6ea3236b576",
+      "representation": "moments_m1_m3",
+      "prompt": "You are an interaction operator for a phase on a circle.\nThe values are the first three normalized circular moments of the distribution of other phases relative to you.\nNegative relative phase is behind you; positive relative phase is ahead of you.\nChoose one social correction in response to this distribution:\n- \"advance\": move in the positive phase direction\n- \"stay\": apply no social correction\n- \"retard\": move in the negative phase direction\nUse only the relative distribution below. Return exactly one JSON object and no other text.\nRequired schema: {\"social_action\":\"advance|stay|retard\"}\nRelative phase distribution as circular moments:\nmoment_1_cos: +0.480868\nmoment_1_sin: -0.330983\nmoment_2_cos: +0.285676\nmoment_2_sin: +0.011842\nmoment_3_cos: +0.264795\nmoment_3_sin: +0.053639",
+      "sha256": "0ae5b6ea3236b5767aa4739dd64cdc86b6c42064a1d9264caa3c4ddf29d5013b",
+      "field_ids": [
+        "pair_2_original"
+      ],
+      "pair": 2,
+      "mirrored": false
+    },
+    "moments_m1_m3__324dd9c6223d8348": {
+      "prompt_id": "moments_m1_m3__324dd9c6223d8348",
+      "representation": "moments_m1_m3",
+      "prompt": "You are an interaction operator for a phase on a circle.\nThe values are the first three normalized circular moments of the distribution of other phases relative to you.\nNegative relative phase is behind you; positive relative phase is ahead of you.\nChoose one social correction in response to this distribution:\n- \"advance\": move in the positive phase direction\n- \"stay\": apply no social correction\n- \"retard\": move in the negative phase direction\nUse only the relative distribution below. Return exactly one JSON object and no other text.\nRequired schema: {\"social_action\":\"advance|stay|retard\"}\nRelative phase distribution as circular moments:\nmoment_1_cos: +0.480868\nmoment_1_sin: +0.330983\nmoment_2_cos: +0.285676\nmoment_2_sin: -0.011842\nmoment_3_cos: +0.264795\nmoment_3_sin: -0.053639",
+      "sha256": "324dd9c6223d8348889546ff4b1c132b4030bd0e5ea0e01cd1b4bc6a13f3d65b",
+      "field_ids": [
+        "pair_2_mirror"
+      ],
+      "pair": 2,
+      "mirrored": true
+    }
+  }
+}

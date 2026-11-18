@@ -1,0 +1,420 @@
+{
+  "post_hoc": true,
+  "new_empirical_data": false,
+  "outer_source_seeds": [
+    20261005581,
+    20261005582,
+    20261005681,
+    20261005682,
+    20261005683,
+    20261005684,
+    20261005685,
+    20261005686,
+    20261005687,
+    20261005688
+  ],
+  "families": [
+    "logit_first",
+    "logit_six",
+    "switch_first",
+    "switch_six",
+    "kernel_first",
+    "kernel_six"
+  ],
+  "candidates": [
+    [
+      "logit_first",
+      0.0001
+    ],
+    [
+      "logit_first",
+      0.001
+    ],
+    [
+      "logit_first",
+      0.01
+    ],
+    [
+      "logit_six",
+      0.0001
+    ],
+    [
+      "logit_six",
+      0.001
+    ],
+    [
+      "logit_six",
+      0.01
+    ],
+    [
+      "switch_first",
+      0.0001
+    ],
+    [
+      "switch_first",
+      0.001
+    ],
+    [
+      "switch_first",
+      0.01
+    ],
+    [
+      "switch_six",
+      0.0001
+    ],
+    [
+      "switch_six",
+      0.001
+    ],
+    [
+      "switch_six",
+      0.01
+    ],
+    [
+      "kernel_first",
+      0.1
+    ],
+    [
+      "kernel_first",
+      0.3
+    ],
+    [
+      "kernel_first",
+      0.6
+    ],
+    [
+      "kernel_six",
+      0.1
+    ],
+    [
+      "kernel_six",
+      0.3
+    ],
+    [
+      "kernel_six",
+      0.6
+    ]
+  ],
+  "metrics": [
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "adaptive_mse",
+      "nll": 0.2824870909147533,
+      "rmse": 0.3725898739782511,
+      "noise_corrected_rmse": 0.3705667481603965,
+      "brier": 0.08905277814198663,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "adaptive_nll",
+      "nll": 0.28784781225303174,
+      "rmse": 0.4007939020892561,
+      "noise_corrected_rmse": 0.3989138410772104,
+      "brier": 0.10028905639886826,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "kernel_first",
+      "nll": 0.20353685091021695,
+      "rmse": 0.38080013721793393,
+      "noise_corrected_rmse": 0.378820861564195,
+      "brier": 0.09358964731774574,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "kernel_six",
+      "nll": 0.3407327887152564,
+      "rmse": 0.5546980414995278,
+      "noise_corrected_rmse": 0.5533411406126003,
+      "brier": 0.17645238896946427,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "logit_first",
+      "nll": 0.27967321029140957,
+      "rmse": 0.3817141186671875,
+      "noise_corrected_rmse": 0.3797396068899179,
+      "brier": 0.09242209106737774,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "logit_six",
+      "nll": 0.2899313725197184,
+      "rmse": 0.4689017394450975,
+      "noise_corrected_rmse": 0.46729577561291924,
+      "brier": 0.12996217897644652,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "switch_first",
+      "nll": 0.28170028234557276,
+      "rmse": 0.4050614577875449,
+      "noise_corrected_rmse": 0.4032012961735275,
+      "brier": 0.10160947701558423,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "evaluation": "switch_six",
+      "nll": 0.37933256462012443,
+      "rmse": 0.6422733128208159,
+      "noise_corrected_rmse": 0.6411017930195386,
+      "brier": 0.2265575075563745,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "adaptive_mse",
+      "nll": 0.2949613950602067,
+      "rmse": 0.40997455682909006,
+      "noise_corrected_rmse": 0.4084357703767515,
+      "brier": 0.14441339342491868,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "adaptive_nll",
+      "nll": 0.32992006240377053,
+      "rmse": 0.4630872335588334,
+      "noise_corrected_rmse": 0.46172548896635024,
+      "brier": 0.16459820615321047,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "kernel_first",
+      "nll": 0.26309522160903503,
+      "rmse": 0.40451812640776735,
+      "noise_corrected_rmse": 0.4029585039039281,
+      "brier": 0.13696728200990538,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "kernel_six",
+      "nll": 0.44279447342909717,
+      "rmse": 0.6024094125994269,
+      "noise_corrected_rmse": 0.6013632360432656,
+      "brier": 0.24760067519689472,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "logit_first",
+      "nll": 0.3251998504551927,
+      "rmse": 0.4225495330763274,
+      "noise_corrected_rmse": 0.4210567054199042,
+      "brier": 0.1560746294867419,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "logit_six",
+      "nll": 0.3501406843789777,
+      "rmse": 0.4738843800061805,
+      "noise_corrected_rmse": 0.47255375026538915,
+      "brier": 0.1775105170883626,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "switch_first",
+      "nll": 0.3151451853450792,
+      "rmse": 0.4403433648108311,
+      "noise_corrected_rmse": 0.4389110618439302,
+      "brier": 0.15441472137698573,
+      "source_seeds": 10
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "evaluation": "switch_six",
+      "nll": 0.4723647903075937,
+      "rmse": 0.6638386001829956,
+      "noise_corrected_rmse": 0.6628893786816626,
+      "brier": 0.27731138787956433,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "adaptive_mse",
+      "nll": 0.2142820918800699,
+      "rmse": 0.3048605984771497,
+      "noise_corrected_rmse": 0.29282760899954013,
+      "brier": 0.10115206621257607,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "adaptive_nll",
+      "nll": 0.22229086579388158,
+      "rmse": 0.3215142709410687,
+      "noise_corrected_rmse": 0.31012811950435676,
+      "brier": 0.10652970089643812,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "kernel_first",
+      "nll": 0.22181887821911184,
+      "rmse": 0.336955332717924,
+      "noise_corrected_rmse": 0.32610875538014694,
+      "brier": 0.11237327317692482,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "kernel_six",
+      "nll": 0.4131128391517316,
+      "rmse": 0.6051345532748885,
+      "noise_corrected_rmse": 0.5991626253829093,
+      "brier": 0.23965885198717307,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "logit_first",
+      "nll": 0.3178760120263614,
+      "rmse": 0.4517374464814876,
+      "noise_corrected_rmse": 0.4437056959766874,
+      "brier": 0.15672158003410266,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "logit_six",
+      "nll": 0.32460457007628457,
+      "rmse": 0.4803035659643585,
+      "noise_corrected_rmse": 0.47275737917733296,
+      "brier": 0.1700394862544548,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "switch_first",
+      "nll": 0.2164430421254567,
+      "rmse": 0.3098124127609276,
+      "noise_corrected_rmse": 0.29797945430732137,
+      "brier": 0.10282317302362304,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "evaluation": "switch_six",
+      "nll": 0.23899257166735313,
+      "rmse": 0.34205463458499563,
+      "noise_corrected_rmse": 0.3313750098145854,
+      "brier": 0.11374563930758506,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "adaptive_mse",
+      "nll": 0.546130899045139,
+      "rmse": 0.4282120821857492,
+      "noise_corrected_rmse": 0.40440751426039484,
+      "brier": 0.30046558531031675,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "adaptive_nll",
+      "nll": 0.5634921495180778,
+      "rmse": 0.459334691041011,
+      "noise_corrected_rmse": 0.4372278681124497,
+      "brier": 0.30973695670591506,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "kernel_first",
+      "nll": 0.5755602820204716,
+      "rmse": 0.4843365969290364,
+      "noise_corrected_rmse": 0.4634239844734157,
+      "brier": 0.326344935340252,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "kernel_six",
+      "nll": 0.6774704961486762,
+      "rmse": 0.5683864874513525,
+      "noise_corrected_rmse": 0.5506750851252515,
+      "brier": 0.38829829018659157,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "logit_first",
+      "nll": 0.6338630034880592,
+      "rmse": 0.5493176987116565,
+      "noise_corrected_rmse": 0.5309706059456464,
+      "brier": 0.36484304492931374,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "logit_six",
+      "nll": 0.6448829700509203,
+      "rmse": 0.5692001335127715,
+      "noise_corrected_rmse": 0.5515148613150634,
+      "brier": 0.37414174680201806,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "switch_first",
+      "nll": 0.5603808276131509,
+      "rmse": 0.4577580748205281,
+      "noise_corrected_rmse": 0.435571240239542,
+      "brier": 0.30757769283125713,
+      "source_seeds": 10
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "evaluation": "switch_six",
+      "nll": 0.582402923979844,
+      "rmse": 0.4502728971528077,
+      "noise_corrected_rmse": 0.42769794501587166,
+      "brier": 0.31410341358195804,
+      "source_seeds": 10
+    }
+  ]
+}

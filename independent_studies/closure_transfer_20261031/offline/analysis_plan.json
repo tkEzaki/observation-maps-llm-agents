@@ -1,0 +1,30 @@
+{
+  "retrospective": true,
+  "api_calls": 0,
+  "training": "Old eight physical seeds only; native and independently mirrored trajectories.",
+  "selection": "Four folds, holding out consecutive seed pairs. Minimum equal-seed mean raw-action negative log likelihood. No selection on later cohorts.",
+  "candidates": [
+    "constant",
+    "linear6",
+    "quadratic6",
+    "knn64"
+  ],
+  "regularization": 0.0001,
+  "knn_neighbors": 64,
+  "knn_smoothing_per_class": 0.5,
+  "test": "Later four-seed four-policy cohort, and fixed-state held-out responses; outcomes already known at study design, therefore not prospective confirmation.",
+  "rollout_draws": 32,
+  "rollout_steps": 60,
+  "late_steps": "post-update41..60",
+  "inputs": {
+    "independent_studies\\reflection_confirmation_20261005\\protocol.json": "074a00c2e711e229247d31ef42d123ccaf57cc05f624f2dd025d04b8b5239fec",
+    "independent_studies\\reflection_confirmation_20261005\\runs\\real\\checkpoint.json": "29fe5545e5ae1e525b154bfe72e1704c5aada3a43e89dc433119dc7fff38b487",
+    "independent_studies\\mechanism_controls_20261031\\protocol.json": "e23f2227e0e1fa125433445445331e9ba98cd108928b7937a2ebdfe23edd1aeb",
+    "independent_studies\\mechanism_controls_20261031\\runs\\real\\checkpoint.json": "575f15def504bf0d950368ba4642c766d16729bd9282ee115adf173e0d8df699",
+    "independent_studies\\mechanism_controls_20261031\\design.json": "407aaba25caa77947de767f45a3c313c965a5a3cedc700e02308f2671b1de46d",
+    "independent_studies\\same_state_validation_20261031\\protocol.json": "d439d3b9b601cf27880818b4d6540d586d655c0cc6f9bcfedf243521c7fccb0a",
+    "independent_studies\\same_state_validation_20261031\\design.json": "5230e2c6bd7e13069885b5ce8d1415d1a7f05626d53953b11d98907068c63f7e",
+    "independent_studies\\same_state_validation_20261031\\analysis_real\\by_state.csv": "82436efd8983cb8519e36900d82f409edc79858c6470a97345a8c22266343f31"
+  },
+  "script_sha256": "3bfb0a757dc7b76080f4e0e321256a602e2125b837702152270f22526d407d9d"
+}

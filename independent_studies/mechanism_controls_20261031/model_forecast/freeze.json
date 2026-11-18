@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-10-31T02:02:35.465824+00:00",
+  "timing": "Computed during real acquisition, after protocol freeze; NOT pre-acquisition predictions or public preregistration.",
+  "status_before": {
+    "status": "running",
+    "updated_at_utc": "2026-10-31T02:02:19.778324+00:00",
+    "mode": "real",
+    "planned_tasks": 16320,
+    "terminal_tasks": 1904,
+    "valid_tasks": 1904,
+    "dispatches": 1904,
+    "unknown_dispatches": 0,
+    "complete": false,
+    "quality_passed": false,
+    "completed_steps_per_trajectory": 7,
+    "n_trajectories": 16
+  },
+  "status_after": {
+    "status": "running",
+    "updated_at_utc": "2026-10-31T02:02:19.778324+00:00",
+    "mode": "real",
+    "planned_tasks": 16320,
+    "terminal_tasks": 1904,
+    "valid_tasks": 1904,
+    "dispatches": 1904,
+    "unknown_dispatches": 0,
+    "complete": false,
+    "quality_passed": false,
+    "completed_steps_per_trajectory": 7,
+    "n_trajectories": 16
+  },
+  "draws_per_run_model": 64,
+  "total_virtual_trajectories": 2048,
+  "refitting": false,
+  "api_calls": 0,
+  "inputs": {
+    "independent_studies/response_transport_20261005/results/models/Claude_first_state.npz": "eb7fb8a1f4847df50c254a804801558327512a87ee11db8b460331ce7f78e8d7",
+    "independent_studies/response_transport_20261005/results/models/Claude_three_state.npz": "c536b0c9e30047fcdcced3f3f34756d10c10de37d03c9d92f96bcd1a9c86599d",
+    "independent_studies/mechanism_controls_20261031/protocol.json": "e23f2227e0e1fa125433445445331e9ba98cd108928b7937a2ebdfe23edd1aeb",
+    "independent_studies/mechanism_controls_20261031/design.json": "407aaba25caa77947de767f45a3c313c965a5a3cedc700e02308f2671b1de46d",
+    "independent_studies/response_transport_20261005/study_lib.py": "d9bfb365fad29b233b3417315ac0e1e68399d76c41f5041e806e46c97616e18b"
+  },
+  "outputs": {
+    "frozen_model_forecast.py": "467b226b37f893a3c6a674b2fd084496dd87e68f29c1038a5368b983e45195ac",
+    "model_forecast/draws.csv": "74a7bb69306c77950f3838b33c224ffa5d43e59a9ea9f4676540d9b7f2d9bb25",
+    "model_forecast/predictions.csv": "1da2e72f4406c650ddfc760b2860e741fbdaa147076bedd265d86d19f16e941a",
+    "model_forecast/predicted_effects.csv": "fc456a3d2f26c640fc2a24436c2059ef72cf9c37c805fd9fc7f18073dc6fcaba"
+  }
+}

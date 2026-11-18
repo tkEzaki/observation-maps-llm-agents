@@ -1,0 +1,351 @@
+{
+  "steps": 200,
+  "n_agents": 17,
+  "physical_seeds": [
+    202611011501,
+    202611011502,
+    202611011503,
+    202611011504,
+    202611011505,
+    202611011506,
+    202611011507,
+    202611011508
+  ],
+  "policies": [
+    "native",
+    "independent_mirror",
+    "shared_mirror"
+  ],
+  "omega": [
+    -0.05,
+    -0.043750000000000004,
+    -0.037500000000000006,
+    -0.03125,
+    -0.025,
+    -0.018750000000000003,
+    -0.012499999999999997,
+    -0.006249999999999999,
+    0.0,
+    0.006249999999999999,
+    0.012499999999999997,
+    0.018750000000000003,
+    0.02500000000000001,
+    0.03125,
+    0.037500000000000006,
+    0.04375,
+    0.05
+  ],
+  "coupling": 0.1,
+  "model": "claude-haiku-4-5-20251001",
+  "temperature": 0.7,
+  "windows": {
+    "early_41_60": [
+      41,
+      60
+    ],
+    "primary_61_200": [
+      61,
+      200
+    ],
+    "terminal_161_200": [
+      161,
+      200
+    ]
+  },
+  "primary_predictor": "quadratic6",
+  "secondary_predictor": "four_parameter",
+  "created_at_utc": "2026-11-01T02:22:33.287850+00:00",
+  "initial_phases": {
+    "202611011501": [
+      -1.3063747559795347,
+      1.8990652579810758,
+      -2.210263612455087,
+      -2.7535484573618465,
+      2.065091773961007,
+      0.9337914219088859,
+      2.463040702799873,
+      0.20808890352733833,
+      2.1611941644239856,
+      -0.657872382690806,
+      2.5314728967854894,
+      -0.1649831813919138,
+      3.098907717610164,
+      -1.6638022901285607,
+      0.4110954271184881,
+      -1.251609195439718,
+      1.606277752166017
+    ],
+    "202611011502": [
+      -1.0056494449054818,
+      2.2240588406124475,
+      -2.158162532359695,
+      -1.2324590575254544,
+      -2.5567163456262865,
+      -1.8106778927843397,
+      2.8124168938976357,
+      -1.702208164523908,
+      3.1353810989626787,
+      2.0796861050792685,
+      2.751416070901362,
+      3.0041907620219455,
+      2.701628873250418,
+      -1.8824304557396596,
+      0.14478028882319416,
+      -3.1214302726741225,
+      -2.318210288513297
+    ],
+    "202611011503": [
+      -1.3518686941954225,
+      1.0071626105330038,
+      1.427150279186086,
+      3.041304608334918,
+      2.8811598474315137,
+      -2.955837427792508,
+      0.8161595401218129,
+      -0.022175543839369816,
+      -1.069618595245272,
+      1.665872849386897,
+      -1.57959950686319,
+      -3.1397009408441554,
+      -0.31269975800367256,
+      2.2002347350167923,
+      -2.326713363123866,
+      2.6354825050185626,
+      -1.8771142719709475
+    ],
+    "202611011504": [
+      -2.9345667949335787,
+      -0.6166085007917936,
+      -2.9006231667556084,
+      -0.11115708384903389,
+      -1.0261894090665789,
+      0.1473955672117211,
+      -0.06559809362214697,
+      -0.630609556364619,
+      -1.8337536794450384,
+      0.24435087747095974,
+      3.133755198188692,
+      2.3900668010836146,
+      -0.9279441658715699,
+      2.2479052039958374,
+      -0.4395351019772975,
+      -2.5483045410664875,
+      1.5220221369106675
+    ],
+    "202611011505": [
+      -0.4379656858472081,
+      0.159187841057578,
+      -2.1006718679822916,
+      0.8990726834345875,
+      -1.2604160567458182,
+      -0.05644260069665119,
+      2.343725908086845,
+      -2.0945711825199993,
+      0.06427127130443555,
+      2.6250506265358933,
+      1.1066640474452347,
+      -0.014082926705258902,
+      1.0440703401233211,
+      -2.2056573631789416,
+      2.021193369285749,
+      0.25858872218541595,
+      -1.0413578676157784
+    ],
+    "202611011506": [
+      -1.2442284537103472,
+      -0.8022754698889223,
+      -2.144036485264481,
+      1.8311882429041217,
+      0.5483054436959529,
+      -0.05677987903482906,
+      -2.273396187098558,
+      -0.02113259807415213,
+      1.876743285492977,
+      1.0506487033752245,
+      2.409223279113963,
+      2.614677441026471,
+      2.6368856473947186,
+      -0.3339566206290092,
+      -2.3272131346562617,
+      2.715096032074846,
+      0.27472545341151466
+    ],
+    "202611011507": [
+      0.28528254557558563,
+      -2.61399719577313,
+      -2.634335954074336,
+      1.8288453128015316,
+      1.5308737683577496,
+      -0.34359660881255527,
+      0.16865347848930634,
+      0.0889616574401586,
+      1.7095695056775506,
+      1.7196901493225143,
+      1.9523883096857375,
+      2.697921018085639,
+      1.987985999264855,
+      -1.8935462177832505,
+      -2.7863161105859837,
+      0.028921096279303615,
+      0.341908563722932
+    ],
+    "202611011508": [
+      1.833161742842731,
+      -2.25731713765913,
+      -1.049111933339836,
+      0.7018064093756875,
+      -0.8371320784103937,
+      2.246423894128963,
+      -1.7048363506223327,
+      2.2320801300854773,
+      0.21100103050022812,
+      -2.842930038654932,
+      0.15888390788482498,
+      0.47952687157137674,
+      0.7749504497870703,
+      2.6515459079024986,
+      0.8437370134615141,
+      -2.7522870652857025,
+      2.601191138491971
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "Claude__native__seed202611011501",
+      "physical_seed": 202611011501,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011501",
+      "physical_seed": 202611011501,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011501",
+      "physical_seed": 202611011501,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011502",
+      "physical_seed": 202611011502,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011502",
+      "physical_seed": 202611011502,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011502",
+      "physical_seed": 202611011502,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011503",
+      "physical_seed": 202611011503,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011503",
+      "physical_seed": 202611011503,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011503",
+      "physical_seed": 202611011503,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011504",
+      "physical_seed": 202611011504,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011504",
+      "physical_seed": 202611011504,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011504",
+      "physical_seed": 202611011504,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011505",
+      "physical_seed": 202611011505,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011505",
+      "physical_seed": 202611011505,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011505",
+      "physical_seed": 202611011505,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011506",
+      "physical_seed": 202611011506,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011506",
+      "physical_seed": 202611011506,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011506",
+      "physical_seed": 202611011506,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011507",
+      "physical_seed": 202611011507,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011507",
+      "physical_seed": 202611011507,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011507",
+      "physical_seed": 202611011507,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed202611011508",
+      "physical_seed": 202611011508,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed202611011508",
+      "physical_seed": 202611011508,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed202611011508",
+      "physical_seed": 202611011508,
+      "controller": "shared_mirror"
+    }
+  ],
+  "planned_responses": 81600,
+  "workers": 8,
+  "endpoint": "https://api.anthropic.com",
+  "providers": {
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "maximum_dispatched_attempts_per_task": 3,
+  "primary_effect": "Independent reflection minus native: paired mean r1 over post-update steps61–200",
+  "secondary_effects": "Shared minus independent; shared minus native; steps41–60 and161–200; terminal minus early differences",
+  "analysis": "Bootstrap physical seeds10000 times, preserving policies. Report8 paired values, sign count and exact one-sided sign test for prespecified positive primary effect. No temporal/agent pseudoreplication. Intervals approximate at8 seeds.",
+  "prediction_validation": "Report both fixed models; primary remains quadratic6. Separately report24-run mean RMSE, mean residual, per-seed residuals and three contrast residuals for each window. Primary window engineering checks: RMSE<=0.05 and each absolute contrast residual<=0.05; these are not equivalence tests or proof of contrast-sign agreement.",
+  "stopping": "No outcome-based stopping, model substitution, new seeds, refitting or top-up. Preserve in-flight responses. Unknown dispatches stop resume pending review.",
+  "parser": "Exactly one social_action key; complete outer JSON fence allowed. Invalid response is retained and stops; no fallback and no replacement.",
+  "resume": "Append-only journal, process lock, atomic checkpoint per full step. Rebuild pending step prompts and match hashes. Resume only missing tasks within cumulative original attempt/cost limits. Crash-unknown requests are not silently retried."
+}

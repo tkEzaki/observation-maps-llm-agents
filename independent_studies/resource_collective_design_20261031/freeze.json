@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-31T14:31:54.795670+00:00",
+  "local": {
+    "study.py": "551950cd625f7211c1e06081d100550c4163b77c2e2c9e4c5987843951c70b10",
+    "kernel.py": "5332f8f6d789a987b5118793081312641e604296331aabeda38d4ac7a08b5057",
+    "analyze.py": "4d572fd6e09cd3e269f91ef5f2644add1b683c9b9d083e2e2994ec95b09e6feb",
+    "protocol.json": "fa7736530458f08376b63392d6fa0ea7973ff4daa2891c58f2118fc2bec5ce15",
+    "prompts.json": "2686f16d1f8a4405f6273cf530b375aad46ff88d0efc5e7cf3ca92bc15650ece",
+    "tasks.json": "b259c39ab92dd629097725b7114bc336f69862a1c9033c06e8491c63cd73d1fd",
+    "coverage.json": "dbc85c5f19e3636155d011128d2a722467168d85c4ecc8de99cb217297689a0a",
+    "pre_real_amendment.json": "55008552aefdb37e9d5644f3171c2d19e1ffed3813e5b61b9a7f5ee772c6cd2b",
+    "missing_outcome_amendment.json": "f9dbcedccbfc506deb35970cefd88fbb477fba06ea7350123ede7db48b9d4a0f"
+  },
+  "sources": {
+    "independent_studies/same_state_validation_20261031/lib.py": "b775ed71aa197b849591cafeecdf9f14c5dd2095b10bc3d99e0bad9eb8d1cd5c",
+    "independent_studies/same_state_validation_20261031/run.py": "e8da6df580de4448ddbbcf454ab6ccaef751cfb28d0bb6e886532fea2f5293fd",
+    "independent_studies/same_state_validation_20261031/resource_recovery.py": "ed2c433ef1dcb09e76edd9c6397be94508473dbd1c75e5fd3c3a3ed11f8b8da6",
+    "independent_studies/same_state_validation_20261031/prompts.json": "f9e6b14f4883dd7e0e3d75ed173c4995e8ef80e8c5cf947521a61307708e9dcd",
+    "independent_studies/closure_transfer_20261031/resource_confirmation/prompts.json": "55e63af9a239c1eb57c3623c5e3b89419b368ac0c2fd2321dd3871cd8ff479c5",
+    "independent_studies/closure_transfer_20261031/resource_confirmation/protocol.json": "d8e754b9160abd5e68f64e04200541c8a0bfaa827c4f4e3421cc27138ba9a0fc",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4"
+  },
+  "amended_at_utc": "2026-10-31T14:44:55.914081+00:00"
+}

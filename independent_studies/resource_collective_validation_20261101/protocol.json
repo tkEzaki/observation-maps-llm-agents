@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-31T15:44:06.812944+00:00",
+  "provider": "Anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "endpoint": "https://api.anthropic.com",
+  "temperature": 0.7,
+  "max_output_tokens": 64,
+  "workers": 8,
+  "max_attempts": 3,
+  "planned_responses": 16320,
+  "initial_conditions": 8,
+  "policies": [
+    "independent",
+    "shared"
+  ],
+  "agents": 17,
+  "steps": 60,
+  "primary": "Per-run mean normalized congestion sum(n_j^2)/97 over post-update steps1..60. Paired shared-minus-independent contrast across8 whole initial conditions; positive is worse shared congestion.",
+  "secondary": "Steps41..60 mean congestion and one-/two-step squared occupancy-fraction changes. Report all runs, errors and failures; no changing primary or time window.",
+  "prediction": "Primary: Dirichlet(counts+0.5) conditional choice table plus globally pooled format-failure rate Beta(2.5,14670.5). Point uses posterior means. Conditional simulations use exact frozen initial assignments and frame schedules. Source table covers all inputs; this tests new collective trajectories, not unseen inputs.",
+  "format_failure": "Complete initial choice JSON decoded as in calibration. Invalid/truncated output: retain raw and hold current physical resource for that individual, no re-request. Predict this operational fallback. Global pooling assumes failure rate independent of input; use empirical per-input failure rates and1% uniform failure as declared stress analyses.",
+  "transport": "Every attempt durably logged. Timeout/connection failures retry at most3, no SDK retries. A third failed attempt, fatal error, or wrong model sets the global stop event immediately. No step update unless all272 outcomes at that step are available. Unknown dispatch blocks resumption. In-flight calls may finish after stop; no new call starts after the stop flag.",
+  "stopping": "Never replace an observed response.",
+  "new_collective_observations": 0
+}

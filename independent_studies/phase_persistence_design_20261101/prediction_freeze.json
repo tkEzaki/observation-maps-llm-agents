@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-11-01T01:50:24.614475+00:00",
+  "api_calls_before_freeze": 0,
+  "files": {
+    "protocol.json": "0dfcab4003b5775fdf5f54aa522b583944deae9ad9309add159711e58bc05c00",
+    "design.json": "4f4b057bd187a30b6778c1d152ded2825cf0f9f036f8457c8aeaa95c7d3f15a7",
+    "input_freeze.json": "dc428862803c7b3d4b05515185f301acdf6236de96ddad0a2be50f9d8a03a278",
+    "predictions.csv": "3c97da550e5e7112ab947fb4d2873c4cee17700dd3ca24c145014ef45dbf624e",
+    "predicted_trajectories.csv": "fe6ccd8bd07180428dcc677783d4559deca5262934272626eaff1e2115349ab4",
+    "effects.json": "22c70a20a3a403866d3351680d716b06b1b48484c00d8dd9a30dbaba50364ef8",
+    "effect_changes.json": "35c4da2cd45e2b45db0b0f05eedbe273db79cfb3ec63520110a7aad4c2f4f445",
+    "summary.json": "55a2e3e9841a7bdcf4f10a6680430fa36b577ca96eb6b062a6577118bcd4e5e2",
+    "trajectories_quadratic6.npz": "b28316ca3f160101c1df81d41dcc2900b486b624261399fd9fdf74b8f49d29b1",
+    "trajectories_four_parameter.npz": "4be291c3c173954f31fadf0e49442e6fc167ea77ec54518b6bce108658c9d329",
+    "verification_old.json": "e9dd75f1ea9af73f72298725cef638d07442f1a8cc2f17a717c1e2e237ab3900",
+    "forecast.py": "025be40f50a1bbac952c3569dc65d3464847e860470b3144adad58b67a417b7f"
+  },
+  "not_a_public_preregistration": true
+}

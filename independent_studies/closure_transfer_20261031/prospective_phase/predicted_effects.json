@@ -1,0 +1,32 @@
+[
+  {
+    "model": "quadratic6",
+    "contrast": "shared_mirror - independent_mirror",
+    "mean_prediction": 0.02316671596699417
+  },
+  {
+    "model": "quadratic6",
+    "contrast": "independent_mirror - native",
+    "mean_prediction": 0.11676093032609078
+  },
+  {
+    "model": "quadratic6",
+    "contrast": "shared_mirror - native",
+    "mean_prediction": 0.13992764629308496
+  },
+  {
+    "model": "four_parameter",
+    "contrast": "shared_mirror - independent_mirror",
+    "mean_prediction": 0.0447443321972848
+  },
+  {
+    "model": "four_parameter",
+    "contrast": "independent_mirror - native",
+    "mean_prediction": 0.08767726307369482
+  },
+  {
+    "model": "four_parameter",
+    "contrast": "shared_mirror - native",
+    "mean_prediction": 0.13242159527097963
+  }
+]

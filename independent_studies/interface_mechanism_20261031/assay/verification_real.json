@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "mode": "real",
+  "responses": 8192,
+  "dispatches": 8192,
+  "all_payloads_reconstructed": true,
+  "information_preserved": true,
+  "journal_sha256": "76ff61caeae6af2d99fba70321a2cd8cda40b8938ac942e2225d83a6b3227587"
+}

@@ -1,0 +1,118 @@
+{
+  "mode": "real",
+  "synthetic": false,
+  "effects": [
+    {
+      "provider": "GPT",
+      "order_effect_squared": 0.14013671875,
+      "order_effect_bonferroni_interval": [
+        0.1087646484375,
+        0.1739501953125
+      ],
+      "even_energy_change_sin_minus_cos": -0.00823974609375,
+      "even_change_bootstrap95": [
+        -0.021240234375,
+        0.00531005859375
+      ]
+    },
+    {
+      "provider": "Claude",
+      "order_effect_squared": 0.224365234375,
+      "order_effect_bonferroni_interval": [
+        0.1971435546875,
+        0.249267578125
+      ],
+      "even_energy_change_sin_minus_cos": -0.16064453125,
+      "even_change_bootstrap95": [
+        -0.1715087890625,
+        -0.149169921875
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "selected": "sign",
+      "cv_nll": 0.240901193799745,
+      "constant_cv_nll": 0.6974719993891044,
+      "cv_mean_action_rmse": 0.35906198741384,
+      "quality_gate": false
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "selected": "sign",
+      "cv_nll": 0.5983045692149915,
+      "constant_cv_nll": 0.8501659540086292,
+      "cv_mean_action_rmse": 0.46728415646839927,
+      "quality_gate": false
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "selected": "four_parameter",
+      "cv_nll": 0.2558746484957618,
+      "constant_cv_nll": 0.7172679642220585,
+      "cv_mean_action_rmse": 0.363707835829378,
+      "quality_gate": false
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "selected": "quadratic6",
+      "cv_nll": 0.36407291189641994,
+      "constant_cv_nll": 0.8349386092176951,
+      "cv_mean_action_rmse": 0.46503846361295603,
+      "quality_gate": false
+    }
+  ],
+  "four_parameter": [
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "coef": [
+        -0.2601333594741019,
+        0.5853295866684632,
+        5.020173501406187,
+        -5.4898049086742615
+      ]
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "coef": [
+        -0.03267798917848661,
+        0.25156485300532955,
+        2.125793473163274,
+        -2.225047031191687
+      ]
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "coef": [
+        0.14012158890908608,
+        5.22545651138606,
+        5.922633872439072,
+        -3.412248948177924
+      ]
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "coef": [
+        0.07018776188229929,
+        2.4616890092066295,
+        5.5619101163490186,
+        -1.5344249358052064
+      ]
+    }
+  ],
+  "collective_gate_passed": false,
+  "gate_components": {
+    "order_effect_gt_001": true,
+    "all_four_cv_models_pass": false
+  },
+  "training_only_for_future_collective": true
+}

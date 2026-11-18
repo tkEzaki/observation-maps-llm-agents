@@ -1,0 +1,82 @@
+estimator,m,policy,mean_congestion,late_congestion,late_lag1_squared_fraction_change,late_lag2_squared_fraction_change,scope,mean_congestion_equal_counts,late_congestion_equal_counts
+MLE,1,native,1.0002086336979397,1.0000000000000004,0.004884998982291903,0.004597646100980616,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017706730772125,1.0
+MLE,1,independent,1.000208850149361,1.0000000000000004,0.0048849989822918995,0.0045976461009806105,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017705632400442,1.0
+MLE,1,shared,1.0002088501493611,1.0000000000000004,0.0048849989822918995,0.0045976461009806105,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017705632400442,1.0
+MLE,4,native,1.0621254275302314,1.062114967529639,0.05436603499753878,0.04904697420964202,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0627690219330088,1.0621149675296393
+MLE,4,independent,1.0546569003167818,1.0546445982480501,0.050345293646868565,0.04266316686956001,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0553226380554295,1.05464459824805
+MLE,4,shared,1.061860899946239,1.0618494598398438,0.054200142052458815,0.04918217661132817,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.062506449428114,1.0618494598398434
+MLE,17,native,2.978030751363034,2.979381443298969,2.0,0.0,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.9781067383384814,2.979381443298969
+MLE,17,independent,2.2789450757576875,2.278348411774818,1.5294081743585644,0.02941212520159379,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.2798863488705803,2.278348392882912
+MLE,17,shared,2.9780307513630344,2.979381443298969,2.0,1.0,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.9781067383384814,2.979381443298969
+Dirichlet_half,1,native,1.0016311733421976,1.0014139811999956,0.0048655413463355,0.005035432916179333,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0032395054883663,1.0014139811999958
+Dirichlet_half,1,independent,1.0016358238631522,1.0014184685834944,0.004867112821267084,0.005053416193218485,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0032437977609547,1.001418468583494
+Dirichlet_half,1,shared,1.0016358238631522,1.0014184685834937,0.0048671128212670195,0.005053416193218418,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0032437977609547,1.0014184685834935
+Dirichlet_half,4,native,1.0601913495538944,1.0601784496501303,0.05136711681427798,0.047406377848610085,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0608791808459734,1.06017844965013
+Dirichlet_half,4,independent,1.0531042031544533,1.0530884356823003,0.04767683627864961,0.04153597410633117,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0538132005261032,1.053088435682301
+Dirichlet_half,4,shared,1.0599418515263888,1.0599279987675942,0.05121765112672075,0.047593153173460974,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0606314983263492,1.0599279987675945
+Dirichlet_half,17,native,2.7997193305368864,2.8007253052452272,1.8439379366333637,0.5656731714369018,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.7997690397686923,2.80072530193088
+Dirichlet_half,17,independent,2.32131867111671,2.3183436417335876,1.5118123015542744,0.2112592077005071,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.322059166179977,2.318343641739518
+Dirichlet_half,17,shared,2.8001252200284283,2.8011173740650017,1.84416366292568,0.8757546297042396,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.8001717684384926,2.8011173740650013
+least_load_random_ties,1,native,1.0001996805347462,1.0000000000000004,0.00244249949114595,0.0035919110163911026,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017476346509095,1.0
+least_load_random_ties,1,independent,1.0001996805347462,1.0000000000000004,0.00244249949114595,0.0035919110163911026,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017476346509095,1.0
+least_load_random_ties,1,shared,1.0001996805347462,1.0000000000000004,0.002442499491145948,0.003591911016391101,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017476346509095,1.0
+least_load_random_ties,4,native,1.027722795440102,1.0276542498084484,0.030275420523024607,0.02276484975827241,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0285105024855465,1.0276542498084482
+least_load_random_ties,4,independent,1.027722795440102,1.0276542498084484,0.030275420523024607,0.02276484975827241,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0285105024855465,1.0276542498084482
+least_load_random_ties,4,shared,1.027722795440102,1.0276542498084487,0.030275420523024607,0.0227648497582724,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0285105024855465,1.0276542498084493
+least_load_random_ties,17,native,2.279078070021423,2.2784016891048244,1.5294395858702228,0.029409423874806367,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.2803288066780865,2.278412164499263
+least_load_random_ties,17,independent,2.279078070021423,2.2784016891048244,1.5294395858702228,0.029409423874806367,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.2803288066780865,2.278412164499263
+least_load_random_ties,17,shared,2.279078070021423,2.2784016891048244,1.5294395858702228,0.029409423874806367,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.2803288066780865,2.278412164499263
+least_load_fixed_ties,1,native,1.0001996805347462,1.0000000000000004,9.55576319083553e-133,1.5738904079023223e-132,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017476346509095,1.0
+least_load_fixed_ties,1,independent,1.0001996805347462,1.0000000000000004,0.00244249949114595,0.0035919110163911026,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017476346509095,1.0
+least_load_fixed_ties,1,shared,1.0001996805347462,1.0000000000000004,0.0024424994911459432,0.003591911016391093,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0017476346509095,1.0
+least_load_fixed_ties,4,native,1.0009940820744985,1.0000000000000004,6.496452671619139e-17,4.6454707509790465e-17,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0019619593615956,1.0000000000000002
+least_load_fixed_ties,4,independent,1.027722795440102,1.0276542498084484,0.030275420523024607,0.02276484975827241,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0285105024855465,1.0276542498084482
+least_load_fixed_ties,4,shared,1.037620624521744,1.037586580451276,0.035417185156306305,0.031203897645353806,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.0383708051906766,1.0375865804512756
+least_load_fixed_ties,17,native,2.8858283409705368,2.8917437635523306,1.911449455389755,0.0,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.9614356624665867,2.9639476698619402
+least_load_fixed_ties,17,independent,2.279078070021423,2.2784016891048244,1.5294395858702228,0.029409423874806367,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.2803288066780865,2.278412164499263
+least_load_fixed_ties,17,shared,2.9707729637385945,2.979381443298969,1.999999999999999,0.9999999999999994,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",2.976288659793811,2.979381443298968
+uniform,1,native,1.1099656357388197,1.1099656357388274,0.0046136101499423335,0.008955831467535105,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1134020618556573,1.1099656357388277
+uniform,1,independent,1.1099656357388197,1.1099656357388274,0.0046136101499423335,0.008955831467535105,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1134020618556573,1.1099656357388277
+uniform,1,shared,1.1099656357388206,1.1099656357388312,0.0046136101499423335,0.008955831467535105,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1134020618556582,1.109965635738831
+uniform,4,native,1.1099656357388306,1.1099656357388303,0.0184544405997693,0.0325666598819458,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1124303827467703,1.10996563573883
+uniform,4,independent,1.1099656357388306,1.1099656357388303,0.0184544405997693,0.0325666598819458,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1124303827467703,1.10996563573883
+uniform,4,shared,1.1099656357388306,1.1099656357388303,0.018454440599769303,0.03256665988194581,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1124303827467703,1.10996563573883
+uniform,17,native,1.1099656357388101,1.109965635738796,0.07843137254901647,0.07843137254901641,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1099656357388097,1.109965635738796
+uniform,17,independent,1.1099656357388101,1.109965635738796,0.07843137254901647,0.07843137254901641,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.1099656357388097,1.109965635738796
+uniform,17,shared,1.1099656357388092,1.1099656357387944,0.07843137254901641,0.07843137254901636,"Lag contrast is descriptive, not proof of a period-two orbit; batch duration differs across m.",1.109965635738809,1.109965635738794
+missing_A,1,native,1.000209673405913,1.0000000000000004,,,,,
+missing_A,1,independent,1.0002098164235107,1.0000000000000004,,,,,
+missing_A,1,shared,1.0002098164235107,1.0000000000000004,,,,,
+missing_A,4,native,1.06218031273271,1.062169962422853,,,,,
+missing_A,4,independent,1.054707052611424,1.0546947036393988,,,,,
+missing_A,4,shared,1.0618974106567556,1.0618860054998023,,,,,
+missing_A,17,native,2.97793239735577,2.979381443298969,,,,,
+missing_A,17,independent,2.288738161341956,2.286404095090147,,,,,
+missing_A,17,shared,2.977945978813203,2.979381443298969,,,,,
+missing_B,1,native,1.000208941717462,1.0000000000000004,,,,,
+missing_B,1,independent,1.0002091959704806,1.0000000000000004,,,,,
+missing_B,1,shared,1.0002091959704806,1.0000000000000004,,,,,
+missing_B,4,native,1.062150134001976,1.062139702580613,,,,,
+missing_B,4,independent,1.054662479964961,1.054650124069502,,,,,
+missing_B,4,shared,1.0618728172699747,1.0618613408029305,,,,,
+missing_B,17,native,2.9779423690961875,2.979381443298969,,,,,
+missing_B,17,independent,2.2843271062751396,2.2831582711201803,,,,,
+missing_B,17,shared,2.9779274048308464,2.979381443298969,,,,,
+missing_C,1,native,1.0002086929162886,1.0000000000000004,,,,,
+missing_C,1,independent,1.000208912340043,1.0000000000000004,,,,,
+missing_C,1,shared,1.000208912340043,1.0000000000000004,,,,,
+missing_C,4,native,1.062083450332057,1.0620730762419721,,,,,
+missing_C,4,independent,1.0546525358383287,1.0546402226386538,,,,,
+missing_C,4,shared,1.0618253019114732,1.06181397415517,,,,,
+missing_C,17,native,2.977969101980057,2.979381443298969,,,,,
+missing_C,17,independent,2.286129681059495,2.284678842517425,,,,,
+missing_C,17,shared,2.977944431288165,2.979381443298969,,,,,
+missing_own,1,native,1.0002090832492907,1.0000000000000004,,,,,
+missing_own,1,independent,1.000209287696863,1.0000000000000004,,,,,
+missing_own,1,shared,1.000209287696863,1.0000000000000004,,,,,
+missing_own,4,native,1.0621260242470838,1.062115632674704,,,,,
+missing_own,4,independent,1.0546707812638336,1.0546584394187146,,,,,
+missing_own,4,shared,1.0618521936590213,1.0618407972574462,,,,,
+missing_own,17,native,2.9779331478059317,2.979381443298969,,,,,
+missing_own,17,independent,2.2894963135859836,2.287287292512782,,,,,
+missing_own,17,shared,2.9779156627302896,2.979381443298969,,,,,

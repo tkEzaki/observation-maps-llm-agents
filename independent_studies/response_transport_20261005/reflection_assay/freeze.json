@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-10-05T03:48:27.378381+00:00",
+  "files": {
+    "prepare.py": "babf3c01e1c24309bbc8602e074b70e8c45365edbe6a24e058fe2aff57bcc12c",
+    "run.py": "24cd91ef009085f97de2c8619eb0c517b2d79ca59e10b697fdeefc97206efa45",
+    "analyze.py": "d3fb253f6d9302ac51391beb2bcfa1cc03d837923f5e867aa03edf7603c0c404",
+    "protocol.json": "5c6110d4a53dfc52c60d60ec75a426aae807566c5c174d5dcca17fc7c4bfcc7c",
+    "fields.json": "d1ed942fd4971260967211e7fb07acda9ee29e73927d03e680db7f4a179b0244",
+    "prompts.json": "66a7e91e45d92648e40d02897ad730c0434a47ca3bed1629b9bef5138b93e6f6",
+    "tasks.json": "6bc688461d58e099fe8afa2a1fb6ba4dc5a0fb1f21f10d18646aaa668baa85c4",
+    "frozen_predictions.csv": "773f8074815c305ae9a33e6f945e895db3df9dc67c411f8295b1466739d8e803"
+  },
+  "inputs": {
+    "independent_studies/response_transport_20261005/results/reflection_assay_draft.json": "0cd7d6081208238f1fa1804ed19626da8d2ed6142812b3c26649f3f02d7fa7aa",
+    "independent_studies/response_transport_20261005/results/output_verification.json": "9683424f50d7aa8831f16c5d80f2118880dadee14482f611591e819e2c3fb81d",
+    "independent_studies/response_transport_20261005/results/tables/reflection_frozen_predictions.csv": "773f8074815c305ae9a33e6f945e895db3df9dc67c411f8295b1466739d8e803",
+    "independent_studies/response_transport_20261005/study_lib.py": "d9bfb365fad29b233b3417315ac0e1e68399d76c41f5041e806e46c97616e18b",
+    "independent_studies/response_transport_20261005/seed_replay/runs/real/summary.json": "cee3c8217f17083225bb29e8a794ba6bb11a7ae5b82a9aedeb61f7114cb6d397",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/state_failure_audit_20261005/targeted_assay/stats.py": "1e857546bcfd659feeeb5bae8881b25ecb52042b4ae34c1da22deb5d9ee08f2a",
+    "independent_studies/state_failure_audit_20261005/targeted_assay/analysis/action_distributions.csv": "134bea3b7e6cbd08c79c15ebe150c99ee25962c1638a31b0fb8898d6f13d2a2d",
+    "independent_studies/state_failure_audit_20261005/targeted_assay/fields.json": "91c2221973e1167af1a27ba25b2d5b00d1aa1f7a6c982ce2c010eb56c0bce690",
+    "independent_studies/response_transport_20261005/results/models/Claude_first_state.npz": "eb7fb8a1f4847df50c254a804801558327512a87ee11db8b460331ce7f78e8d7",
+    "independent_studies/response_transport_20261005/results/models/Claude_first_state_without_old_A.npz": "ec6342f05f5e2638c045e0d5f47e1de547245d0911c577ea24cead48864f618f",
+    "independent_studies/response_transport_20261005/results/models/Claude_sign_only.npz": "1b0d8d3ed3f8bb969e5c6dbc542a0dd088ff822861b005814b189e3678035a1c",
+    "independent_studies/response_transport_20261005/results/models/Claude_sign_only_without_old_A.npz": "b597b8a98381c22de67f43f12d93e4cfac21ceb0c8adae092aa3fd74eb9f6612",
+    "independent_studies/response_transport_20261005/results/models/Claude_three_state.npz": "c536b0c9e30047fcdcced3f3f34756d10c10de37d03c9d92f96bcd1a9c86599d",
+    "independent_studies/response_transport_20261005/results/models/Claude_three_state_without_old_A.npz": "ce2970e6b2569043f6852794b63d0658b815d151838038092b466547e639ac06",
+    "independent_studies/response_transport_20261005/results/models/GPT_first_state.npz": "cd11c4c0ce0abc82e441cf3dd0e2998d5b76245567031edcec098cfab3d584d8",
+    "independent_studies/response_transport_20261005/results/models/GPT_first_state_without_old_A.npz": "4212f24cc939d9120b379b911ee1961edf01dc80896ca296cd081153e9046a87",
+    "independent_studies/response_transport_20261005/results/models/GPT_sign_only.npz": "a77ea0cdfdfb49f468fe17ed25ffd5a3d2846c4adcb8ced7bbda284fc58ce09a",
+    "independent_studies/response_transport_20261005/results/models/GPT_sign_only_without_old_A.npz": "12295c2fc86ee72ce3be82281463aa794a031a85cd20ece27815ca44d9d82fec",
+    "independent_studies/response_transport_20261005/results/models/GPT_three_state.npz": "80443444d9b3b86c5f653f52cbca681bb1354866d9d606e14427fa4b4668f27d",
+    "independent_studies/response_transport_20261005/results/models/GPT_three_state_without_old_A.npz": "0a44f98085f4637e22401d6cafd92409a7496d7acb69e2250eef084309d86915"
+  }
+}

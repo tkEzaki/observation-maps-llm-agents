@@ -1,0 +1,14 @@
+{
+  "previous_study_manifests_unchanged": {
+    "mechanism_controls_20261031": 82,
+    "same_state_validation_20261031": 71
+  },
+  "all_source_hashes_unchanged": true,
+  "independent_resource_choice_extraction": true,
+  "primary_p_value_recomputed": true,
+  "all_secondary_resource_inputs_correct": true,
+  "late_coherence_independently_recomputed": true,
+  "prospective_models_and_predictions_frozen": true,
+  "new_phase_api_calls": 0,
+  "new_resource_api_calls": 2304
+}

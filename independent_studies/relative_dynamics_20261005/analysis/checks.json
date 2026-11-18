@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-05T06:18:58.384595+00:00",
+  "real_calls": 8160,
+  "valid_responses": 8160,
+  "trajectories": 8,
+  "steps": 60,
+  "all_states_and_dynamic_prompts_reconstructed": true,
+  "mirror_action_mapping_verified": true,
+  "common_rotation_invariance_verified": true,
+  "protected_files_unchanged": 2782,
+  "inferential_tests": 0
+}

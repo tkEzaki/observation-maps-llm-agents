@@ -1,0 +1,68 @@
+{
+  "created_at_utc": "2026-11-01T01:46:58.529497+00:00",
+  "steps": 200,
+  "n_agents": 17,
+  "physical_seeds": [
+    202611011501,
+    202611011502,
+    202611011503,
+    202611011504,
+    202611011505,
+    202611011506,
+    202611011507,
+    202611011508
+  ],
+  "policies": [
+    "native",
+    "independent_mirror",
+    "shared_mirror"
+  ],
+  "omega": [
+    -0.05,
+    -0.043750000000000004,
+    -0.037500000000000006,
+    -0.03125,
+    -0.025,
+    -0.018750000000000003,
+    -0.012499999999999997,
+    -0.006249999999999999,
+    0.0,
+    0.006249999999999999,
+    0.012499999999999997,
+    0.018750000000000003,
+    0.02500000000000001,
+    0.03125,
+    0.037500000000000006,
+    0.04375,
+    0.05
+  ],
+  "coupling": 0.1,
+  "provider": "Anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "temperature": 0.7,
+  "primary_predictor": "quadratic6",
+  "secondary_predictor": "four_parameter",
+  "refitting": false,
+  "process_draws_per_run": 256,
+  "chunk_size": 64,
+  "simulation_seed": 202611011599,
+  "windows": {
+    "early_41_60": [
+      41,
+      60
+    ],
+    "primary_61_200": [
+      61,
+      200
+    ],
+    "terminal_161_200": [
+      161,
+      200
+    ]
+  },
+  "primary_effect": "independent_mirror - native in mean post-update r1 over61..200",
+  "secondary_effect": "shared_mirror - independent_mirror and shared_mirror - native; terminal-window effects and change from41..60",
+  "planned_responses_if_executed": 81600,
+  "api_calls": 0,
+  "stopping": "No new seed selection, new models or extra rescue experiments based on outcomes. Long-time simulation does not establish stationarity."
+}

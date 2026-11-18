@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-05T03:55:25.095404+00:00",
+  "real_requests": 768,
+  "planned_tasks": 768,
+  "valid_responses": 768,
+  "transport_retries": 0,
+  "unknown_dispatches": 0,
+  "model_identifiers_compatible": true,
+  "geometry_and_prompt_freeze_verified": true,
+  "parity_decomposition_verified": true,
+  "primary_tests": 6,
+  "holm_family_size": 6,
+  "new_model_fits": 0,
+  "protected_files_unchanged": 2782
+}

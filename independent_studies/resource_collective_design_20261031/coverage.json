@@ -1,0 +1,11 @@
+{
+  "full_inputs": 459,
+  "earlier_diagnostic": 72,
+  "later_confirmation": 36,
+  "overlap": 18,
+  "previous_union": 90,
+  "unmeasured_before": 369,
+  "fraction_covered": 0.19607843137254902,
+  "prior_outcomes_not_pooled": true,
+  "new_repeats_per_input": 32
+}

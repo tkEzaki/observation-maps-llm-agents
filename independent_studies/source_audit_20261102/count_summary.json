@@ -1,0 +1,18 @@
+{
+  "original_reproduced": 507112,
+  "additional_real_journals": 22,
+  "additional_valid_terminal_rows": 240219,
+  "additional_unique_acquisitions": 240219,
+  "additional_dispatches": 240359,
+  "proposed_core_additional_unique": 185728,
+  "proposed_core_sources": [
+    "reflection_confirmation_20261005/runs/real/attempts.jsonl",
+    "response_transport_20261005/reflection_assay/runs/real/attempts.jsonl",
+    "mechanism_controls_20261031/runs/real/attempts.jsonl",
+    "same_state_validation_20261031/runs/real/attempts.jsonl",
+    "prospective_closure_validation_20261031/runs/real/attempts.jsonl",
+    "resource_collective_design_20261031/runs/real/attempts.jsonl",
+    "resource_collective_validation_20261101/runs/real/attempts.jsonl",
+    "phase_persistence_validation_20261101/runs/real/attempts.jsonl"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-01T12:44:44.547071+00:00",
+  "post_hoc": true,
+  "api_calls": 0,
+  "refitting": false,
+  "diagnostic_A": "All 4800 saved pre-update states; fair independent/shared reflection kernels; two reference-distribution decompositions of one-step r1 squared; realized fixed schedule is evaluated separately.",
+  "diagnostic_B": "All 24 full r1 trajectories; pointwise RMSE, window-mean RMSE, paired contrasts, conditional pointwise bands. No smoothing or time shifting.",
+  "baseline": "Old 8-seed raw action counts with original Jeffreys 0.5/class smoothing, verified against pre-existing constant.npz; no current outcomes used. Same initial states and frozen mirror flags, 1024 action-process draws.",
+  "windows": {
+    "all_1_200": [
+      1,
+      200
+    ],
+    "early_41_60": [
+      41,
+      60
+    ],
+    "primary_61_200": [
+      61,
+      200
+    ],
+    "terminal_161_200": [
+      161,
+      200
+    ]
+  },
+  "unit": "Eight paired physical initial states. No independent-timepoint inference.",
+  "script_sha256": "f381e7af646551552066a2d3e4981ed5f8dcd550e967a7f72b4c936a12f4dd37"
+}

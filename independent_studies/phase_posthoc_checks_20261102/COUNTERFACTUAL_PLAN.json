@@ -1,0 +1,82 @@
+{
+  "post_hoc": true,
+  "api_calls": 0,
+  "refitting": false,
+  "models": [
+    "quadratic6",
+    "four_parameter"
+  ],
+  "conditions": [
+    {
+      "coin": "independent",
+      "action_uniform": "independent",
+      "convention": "raw"
+    },
+    {
+      "coin": "shared",
+      "action_uniform": "independent",
+      "convention": "raw"
+    },
+    {
+      "coin": "independent",
+      "action_uniform": "shared",
+      "convention": "raw"
+    },
+    {
+      "coin": "shared",
+      "action_uniform": "shared",
+      "convention": "raw"
+    },
+    {
+      "coin": "independent",
+      "action_uniform": "shared",
+      "convention": "physical"
+    },
+    {
+      "coin": "shared",
+      "action_uniform": "shared",
+      "convention": "physical"
+    }
+  ],
+  "steps": 200,
+  "physical_seeds": [
+    202611011501,
+    202611011502,
+    202611011503,
+    202611011504,
+    202611011505,
+    202611011506,
+    202611011507,
+    202611011508
+  ],
+  "draws_per_seed_condition": 256,
+  "chunk_size": 32,
+  "simulation_seed": 20261102020,
+  "windows": {
+    "early_41_60": [
+      41,
+      60
+    ],
+    "primary_61_200": [
+      61,
+      200
+    ],
+    "terminal_161_200": [
+      161,
+      200
+    ]
+  },
+  "fresh_reflection_schedule_per_draw": true,
+  "paired_common_random_numbers_between_conditions": true,
+  "convention": "Raw: same U applied to retard/stay/advance before sign mapping. Physical: same U applied after probabilities map to negative/zero/positive physical increments.",
+  "stop": "Fixed two models, six conditions, 256 draws; no outcome-selected expansion or new API experiments.",
+  "sources": {
+    "independent_studies\\phase_persistence_design_20261101\\protocol.json": "0dfcab4003b5775fdf5f54aa522b583944deae9ad9309add159711e58bc05c00",
+    "independent_studies\\phase_persistence_design_20261101\\design.json": "4f4b057bd187a30b6778c1d152ded2825cf0f9f036f8457c8aeaa95c7d3f15a7",
+    "independent_studies\\phase_persistence_design_20261101\\prediction_freeze.json": "c756738afb61954356d1fffac3c4387d6920be37a1bcac5b9a497c2c4c018a66",
+    "independent_studies\\phase_persistence_design_20261101\\input_freeze.json": "dc428862803c7b3d4b05515185f301acdf6236de96ddad0a2be50f9d8a03a278",
+    "independent_studies\\phase_persistence_design_20261101\\trajectories_quadratic6.npz": "b28316ca3f160101c1df81d41dcc2900b486b624261399fd9fdf74b8f49d29b1",
+    "independent_studies\\phase_persistence_design_20261101\\trajectories_four_parameter.npz": "4be291c3c173954f31fadf0e49442e6fc167ea77ec54518b6bce108658c9d329"
+  },
+  "script_sha256": "0fe221b9b239f266e24e712c4d964225eb2ab126eaddf4294f7136b052c57e1a"
+}

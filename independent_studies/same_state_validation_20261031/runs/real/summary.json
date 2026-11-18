@@ -1,0 +1,27 @@
+{
+  "updated_at_utc": "2026-10-31T07:42:20.513900+00:00",
+  "mode": "real",
+  "stages": {
+    "train": {
+      "planned": 6528,
+      "valid": 6528,
+      "complete": true
+    },
+    "validate": {
+      "planned": 8704,
+      "valid": 8704,
+      "complete": true
+    },
+    "resource": {
+      "planned": 1728,
+      "valid": 18,
+      "complete": false
+    }
+  },
+  "valid_tasks": 15250,
+  "planned_tasks": 16960,
+  "dispatches": 15254,
+  "unknown_dispatches": 0,
+  "complete": false,
+  "quality_passed": false
+}

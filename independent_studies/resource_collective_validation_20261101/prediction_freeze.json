@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-31T15:45:13.252492+00:00",
+  "real_dispatches_before_freeze": 0,
+  "files": {
+    "predictions/point_predictions.json": "e24faf5b1a9b29c74de0951eeac7f0ad9b06a879e62c5386f325ba4dab8bec50",
+    "predictions/predictive_samples.npz": "8443d099835d514006286ea356d44b2419918eb093c488dd7c8531f64018f0aa",
+    "predictions/summary.json": "ccea984d2b129f3b6b14325940e16c9f1854269b07731517dc24b656dcb30ed8"
+  },
+  "protocol_sha256": "347731fa66c6165bd52cb44f5728d40b8d25da4a15bf374fd304d4915cf00f92"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-11-01T01:08:45.657972+00:00",
+  "api_calls": 0,
+  "source_hashes_unchanged": true,
+  "total_responses": 16320,
+  "raw_record_greedy_matches_after_first_step": 16048,
+  "raw_record_greedy_mismatches_first_step": 45,
+  "covariance_positive_and_negative_examples_verified": true,
+  "random_tie_policy_label_invariance_verified": true,
+  "sensitivity_matches_frozen_primary_within_mc_accuracy": true,
+  "verified_report_links": 16
+}

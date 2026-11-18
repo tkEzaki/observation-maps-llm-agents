@@ -1,0 +1,42 @@
+{
+  "fresh_schedule_late_coin_effect": {
+    "quadratic6": -0.02353386889577913,
+    "four_parameter": -0.017132214137540396
+  },
+  "phase_initial_sign_mismatch_preserved": true,
+  "pause_equivalence_established": false,
+  "shared_coin_raw_vs_physical_symmetry_MC_checks": [
+    {
+      "model": "quadratic6",
+      "window": "early_41_60",
+      "MC_z": 1.6656331496177794
+    },
+    {
+      "model": "quadratic6",
+      "window": "primary_61_200",
+      "MC_z": 0.6462781682776215
+    },
+    {
+      "model": "quadratic6",
+      "window": "terminal_161_200",
+      "MC_z": 1.0522491666771467
+    },
+    {
+      "model": "four_parameter",
+      "window": "early_41_60",
+      "MC_z": 1.1606443398617732
+    },
+    {
+      "model": "four_parameter",
+      "window": "primary_61_200",
+      "MC_z": 0.2392064011423477
+    },
+    {
+      "model": "four_parameter",
+      "window": "terminal_161_200",
+      "MC_z": 0.39368199187536945
+    }
+  ],
+  "paid_experiments": 0,
+  "new_copula_is_not_identified_from_marginal_responses": true
+}

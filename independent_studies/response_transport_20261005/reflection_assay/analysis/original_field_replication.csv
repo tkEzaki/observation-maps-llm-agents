@@ -1,0 +1,7 @@
+provider,pair,old_n,old_retard,old_stay,old_advance,new_n,new_retard,new_stay,new_advance,old_mean_action,new_mean_action
+GPT,0,64,63,0,1,64,63,0,1,-0.96875,-0.96875
+GPT,1,64,64,0,0,64,64,0,0,-1.0,-1.0
+GPT,2,64,53,0,11,64,46,0,18,-0.65625,-0.4375
+Claude,0,64,0,0,64,64,0,0,64,1.0,1.0
+Claude,1,64,0,0,64,64,0,0,64,1.0,1.0
+Claude,2,64,0,0,64,64,0,0,64,1.0,1.0

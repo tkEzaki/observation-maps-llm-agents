@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-31T08:09:58.135203+00:00",
+  "phase_api_calls": 0,
+  "files": {
+    "prospective_phase_plan.py": "6d24106d5e9aaf53513c6080fd9bdf00ffb5a2e72f1382356e522ebe2dbd5953",
+    "prospective_phase/protocol.json": "3d14b0b064c6e722fa0119a430c94cbfd0f71181884491828aaa79384275f8e9",
+    "prospective_phase/transformations.json": "1e4e47251d558c8aa9d93be1dab946a59da6b92702730ba53622c52a4324eef7",
+    "prospective_phase/predictions.csv": "5aaf8a7986ddccb47e9dc33776a2f917c613070e9743587b5bfe0ffdecbc7cd0",
+    "prospective_phase/predicted_effects.json": "25a21676f3c67d8676936b72268f94f4880166d78e08559c7f292139e8bce424",
+    "offline/quadratic6.npz": "85354fc8549e27704446e2f1e4752849525f5da8c66dacac75a35757d96c101e",
+    "phase_lag/coefficients.json": "7d70f56555b1529b00d61e40730c13e42fcb78ef28230394b1c66d8c3a9783da",
+    "offline_closure.py": "3bfb0a757dc7b76080f4e0e321256a602e2125b837702152270f22526d407d9d",
+    "phase_lag_response.py": "2fb2e551c9de725cc754cbe6cc66279d82ec253cc6bdfa747e20b20360bc0b44"
+  },
+  "virtual_trajectories": 3072
+}

@@ -1,0 +1,139 @@
+{
+  "created_at_utc": "2026-10-05T05:52:23.009931+00:00",
+  "experiment": "relative-dynamics-closed-loop-pilot",
+  "providers": {
+    "GPT": {
+      "model": "gpt-5.4-mini",
+      "max_output_tokens": 20
+    },
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "temperature": 0.7,
+  "workers": 8,
+  "steps": 60,
+  "n_agents": 17,
+  "coupling": 0.1,
+  "physical_seeds": [
+    20261005581,
+    20261005582
+  ],
+  "omega": [
+    -0.05,
+    -0.043750000000000004,
+    -0.037500000000000006,
+    -0.03125,
+    -0.025,
+    -0.018750000000000003,
+    -0.012499999999999997,
+    -0.006249999999999999,
+    0.0,
+    0.006249999999999999,
+    0.012499999999999997,
+    0.018750000000000003,
+    0.02500000000000001,
+    0.03125,
+    0.037500000000000006,
+    0.04375,
+    0.05
+  ],
+  "initial_phases": {
+    "20261005581": [
+      -0.21388116429042636,
+      -0.9495102655881795,
+      -0.39648115254304983,
+      0.08994026156824786,
+      -1.9411224403834033,
+      2.969263834141434,
+      -2.902804752288746,
+      2.331166638335924,
+      -0.40703370340451706,
+      1.5892772092320007,
+      -2.9216645183278973,
+      -0.48774132431256945,
+      -1.4854245823479069,
+      2.795731499210686,
+      -2.302089657198793,
+      -0.8933526286082967,
+      1.8756104398230837
+    ],
+    "20261005582": [
+      1.525141671353432,
+      2.285923824058356,
+      0.991283589372248,
+      -2.782324010846601,
+      -1.9175271241980354,
+      1.4852309386701048,
+      2.165234400000025,
+      2.9003242397991995,
+      1.6940250029912374,
+      -2.4688086708497186,
+      -2.0698382345011845,
+      -2.6198154891963266,
+      -2.3447814151304343,
+      -1.573381477085585,
+      0.5088625662794737,
+      1.1641307238461591,
+      1.3558770653545498
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "GPT__native__seed20261005581",
+      "provider": "GPT",
+      "controller": "native",
+      "physical_seed": 20261005581
+    },
+    {
+      "run_id": "GPT__native__seed20261005582",
+      "provider": "GPT",
+      "controller": "native",
+      "physical_seed": 20261005582
+    },
+    {
+      "run_id": "GPT__symmetric_randomization__seed20261005581",
+      "provider": "GPT",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005581
+    },
+    {
+      "run_id": "GPT__symmetric_randomization__seed20261005582",
+      "provider": "GPT",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005582
+    },
+    {
+      "run_id": "Claude__native__seed20261005581",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005581
+    },
+    {
+      "run_id": "Claude__native__seed20261005582",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005582
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005581",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005581
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005582",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005582
+    }
+  ],
+  "planned_calls": 8160,
+  "maximum_dispatched_attempts_per_task": 3,
+  "intervention": "Native: query current 24-bin peer moments and execute returned action. Symmetric randomization: a pre-generated fair mirror coin per task selects h or reversed h; negate a returned action for a mirrored query. One API request per agent per step.",
+  "policy_identity": "p_sym(a|h)=[p(a|h)+p(-a|reverse(h))]/2 in expectation over the mirror coin; not a deterministic mean-drift intervention. Activity and noise can change.",
+  "primary": "Per physical seed and provider, symmetric_randomization minus native mean r1 over steps 41..60 (post-update), plus relative frequency span over the same 20 steps. Two seeds: descriptive pilot, no significance or frequency-locking claim.",
+  "secondary": "Complete r1/r2 time courses; mean common angular velocity; spatial action variance; fraction of all-equal-action steps; measured sign mismatch versus encoded Im z1; mirror compliance; offline relay and free controls from identical initial states.",
+  "invalid_policy": "Malformed or incompatible terminal responses halt collective progression; no stay fallback and no outcome-adaptive replacement. At most three transport attempts. An unresolved dispatch halts resume until audited."
+}

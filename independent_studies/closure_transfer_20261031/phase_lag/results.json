@@ -1,0 +1,23 @@
+{
+  "post_hoc": true,
+  "old_cv_nll": 0.08398738787183721,
+  "later_nll": 0.1229459994409796,
+  "closed_loop_rmse": 0.02903094584159795,
+  "effects": [
+    {
+      "contrast": "shared_mirror - independent_mirror",
+      "predicted": 0.0525900453871162,
+      "observed": 0.06081537037647078
+    },
+    {
+      "contrast": "independent_mirror - shuffled_mirror",
+      "predicted": 0.626510563355596,
+      "observed": 0.584817923562952
+    },
+    {
+      "contrast": "independent_mirror - native",
+      "predicted": 0.12238423481608501,
+      "observed": 0.12011696172622768
+    }
+  ]
+}

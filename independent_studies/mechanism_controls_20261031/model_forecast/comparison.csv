@@ -1,0 +1,7 @@
+model,contrast,predicted_mean,observed_mean
+first_state,shared_minus_independent,0.010628251899883926,0.06081537037647078
+first_state,independent_minus_shuffled,0.5786228513065533,0.584817923562952
+first_state,independent_minus_native,-0.009726894071435174,0.12011696172622768
+three_state,shared_minus_independent,0.002542483273094525,0.06081537037647078
+three_state,independent_minus_shuffled,0.46805473346262305,0.584817923562952
+three_state,independent_minus_native,0.0439909109131648,0.12011696172622768

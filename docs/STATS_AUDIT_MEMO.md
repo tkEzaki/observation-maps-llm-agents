@@ -1,98 +1,74 @@
-# 統計実装の監査メモ（v21--v22）
+# Statistical implementation notes
 
-原稿の Methods／SI の記述と、実際の解析コードの実装を突き合わせた結果。
-A 群は記述の側だけを直した（数値は不変）。B 群は著者の指示により**現行コードで再凍結**した。
+These notes describe the earlier analyses in `analysis/` and their frozen results.
+They record the resampling units and aggregation conventions, and preserve the
+history of numerical corrections used to produce the released results.
 
-対象コード: `analysis/`（本リポジトリ）
-対象原稿: `NMI_OBSERVATION_MAPS_FULL_DRAFT.tex`、`NMI_OBSERVATION_MAPS_SI.tex`
+## Resampling and aggregation conventions
 
----
+- Fourier uncertainty ellipses resample multinomial action counts within each
+  offset. The pairwise comparisons use one value per physical field (48 fields).
+  Noise-floor intervals use field-cluster resampling as described below.
+- `acquisition_block_holdout` separates acquisition blocks of the same physical
+  field between training and test sets. Four of the five grouping schemes keep
+  physical fields together; acquisition-block holdout does not.
+- The centres/intervals branches pool out-of-fold predictions before calculating
+  log loss. The general `evaluate_grouped_schemes` routine averages fold-level
+  values. The schemes have 41, 6, 6, 3 and 2 folds, so these summaries differ.
+- In the earlier reference figures, `style.paired_ci` displays the mean plus or
+  minus 1.96 standard errors across six seeds. Separate percentile-bootstrap
+  intervals for contrasts are available in the numerical tables.
+- Within-block phase reporting for both harmonics applies the amplitude gate
+  R_m >= 0.15 and requires the uncertainty ellipse to exclude the origin. For
+  block-averaged second harmonics, the ellipse gate is not applied.
+- Fourier bootstrap counts are 200 for transmutation, 100 for stimulus_manifold
+  and 2,000 for feature_sweep. The code default is 2,000 and the command-line
+  option `--bootstrap-samples` can override it.
+- The intervals coverage rule uses `nearest > 0.35`; the centres rule uses
+  `nearest > 0.35 and k_eff < 5`. Their evaluation order differs, and only the
+  centres branch has the additional threshold 0.25.
+- Surrogate resampling uses 56 profile clusters, pooling rotations within a
+  profile. These differ from the 756 profile-by-offset physical fields.
+- Fold counts and assignments, baselines, nearest-neighbour distance, neighbour
+  count and local label variance follow the definitions in the released code.
 
-## A. 記述を実装に合わせて直したもの（v21 で対応済み）
+## Corrections included in the frozen results
 
-いずれも**数値は変えず、記述の側を実装に合わせた**。
+The earlier `cluster_bootstrap_mean` routine resampled individual input entries.
+For pairwise intervals, its 48 entries were already one per field. For the
+noise-floor calculation, however, 144 entries contained three correlated values
+per field. Resampling those entries separately underestimated interval widths.
+The corrected routine accepts cluster identifiers and resamples complete fields.
+It reports `n_values`, `n_clusters` and `cluster_unit`, with `n_fields` denoting
+the actual number of fields. A dedicated random-number generator isolates this
+resampling from other tests. The correction also applies to
+`analyze_omap_control.py`.
 
-| # | 旧記述 | 実装 | 対応 |
-|---|---|---|---|
-| A1 | SI「ブートストラップのクラスタは物理場かシードであり、個々のモデル呼び出しではない」 | フーリエ楕円はオフセット内の**多項再標本化**（呼び出し相当）。ノイズフロア CI は (場, ペア) の平坦な 144 値 | 断定を撤回し、解析ごとに再標本化単位を明記 |
-| A2 | SI「同一物理場ハッシュの応答はすべて同じ fold に入り、場が train/test に分割されることはない」 | `acquisition_block_holdout` は同一場の 2 ブロック行を train と test に分ける。しかもこれがモデル選択の主基準 | 5 方式のうち 4 方式が場を保存し、ブロック保留のみ保存しないことを明記 |
-| A3 | SI「grouped OOF 予測はすべてプールしてから log loss を計算」 | centers/intervals ブランチはプール、汎用 `evaluate_grouped_schemes` は fold 平均。fold 数が 41/6/6/3/2 と不揃いなので一致しない | 報告値がどちらの集計かを明記 |
-| A4 | Methods「seed-block percentile bootstrap intervals」「seed-level bootstrap intervals」 | Fig. 1d–f と Fig. 4d のエラーバーは `style.paired_ci` の**平均 ± 1.96×標準誤差**（$n=6$ の正規近似）。ブートストラップ区間は実在するが**別の量**（対比の区間、表にのみ出力） | 図のバーが何か、ブートストラップ区間が何かを分けて記述 |
-| A5 | Methods「Pairwise means and confidence intervals were estimated by field-cluster bootstrap」 | ペアワイズ区間（48 場、1 場 1 値）は場単位で正しい。ノイズフロア区間は場クラスタではなかった（下記 B1） | B1 の修正により、v22 では両方とも場クラスタ。記述もそれに合わせた |
-| A6 | Methods「位相は $R_m\ge0.15$ かつブートストラップ楕円が原点を除くときのみ報告」 | ブロック内 CSV では $m=1,2$ 双方に楕円条件が適用。**ブロック平均では $m=2$ に楕円条件が適用されていない** | ゲート規則が二種類あることを明記 |
-| A7 | フーリエ楕円のブートストラップ反復数が未記載 | 成果物ごとに **transmutation 200 / stimulus_manifold 100 / feature_sweep 2000**（コード既定 2000、`--bootstrap-samples` で上書き） | 実効値を明記 |
-| A8 | Methods「最近傍被覆と局所ラベル分散を、事前固定の閾値と比較」 | 閾値 0.35 は共通だが判定式が違う。intervals は `nearest > 0.35`、centers は `nearest > 0.35 and k_eff < 5`。判定順序も逆。centers のみ第二閾値 0.25 をもつ | ブランチごとの規則差を明記 |
-| A9 | Methods「物理場をブートストラップのクラスタとした」（サロゲート） | サロゲート側のクラスタは `profile`（回転を跨いで集約）で **56 クラスタ**。物理場（profile × offset）は 756 | サロゲート側の粒度を別語で書き分け |
-| A10 | SI Supplementary Methods に `\TODO{author: ...}` が 7 箇所 | fold 数・fold 割当規則・baseline の定義・$d_{NN}$ の距離・近傍数 $k$・$V_{local}$ の定義は、すべて実装から確定できる | 実装から確定して埋めた |
+The replay inference outputs were regenerated with the released implementation.
+The regenerated files retain the three effect-test probabilities, aggregate
+token counts and costs, and descriptive result fields. Historical cost accounting
+uses input/output rates of USD 0.75/4.50 per million tokens, reproducing the
+recorded session cost of USD 1.873224 within 1e-6. These are historical accounting
+constants, not current service prices. The verdict label remains
+`suggested_ns_at_0.05`. The corresponding observation-map analysis retains its
+pairwise summary and result-description fields.
 
----
+| Quantity | Earlier output | Corrected frozen output |
+|---|---:|---:|
+| Source main-effect p | 0.0768 | 0.0784 |
+| Source-by-presentation interaction p | 0.0664 | 0.0716 |
+| Presentation effect p | 0.0002 | 0.0002 |
+| Centres-minus-intervals 95% CI | 0.221--0.363 | 0.220--0.364 |
+| Moments-minus-centres 95% CI | 0.251--0.423 | 0.256--0.422 |
+| Moments-minus-intervals 95% CI | 0.323--0.490 | 0.324--0.493 |
+| Intervals-minus-moments delta a0 95% CI | 0.021--0.686 | 0.021--0.685 |
+| Replay between-condition noise-floor 95% CI | 0.298--0.392 | 0.286--0.405 |
+| Replay within-condition noise-floor 95% CI | 0.076--0.109 | 0.074--0.110 |
+| Matched-information within-condition noise-floor 95% CI | 0.050--0.089 | 0.049--0.090 |
 
-## B. 実装そのものの欠陥（**対応済み。v22 で再凍結**）
-
-### B1. ノイズフロア信頼区間が反保守的だった → 修正して再凍結
-
-`cluster_bootstrap_mean` は名前に反して、渡されたベクトルの**要素**を再標本化する
-素朴なブートストラップだった。
-
-ペアワイズ区間の入力は 1 場 1 値（長さ 48）なので、これは正しく場単位の再標本化に
-なっていた。しかしノイズフロアの入力は **48 場 × 3 = 144 値を平坦にしたリスト**で、
-同一場に属する 3 値がばらばらに再標本化されていた。同一場の 3 値は独立ではないので、
-区間が狭くなる。成果物 JSON がこの 144 を `"n_fields": 144` と記録していた点も
-混乱を招いていた。
-
-**対応**：`cluster_bootstrap_mean` に `clusters` 引数を追加し、ノイズフロアの呼び出しに
-場インデックスを渡すようにした。乱数列は専用ジェネレータに分離し、この関数を変更しても
-他の検定の数値がずれないようにしてある。返り値に `n_values` / `n_clusters` /
-`cluster_unit` を加え、`n_fields` が本当に場の数を指すようにした。同じ修正を
-`analyze_omap_control.py` にも適用した。
-
-### B2. リポジトリの解析スクリプトが凍結成果物を再現しなかった → 現行コードで再凍結
-
-`run_replay_primary_inference.py` を実行すると、凍結された `decision.json` と
-一致しなかった。キーが 7 個消え（取得コスト・トークン総量、`mechanistic_verdict` の
-三つの $p$、`results_doc`）、判定ラベルが `suggested_ns_at_0.05` → `suggested_or_ns` に
-変わっていた。凍結成果物は別バージョンで作られていたと考えられる。
-
-**対応**（著者の指示により現行コードで再凍結）：まず**再凍結が情報を失わないように**
-スクリプトを補った。
-
-- `mechanistic_verdict` に `source_p` / `interaction_p` / `target_p` を出力（本文 Fig. 3g が
-  ここから読んでいる）
-- 取得トレースから入力・出力トークン総量を集計して出力（凍結値と厳密一致を確認）
-- トレース全体のコストを、価格定数 **入力 $0.75/M$、出力 $4.50/M$** から算出して出力。
-  この二つの定数は、ランナーが記録したセッション分のコスト $1.873224$ を $10^{-6}$ 以内で
-  再現する。スクリプトは実行時にこれを検証し、合わなければ例外を投げる
-- `results_doc` を出力
-- 判定ラベルを、より情報量の多い凍結側の表記 `suggested_ns_at_0.05` に統一
-- `analyze_omap_control.py` にも同様に `lead_with_pairwise`（本文が引用する丸め値）、
-  `central_proposition_doc`、`padding_wording`、`explicit_non_claims` を出力させた
-
-その結果、**両成果物とも失われるキーはゼロ**になった。
-
-### 再凍結で動いた数値（すべて原稿・図に反映済み）
-
-| 量 | 旧 | 新 |
-|---|---|---|
-| ソース主効果 $p$ | 0.0768 | **0.0784** |
-| ソース × 提示符号化 交互作用 $p$ | 0.0664 | **0.0716** |
-| 提示符号化効果 $p$ | 0.0002 | 0.0002（変化なし、解像度の下限） |
-| centers--intervals 95% CI | 0.221--0.363 | **0.220--0.364** |
-| moments--centers 95% CI | 0.251--0.423 | **0.256--0.422** |
-| moments--intervals 95% CI | 0.323--0.490 | **0.324--0.493** |
-| $\Delta a_0$（intervals 引く moments）95% CI | 0.021--0.686 | **0.021--0.685** |
-| ノイズフロア between 95% CI（リプレイ） | 0.298--0.392 | **0.286--0.405** |
-| ノイズフロア within 95% CI（リプレイ） | 0.076--0.109 | **0.074--0.110** |
-| ノイズフロア within 95% CI（同一タスク情報） | 0.050--0.089 | **0.049--0.090** |
-
-平均値・効果量・判定はいずれも変わっていない。$p$ が動いたのは並べ替えの乱数列が
-変わったためで、二つとも事前指定の $\alpha=0.05$ を満たさない点は同じであり、
-結論は動かない。ノイズフロアの区間が広がったのは B1 の修正によるもので、
-これは本来あるべき幅である。
-
-再生成した図：本文 Fig. 3、Fig. 5、補足 S11（figS14）、S12（figS15）、S13（figS16）、
-S14（figS17）、S15（figS18）、S20（figS23）。
-
-### 現在の状態
-
-**リポジトリのコードが論文の数値を再現する。** 再実行すれば同じ `decision.json` が
-得られる（乱数はすべて固定シード）。
+Mean values, effect sizes and decisions were unchanged. The two changed p-values
+reflect different permutation random streams and both remain above the
+prespecified 0.05 threshold. The presentation p-value is at the permutation
+resolution limit. Wider noise-floor intervals reflect the corrected clustering.
+The affected reference figures were regenerated from these frozen outputs.
+The analysis uses fixed random seeds to reproduce the retained decision files.

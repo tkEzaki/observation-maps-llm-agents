@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-11-01T01:47:01.869820+00:00",
+  "sources": {
+    "independent_studies/closure_transfer_20261031/offline/quadratic6.npz": "85354fc8549e27704446e2f1e4752849525f5da8c66dacac75a35757d96c101e",
+    "independent_studies/closure_transfer_20261031/phase_lag/coefficients.json": "7d70f56555b1529b00d61e40730c13e42fcb78ef28230394b1c66d8c3a9783da",
+    "independent_studies/closure_transfer_20261031/offline_closure.py": "3bfb0a757dc7b76080f4e0e321256a602e2125b837702152270f22526d407d9d",
+    "independent_studies/closure_transfer_20261031/phase_lag_response.py": "2fb2e551c9de725cc754cbe6cc66279d82ec253cc6bdfa747e20b20360bc0b44",
+    "independent_studies/closure_transfer_20261031/prospective_phase/protocol.json": "3d14b0b064c6e722fa0119a430c94cbfd0f71181884491828aaa79384275f8e9",
+    "independent_studies/closure_transfer_20261031/prospective_phase/transformations.json": "1e4e47251d558c8aa9d93be1dab946a59da6b92702730ba53622c52a4324eef7",
+    "independent_studies/closure_transfer_20261031/prospective_phase/predictions.csv": "5aaf8a7986ddccb47e9dc33776a2f917c613070e9743587b5bfe0ffdecbc7cd0",
+    "independent_studies/closure_transfer_20261031/prospective_phase/freeze.json": "c5a0d63bfe0849100071bef755c59b7edc07a3aefba87f3d670cfff075a8026c",
+    "independent_studies/prospective_closure_validation_20261031/analysis_real/results.json": "4bbbc7d18aa97a0d1f0e319fee70993aeca9d0bf6612dbdace531818063e558d",
+    "independent_studies/prospective_closure_validation_20261031/protocol.json": "49caf0c496c5f5b0ddb9759c97094efbec5e60c65387278a2f4d93d0619b809a",
+    "independent_studies/collective_dynamics_20261004/common.py": "27a152bd611c7b772334e76355a1092769fe216ce82bf6a99f100a66dc7c9d36"
+  },
+  "local": {
+    "protocol.json": "0dfcab4003b5775fdf5f54aa522b583944deae9ad9309add159711e58bc05c00",
+    "design.json": "4f4b057bd187a30b6778c1d152ded2825cf0f9f036f8457c8aeaa95c7d3f15a7"
+  },
+  "script_at_design": "025be40f50a1bbac952c3569dc65d3464847e860470b3144adad58b67a417b7f",
+  "api_calls": 0
+}

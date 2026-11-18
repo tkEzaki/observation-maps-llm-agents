@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-10-05T06:43:18.095811+00:00",
+  "files": {
+    "confirm_lib.py": "5837b559edb56b7b992a090bdc6c5c39f99e2b69859c8fdb00d3b7c296ae37c0",
+    "prepare.py": "6c00fbf8ed5515e2511a16bdb8c0fa347cbd96bc9fa2c31b65360a330595ea48",
+    "run.py": "63c39567a267897452c85a5684cc326763ff7bd06f9974b768a45c2234d9e891",
+    "analyze.py": "b8759eb8e6f941621f9f914167ecfda507423a206ac3a2df0326e7f02c74879c",
+    "verify_outputs.py": "35efd6d1919ab741bd1e6285dd31de2fe508346be55e4bd9285a223f9b917579",
+    "protocol.json": "074a00c2e711e229247d31ef42d123ccaf57cc05f624f2dd025d04b8b5239fec",
+    "design.json": "c149b8dca3909502648d6c325931ad7b25df953f3dfea584aebe31028b939d80"
+  },
+  "inputs": {
+    "independent_studies/relative_dynamics_20261005/protocol.json": "2f41074041ceeaaadb6fd3a2c4ae4af80918dfd199d43cc90f13692537b57648",
+    "independent_studies/relative_dynamics_20261005/runs/real/summary.json": "ccbd126b5549dd73fb179530389ca5609878b33fdc069c709f27a2caa6568822",
+    "independent_studies/relative_dynamics_20261005/runs/real/attempts.jsonl": "53099d68b52cba14f063a4c710432832eb618d5b17cc66e95bd8216780c9d869",
+    "independent_studies/response_transport_20261005/study_lib.py": "d9bfb365fad29b233b3417315ac0e1e68399d76c41f5041e806e46c97616e18b",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/collective_dynamics_20261004/common.py": "27a152bd611c7b772334e76355a1092769fe216ce82bf6a99f100a66dc7c9d36"
+  }
+}

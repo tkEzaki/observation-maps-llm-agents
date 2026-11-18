@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-10-31T15:44:08.008969+00:00",
+  "local": {
+    "support.py": "97aa53e3a8c56117fe477e2a415d2388e9ddd638650e98bf6b03618f329543f9",
+    "prepare.py": "24fc804d607cc91d29e6c339240bd0a884d80b3d7bba5837e3d339f2f99cfbd0",
+    "acquire.py": "91cf83bab1a38a5714564fa5193ff96ed2f832ef97485c8db58b0689f6f1bf33",
+    "predict.py": "13d5eb42ff72c2852840ca8990822dbfd6c1d1fca26f2ebd0fbd8e1ce5e0f06d",
+    "analyze.py": "5cdd7f17aa87dee2d8ce80bb947496377eba8d4575e143318389691e533ca04f",
+    "verify.py": "89ffc34d103858ee6324f63067ac6f603363411a22fcdf3345a1ede497fe5a3d",
+    "protocol.json": "347731fa66c6165bd52cb44f5728d40b8d25da4a15bf374fd304d4915cf00f92",
+    "design.json": "20c702f7b68367a825b0ffc13f058945abf106860c1fc90ca05896875705a4fa",
+    "prompts.json": "2686f16d1f8a4405f6273cf530b375aad46ff88d0efc5e7cf3ca92bc15650ece"
+  },
+  "sources": {
+    "independent_studies/resource_collective_design_20261031/analysis_real/counts.npy": "165c823db6f382869df06a00b98301cd67f7a947f26aa9dd1f8546e13fc9ceca",
+    "independent_studies/resource_collective_design_20261031/analysis_real/joint_counts.npy": "476f62dcf6a831351673b40c8c5171ff20aa5fdce56fe164174cf5f51e125042",
+    "independent_studies/resource_collective_design_20261031/runs/real/attempts.jsonl": "d7638dd5bcb32d3c74786192bbe9634e0272a8d083745e4f3edeba9a6a90a0e8",
+    "independent_studies/resource_collective_design_20261031/prompts.json": "2686f16d1f8a4405f6273cf530b375aad46ff88d0efc5e7cf3ca92bc15650ece",
+    "independent_studies/resource_update_correlation_20261101/engine.py": "e85f59d85b175ebe0707136d2caf39a61deb6cec496c5cc6ef725f5e5a12a331",
+    "independent_studies/resource_update_correlation_20261101/analysis/results.json": "1b2c74f7ee41af657cb9379fefc90efc61d12ed29847e89809f1883ff5fb3be8",
+    "independent_studies/same_state_validation_20261031/lib.py": "b775ed71aa197b849591cafeecdf9f14c5dd2095b10bc3d99e0bad9eb8d1cd5c",
+    "independent_studies/same_state_validation_20261031/resource_recovery.py": "ed2c433ef1dcb09e76edd9c6397be94508473dbd1c75e5fd3c3a3ed11f8b8da6",
+    "independent_studies/response_law_validation_20261004/run_experiment.py": "dfee9f540e037d3aa6ed9f38c35649a67bc1d62d3e39065ebac3b2563fdd7dd1",
+    "independent_studies/response_law_validation_20261004/experiment_lib.py": "2229a3d9b4b9a23ef4bac19dfcf63866b9f5d28cd94b165d166e3d018490b2d4"
+  }
+}

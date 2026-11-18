@@ -1,0 +1,8 @@
+{
+  "created_at_utc": "2026-11-01T01:07:17.628790+00:00",
+  "api_calls": 0,
+  "post_outcome_diagnostic": true,
+  "localized_three_input_gap_fraction": 0.7219211858741806,
+  "after_first_step_all_16048_responses_match_fixed_rank_greedy": true,
+  "original_predictions_preserved": true
+}

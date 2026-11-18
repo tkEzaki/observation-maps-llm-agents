@@ -1,0 +1,5 @@
+provider,controller,n,mirror_queries,raw_retard,raw_stay,raw_advance,executed_retard,executed_stay,executed_advance
+Claude,native,2040,0,232,0,1808,232,0,1808
+Claude,symmetric_randomization,2040,1042,291,2,1747,1033,2,1005
+GPT,native,2040,0,973,57,1010,973,57,1010
+GPT,symmetric_randomization,2040,1050,965,70,1005,994,70,976

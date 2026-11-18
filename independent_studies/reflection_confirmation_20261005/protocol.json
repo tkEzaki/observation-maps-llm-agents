@@ -1,0 +1,308 @@
+{
+  "created_at_utc": "2026-10-05T06:43:17.914496+00:00",
+  "experiment": "reflection-confirmation-eight-new-initial-conditions",
+  "providers": {
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "workers": 8,
+  "steps": 60,
+  "n_agents": 17,
+  "coupling": 0.1,
+  "temperature": 0.7,
+  "physical_seeds": [
+    20261005681,
+    20261005682,
+    20261005683,
+    20261005684,
+    20261005685,
+    20261005686,
+    20261005687,
+    20261005688
+  ],
+  "initial_phases": {
+    "20261005681": [
+      2.730383454037648,
+      -2.1335747570668913,
+      1.5443228247209442,
+      -1.2811451770008275,
+      0.7072082244364717,
+      -0.22115134080970478,
+      1.0128359861431306,
+      0.0241012923717987,
+      2.448739157055864,
+      1.6695547957951193,
+      -0.8588283171252509,
+      -1.8090439334483077,
+      -0.6056018181350034,
+      -0.8855087654430776,
+      -1.2558001839326707,
+      2.522026124060014,
+      -1.6211112814982866
+    ],
+    "20261005682": [
+      -0.9498500347957721,
+      -0.006186726591895564,
+      -2.0213535728591694,
+      1.2116497132459472,
+      2.9722230869183495,
+      -1.0767249160089092,
+      1.2789741783342796,
+      -1.924861698250527,
+      0.259143157639941,
+      -0.37104046148302583,
+      0.5679195095568179,
+      0.9152961640527391,
+      -0.6371502950627317,
+      -0.7693684041767743,
+      1.8771479718662931,
+      -0.4073264213675398,
+      -2.689439721532655
+    ],
+    "20261005683": [
+      0.18256241421160935,
+      0.7804195494456474,
+      1.8620402256125672,
+      0.7452700446121745,
+      0.49714111858796484,
+      2.655331363523829,
+      -0.2716246851372164,
+      -2.2637883746590712,
+      2.707195913872173,
+      1.8134195936207602,
+      -1.4430931340492583,
+      -0.13565710872411385,
+      1.612298657773147,
+      1.3690229907784612,
+      -0.09551727568699775,
+      -2.1208803929144815,
+      -0.9824357348652599
+    ],
+    "20261005684": [
+      1.8986545544644766,
+      -1.6373819589676715,
+      2.9110404941481915,
+      -2.017803931312606,
+      -0.3951988156339348,
+      2.71121415827632,
+      2.712668535792936,
+      1.3160653514030347,
+      1.9685842556181337,
+      2.2360785104188716,
+      2.8342244215517,
+      1.6643312755442183,
+      1.0598645344290123,
+      2.3697247434515134,
+      0.4763393781335288,
+      -2.9900245070124667,
+      0.6879818582152359
+    ],
+    "20261005685": [
+      -2.2704991263096233,
+      -0.4719012679198138,
+      0.22931218841293566,
+      0.8236684603706181,
+      0.9468946422736453,
+      -2.9468353885835716,
+      -1.1218429108545398,
+      -0.8631676542113693,
+      1.4928375950237864,
+      2.932469949581475,
+      -1.0090905006835729,
+      -0.32178700441076513,
+      -1.288263486155899,
+      2.037162644049693,
+      -1.4134195556866058,
+      -1.5787698000354184,
+      1.2340041905632555
+    ],
+    "20261005686": [
+      -3.0892317720503786,
+      -1.5709128558586463,
+      -0.4192768206847499,
+      1.938660735374115,
+      0.12897988014351913,
+      -2.6506747726436917,
+      1.1081522816222815,
+      -0.4220465596701133,
+      0.017844111904182558,
+      2.00540715972103,
+      -2.5913482033384123,
+      2.71276566495054,
+      1.4997817807913343,
+      -1.1581288733322812,
+      -1.8466768935668199,
+      1.7509015419109435,
+      -1.8698677000824306
+    ],
+    "20261005687": [
+      2.446721414152246,
+      1.3812429772357184,
+      1.6559617255092878,
+      -2.78490483451272,
+      0.31318996825021905,
+      1.7845802712142964,
+      -0.8396873350840588,
+      2.687008552997301,
+      0.9605071976210358,
+      -0.5387207797606153,
+      -1.2651848932744336,
+      -1.8185359742623102,
+      1.7869354952407397,
+      3.0544188211928587,
+      -0.5428988204880794,
+      2.3457747419071033,
+      0.8128016850505126
+    ],
+    "20261005688": [
+      1.602704745351331,
+      2.19838287588286,
+      2.175647661052402,
+      -2.701177837586314,
+      -1.9201153107706765,
+      0.7953486492814341,
+      2.41039377934385,
+      2.3962265642569456,
+      -0.8755621754680698,
+      2.530457043183949,
+      0.39304952768966395,
+      0.2328087040767528,
+      0.7086728485624421,
+      -0.6426116551668599,
+      -3.1216694348058844,
+      -2.812757675967271,
+      -2.2442839120868987
+    ]
+  },
+  "omega": [
+    -0.05,
+    -0.043750000000000004,
+    -0.037500000000000006,
+    -0.03125,
+    -0.025,
+    -0.018750000000000003,
+    -0.012499999999999997,
+    -0.006249999999999999,
+    0.0,
+    0.006249999999999999,
+    0.012499999999999997,
+    0.018750000000000003,
+    0.02500000000000001,
+    0.03125,
+    0.037500000000000006,
+    0.04375,
+    0.05
+  ],
+  "runs": [
+    {
+      "run_id": "Claude__native__seed20261005681",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005681
+    },
+    {
+      "run_id": "Claude__native__seed20261005682",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005682
+    },
+    {
+      "run_id": "Claude__native__seed20261005683",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005683
+    },
+    {
+      "run_id": "Claude__native__seed20261005684",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005684
+    },
+    {
+      "run_id": "Claude__native__seed20261005685",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005685
+    },
+    {
+      "run_id": "Claude__native__seed20261005686",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005686
+    },
+    {
+      "run_id": "Claude__native__seed20261005687",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005687
+    },
+    {
+      "run_id": "Claude__native__seed20261005688",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261005688
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005681",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005681
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005682",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005682
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005683",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005683
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005684",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005684
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005685",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005685
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005686",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005686
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005687",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005687
+    },
+    {
+      "run_id": "Claude__symmetric_randomization__seed20261005688",
+      "provider": "Claude",
+      "controller": "symmetric_randomization",
+      "physical_seed": 20261005688
+    }
+  ],
+  "planned_calls": 16320,
+  "maximum_dispatched_attempts_per_task": 3,
+  "pricing": {
+    "checked_on_jst": "2026-10-05",
+    "official_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  "primary": "Per-seed symmetric-minus-native mean r1 over post-update steps 41..60; report all eight effects, mean and median. One-sided exact binomial sign test of P(effect>0)<=1/2, n=8. Treat exact zero effects as nonpositive. Test only if all eight pairs finish validly. Do not test or claim a zero population mean with this sign test.",
+  "secondary": "Relative frequency span over last 20 steps, full r1/r2 courses, common velocity, spatial action variance, all-equal-action counts, sign mismatches. Descriptive only; no extra inferential tests.",
+  "randomization": "Mirror flags use RNG 20261005801; request ordering uses independent RNG 20261005802, shuffled inside each synchronous step. Initial phase draws use eight separate fixed seeds. All choices frozen before acquisition.",
+  "intervention": "Native: query current 24-bin peer moments and execute returned action. Symmetric randomization: a pre-generated fair mirror coin per task selects h or reversed h; negate a returned action for a mirrored query. One API request per agent per step.",
+  "policy_identity": "p_sym(a|h)=[p(a|h)+p(-a|reverse(h))]/2 in expectation over the mirror coin; not a deterministic mean-drift intervention. Activity and noise can change.",
+  "invalid_policy": "Malformed or incompatible terminal responses halt collective progression; no stay fallback and no outcome-adaptive replacement. At most three transport attempts. An unresolved dispatch halts resume until audited."
+}

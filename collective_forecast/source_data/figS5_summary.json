@@ -1,0 +1,12 @@
+{
+ "locked_r1": 0.7451733485315296,
+ "lam_max": 0.9712384613960747,
+ "relax_steps": 34.266222644779575,
+ "wall_deg": 43.1446296729862,
+ "lna_independent": 0.7354481958943683,
+ "lna_shared": 0.7431476924501578,
+ "box_independent": 0.8223918856874741,
+ "box_shared": 0.7243357940579271,
+ "observed_independent": 0.8034027117109062,
+ "observed_shared": 0.77238681768686
+}

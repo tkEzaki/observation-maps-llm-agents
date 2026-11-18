@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-10-31T09:59:17.337687+00:00",
+  "post_hoc": true,
+  "api_calls": 0,
+  "raw_responses": 8192,
+  "unique_numeric_inputs": 128,
+  "source_seeds": [
+    20261005581,
+    20261005582,
+    20261005681,
+    20261005682,
+    20261005683,
+    20261005684,
+    20261005685,
+    20261005686,
+    20261005687,
+    20261005688
+  ],
+  "questions": [
+    "Are old-model errors concentrated near weak first-sine signals or conflicts between components?",
+    "Does line order change repeatability as well as mean action?",
+    "Do switching features or higher moments improve prediction under source-seed-held-out nested tuning?"
+  ],
+  "families": [
+    "logit_first",
+    "logit_six",
+    "switch_first",
+    "switch_six",
+    "kernel_first",
+    "kernel_six"
+  ],
+  "regularization_grid": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "kernel_bandwidths": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "outer": "Leave one entire physical source seed out; original/reflected inputs and all response rounds remain together.",
+  "inner": "Four source-seed folds, deterministic shuffle inside each outer training set. All tuning uses inner predictions only.",
+  "selection": "Per-family parameter choice by inner NLL; additionally an inner-NLL adaptive family selector and an inner-mean-action-MSE selector. Report all families; no post hoc substitution into original gate.",
+  "thresholds": "Residual strata abs(S1)<=0.1; C1*S1<0; higher-sine sign conflict. Descriptive, chosen after earlier results; not confirmatory tests.",
+  "prior_manifest_sha256": "1ff119d9bed0a3954c2414e13d3812b7edd642dad8d98eec7a6bfa0a95c9f711",
+  "script_sha256": "5a568cc6991a01ca4ac9665ecd8f0471d86434e3420f7d77c12a0605a2ed4603"
+}

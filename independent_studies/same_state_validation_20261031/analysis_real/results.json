@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-31T07:50:27.673516+00:00",
+  "mode": "real",
+  "metric": "one-step r1 squared shared-minus-independent at fixed states",
+  "n_fixed_states": 8,
+  "n_source_initial_seeds": 4,
+  "training_responses": 6528,
+  "heldout_responses": 8704,
+  "mean_observed_gap": 0.003137100036724857,
+  "mean_predicted_gap": 0.0030271707340792592,
+  "mean_residual": 0.00010992930264559794,
+  "mean_residual_bootstrap95": [
+    -0.0004916330431026043,
+    0.0007654128012274678
+  ],
+  "rmse": 0.0004657041938874393,
+  "zero_gap_rmse": 0.00375518201795969,
+  "engineering_gate": {
+    "mean_residual_interval_inside_margin": true,
+    "rmse_at_most_margin": true,
+    "better_than_zero_gap": true
+  },
+  "engineering_gate_passed": true,
+  "margin": 0.005
+}

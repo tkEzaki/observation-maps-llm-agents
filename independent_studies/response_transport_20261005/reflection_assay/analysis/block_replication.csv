@@ -1,0 +1,13 @@
+provider,pair,mirrored,block0_drift,block1_drift,total_variation_between_blocks
+GPT,0,False,-0.9375,-1.0,0.03125
+GPT,0,True,1.0,1.0,0.0
+GPT,1,False,-1.0,-1.0,0.0
+GPT,1,True,1.0,1.0,0.0
+GPT,2,False,-0.5,-0.375,0.0625
+GPT,2,True,1.0,1.0,0.0
+Claude,0,False,1.0,1.0,0.0
+Claude,0,True,1.0,1.0,0.0
+Claude,1,False,1.0,1.0,0.0
+Claude,1,True,1.0,1.0,0.0
+Claude,2,False,1.0,1.0,0.0
+Claude,2,True,1.0,1.0,0.0

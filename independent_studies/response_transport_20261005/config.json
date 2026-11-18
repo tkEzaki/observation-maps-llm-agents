@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-05T03:26:45.853326+00:00",
+  "regularization": 0.01,
+  "scale_floor": 0.05,
+  "seed": 20261005121,
+  "model_kinds": [
+    "sign_only",
+    "first_state",
+    "three_state"
+  ],
+  "negative_opposition": "Encoded Im z1<-.01 and observed action=advance; exact one-step Shapley decomposition against relay.",
+  "fresh_holdouts": "Old training plus fresh block0 to fresh block1; separate whole fresh-category holdout removes all equal numeric observations.",
+  "sensitivity": "Main fit retains old A; separately report exclusion of only the old A cohort, never discard new A.",
+  "virtual": "Six matched initial configurations, N=17/33, K=.04/.06/.10/.15, 300 steps; models fixed before calculations. Raw numeric distances are diagnostics, not support guarantees."
+}

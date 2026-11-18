@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-10-31T15:07:46.412203+00:00",
+  "passed_audit_of_available_data": true,
+  "full_response_target_met": false,
+  "completed_task_slots": 14688,
+  "received_responses": 14672,
+  "valid_choices": 14670,
+  "format_missing_choices": 2,
+  "transport_missing_choices": 16,
+  "transport_failed_tasks": [
+    "resource_table_r18_r341",
+    "resource_table_r18_r173",
+    "resource_table_r18_r264",
+    "resource_table_r18_r365",
+    "resource_table_r18_r283",
+    "resource_table_r18_r336",
+    "resource_table_r18_r227",
+    "resource_table_r18_r136",
+    "resource_table_r18_r046",
+    "resource_table_r18_r018",
+    "resource_table_r18_r447",
+    "resource_table_r18_r326",
+    "resource_table_r18_r120",
+    "resource_table_r18_r454",
+    "resource_table_r18_r322",
+    "resource_table_r18_r180"
+  ],
+  "format_failed_tasks": [
+    "resource_table_r02_r011",
+    "resource_table_r03_r011"
+  ],
+  "dispatches": 14729,
+  "unknown_dispatches": 0,
+  "original_frozen_code_unchanged": true,
+  "half_prediction_hash_verified": true,
+  "journal_sha256": "d7638dd5bcb32d3c74786192bbe9634e0272a8d083745e4f3edeba9a6a90a0e8",
+  "deviation": "The inherited acquisition runner marked exhausted transport attempts terminal but did not halt the remaining scheduled tasks. Original complete-response verification correctly fails. No extra replacement calls were made. Offline available-data analysis retains delivery failures in the missing category; its four-class score is an operational pipeline score, not a pure model-format error score. Three-choice forecasts condition on valid choices, and missing-mass sensitivity is reported separately.",
+  "passed": true,
+  "meaning_of_passed": "Available-data accounting and frozen prediction chronology only; full response target not met."
+}

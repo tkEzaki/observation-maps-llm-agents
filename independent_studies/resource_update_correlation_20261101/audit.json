@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-31T15:34:08.654800+00:00",
+  "api_calls": 0,
+  "all_sources_unchanged": true,
+  "point_kernels_forward_verified": 45,
+  "forward_backward_max_difference": 3.5083047578154947e-14,
+  "all_contrasts_verified": true,
+  "all_posterior_intervals_recomputed": true,
+  "m1_previous_kernels_match": true,
+  "max_measured_covariance_identity_error": 8.881784197001252e-16
+}

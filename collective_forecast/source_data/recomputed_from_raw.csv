@@ -1,0 +1,35 @@
+quantity,recomputed,reported,agrees
+"first cohort: independent reflection minus native, steps 41-60",0.1581121215,0.158,1
+first cohort: initial states with a positive difference,8,8,1
+"control: mean alignment, independent reflection",0.7529270607,0.753,1
+control: mean alignment after shuffling actions,0.1681091371,0.168,1
+"60-step cohort: forecast RMSE of mean alignment, steps 41-60",0.02537438752,0.0254,1
+60-step cohort: largest error of a mean interface contrast (reported: below 0.01),0.008593198472,0.01,1
+"200-step cohort: mean alignment, independent reflection, steps 61-200",0.8034027117,0.803,1
+"200-step cohort: mean alignment, native interface, steps 61-200",0.6032749877,0.603,1
+200-step cohort: independent reflection minus native,0.2001277241,0.2,1
+200-step cohort: initial states with a positive difference,8,8,1
+200-step cohort: shared minus independent reflection,-0.03101589402,-0.031,1
+200-step cohort: initial states with a negative difference,8,8,1
+"200-step cohort: forecast RMSE of mean alignment, quadratic6",0.007049807971,0.00705,1
+200-step cohort: forecast of shared minus independent reflection,-0.02873497085,-0.0287,1
+"200-step cohort: forecast RMSE of mean alignment, four_parameter",0.01457827332,0.0146,1
+200-step cohort: trajectory RMSE over all post-update steps,0.04075092563,0.0408,1
+200-step cohort: trajectory RMSE of a state-independent response model,0.524529992,0.5245,1
+fixed states: responses used for estimation,6528,6528,1
+fixed states: responses used for validation,8704,8704,1
+fixed states: predicted shared minus independent difference in r1 squared,0.003027170734,0.00303,1
+fixed states: observed shared minus independent difference in r1 squared,0.003137100037,0.00314,1
+fixed states: RMSE across states,0.0004657041939,0.000466,1
+resource calibration: valid choices,14670,14670,1
+resource calibration: fraction choosing a minimum-load resource,0.9423312883,0.94,1
+resource collectives: shared minus independent normalized congestion,0.6989690722,0.699,1
+resource collectives: configurations with greater congestion under shared permutations,8,8,1
+resource collectives: fraction of shared-permutation steps with all agents on one resource,1,1,1
+"resource collectives: forecast RMSE of run means, empirical table",0.001142358525,0.00114,1
+"resource collectives: forecast of the difference, empirical table",0.6974877217,0.697,1
+"resource collectives: forecast of the difference, smoothed table",0.4795372507,0.48,1
+"line order: RMS change of mean signed action, GPT",0.3743483922,0.374,1
+"line order: RMS change of mean signed action, Claude",0.4736720747,0.474,1
+recorded-state inputs: Claude responses matching the sign of C1+S1,0.9809570312,0.981,1
+recorded-state inputs: GPT responses matching the sign of S1,0.9370117188,0.937,1

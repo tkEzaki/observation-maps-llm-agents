@@ -1,0 +1,63 @@
+{
+  "post_hoc": true,
+  "original_gate_unchanged": true,
+  "metrics": [
+    {
+      "provider": "GPT",
+      "order": "cos_first",
+      "old_selected": "sign",
+      "old_rmse": 0.35906198741384,
+      "old_wrong_mean_direction_inputs": 7,
+      "old_squared_error_share_wrong_direction": 0.7187200715267483,
+      "posthoc_hardened_old_prediction_rmse": 0.37763559495646726,
+      "deterministic_diagonal_rule_rmse": 0.8739006766092615,
+      "posthoc_diagonal_category_cv_rmse": 0.7386465163736412,
+      "posthoc_diagonal_category_cv_nll": 0.5070914420916968,
+      "n_near_diagonal": 16,
+      "old_error_share_near_diagonal": 0.07098333339896397
+    },
+    {
+      "provider": "GPT",
+      "order": "sin_first",
+      "old_selected": "sign",
+      "old_rmse": 0.46728415646839927,
+      "old_wrong_mean_direction_inputs": 11,
+      "old_squared_error_share_wrong_direction": 0.6238595386752436,
+      "posthoc_hardened_old_prediction_rmse": 0.5698842570261526,
+      "deterministic_diagonal_rule_rmse": 0.8618218008418271,
+      "posthoc_diagonal_category_cv_rmse": 0.6707140722366758,
+      "posthoc_diagonal_category_cv_nll": 0.7132085203964975,
+      "n_near_diagonal": 16,
+      "old_error_share_near_diagonal": 0.14459102036693391
+    },
+    {
+      "provider": "Claude",
+      "order": "cos_first",
+      "old_selected": "four_parameter",
+      "old_rmse": 0.363707835829378,
+      "old_wrong_mean_direction_inputs": 6,
+      "old_squared_error_share_wrong_direction": 0.5357107119006495,
+      "posthoc_hardened_old_prediction_rmse": 0.4006906269375726,
+      "deterministic_diagonal_rule_rmse": 0.19366492587875844,
+      "posthoc_diagonal_category_cv_rmse": 0.1928055725199044,
+      "posthoc_diagonal_category_cv_nll": 0.13066068543428927,
+      "n_near_diagonal": 16,
+      "old_error_share_near_diagonal": 0.584059867569834
+    },
+    {
+      "provider": "Claude",
+      "order": "sin_first",
+      "old_selected": "quadratic6",
+      "old_rmse": 0.46503846361295603,
+      "old_wrong_mean_direction_inputs": 10,
+      "old_squared_error_share_wrong_direction": 0.7619349621286557,
+      "posthoc_hardened_old_prediction_rmse": 0.5512381748306489,
+      "deterministic_diagonal_rule_rmse": 0.5494637389224379,
+      "posthoc_diagonal_category_cv_rmse": 0.5247006354119781,
+      "posthoc_diagonal_category_cv_nll": 0.4211152445194667,
+      "n_near_diagonal": 16,
+      "old_error_share_near_diagonal": 0.5304912098195221
+    }
+  ],
+  "provenance": "Simple sine/cosine/sum rules were inspected after the main nested model comparison. The diagonal-category candidate is an additional post-hoc hypothesis, not a member of the original nested comparison, and has not been independently confirmed. Hardening is a diagnostic transformation of existing held-out predictions, not a frozen classifier."
+}

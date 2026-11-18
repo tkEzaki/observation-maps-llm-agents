@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-10-31T07:51:56.247536+00:00",
+  "post_hoc_descriptive": true,
+  "training_cells_deterministic_by_state": [
+    33,
+    31,
+    34,
+    31,
+    34,
+    30,
+    33,
+    32
+  ],
+  "training_cells_per_state": 34,
+  "all_training_cells_deterministic_states": [
+    2,
+    4
+  ],
+  "resource_errors": 21,
+  "resource_errors_requiring_relaxed_format": 4,
+  "resource_error_prompts": [
+    {
+      "prompt_id": "resource_95bd31f502b55b5d63e7",
+      "counts_A": 10,
+      "counts_B": 5,
+      "counts_C": 1,
+      "current_resource": "C",
+      "n": 24,
+      "choose_A": 0,
+      "choose_B": 2,
+      "choose_C": 22,
+      "minimum_load_accuracy": 0.9166666666666666,
+      "excess_load": 0.3333333333333333
+    },
+    {
+      "prompt_id": "resource_1d5e3e6d208f031abcf2",
+      "counts_A": 5,
+      "counts_B": 10,
+      "counts_C": 1,
+      "current_resource": "C",
+      "n": 24,
+      "choose_A": 19,
+      "choose_B": 0,
+      "choose_C": 5,
+      "minimum_load_accuracy": 0.2083333333333333,
+      "excess_load": 3.1666666666666665
+    }
+  ]
+}

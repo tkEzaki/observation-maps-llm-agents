@@ -1,0 +1,235 @@
+{
+  "created_at_utc": "2026-10-31T01:56:00.958582+00:00",
+  "experiment": "four-arm-mechanism-pilot",
+  "providers": {
+    "Claude": {
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 64
+    }
+  },
+  "workers": 8,
+  "steps": 60,
+  "n_agents": 17,
+  "coupling": 0.1,
+  "temperature": 0.7,
+  "physical_seeds": [
+    20261031081,
+    20261031082,
+    20261031083,
+    20261031084
+  ],
+  "initial_phases": {
+    "20261031081": [
+      -0.8279166265388316,
+      2.711758197351328,
+      1.9634521004866539,
+      -0.7696265326039775,
+      -1.5326382998021606,
+      -1.5060225197156774,
+      0.2943230601143165,
+      0.7705427283454442,
+      1.9578311152872345,
+      2.5268617608487407,
+      1.0099386629620275,
+      3.1212320797448916,
+      -0.9480785326362264,
+      -1.723691035106569,
+      1.9594395496495993,
+      2.719267210130588,
+      2.129813361895809
+    ],
+    "20261031082": [
+      -0.04851995345738569,
+      -2.2429294732196077,
+      0.6276843984010712,
+      -0.9021620971165012,
+      -2.214963131746095,
+      1.202688288153758,
+      -0.5192956920095955,
+      -0.6612065915288095,
+      0.9902787067155456,
+      -0.9259497941024217,
+      2.1618677342437076,
+      -0.5333627540232024,
+      0.6157907157950473,
+      -2.456737571203042,
+      2.683038212667623,
+      1.1974231902557513,
+      1.4984415188101465
+    ],
+    "20261031083": [
+      -1.0339995362218124,
+      -0.31714277041341177,
+      0.13492070067678918,
+      -1.171795601106807,
+      0.24892924353048995,
+      -2.853429172534055,
+      -0.34936101530642594,
+      0.9091406280722509,
+      1.6796055495714581,
+      0.11479758366514359,
+      -0.6939427458547827,
+      2.344662931933378,
+      -0.1752078479413881,
+      2.385671264993886,
+      -1.0418175982689206,
+      -2.0340768644236342,
+      3.116252746786812
+    ],
+    "20261031084": [
+      2.4410064667494886,
+      -0.4316736571548203,
+      2.2207049827836487,
+      2.650980610069195,
+      1.9450257805490416,
+      -1.2126798235027567,
+      -2.6885254224004504,
+      2.537733504175365,
+      1.2343291107294956,
+      0.9003684753430852,
+      -1.0577026062059844,
+      -2.5688560837771206,
+      0.32804562275445637,
+      1.8185159217488902,
+      1.5478893409103431,
+      -1.38624480772454,
+      1.9935966658432074
+    ]
+  },
+  "omega": [
+    -0.05,
+    -0.043750000000000004,
+    -0.037500000000000006,
+    -0.03125,
+    -0.025,
+    -0.018750000000000003,
+    -0.012499999999999997,
+    -0.006249999999999999,
+    0.0,
+    0.006249999999999999,
+    0.012499999999999997,
+    0.018750000000000003,
+    0.02500000000000001,
+    0.03125,
+    0.037500000000000006,
+    0.04375,
+    0.05
+  ],
+  "runs": [
+    {
+      "run_id": "Claude__native__seed20261031081",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261031081
+    },
+    {
+      "run_id": "Claude__native__seed20261031082",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261031082
+    },
+    {
+      "run_id": "Claude__native__seed20261031083",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261031083
+    },
+    {
+      "run_id": "Claude__native__seed20261031084",
+      "provider": "Claude",
+      "controller": "native",
+      "physical_seed": 20261031084
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031081",
+      "provider": "Claude",
+      "controller": "independent_mirror",
+      "physical_seed": 20261031081
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031082",
+      "provider": "Claude",
+      "controller": "independent_mirror",
+      "physical_seed": 20261031082
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031083",
+      "provider": "Claude",
+      "controller": "independent_mirror",
+      "physical_seed": 20261031083
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031084",
+      "provider": "Claude",
+      "controller": "independent_mirror",
+      "physical_seed": 20261031084
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031081",
+      "provider": "Claude",
+      "controller": "shared_mirror",
+      "physical_seed": 20261031081
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031082",
+      "provider": "Claude",
+      "controller": "shared_mirror",
+      "physical_seed": 20261031082
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031083",
+      "provider": "Claude",
+      "controller": "shared_mirror",
+      "physical_seed": 20261031083
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031084",
+      "provider": "Claude",
+      "controller": "shared_mirror",
+      "physical_seed": 20261031084
+    },
+    {
+      "run_id": "Claude__shuffled_mirror__seed20261031081",
+      "provider": "Claude",
+      "controller": "shuffled_mirror",
+      "physical_seed": 20261031081
+    },
+    {
+      "run_id": "Claude__shuffled_mirror__seed20261031082",
+      "provider": "Claude",
+      "controller": "shuffled_mirror",
+      "physical_seed": 20261031082
+    },
+    {
+      "run_id": "Claude__shuffled_mirror__seed20261031083",
+      "provider": "Claude",
+      "controller": "shuffled_mirror",
+      "physical_seed": 20261031083
+    },
+    {
+      "run_id": "Claude__shuffled_mirror__seed20261031084",
+      "provider": "Claude",
+      "controller": "shuffled_mirror",
+      "physical_seed": 20261031084
+    }
+  ],
+  "planned_calls": 16320,
+  "maximum_dispatched_attempts_per_task": 3,
+  "pricing": {
+    "checked_on": "2026-10-31",
+    "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "input_per_million": 1.0,
+    "output_per_million": 5.0
+  },
+  "main_estimand": "Per-physical-seed differences in post-update steps 41..60 mean r1: shared minus independent; independent minus shuffled. Also independent minus native as concurrent replication.",
+  "prediction": "No direction is prespecified for shared minus independent globally. Under a locally constant advance response and coherence above 1/N, shared coins preserve coherence better than independent coins. Hypothesis: independent beats shuffled if state-action assignment contributes positively; this can fail because trajectories change.",
+  "interventions": {
+    "native": "Query h and execute the response.",
+    "independent_mirror": "Independent fair coin for each agent at each step; query h or reverse(h), invert returned action when mirrored.",
+    "shared_mirror": "One fair coin shared by every agent in a trajectory at a step. Otherwise identical to independent_mirror.",
+    "shuffled_mirror": "Independent mirror procedure then uniformly permute the decoded action vector among agents before updating; preserve the realized multiset at that condition's own state."
+  },
+  "identification": "At the SAME state, independent/shared have equal marginal action probabilities but different joint dependence from the mirror coin. Equality assumes stable context-free provider response laws; closed-loop state distributions diverge. Shuffle changes assignment and per-agent conditional marginals, not merely noise. Neither is a drift-only intervention.",
+  "randomization": "Initial seeds 20261031081..84; mirror RNG 20261031101; permutation RNG 20261031102; within-step request order RNG 20261031103. Synchronous updates across all arms.",
+  "invalid_policy": "Halt on malformed/model-incompatible terminal outputs; no stay fallback. Maximum three transport attempts; unresolved dispatches halt resume."
+}

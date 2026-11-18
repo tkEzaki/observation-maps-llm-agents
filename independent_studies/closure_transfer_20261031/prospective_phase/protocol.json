@@ -1,0 +1,326 @@
+{
+  "created_at_utc": "2026-10-31T08:09:58.135203+00:00",
+  "status": "prepared_only_no_phase_API_calls",
+  "physical_seeds": [
+    20261031801,
+    20261031802,
+    20261031803,
+    20261031804,
+    20261031805,
+    20261031806,
+    20261031807,
+    20261031808
+  ],
+  "initial_phases": {
+    "20261031801": [
+      -2.824808796771444,
+      1.400887798144037,
+      -1.3371311471064797,
+      0.7391567712765652,
+      1.8614897603792917,
+      0.04570929785327449,
+      -2.826026947065092,
+      1.4663129206208074,
+      -2.2725498809696782,
+      -0.28680326563620406,
+      2.4445664625624888,
+      -0.6228225081324354,
+      -1.9212949527313106,
+      2.657790108553961,
+      0.07231462561316482,
+      0.17884209921098693,
+      2.4120353475830365
+    ],
+    "20261031802": [
+      -0.9002340843376246,
+      2.0644303572229434,
+      0.27545765575840875,
+      0.11174535917429473,
+      0.8512315014736256,
+      2.31476475603694,
+      -3.1130782591083683,
+      1.60998790712347,
+      0.07976213087065176,
+      -2.0678384433736725,
+      0.7192372849988984,
+      1.011094041566543,
+      -0.21306611193143565,
+      -1.5472751046111175,
+      -1.4091243620912743,
+      2.745908201354294,
+      0.41064004531412435
+    ],
+    "20261031803": [
+      3.036514520354193,
+      -1.7979927076634652,
+      -1.8119844018390243,
+      -1.3541931219029255,
+      -2.0948384324008815,
+      1.778560536916955,
+      0.642783955536463,
+      -0.9500845945765368,
+      -0.6810120702262403,
+      2.9735716993345607,
+      2.0401212715410066,
+      -0.7064300810152764,
+      -2.325326875243981,
+      -0.11739908018501977,
+      -0.5211771077557659,
+      -0.00457061514007151,
+      0.45679903319813375
+    ],
+    "20261031804": [
+      1.4322046743534935,
+      -2.056691933249863,
+      1.5640240565182308,
+      -2.224941473219239,
+      -0.3130557797379727,
+      -0.5776387525185025,
+      2.7071700267592913,
+      2.3434145435468086,
+      -1.2419223628705736,
+      -2.8433718450205063,
+      -1.7378870948528606,
+      -0.920812455166153,
+      -1.4658788992629823,
+      1.0158014166819083,
+      -0.446495915821282,
+      -0.27040573194386264,
+      0.9231931468864731
+    ],
+    "20261031805": [
+      -0.04607092103077726,
+      -1.9683774733152994,
+      -0.1773803250382775,
+      2.6021451807009317,
+      3.0210899701122464,
+      1.6802181815955572,
+      -0.731158338956607,
+      2.1871511344414634,
+      -1.245081280296693,
+      2.5159459419207995,
+      -1.5300377578242577,
+      -1.037875133256657,
+      0.727948710026145,
+      1.2608313672317752,
+      -1.4052745552363382,
+      2.3525033720678286,
+      -1.0015433384284655
+    ],
+    "20261031806": [
+      0.6608265397698068,
+      -2.382996196175599,
+      -3.0201147659293,
+      -2.498824596068234,
+      0.03618246804895042,
+      2.8675150485497083,
+      -3.0964460469483126,
+      -1.1856329963608825,
+      -0.44705288654231534,
+      1.5285797807395678,
+      -0.4816649279823011,
+      2.5559189856186926,
+      0.45963750908386913,
+      -1.3863532991743859,
+      -3.0084966477527844,
+      -0.025205868133957754,
+      -0.48918136664396794
+    ],
+    "20261031807": [
+      -2.078707875261263,
+      1.3421910838224296,
+      -1.5440629568457345,
+      2.2504128090835005,
+      -1.2214396875263116,
+      -1.0267073762147456,
+      1.3275557173474706,
+      2.891413327000489,
+      2.215383934511025,
+      -1.1162459259628346,
+      -1.2442333613712226,
+      1.63096369515244,
+      -1.0776272186875975,
+      -1.677757957001022,
+      -0.6703778556054574,
+      2.68661616585596,
+      0.9622896210953558
+    ],
+    "20261031808": [
+      -1.4392027178188103,
+      -2.729817988930761,
+      -0.1723823087772458,
+      2.883699836505073,
+      1.7277710627863652,
+      -1.8624360529918467,
+      2.9787430634484853,
+      0.5379829094269821,
+      -2.365036788324538,
+      -2.553843878235859,
+      -3.0565350378123415,
+      -2.5905729016718326,
+      -2.7088491060472033,
+      -1.13802068744686,
+      0.568260517548735,
+      -1.4192016500064433,
+      2.1737469941853025
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "Claude__native__seed20261031801",
+      "physical_seed": 20261031801,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031801",
+      "physical_seed": 20261031801,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031801",
+      "physical_seed": 20261031801,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031802",
+      "physical_seed": 20261031802,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031802",
+      "physical_seed": 20261031802,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031802",
+      "physical_seed": 20261031802,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031803",
+      "physical_seed": 20261031803,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031803",
+      "physical_seed": 20261031803,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031803",
+      "physical_seed": 20261031803,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031804",
+      "physical_seed": 20261031804,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031804",
+      "physical_seed": 20261031804,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031804",
+      "physical_seed": 20261031804,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031805",
+      "physical_seed": 20261031805,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031805",
+      "physical_seed": 20261031805,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031805",
+      "physical_seed": 20261031805,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031806",
+      "physical_seed": 20261031806,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031806",
+      "physical_seed": 20261031806,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031806",
+      "physical_seed": 20261031806,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031807",
+      "physical_seed": 20261031807,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031807",
+      "physical_seed": 20261031807,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031807",
+      "physical_seed": 20261031807,
+      "controller": "shared_mirror"
+    },
+    {
+      "run_id": "Claude__native__seed20261031808",
+      "physical_seed": 20261031808,
+      "controller": "native"
+    },
+    {
+      "run_id": "Claude__independent_mirror__seed20261031808",
+      "physical_seed": 20261031808,
+      "controller": "independent_mirror"
+    },
+    {
+      "run_id": "Claude__shared_mirror__seed20261031808",
+      "physical_seed": 20261031808,
+      "controller": "shared_mirror"
+    }
+  ],
+  "omega": [
+    -0.05,
+    -0.043750000000000004,
+    -0.037500000000000006,
+    -0.03125,
+    -0.025,
+    -0.018750000000000003,
+    -0.012499999999999997,
+    -0.006249999999999999,
+    0.0,
+    0.006249999999999999,
+    0.012499999999999997,
+    0.018750000000000003,
+    0.02500000000000001,
+    0.03125,
+    0.037500000000000006,
+    0.04375,
+    0.05
+  ],
+  "coupling": 0.1,
+  "steps": 60,
+  "n_agents": 17,
+  "planned_responses": 24480,
+  "provider": "Anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "temperature": 0.7,
+  "workers": 8,
+  "primary_model": "quadratic6 selected using only old eight-seed cross-validation",
+  "secondary_model": "four-parameter first-moment response; fixed after retrospective ablation",
+  "primary_metric": "RMSE of predicted versus observed late-window r1 over24 trajectories, post-update41..60.",
+  "engineering_targets": "Primary-model RMSE<=0.05 and absolute prediction error<=0.05 for each of three mean paired contrasts; report all per-seed errors and bootstrap uncertainty without changing targets.",
+  "contrasts": [
+    "shared_mirror - independent_mirror",
+    "independent_mirror - native",
+    "shared_mirror - native"
+  ]
+}
